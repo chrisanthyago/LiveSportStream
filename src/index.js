@@ -37,7 +37,7 @@ export default {
 
                         // Update the KV store with the unique origins
                         await env.KEY_VALUE.put(kvKeyCSP, origins);
-                        console.log(`KV key ${kvKeyCSP} updated successfully`);
+                        console.log(`KV key ${kvKeyCSP} updated successfully with origins: ${origins}`);
 
                     } catch (error) {
                         error.message = `Failed to update KV key ${kvKeyCSP}: ${error.message}`;
@@ -96,7 +96,7 @@ export default {
 
                             // Update the KV store with the unique times
                             await env.KEY_VALUE.put(kvKeyCron, times);
-                            console.log(`KV key ${kvKeyCron} updated successfully`);
+                            console.log(`KV key ${kvKeyCron} updated successfully with times: ${times}`);
 
                         } catch (error) {
                             error.message = `Failed to update KV key ${kvKeyCron}: ${error.message}`;
