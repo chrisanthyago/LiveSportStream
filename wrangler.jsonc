@@ -4,6 +4,10 @@
     "main": "./src/index.js",
     "compatibility_date": "2026-08-08",
 
+    // Publish configuration for the worker
+    "workers_dev": true,
+    "preview_urls": false,
+
     "assets": {
         "directory": "./public",
         "binding": "ASSETS",
@@ -44,5 +48,22 @@
         "crons": [
             "25,55 * * * *"
         ]
+    },
+
+    // The observability configuration for the worker, which can be used to enable or disable logging and tracing
+    "observability": {
+        "enabled": false,
+        "head_sampling_rate": 1,
+        "logs": {
+            "enabled": true,
+            "head_sampling_rate": 1,
+            "persist": true,
+            "invocation_logs": true
+        },
+        "traces": {
+            "enabled": false,
+            "persist": true,
+            "head_sampling_rate": 1
+        }
     }
 }
