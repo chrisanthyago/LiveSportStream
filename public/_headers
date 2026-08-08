@@ -1,0 +1,20 @@
+# Store config files in the browser, mandatory revalidation to ensure the browser always has the latest version
+/assets/*
+  Cache-Control: public, no-cache
+
+# Cache CSS files for 30 days in the browser, allowing for revalidation in the background on the CDN
+/css/*
+  Cache-Control: public, max-age=2592000, stale-while-revalidate=3600
+
+# Cache images files for 1 year in the browser, immutable static assets
+# It is assumed that these files have hashes in their names so that they can be invalidated when changed
+/img/*
+  Cache-Control: public, max-age=31536000, immutable
+
+# Cache JS files for 30 days in the browser, no allow revalidation in the background on the CDN
+/js/*
+  Cache-Control: public, max-age=2592000, must-revalidate
+
+# No store tv-online.html in the browser, forcing the browser to always fetch the latest version from the server
+/tv-online
+  Cache-Control: no-store

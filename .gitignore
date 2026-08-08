@@ -1,0 +1,8 @@
+# Ignore version control system files
+.git
+
+# Ignore environment variable file
+.env
+
+# Ignore notes and documentation file
+README.md

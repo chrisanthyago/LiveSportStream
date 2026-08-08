@@ -1,0 +1,837 @@
+{
+    "hosts": [
+        {
+            "name": "Elitegol | La Casa del Tiki Taka",
+            "origin": "https://elitegoltv.co"
+        },
+        {
+            "name": "DMCA / Aviso Legal",
+            "origin": "https://mipirlotv.com"
+        },
+        {
+            "name": "Pirlo TV",
+            "origin": "https://pirlotv.la"
+        },
+        {
+            "name": "DMCA / Aviso Legal",
+            "origin": "https://pirlotvblog.com"
+        },
+        {
+            "name": "Rojadirecta",
+            "origin": "https://rojadirectaenvivo.co"
+        },
+        {
+            "name": "DMCA / Aviso Legal",
+            "origin": "https://rojatvblog.com"
+        },
+        {
+            "name": "DMCA / Aviso Legal",
+            "origin": "https://tarjetarojablog.com"
+        },
+        {
+            "name": "DMCA / Aviso Legal",
+            "origin": "https://tarjetarojamas.com"
+        },
+        {
+            "name": "Tarjeta Roja TV",
+            "origin": "https://tarjetarojatv.ad"
+        }
+    ],
+    "webpages": [
+        {
+            "association": "",
+            "league": "Brasileirao",
+            "sportingEvent": "Coritiba vs Palmeiras",
+            "time": "22:30",
+            "urls": [
+                "https://pirlotv.la/eventos.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL2JyYTEucGhw",
+                "https://playvi.org/bra1.php"
+            ],
+            "state": {
+                "color": "green",
+                "message": "Failed to find either an iframe, a video element, or a div with id 'player' on our server from:",
+                "url": "https://xplayer.st/capo.php?player=desktop&live=capowin"
+            }
+        },
+        {
+            "association": "",
+            "league": "Brasileirao",
+            "sportingEvent": "Chapecoense vs Flamengo",
+            "time": "00:30",
+            "urls": [
+                "https://pirlotv.la/eventos.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL2JyYTEucGhw",
+                "https://playvi.org/bra1.php"
+            ],
+            "state": {
+                "color": "green",
+                "message": "Failed to find either an iframe, a video element, or a div with id 'player' on our server from:",
+                "url": "https://xplayer.st/capo.php?player=desktop&live=capowin"
+            }
+        },
+        {
+            "association": "",
+            "league": "Copa Colombia",
+            "sportingEvent": "Atlético Junior vs Barranquilla FC",
+            "time": "00:30",
+            "urls": [
+                "https://pirlotv.la/eventos.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL2NvbDEucGhw",
+                "https://playvi.org/col1.php"
+            ],
+            "state": {
+                "color": "green",
+                "message": "Failed to find either an iframe, a video element, or a div with id 'player' on our server from:",
+                "url": "https://xplayer.st/capo.php?player=desktop&live=capowinplus"
+            }
+        },
+        {
+            "association": "",
+            "league": "Copa Sudamericana",
+            "sportingEvent": "Independiente Medellin vs Vasco da Gama",
+            "time": "22:00",
+            "urls": [
+                "https://rojadirectaenvivo.co/eventos.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL2RlcG9ydGVzcGx1czMucGhw",
+                "https://playvi.org/deportesplus3.php"
+            ],
+            "state": {
+                "color": "green",
+                "message": "Failed to find either an iframe, a video element, or a div with id 'player' on our server from:",
+                "url": "https://capo8play.com/capo.php?player=desktop&live=deportesplus3"
+            }
+        },
+        {
+            "association": "",
+            "league": "Copa Sudamericana",
+            "sportingEvent": "Lanús vs Cienciano del Cusco",
+            "time": "00:30",
+            "urls": [
+                "https://rojadirectaenvivo.co/eventos.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL2RlcG9ydGVzcGx1czMucGhw",
+                "https://playvi.org/deportesplus3.php"
+            ],
+            "state": {
+                "color": "green",
+                "message": "Failed to find either an iframe, a video element, or a div with id 'player' on our server from:",
+                "url": "https://capo8play.com/capo.php?player=desktop&live=deportesplus3"
+            }
+        },
+        {
+            "association": "",
+            "league": "MLS",
+            "sportingEvent": "Los Angeles FC vs Real Salt Lake",
+            "time": "02:30",
+            "urls": [
+                "https://elitegoltv.co/eventos.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL2RlcG9ydGVzcGx1czUucGhw",
+                "https://playvi.org/deportesplus5.php"
+            ],
+            "state": {
+                "color": "green",
+                "message": "Failed to find either an iframe, a video element, or a div with id 'player' on our server from:",
+                "url": "https://capo8play.com/capo.php?player=desktop&live=deportesplus5"
+            }
+        },
+        {
+            "association": "",
+            "league": "MLS",
+            "sportingEvent": "Charlotte FC vs Atlanta United",
+            "time": "00:15",
+            "urls": [
+                "https://rojadirectaenvivo.co/eventos.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL2RlcG9ydGVzcGx1czUucGhw",
+                "https://playvi.org/deportesplus5.php"
+            ],
+            "state": {
+                "color": "green",
+                "message": "Failed to find either an iframe, a video element, or a div with id 'player' on our server from:",
+                "url": "https://capo8play.com/capo.php?player=desktop&live=deportesplus5"
+            }
+        },
+        {
+            "association": "",
+            "league": "Liga de Ecuador",
+            "sportingEvent": "Manta FC vs LDU Quito",
+            "time": "00:00",
+            "urls": [
+                "https://elitegoltv.co/eventos.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL2VjdTEucGhw",
+                "https://playvi.org/ecu1.php"
+            ],
+            "state": {
+                "color": "green",
+                "message": "Failed to find either an iframe, a video element, or a div with id 'player' on our server from:",
+                "url": "https://capo8play.com/capo.php?player=desktop&live=deportesplus4"
+            }
+        },
+        {
+            "association": "",
+            "league": "Liga de Ecuador",
+            "sportingEvent": "Manta FC vs LDU Quito",
+            "time": "00:00",
+            "urls": [
+                "https://elitegoltv.co/eventos.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL2VjdTMucGhw",
+                "https://playvi.org/ecu3.php"
+            ],
+            "state": {
+                "color": "green",
+                "message": "Failed to find either an iframe, a video element, or a div with id 'player' on our server from:",
+                "url": "https://xplayer.st/capo.php?player=desktop&live=deportesplus4"
+            }
+        },
+        {
+            "association": "",
+            "league": "Copa Sudamericana",
+            "sportingEvent": "Sporting Cristal vs Red Bull Bragantino",
+            "time": "00:30",
+            "urls": [
+                "https://rojadirectaenvivo.co/eventos.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL2VzcG4yLnBocA==",
+                "https://playvi.org/espn2.php"
+            ],
+            "state": {
+                "color": "green",
+                "message": "Failed to find either an iframe, a video element, or a div with id 'player' on our server from:",
+                "url": "https://capo8play.com/capo.php?player=desktop&live=capoespn2"
+            }
+        },
+        {
+            "association": "",
+            "league": "MLS",
+            "sportingEvent": "Inter Miami vs Chicago Fire",
+            "time": "23:30",
+            "urls": [
+                "https://pirlotv.la/eventos.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL21sczEucGhw",
+                "https://playvi.org/mls1.php"
+            ],
+            "state": {
+                "color": "green",
+                "message": "Failed to find either an iframe, a video element, or a div with id 'player' on our server from:",
+                "url": "https://xplayer.st/capo.php?player=desktop&live=deportesplus"
+            }
+        },
+        {
+            "association": "",
+            "league": "MLS",
+            "sportingEvent": "Los Angeles FC vs Real Salt Lake",
+            "time": "02:30",
+            "urls": [
+                "https://elitegoltv.co/eventos.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL21sczgucGhw",
+                "https://playvi.org/mls8.php"
+            ],
+            "state": {
+                "color": "green",
+                "message": "Failed to find either an iframe, a video element, or a div with id 'player' on our server from:",
+                "url": "https://xplayer.st/capo.php?player=desktop&live=deportesplus5"
+            }
+        },
+        {
+            "association": "",
+            "league": "MLS",
+            "sportingEvent": "Charlotte FC vs Atlanta United",
+            "time": "00:15",
+            "urls": [
+                "https://pirlotv.la/eventos.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL21sczgucGhw",
+                "https://playvi.org/mls8.php"
+            ],
+            "state": {
+                "color": "green",
+                "message": "Failed to find either an iframe, a video element, or a div with id 'player' on our server from:",
+                "url": "https://xplayer.st/capo.php?player=desktop&live=deportesplus5"
+            }
+        },
+        {
+            "association": "",
+            "league": "Copa Sudamericana",
+            "sportingEvent": "Independiente Medellin vs Vasco da Gama",
+            "time": "22:00",
+            "urls": [
+                "https://pirlotv.la/eventos.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL3ByZW1pZXIxLnBocA==",
+                "https://playvi.org/premier1.php"
+            ],
+            "state": {
+                "color": "green",
+                "message": "Failed to find either an iframe, a video element, or a div with id 'player' on our server from:",
+                "url": "https://xplayer.st/capo.php?player=desktop&live=capodsports"
+            }
+        },
+        {
+            "association": "",
+            "league": "Copa Sudamericana",
+            "sportingEvent": "Lanús vs Cienciano del Cusco",
+            "time": "00:30",
+            "urls": [
+                "https://pirlotv.la/eventos.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL3ByZW1pZXI0LnBocA==",
+                "https://playvi.org/premier4.php"
+            ],
+            "state": {
+                "color": "green",
+                "message": "Failed to find either an iframe, a video element, or a div with id 'player' on our server from:",
+                "url": "https://xplayer.st/capo.php?player=desktop&live=capoespn"
+            }
+        },
+        {
+            "association": "",
+            "league": "Copa Sudamericana",
+            "sportingEvent": "Sporting Cristal vs Red Bull Bragantino",
+            "time": "00:30",
+            "urls": [
+                "https://pirlotv.la/eventos.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL3NlcmllYTEucGhw",
+                "https://playvi.org/seriea1.php"
+            ],
+            "state": {
+                "color": "green",
+                "message": "Failed to find either an iframe, a video element, or a div with id 'player' on our server from:",
+                "url": "https://xplayer.st/capo.php?player=desktop&live=capoespn2"
+            }
+        },
+        {
+            "association": "",
+            "league": "Brasileirao",
+            "sportingEvent": "Coritiba vs Palmeiras",
+            "time": "22:30",
+            "urls": [
+                "https://rojadirectaenvivo.co/eventos.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL3dpbnNwb3J0cy5waHA=",
+                "https://playvi.org/winsports.php"
+            ],
+            "state": {
+                "color": "green",
+                "message": "Failed to find either an iframe, a video element, or a div with id 'player' on our server from:",
+                "url": "https://capo8play.com/capo.php?player=desktop&live=capowin"
+            }
+        },
+        {
+            "association": "",
+            "league": "Brasileirao",
+            "sportingEvent": "Chapecoense vs Flamengo",
+            "time": "00:30",
+            "urls": [
+                "https://rojadirectaenvivo.co/eventos.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL3dpbnNwb3J0cy5waHA=",
+                "https://playvi.org/winsports.php"
+            ],
+            "state": {
+                "color": "green",
+                "message": "Failed to find either an iframe, a video element, or a div with id 'player' on our server from:",
+                "url": "https://capo8play.com/capo.php?player=desktop&live=capowin"
+            }
+        },
+        {
+            "association": "",
+            "league": "Copa Colombia",
+            "sportingEvent": "Atlético Junior vs Barranquilla FC",
+            "time": "00:30",
+            "urls": [
+                "https://rojadirectaenvivo.co/eventos.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL3dpbnNwb3J0c3BsdXMucGhw",
+                "https://playvi.org/winsportsplus.php"
+            ],
+            "state": {
+                "color": "green",
+                "message": "Failed to find either an iframe, a video element, or a div with id 'player' on our server from:",
+                "url": "https://capo8play.com/capo.php?player=desktop&live=capowinplus"
+            }
+        },
+        {
+            "association": "",
+            "league": "MLS",
+            "sportingEvent": "Inter Miami vs Chicago Fire",
+            "time": "23:30",
+            "urls": [
+                "https://rojadirectaenvivo.co/eventos.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL2RlcG9ydGVzcGx1cy5waHA="
+            ],
+            "state": {
+                "color": "green",
+                "message": "Failed to find either an iframe, a video element, or a div with id 'player' on our server from:",
+                "url": "https://playvi.org/deportesplus.php"
+            }
+        },
+        {
+            "association": "",
+            "league": "Copa Colombia",
+            "sportingEvent": "Atlético Junior vs Barranquilla FC",
+            "time": "00:30",
+            "urls": [
+                "https://tarjetarojatv.ad/eventos.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL2NvbDIucGhw",
+                "https://playvi.org/col2.php",
+                "https://streamtp99a.sbs/global2.php?stream=winplus"
+            ],
+            "state": {
+                "color": "green",
+                "message": "Successfully found streaming on our server from:",
+                "url": "https://streamtp99a.sbs/global2.php?stream=winplus"
+            }
+        },
+        {
+            "association": "",
+            "league": "MLS",
+            "sportingEvent": "Inter Miami vs Chicago Fire",
+            "time": "23:30",
+            "urls": [
+                "https://tarjetarojatv.ad/eventos.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL21sczIucGhw",
+                "https://playvi.org/mls2.php",
+                "https://streamx-hd.com/live2.php?stream=appletv1"
+            ],
+            "state": {
+                "color": "green",
+                "message": "Successfully found streaming on our server from:",
+                "url": "https://streamx-hd.com/live2.php?stream=appletv1"
+            }
+        },
+        {
+            "association": "",
+            "league": "MLS",
+            "sportingEvent": "Houston Dynamo vs DC United",
+            "time": "00:30",
+            "urls": [
+                "https://elitegoltv.co/eventos.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL21sczExLnBocA==",
+                "https://playvi.org/mls11.php",
+                "https://streamx-hd.com/live2.php?stream=appletv17"
+            ],
+            "state": {
+                "color": "green",
+                "message": "Successfully found streaming on our server from:",
+                "url": "https://streamx-hd.com/live2.php?stream=appletv17"
+            }
+        },
+        {
+            "association": "",
+            "league": "MLS",
+            "sportingEvent": "LA Galaxy vs St. Louis City",
+            "time": "02:30",
+            "urls": [
+                "https://elitegoltv.co/eventos.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL21sczEzLnBocA==",
+                "https://playvi.org/mls13.php",
+                "https://streamx-hd.com/live2.php?stream=appletv25"
+            ],
+            "state": {
+                "color": "green",
+                "message": "Successfully found streaming on our server from:",
+                "url": "https://streamx-hd.com/live2.php?stream=appletv25"
+            }
+        },
+        {
+            "association": "",
+            "league": "MLS",
+            "sportingEvent": "Columbus Crew vs New York City",
+            "time": "23:30",
+            "urls": [
+                "https://elitegoltv.co/eventos.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL21sczQucGhw",
+                "https://playvi.org/mls4.php",
+                "https://streamx-hd.com/live2.php?stream=appletv3"
+            ],
+            "state": {
+                "color": "green",
+                "message": "Successfully found streaming on our server from:",
+                "url": "https://streamx-hd.com/live2.php?stream=appletv3"
+            }
+        },
+        {
+            "association": "",
+            "league": "MLS",
+            "sportingEvent": "Cincinnati vs Vancouver Whitecaps",
+            "time": "23:30",
+            "urls": [
+                "https://elitegoltv.co/eventos.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL21sczYucGhw",
+                "https://playvi.org/mls6.php",
+                "https://streamx-hd.com/live2.php?stream=appletv7"
+            ],
+            "state": {
+                "color": "green",
+                "message": "Successfully found streaming on our server from:",
+                "url": "https://streamx-hd.com/live2.php?stream=appletv7"
+            }
+        },
+        {
+            "association": "",
+            "league": "Copa Sudamericana",
+            "sportingEvent": "Independiente Medellin vs Vasco da Gama",
+            "time": "22:00",
+            "urls": [
+                "https://tarjetarojatv.ad/eventos.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL3ByZW1pZXIyLnBocA==",
+                "https://playvi.org/premier2.php",
+                "https://streamx-hd.com/live2.php?stream=disney1"
+            ],
+            "state": {
+                "color": "green",
+                "message": "Successfully found streaming on our server from:",
+                "url": "https://streamx-hd.com/live2.php?stream=disney1"
+            }
+        },
+        {
+            "association": "",
+            "league": "Copa Sudamericana",
+            "sportingEvent": "Lanús vs Cienciano del Cusco",
+            "time": "00:30",
+            "urls": [
+                "https://elitegoltv.co/eventos.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL3ByZW1pZXI2LnBocA==",
+                "https://playvi.org/premier6.php",
+                "https://streamx-hd.com/live2.php?stream=dsportsar"
+            ],
+            "state": {
+                "color": "green",
+                "message": "Successfully found streaming on our server from:",
+                "url": "https://streamx-hd.com/live2.php?stream=dsportsar"
+            }
+        },
+        {
+            "association": "",
+            "league": "Copa Sudamericana",
+            "sportingEvent": "Sporting Cristal vs Red Bull Bragantino",
+            "time": "00:30",
+            "urls": [
+                "https://elitegoltv.co/eventos.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL3NlcmllYTMucGhw",
+                "https://playvi.org/seriea3.php",
+                "https://streamx-hd.com/live2.php?stream=espn"
+            ],
+            "state": {
+                "color": "green",
+                "message": "Successfully found streaming on our server from:",
+                "url": "https://streamx-hd.com/live2.php?stream=espn"
+            }
+        },
+        {
+            "association": "",
+            "league": "MLS",
+            "sportingEvent": "Los Angeles FC vs Real Salt Lake",
+            "time": "02:30",
+            "urls": [
+                "https://elitegoltv.co/eventos.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL21sczkucGhw",
+                "https://playvi.org/mls9.php",
+                "https://streamx-hd.com/live2.php?stream=fox_deportes_usa"
+            ],
+            "state": {
+                "color": "green",
+                "message": "Successfully found streaming on our server from:",
+                "url": "https://streamx-hd.com/live2.php?stream=fox_deportes_usa"
+            }
+        },
+        {
+            "association": "",
+            "league": "MLS",
+            "sportingEvent": "Charlotte FC vs Atlanta United",
+            "time": "00:15",
+            "urls": [
+                "https://tarjetarojatv.ad/eventos.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL21sczkucGhw",
+                "https://playvi.org/mls9.php",
+                "https://streamx-hd.com/live2.php?stream=fox_deportes_usa"
+            ],
+            "state": {
+                "color": "green",
+                "message": "Successfully found streaming on our server from:",
+                "url": "https://streamx-hd.com/live2.php?stream=fox_deportes_usa"
+            }
+        },
+        {
+            "association": "",
+            "league": "Brasileirao",
+            "sportingEvent": "Sao Paulo vs Atletico Paranaense",
+            "time": "00:30",
+            "urls": [
+                "https://elitegoltv.co/eventos.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL2JyYTcucGhw",
+                "https://playvi.org/bra7.php",
+                "https://streamx-hd.com/live2.php?stream=premiere2"
+            ],
+            "state": {
+                "color": "green",
+                "message": "Successfully found streaming on our server from:",
+                "url": "https://streamx-hd.com/live2.php?stream=premiere2"
+            }
+        },
+        {
+            "association": "",
+            "league": "Brasileirao",
+            "sportingEvent": "Internacional vs Cruzeiro",
+            "time": "00:30",
+            "urls": [
+                "https://elitegoltv.co/eventos.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL2JyYTUucGhw",
+                "https://playvi.org/bra5.php",
+                "https://streamx-hd.com/live2.php?stream=premiere3"
+            ],
+            "state": {
+                "color": "green",
+                "message": "Successfully found streaming on our server from:",
+                "url": "https://streamx-hd.com/live2.php?stream=premiere3"
+            }
+        },
+        {
+            "association": "",
+            "league": "Brasileirao",
+            "sportingEvent": "Coritiba vs Palmeiras",
+            "time": "22:30",
+            "urls": [
+                "https://tarjetarojatv.ad/eventos.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL2JyYTIucGhw",
+                "https://playvi.org/bra2.php",
+                "https://streamx-hd.com/live2.php?stream=winsports"
+            ],
+            "state": {
+                "color": "green",
+                "message": "Successfully found streaming on our server from:",
+                "url": "https://streamx-hd.com/live2.php?stream=winsports"
+            }
+        },
+        {
+            "association": "",
+            "league": "Brasileirao",
+            "sportingEvent": "Chapecoense vs Flamengo",
+            "time": "00:30",
+            "urls": [
+                "https://tarjetarojatv.ad/eventos.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL2JyYTIucGhw",
+                "https://playvi.org/bra2.php",
+                "https://streamx-hd.com/live2.php?stream=winsports"
+            ],
+            "state": {
+                "color": "green",
+                "message": "Successfully found streaming on our server from:",
+                "url": "https://streamx-hd.com/live2.php?stream=winsports"
+            }
+        },
+        {
+            "association": "",
+            "league": "Liga de Ecuador",
+            "sportingEvent": "Manta FC vs LDU Quito",
+            "time": "00:00",
+            "urls": [
+                "https://elitegoltv.co/eventos.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL2VjdTIucGhw",
+                "https://playvi.org/ecu2.php",
+                "https://streamx-hd.com/live2.php?stream=zapping_ec"
+            ],
+            "state": {
+                "color": "green",
+                "message": "Successfully found streaming on our server from:",
+                "url": "https://streamx-hd.com/live2.php?stream=zapping_ec"
+            }
+        },
+        {
+            "association": "",
+            "league": "Brasileirao",
+            "sportingEvent": "Coritiba vs Palmeiras",
+            "time": "22:30",
+            "urls": [
+                "https://elitegoltv.co/eventos.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL2JyYTMucGhw",
+                "https://playvi.org/bra3.php",
+                "https://streamx488.sbs/global2.php?channel=amazon1"
+            ],
+            "state": {
+                "color": "green",
+                "message": "Successfully found streaming on our server from:",
+                "url": "https://streamx488.sbs/global2.php?channel=amazon1"
+            }
+        },
+        {
+            "association": "",
+            "league": "Copa Sudamericana",
+            "sportingEvent": "Sporting Cristal vs Red Bull Bragantino",
+            "time": "00:30",
+            "urls": [
+                "https://tarjetarojatv.ad/eventos.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL3NlcmllYTIucGhw",
+                "https://playvi.org/seriea2.php",
+                "https://streamx488.sbs/global2.php?channel=disney2"
+            ],
+            "state": {
+                "color": "green",
+                "message": "Successfully found streaming on our server from:",
+                "url": "https://streamx488.sbs/global2.php?channel=disney2"
+            }
+        },
+        {
+            "association": "",
+            "league": "Copa Sudamericana",
+            "sportingEvent": "Lanús vs Cienciano del Cusco",
+            "time": "00:30",
+            "urls": [
+                "https://tarjetarojatv.ad/eventos.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL3ByZW1pZXI1LnBocA==",
+                "https://playvi.org/premier5.php",
+                "https://streamx488.sbs/global2.php?channel=disney3"
+            ],
+            "state": {
+                "color": "yellow",
+                "message": "Failed to find streaming in webpage performance entries on our server from:",
+                "url": "https://streamx488.sbs/global2.php?channel=disney3"
+            }
+        },
+        {
+            "association": "",
+            "league": "Copa Sudamericana",
+            "sportingEvent": "Independiente Medellin vs Vasco da Gama",
+            "time": "22:00",
+            "urls": [
+                "https://elitegoltv.co/eventos.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL3ByZW1pZXIzLnBocA==",
+                "https://playvi.org/premier3.php",
+                "https://streamx488.sbs/global2.php?channel=fanatiz1"
+            ],
+            "state": {
+                "color": "green",
+                "message": "Successfully found streaming on our server from:",
+                "url": "https://streamx488.sbs/global2.php?channel=fanatiz1"
+            }
+        },
+        {
+            "association": "",
+            "league": "Brasileirao",
+            "sportingEvent": "Sao Paulo vs Atletico Paranaense",
+            "time": "00:30",
+            "urls": [
+                "https://elitegoltv.co/eventos.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL2JyYTgucGhw",
+                "https://playvi.org/bra8.php",
+                "https://streamx488.sbs/global2.php?channel=fanatiz5"
+            ],
+            "state": {
+                "color": "green",
+                "message": "Successfully found streaming on our server from:",
+                "url": "https://streamx488.sbs/global2.php?channel=fanatiz5"
+            }
+        },
+        {
+            "association": "",
+            "league": "Brasileirao",
+            "sportingEvent": "Internacional vs Cruzeiro",
+            "time": "00:30",
+            "urls": [
+                "https://elitegoltv.co/eventos.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL2JyYTYucGhw",
+                "https://playvi.org/bra6.php",
+                "https://streamx488.sbs/global2.php?channel=fanatiz6"
+            ],
+            "state": {
+                "color": "green",
+                "message": "Successfully found streaming on our server from:",
+                "url": "https://streamx488.sbs/global2.php?channel=fanatiz6"
+            }
+        },
+        {
+            "association": "",
+            "league": "Brasileirao",
+            "sportingEvent": "Chapecoense vs Flamengo",
+            "time": "00:30",
+            "urls": [
+                "https://elitegoltv.co/eventos.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL2JyYTQucGhw",
+                "https://playvi.org/bra4.php",
+                "https://streamx488.sbs/global2.php?channel=fanatiz7"
+            ],
+            "state": {
+                "color": "green",
+                "message": "Successfully found streaming on our server from:",
+                "url": "https://streamx488.sbs/global2.php?channel=fanatiz7"
+            }
+        },
+        {
+            "association": "",
+            "league": "Copa Colombia",
+            "sportingEvent": "Atlético Junior vs Barranquilla FC",
+            "time": "00:30",
+            "urls": [
+                "https://elitegoltv.co/eventos.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL2NvbDMucGhw",
+                "https://playvi.org/col3.php",
+                "https://streamx488.sbs/global2.php?channel=fanatiz8"
+            ],
+            "state": {
+                "color": "green",
+                "message": "Successfully found streaming on our server from:",
+                "url": "https://streamx488.sbs/global2.php?channel=fanatiz8"
+            }
+        },
+        {
+            "association": "",
+            "league": "MLS",
+            "sportingEvent": "LA Galaxy vs St. Louis City",
+            "time": "02:30",
+            "urls": [
+                "https://elitegoltv.co/eventos.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL21sczE0LnBocA==",
+                "https://playvi.org/mls14.php",
+                "https://streamx488.sbs/global2.php?channel=mls1"
+            ],
+            "state": {
+                "color": "green",
+                "message": "Successfully found streaming on our server from:",
+                "url": "https://streamx488.sbs/global2.php?channel=mls1"
+            }
+        },
+        {
+            "association": "",
+            "league": "MLS",
+            "sportingEvent": "Inter Miami vs Chicago Fire",
+            "time": "23:30",
+            "urls": [
+                "https://elitegoltv.co/eventos.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL21sczMucGhw",
+                "https://playvi.org/mls3.php",
+                "https://streamx488.sbs/global2.php?channel=mls1"
+            ],
+            "state": {
+                "color": "green",
+                "message": "Successfully found streaming on our server from:",
+                "url": "https://streamx488.sbs/global2.php?channel=mls1"
+            }
+        },
+        {
+            "association": "",
+            "league": "MLS",
+            "sportingEvent": "Los Angeles FC vs Real Salt Lake",
+            "time": "02:30",
+            "urls": [
+                "https://elitegoltv.co/eventos.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL21sczE1LnBocA==",
+                "https://playvi.org/mls15.php",
+                "https://streamx488.sbs/global2.php?channel=mls12"
+            ],
+            "state": {
+                "color": "green",
+                "message": "Successfully found streaming on our server from:",
+                "url": "https://streamx488.sbs/global2.php?channel=mls12"
+            }
+        },
+        {
+            "association": "",
+            "league": "MLS",
+            "sportingEvent": "Cincinnati vs Vancouver Whitecaps",
+            "time": "23:30",
+            "urls": [
+                "https://elitegoltv.co/eventos.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL21sczcucGhw",
+                "https://playvi.org/mls7.php",
+                "https://streamx488.sbs/global2.php?channel=mls3"
+            ],
+            "state": {
+                "color": "green",
+                "message": "Successfully found streaming on our server from:",
+                "url": "https://streamx488.sbs/global2.php?channel=mls3"
+            }
+        },
+        {
+            "association": "",
+            "league": "MLS",
+            "sportingEvent": "Columbus Crew vs New York City",
+            "time": "23:30",
+            "urls": [
+                "https://elitegoltv.co/eventos.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL21sczUucGhw",
+                "https://playvi.org/mls5.php",
+                "https://streamx488.sbs/global2.php?channel=mls4"
+            ],
+            "state": {
+                "color": "green",
+                "message": "Successfully found streaming on our server from:",
+                "url": "https://streamx488.sbs/global2.php?channel=mls4"
+            }
+        },
+        {
+            "association": "",
+            "league": "MLS",
+            "sportingEvent": "Charlotte FC vs Atlanta United",
+            "time": "00:15",
+            "urls": [
+                "https://elitegoltv.co/eventos.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL21sczEwLnBocA==",
+                "https://playvi.org/mls10.php",
+                "https://streamx488.sbs/global2.php?channel=mls6"
+            ],
+            "state": {
+                "color": "green",
+                "message": "Successfully found streaming on our server from:",
+                "url": "https://streamx488.sbs/global2.php?channel=mls6"
+            }
+        },
+        {
+            "association": "",
+            "league": "MLS",
+            "sportingEvent": "Houston Dynamo vs DC United",
+            "time": "00:30",
+            "urls": [
+                "https://elitegoltv.co/eventos.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL21sczEyLnBocA==",
+                "https://playvi.org/mls12.php",
+                "https://streamx488.sbs/global2.php?channel=mls7"
+            ],
+            "state": {
+                "color": "green",
+                "message": "Successfully found streaming on our server from:",
+                "url": "https://streamx488.sbs/global2.php?channel=mls7"
+            }
+        }
+    ]
+}

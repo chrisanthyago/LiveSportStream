@@ -1,0 +1,48 @@
+{
+    "$schema": "https://unpkg.com/wrangler/config-schema.json",
+    "name": "livesportstream",
+    "main": "./src/index.js",
+    "compatibility_date": "2026-08-08",
+
+    "assets": {
+        "directory": "./public",
+        "binding": "ASSETS",
+        // If true, the worker will be deployed before the assets are uploaded
+        "run_worker_first": true
+    },
+
+    "vars": {
+        // The tasks that the worker will perform, which can be "cron" for scheduled tasks or "cloudrun" for triggering a Cloud Run service
+        // The tasks must be specified using the schedule times plus the delay
+        "SCHEDULED_CRONS": "12:00 14:00 16:00 18:00 20:00 22:00 00:00 02:00 04:00",
+        // The delay in minutes before the cron job is executed after the scheduled time
+        "CRONS_DELAY": "5",
+        // The interval in minutes between each cron job execution
+        "CRONS_INTERVAL": "30",
+
+        // Cloudflare KV configuration
+        "CLOUDFLARE_ACCOUNT_ID": "40fac7cd4f9390cb4a6dbba086b78b5a",
+        "CLOUDFLARE_KV_NAMESPACE_ID": "4c91028088984c9c8c51af39c15c74c2",
+        "CLOUDFLARE_KV_KEY_CRON": "times",
+        "CLOUDFLARE_KV_KEY_CSP": "origins",
+
+        // Cloud Run configuration
+        "CLOUD_RUN_ENDPOINT": "https://service-on-cloud-run.a.run.app/api/trigger"
+    },
+
+    "kv_namespaces": [
+        // The binding name for the KV namespace, which can be used in the worker code to access the KV store
+        {
+            "binding": "KEY_VALUE",
+            "id": "4c91028088984c9c8c51af39c15c74c2"
+        }
+    ],
+
+    "triggers": {
+        // The cron schedule for the worker, in the format of "minute hour day-of-month month day-of-week"
+        // The cron schedule must be a interval of CRONS_INTERVAL minutes, and the worker will be triggered at the specified times
+        "crons": [
+            "25,55 * * * *"
+        ]
+    }
+}
