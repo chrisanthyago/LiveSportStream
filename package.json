@@ -4,7 +4,7 @@
   "description": "Web App on Cloudflare Worker with Node.js v16.20.2",
   "main": "src/index.js",
   "scripts": {
-    "deploy": "node --env-file=.env src/scripts/update-kv.mjs && wrangler deploy"
+    "deploy": "node --env-file=.env src/scripts/update-kv.mjs && npx wrangler deploy"
   },
   "keywords": [
     "Cloudflare Worker",
@@ -12,5 +12,8 @@
     "Node.js v16.20.2"
   ],
   "author": "Christian Santiago Pichucho",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "wrangler": "^4.x.x"
+  }
 }
