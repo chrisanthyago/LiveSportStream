@@ -18,7 +18,7 @@ const apiToken = process.env.CLOUDFLARE_API_TOKEN;
 
     try {
         // Read the config.json file
-        const configPath = path.resolve('/public/assets/config.json');
+        const configPath = path.resolve(process.cwd(), '/public/assets/config.json');
         if (!fs.existsSync(configPath)) {
             throw new Error(`Config file not found at path: ${configPath}`);
         }
