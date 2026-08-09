@@ -1,5 +1,6 @@
-import fs from 'node:fs';
+import process from 'node:process';
 import path from 'node:path';
+import fs from 'node:fs';
 
 const accountId = process.env.CLOUDFLARE_ACCOUNT_ID;
 const kvNamespaceId = process.env.CLOUDFLARE_KV_NAMESPACE_ID;

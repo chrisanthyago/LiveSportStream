@@ -4,7 +4,7 @@
   "description": "Web App on Cloudflare Worker with Node.js v16.20.2",
   "main": "src/index.js",
   "scripts": {
-    "deploy": "node src/scripts/update-kv.mjs && wrangler deploy"
+    "deploy": "node --env-file=.env src/scripts/update-kv.mjs && wrangler deploy"
   },
   "keywords": [
     "Cloudflare Worker",
