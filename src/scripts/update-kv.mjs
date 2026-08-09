@@ -12,6 +12,7 @@ const apiToken = process.env.CLOUDFLARE_API_TOKEN;
 
 (async () => {
     if (!accountId || !kvNamespaceId || !kvKeyCron || !kvKeyCSP || !apiToken) {
+        console.log(process.env);
         console.error('Missing required environment variables.');
         process.exit(1);
     }
