@@ -6,7 +6,7 @@
 
     // Publish configuration for the worker
     "workers_dev": true,
-    "preview_urls": false,
+    "preview_urls": true,
 
     "assets": {
         "directory": "./public",
