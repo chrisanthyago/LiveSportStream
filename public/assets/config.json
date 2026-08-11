@@ -625,8 +625,8 @@
                 "https://streamx488.sbs/global3.php?channel=tntsportscl"
             ],
             "state": {
-                "color": "green",
-                "message": "Successfully found streaming on our server from:",
+                "color": "yellow",
+                "message": "Failed to find streaming in webpage performance entries on our server from:",
                 "url": "https://streamx488.sbs/global3.php?channel=tntsportscl"
             }
         },
