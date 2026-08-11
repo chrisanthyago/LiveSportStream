@@ -1,5 +1,6 @@
-import fs from 'node:fs';
+import process from 'node:process';
 import path from 'node:path';
+import fs from 'node:fs';
 
 const accountId = process.env.CLOUDFLARE_ACCOUNT_ID;
 const kvNamespaceId = process.env.CLOUDFLARE_KV_NAMESPACE_ID;
@@ -17,7 +18,7 @@ const apiToken = process.env.CLOUDFLARE_API_TOKEN;
 
     try {
         // Read the config.json file
-        const configPath = path.resolve('/public/assets/config.json');
+        const configPath = path.resolve(process.cwd(), '/public/assets/config.json');
         if (!fs.existsSync(configPath)) {
             throw new Error(`Config file not found at path: ${configPath}`);
         }
