@@ -1,6 +1,5 @@
-import { fileURLToPath } from 'node:url';
-import path from 'node:path';
 import fs from 'node:fs';
+import path from 'node:path';
 
 const accountId = process.env.CLOUDFLARE_ACCOUNT_ID;
 const kvNamespaceId = process.env.CLOUDFLARE_KV_NAMESPACE_ID;
@@ -12,16 +11,13 @@ const apiToken = process.env.CLOUDFLARE_API_TOKEN;
 
 (async () => {
     if (!accountId || !kvNamespaceId || !kvKeyCron || !kvKeyCSP || !apiToken) {
-        console.log(process.env);
         console.error('Missing required environment variables.');
         process.exit(1);
     }
 
     try {
         // Read the config.json file
-        const __filename = fileURLToPath(import.meta.url);
-        const __dirname = path.dirname(__filename);
-        const configPath = path.resolve(__dirname, '../../public/assets/config.json');
+        const configPath = path.resolve('/public/assets/config.json');
         if (!fs.existsSync(configPath)) {
             throw new Error(`Config file not found at path: ${configPath}`);
         }

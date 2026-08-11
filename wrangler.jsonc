@@ -24,6 +24,10 @@
         // The interval in minutes between each cron job execution
         "CRONS_INTERVAL": "30",
 
+        // Cloudflare KV configuration
+        "CLOUDFLARE_KV_KEY_CRON": "times",
+        "CLOUDFLARE_KV_KEY_CSP": "origins",
+
         // Cloud Run configuration
         "CLOUD_RUN_ENDPOINT": "https://service-on-cloud-run.a.run.app/api/trigger"
     },
