@@ -20,6 +20,51 @@
     "webpages": [
         {
             "association": "",
+            "league": "Amistoso",
+            "sportingEvent": "Arsenal vs Como",
+            "time": "18:30",
+            "isTime24H": true,
+            "urls": [
+                "https://elitegoltv.co/eventos.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL3ByZW1pZXIxMC5waHA"
+            ],
+            "state": {
+                "color": "red",
+                "message": "Failed to load webpage on our server with status: 404 from:",
+                "url": "https://playvi.org/premier10.php"
+            }
+        },
+        {
+            "association": "",
+            "league": "Amistoso",
+            "sportingEvent": "Arsenal vs Como",
+            "time": "18:30",
+            "isTime24H": true,
+            "urls": [
+                "https://pirlotv.la/eventos.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL3ByZW1pZXI5LnBocA"
+            ],
+            "state": {
+                "color": "red",
+                "message": "Failed to load webpage on our server with status: 404 from:",
+                "url": "https://playvi.org/premier9.php"
+            }
+        },
+        {
+            "association": "",
+            "league": "Amistoso",
+            "sportingEvent": "Arsenal vs Como",
+            "time": "18:30",
+            "isTime24H": true,
+            "urls": [
+                "https://pirlotv.la/eventos.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL3ByZW1pZXIxMi5waHA"
+            ],
+            "state": {
+                "color": "red",
+                "message": "Failed to load webpage on our server with status: 404 from:",
+                "url": "https://playvi.org/premier12.php"
+            }
+        },
+        {
+            "association": "",
             "league": "Liga de Argentina",
             "sportingEvent": "Talleres (Córdoba) vs Lanús",
             "time": "00:00",
@@ -32,6 +77,23 @@
                 "color": "green",
                 "message": "Failed to find either an iframe, a video element, or a div with id 'player' on our server from:",
                 "url": "https://xplayer.st/capo.php?player=desktop&live=capotntar"
+            }
+        },
+        {
+            "association": "",
+            "league": "Liga de Argentina",
+            "sportingEvent": "Talleres (Córdoba) vs Lanús",
+            "time": "00:00",
+            "isTime24H": true,
+            "urls": [
+                "https://elitegoltv.co/eventos.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL2FyZzMucGhw",
+                "https://playvi.org/arg3.php"
+            ],
+            "state": {
+                "color": "red",
+                "message": "Failed to load webpage on our server from:",
+                "url": "https://streamtp-golden1.click/global2.php?stream=disney7",
+                "error": "Navigation timeout of 5000 ms exceeded"
             }
         },
         {
@@ -68,6 +130,22 @@
         },
         {
             "association": "",
+            "league": "Leagues Cup",
+            "sportingEvent": "FC Cincinnati vs Atlas",
+            "time": "00:00",
+            "isTime24H": true,
+            "urls": [
+                "https://rojadirectaenvivo.co/eventos.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL2RlcG9ydGVzcGx1cy5waHA",
+                "https://playvi.org/deportesplus.php"
+            ],
+            "state": {
+                "color": "green",
+                "message": "Failed to find either an iframe, a video element, or a div with id 'player' on our server from:",
+                "url": "https://capo8play.com/capo.php?player=desktop&live=deportesplus"
+            }
+        },
+        {
+            "association": "",
             "league": "Amistoso",
             "sportingEvent": "Juventus Turín vs Palermo",
             "time": "10:00",
@@ -87,22 +165,6 @@
             "league": "Copa Sudamericana",
             "sportingEvent": "Boca Juniors vs Deportivo Recoleta",
             "time": "22:00",
-            "isTime24H": true,
-            "urls": [
-                "https://rojadirectaenvivo.co/eventos.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL2RlcG9ydGVzcGx1cy5waHA",
-                "https://playvi.org/deportesplus.php"
-            ],
-            "state": {
-                "color": "green",
-                "message": "Failed to find either an iframe, a video element, or a div with id 'player' on our server from:",
-                "url": "https://capo8play.com/capo.php?player=desktop&live=deportesplus"
-            }
-        },
-        {
-            "association": "",
-            "league": "Leagues Cup",
-            "sportingEvent": "FC Cincinnati vs Atlas",
-            "time": "00:00",
             "isTime24H": true,
             "urls": [
                 "https://rojadirectaenvivo.co/eventos.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL2RlcG9ydGVzcGx1cy5waHA",
@@ -212,6 +274,38 @@
         },
         {
             "association": "",
+            "league": "Amistoso",
+            "sportingEvent": "Arsenal vs Como",
+            "time": "18:30",
+            "isTime24H": true,
+            "urls": [
+                "https://rojadirectaenvivo.co/eventos.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL2VzcG4yLnBocA",
+                "https://playvi.org/espn2.php"
+            ],
+            "state": {
+                "color": "green",
+                "message": "Failed to find either an iframe, a video element, or a div with id 'player' on our server from:",
+                "url": "https://capo8play.com/capo.php?player=desktop&live=capoespn2"
+            }
+        },
+        {
+            "association": "",
+            "league": "Supercopa de la UEFA",
+            "sportingEvent": "Paris Saint-Germain vs Aston Villa",
+            "time": "19:00",
+            "isTime24H": true,
+            "urls": [
+                "https://pirlotv.la/eventos.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL2xhbGlnYTUucGhw",
+                "https://playvi.org/laliga5.php"
+            ],
+            "state": {
+                "color": "green",
+                "message": "Failed to find either an iframe, a video element, or a div with id 'player' on our server from:",
+                "url": "https://xplayer.st/capo.php?player=desktop&live=deportesplus2"
+            }
+        },
+        {
+            "association": "",
             "league": "Copa Libertadores",
             "sportingEvent": "Fluminense vs Independiente Rivadavia",
             "time": "22:00",
@@ -304,6 +398,38 @@
                 "color": "green",
                 "message": "Failed to find either an iframe, a video element, or a div with id 'player' on our server from:",
                 "url": "https://xplayer.st/capo.php?player=desktop&live=deportesplus"
+            }
+        },
+        {
+            "association": "",
+            "league": "Amistoso",
+            "sportingEvent": "Newcastle United vs Everton",
+            "time": "16:15",
+            "isTime24H": true,
+            "urls": [
+                "https://pirlotv.la/eventos.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL3ByZW1pZXIxLnBocA",
+                "https://playvi.org/premier1.php"
+            ],
+            "state": {
+                "color": "green",
+                "message": "Failed to find either an iframe, a video element, or a div with id 'player' on our server from:",
+                "url": "https://xplayer.st/capo.php?player=desktop&live=deportesplus"
+            }
+        },
+        {
+            "association": "",
+            "league": "Amistoso",
+            "sportingEvent": "Leeds United vs Manchester United",
+            "time": "18:30",
+            "isTime24H": true,
+            "urls": [
+                "https://pirlotv.la/eventos.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL3ByZW1pZXI1LnBocA",
+                "https://playvi.org/premier5.php"
+            ],
+            "state": {
+                "color": "green",
+                "message": "Failed to find either an iframe, a video element, or a div with id 'player' on our server from:",
+                "url": "https://xplayer.st/capo.php?player=desktop&live=deportesplus2"
             }
         },
         {
@@ -471,19 +597,19 @@
         },
         {
             "association": "",
-            "league": "Liga de Argentina",
-            "sportingEvent": "Talleres (Córdoba) vs Lanús",
-            "time": "00:00",
+            "league": "Amistoso",
+            "sportingEvent": "Newcastle United vs Everton",
+            "time": "16:15",
             "isTime24H": true,
             "urls": [
-                "https://elitegoltv.co/eventos.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL2FyZzMucGhw",
-                "https://playvi.org/arg3.php",
-                "https://streamtp-golden1.click/global2.php?stream=disney7"
+                "https://elitegoltv.co/eventos.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL3ByZW1pZXIzLnBocA",
+                "https://playvi.org/premier3.php",
+                "https://streamtp-golden1.click/global2.php?stream=disney4"
             ],
             "state": {
                 "color": "green",
                 "message": "Successfully found streaming on our server from:",
-                "url": "https://streamtp-golden1.click/global2.php?stream=disney7"
+                "url": "https://streamtp-golden1.click/global2.php?stream=disney4"
             }
         },
         {
@@ -641,6 +767,40 @@
         },
         {
             "association": "",
+            "league": "Supercopa de la UEFA",
+            "sportingEvent": "Paris Saint-Germain vs Aston Villa",
+            "time": "19:00",
+            "isTime24H": true,
+            "urls": [
+                "https://elitegoltv.co/eventos.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL2xhbGlnYTcucGhw",
+                "https://playvi.org/laliga7.php",
+                "https://streamx-hd.com/live2.php?stream=claro1"
+            ],
+            "state": {
+                "color": "green",
+                "message": "Successfully found streaming on our server from:",
+                "url": "https://streamx-hd.com/live2.php?stream=claro1"
+            }
+        },
+        {
+            "association": "",
+            "league": "Amistoso",
+            "sportingEvent": "Leeds United vs Manchester United",
+            "time": "18:30",
+            "isTime24H": true,
+            "urls": [
+                "https://elitegoltv.co/eventos.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL3ByZW1pZXI3LnBocA",
+                "https://playvi.org/premier7.php",
+                "https://streamx-hd.com/live2.php?stream=claro1"
+            ],
+            "state": {
+                "color": "green",
+                "message": "Successfully found streaming on our server from:",
+                "url": "https://streamx-hd.com/live2.php?stream=claro1"
+            }
+        },
+        {
+            "association": "",
             "league": "Copa Sudamericana",
             "sportingEvent": "Boca Juniors vs Deportivo Recoleta",
             "time": "22:00",
@@ -692,6 +852,23 @@
         },
         {
             "association": "",
+            "league": "Amistoso",
+            "sportingEvent": "Newcastle United vs Everton",
+            "time": "16:15",
+            "isTime24H": true,
+            "urls": [
+                "https://pirlotv.la/eventos.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL3ByZW1pZXI0LnBocA",
+                "https://playvi.org/premier4.php",
+                "https://streamx-hd.com/live2.php?stream=espn"
+            ],
+            "state": {
+                "color": "green",
+                "message": "Successfully found streaming on our server from:",
+                "url": "https://streamx-hd.com/live2.php?stream=espn"
+            }
+        },
+        {
+            "association": "",
             "league": "Copa Libertadores",
             "sportingEvent": "Estudiantes de La Plata vs Universidad Católica (Chi)",
             "time": "00:30",
@@ -739,6 +916,40 @@
                 "color": "green",
                 "message": "Successfully found streaming on our server from:",
                 "url": "https://streamx-hd.com/live2.php?stream=fox1ar"
+            }
+        },
+        {
+            "association": "",
+            "league": "Supercopa de la UEFA",
+            "sportingEvent": "Paris Saint-Germain vs Aston Villa",
+            "time": "19:00",
+            "isTime24H": true,
+            "urls": [
+                "https://tarjetarojatv.ad/eventos.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL2xhbGlnYTYucGhw",
+                "https://playvi.org/laliga6.php",
+                "https://streamx488.sbs/global3.php?channel=clarosports"
+            ],
+            "state": {
+                "color": "green",
+                "message": "Successfully found streaming on our server from:",
+                "url": "https://streamx488.sbs/global3.php?channel=clarosports"
+            }
+        },
+        {
+            "association": "",
+            "league": "Supercopa de la UEFA",
+            "sportingEvent": "Paris Saint-Germain vs Aston Villa",
+            "time": "19:00",
+            "isTime24H": true,
+            "urls": [
+                "https://pirlotv.la/eventos.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL2xhbGlnYTgucGhw",
+                "https://playvi.org/laliga8.php",
+                "https://streamx488.sbs/global3.php?channel=clarosports"
+            ],
+            "state": {
+                "color": "green",
+                "message": "Successfully found streaming on our server from:",
+                "url": "https://streamx488.sbs/global3.php?channel=clarosports"
             }
         },
         {
@@ -811,6 +1022,23 @@
         },
         {
             "association": "",
+            "league": "Amistoso",
+            "sportingEvent": "Newcastle United vs Everton",
+            "time": "16:15",
+            "isTime24H": true,
+            "urls": [
+                "https://tarjetarojatv.ad/eventos.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL3ByZW1pZXIyLnBocA",
+                "https://playvi.org/premier2.php",
+                "https://streamx488.sbs/global3.php?channel=espn"
+            ],
+            "state": {
+                "color": "green",
+                "message": "Successfully found streaming on our server from:",
+                "url": "https://streamx488.sbs/global3.php?channel=espn"
+            }
+        },
+        {
+            "association": "",
             "league": "Copa Libertadores",
             "sportingEvent": "Fluminense vs Independiente Rivadavia",
             "time": "22:00",
@@ -824,6 +1052,40 @@
                 "color": "green",
                 "message": "Successfully found streaming on our server from:",
                 "url": "https://streamx488.sbs/global3.php?channel=espn2"
+            }
+        },
+        {
+            "association": "",
+            "league": "Amistoso",
+            "sportingEvent": "Leeds United vs Manchester United",
+            "time": "18:30",
+            "isTime24H": true,
+            "urls": [
+                "https://tarjetarojatv.ad/eventos.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL3ByZW1pZXI2LnBocA",
+                "https://playvi.org/premier6.php",
+                "https://streamx488.sbs/global3.php?channel=foxdeportes"
+            ],
+            "state": {
+                "color": "green",
+                "message": "Successfully found streaming on our server from:",
+                "url": "https://streamx488.sbs/global3.php?channel=foxdeportes"
+            }
+        },
+        {
+            "association": "",
+            "league": "Amistoso",
+            "sportingEvent": "Leeds United vs Manchester United",
+            "time": "18:30",
+            "isTime24H": true,
+            "urls": [
+                "https://pirlotv.la/eventos.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL3ByZW1pZXI4LnBocA",
+                "https://playvi.org/premier8.php",
+                "https://streamx488.sbs/global3.php?channel=foxdeportes"
+            ],
+            "state": {
+                "color": "green",
+                "message": "Successfully found streaming on our server from:",
+                "url": "https://streamx488.sbs/global3.php?channel=foxdeportes"
             }
         },
         {
@@ -1011,6 +1273,21 @@
                 "color": "green",
                 "message": "Successfully found streaming on our server from:",
                 "url": "https://sudamericaplay.sbs/canal_8112/cza_dsports.html"
+            }
+        },
+        {
+            "association": "",
+            "league": "Amistoso",
+            "sportingEvent": "Arsenal vs Como",
+            "time": "18:30",
+            "isTime24H": true,
+            "urls": [
+                "https://tarjetarojatv.ad/eventos.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL3ByZW1pZXIxMC5waHA"
+            ],
+            "state": {
+                "color": "red",
+                "message": "Failed to load webpage on our server with status: 404 from:",
+                "url": "https://playvi.org/premier10.php"
             }
         }
     ]
