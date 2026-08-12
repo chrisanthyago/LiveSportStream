@@ -53,6 +53,22 @@
         },
         {
             "association": "",
+            "league": "Supercopa de la UEFA",
+            "sportingEvent": "Paris Saint-Germain vs Aston Villa",
+            "time": "19:00",
+            "isTime24H": true,
+            "urls": [
+                "https://rojadirectaenvivo.co/eventos.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL2RlcG9ydGVzcGx1czMucGhw",
+                "https://playvi.org/deportesplus3.php"
+            ],
+            "state": {
+                "color": "green",
+                "message": "Failed to find either an iframe, a video element, or a div with id 'player' on our server from:",
+                "url": "https://capo8play.com/capo.php?player=desktop&live=deportesplus3"
+            }
+        },
+        {
+            "association": "",
             "league": "Amistoso",
             "sportingEvent": "Arsenal vs Como",
             "time": "18:30",
@@ -80,7 +96,7 @@
             "state": {
                 "color": "green",
                 "message": "Failed to find either an iframe, a video element, or a div with id 'player' on our server from:",
-                "url": "https://xplayer.st/capo.php?player=desktop&live=deportesplus2"
+                "url": "https://xplayer.st/capo.php?player=desktop&live=capotudn"
             }
         },
         {
@@ -174,12 +190,12 @@
             "urls": [
                 "https://elitegoltv.co/eventos.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL2xhbGlnYTcucGhw",
                 "https://playvi.org/laliga7.php",
-                "https://streamx-hd.com/live2.php?stream=claro1"
+                "https://streamtp-golden1.click/global2.php?stream=disney2"
             ],
             "state": {
                 "color": "green",
                 "message": "Successfully found streaming on our server from:",
-                "url": "https://streamx-hd.com/live2.php?stream=claro1"
+                "url": "https://streamtp-golden1.click/global2.php?stream=disney2"
             }
         },
         {
@@ -240,31 +256,14 @@
             "time": "19:00",
             "isTime24H": true,
             "urls": [
-                "https://tarjetarojatv.ad/eventos.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL2xhbGlnYTYucGhw",
-                "https://playvi.org/laliga6.php",
-                "https://streamx488.sbs/global3.php?channel=clarosports"
-            ],
-            "state": {
-                "color": "green",
-                "message": "Successfully found streaming on our server from:",
-                "url": "https://streamx488.sbs/global3.php?channel=clarosports"
-            }
-        },
-        {
-            "association": "",
-            "league": "Supercopa de la UEFA",
-            "sportingEvent": "Paris Saint-Germain vs Aston Villa",
-            "time": "19:00",
-            "isTime24H": true,
-            "urls": [
-                "https://pirlotv.la/eventos.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL2xhbGlnYTgucGhw",
+                "https://elitegoltv.co/eventos.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL2xhbGlnYTgucGhw",
                 "https://playvi.org/laliga8.php",
-                "https://streamx488.sbs/global3.php?channel=clarosports"
+                "https://streamx-hd.com/live2.php?stream=mligacampeones"
             ],
             "state": {
                 "color": "green",
                 "message": "Successfully found streaming on our server from:",
-                "url": "https://streamx488.sbs/global3.php?channel=clarosports"
+                "url": "https://streamx-hd.com/live2.php?stream=mligacampeones"
             }
         },
         {
@@ -282,6 +281,23 @@
                 "color": "green",
                 "message": "Successfully found streaming on our server from:",
                 "url": "https://streamx488.sbs/global3.php?channel=clarosports"
+            }
+        },
+        {
+            "association": "",
+            "league": "Supercopa de la UEFA",
+            "sportingEvent": "Paris Saint-Germain vs Aston Villa",
+            "time": "19:00",
+            "isTime24H": true,
+            "urls": [
+                "https://tarjetarojatv.ad/eventos.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL2xhbGlnYTYucGhw",
+                "https://playvi.org/laliga6.php",
+                "https://streamx488.sbs/global3.php?channel=espn"
+            ],
+            "state": {
+                "color": "green",
+                "message": "Successfully found streaming on our server from:",
+                "url": "https://streamx488.sbs/global3.php?channel=espn"
             }
         },
         {
