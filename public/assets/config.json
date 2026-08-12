@@ -21,51 +21,6 @@
         {
             "association": "",
             "league": "Amistoso",
-            "sportingEvent": "Arsenal vs Como",
-            "time": "18:30",
-            "isTime24H": true,
-            "urls": [
-                "https://elitegoltv.co/eventos.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL3ByZW1pZXIxMC5waHA"
-            ],
-            "state": {
-                "color": "red",
-                "message": "Failed to load webpage on our server with status: 404 from:",
-                "url": "https://playvi.org/premier10.php"
-            }
-        },
-        {
-            "association": "",
-            "league": "Amistoso",
-            "sportingEvent": "Arsenal vs Como",
-            "time": "18:30",
-            "isTime24H": true,
-            "urls": [
-                "https://pirlotv.la/eventos.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL3ByZW1pZXI5LnBocA"
-            ],
-            "state": {
-                "color": "red",
-                "message": "Failed to load webpage on our server with status: 404 from:",
-                "url": "https://playvi.org/premier9.php"
-            }
-        },
-        {
-            "association": "",
-            "league": "Amistoso",
-            "sportingEvent": "Arsenal vs Como",
-            "time": "18:30",
-            "isTime24H": true,
-            "urls": [
-                "https://pirlotv.la/eventos.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL3ByZW1pZXIxMi5waHA"
-            ],
-            "state": {
-                "color": "red",
-                "message": "Failed to load webpage on our server with status: 404 from:",
-                "url": "https://playvi.org/premier12.php"
-            }
-        },
-        {
-            "association": "",
-            "league": "Amistoso",
             "sportingEvent": "Newcastle United vs Everton",
             "time": "16:15",
             "isTime24H": true,
@@ -77,6 +32,23 @@
                 "color": "green",
                 "message": "Failed to find either an iframe, a video element, or a div with id 'player' on our server from:",
                 "url": "https://capo8play.com/capo.php?player=desktop&live=deportesplus"
+            }
+        },
+        {
+            "association": "",
+            "league": "Amistoso",
+            "sportingEvent": "Leeds United vs Manchester United",
+            "time": "18:30",
+            "isTime24H": true,
+            "urls": [
+                "https://rojadirectaenvivo.co/eventos.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL2RlcG9ydGVzcGx1czIucGhw",
+                "https://playvi.org/deportesplus2.php"
+            ],
+            "state": {
+                "color": "red",
+                "message": "Failed to load webpage on our server from:",
+                "url": "https://capo8play.com/capo.php?player=desktop&live=deportesplus2",
+                "error": "Navigation timeout of 5000 ms exceeded"
             }
         },
         {
@@ -146,6 +118,39 @@
         {
             "association": "",
             "league": "Amistoso",
+            "sportingEvent": "Leeds United vs Manchester United",
+            "time": "18:30",
+            "isTime24H": true,
+            "urls": [
+                "https://elitegoltv.co/eventos.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL3ByZW1pZXI3LnBocA",
+                "https://playvi.org/premier7.php"
+            ],
+            "state": {
+                "color": "red",
+                "message": "Failed to load webpage on our server from:",
+                "url": "https://streamtp-golden1.click/global2.php?stream=clarosports",
+                "error": "Navigation timeout of 5000 ms exceeded"
+            }
+        },
+        {
+            "association": "",
+            "league": "Amistoso",
+            "sportingEvent": "Arsenal vs Como",
+            "time": "18:30",
+            "isTime24H": true,
+            "urls": [
+                "https://pirlotv.la/eventos.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL3ByZW1pZXI5LnBocA",
+                "https://playvi.org/premier9.php"
+            ],
+            "state": {
+                "color": "green",
+                "message": "Failed to find either an iframe, a video element, or a div with id 'player' on our server from:",
+                "url": "https://xplayer.st/capo.php?player=desktop&live=deportesplus5"
+            }
+        },
+        {
+            "association": "",
+            "league": "Amistoso",
             "sportingEvent": "Newcastle United vs Everton",
             "time": "16:15",
             "isTime24H": true,
@@ -184,14 +189,31 @@
             "time": "18:30",
             "isTime24H": true,
             "urls": [
-                "https://elitegoltv.co/eventos.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL3ByZW1pZXI3LnBocA",
-                "https://playvi.org/premier7.php",
+                "https://elitegoltv.co/eventos.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL3ByZW1pZXI4LnBocA",
+                "https://playvi.org/premier8.php",
                 "https://streamx-hd.com/live2.php?stream=claro1"
             ],
             "state": {
                 "color": "green",
                 "message": "Successfully found streaming on our server from:",
                 "url": "https://streamx-hd.com/live2.php?stream=claro1"
+            }
+        },
+        {
+            "association": "",
+            "league": "Amistoso",
+            "sportingEvent": "Arsenal vs Como",
+            "time": "18:30",
+            "isTime24H": true,
+            "urls": [
+                "https://elitegoltv.co/eventos.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL3ByZW1pZXIxMi5waHA",
+                "https://playvi.org/premier12.php",
+                "https://streamx-hd.com/live2.php?stream=espn2ar"
+            ],
+            "state": {
+                "color": "green",
+                "message": "Successfully found streaming on our server from:",
+                "url": "https://streamx-hd.com/live2.php?stream=espn2ar"
             }
         },
         {
@@ -248,6 +270,57 @@
         {
             "association": "",
             "league": "Amistoso",
+            "sportingEvent": "Leeds United vs Manchester United",
+            "time": "18:30",
+            "isTime24H": true,
+            "urls": [
+                "https://tarjetarojatv.ad/eventos.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL3ByZW1pZXI2LnBocA",
+                "https://playvi.org/premier6.php",
+                "https://streamx488.sbs/global3.php?channel=clarosports"
+            ],
+            "state": {
+                "color": "green",
+                "message": "Successfully found streaming on our server from:",
+                "url": "https://streamx488.sbs/global3.php?channel=clarosports"
+            }
+        },
+        {
+            "association": "",
+            "league": "Amistoso",
+            "sportingEvent": "Arsenal vs Como",
+            "time": "18:30",
+            "isTime24H": true,
+            "urls": [
+                "https://elitegoltv.co/eventos.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL3ByZW1pZXIxMC5waHA",
+                "https://playvi.org/premier10.php",
+                "https://streamx488.sbs/global3.php?channel=espn2"
+            ],
+            "state": {
+                "color": "green",
+                "message": "Successfully found streaming on our server from:",
+                "url": "https://streamx488.sbs/global3.php?channel=espn2"
+            }
+        },
+        {
+            "association": "",
+            "league": "Amistoso",
+            "sportingEvent": "Arsenal vs Como",
+            "time": "18:30",
+            "isTime24H": true,
+            "urls": [
+                "https://tarjetarojatv.ad/eventos.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL3ByZW1pZXIxMC5waHA",
+                "https://playvi.org/premier10.php",
+                "https://streamx488.sbs/global3.php?channel=espn2"
+            ],
+            "state": {
+                "color": "green",
+                "message": "Successfully found streaming on our server from:",
+                "url": "https://streamx488.sbs/global3.php?channel=espn2"
+            }
+        },
+        {
+            "association": "",
+            "league": "Amistoso",
             "sportingEvent": "Newcastle United vs Everton",
             "time": "16:15",
             "isTime24H": true,
@@ -260,55 +333,6 @@
                 "color": "green",
                 "message": "Successfully found streaming on our server from:",
                 "url": "https://streamx488.sbs/global3.php?channel=foxdeportes"
-            }
-        },
-        {
-            "association": "",
-            "league": "Amistoso",
-            "sportingEvent": "Leeds United vs Manchester United",
-            "time": "18:30",
-            "isTime24H": true,
-            "urls": [
-                "https://tarjetarojatv.ad/eventos.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL3ByZW1pZXI2LnBocA",
-                "https://playvi.org/premier6.php",
-                "https://streamx488.sbs/global3.php?channel=foxdeportes"
-            ],
-            "state": {
-                "color": "green",
-                "message": "Successfully found streaming on our server from:",
-                "url": "https://streamx488.sbs/global3.php?channel=foxdeportes"
-            }
-        },
-        {
-            "association": "",
-            "league": "Amistoso",
-            "sportingEvent": "Leeds United vs Manchester United",
-            "time": "18:30",
-            "isTime24H": true,
-            "urls": [
-                "https://pirlotv.la/eventos.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL3ByZW1pZXI4LnBocA",
-                "https://playvi.org/premier8.php",
-                "https://streamx488.sbs/global3.php?channel=foxdeportes"
-            ],
-            "state": {
-                "color": "green",
-                "message": "Successfully found streaming on our server from:",
-                "url": "https://streamx488.sbs/global3.php?channel=foxdeportes"
-            }
-        },
-        {
-            "association": "",
-            "league": "Amistoso",
-            "sportingEvent": "Arsenal vs Como",
-            "time": "18:30",
-            "isTime24H": true,
-            "urls": [
-                "https://tarjetarojatv.ad/eventos.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL3ByZW1pZXIxMC5waHA"
-            ],
-            "state": {
-                "color": "red",
-                "message": "Failed to load webpage on our server with status: 404 from:",
-                "url": "https://playvi.org/premier10.php"
             }
         }
     ]
