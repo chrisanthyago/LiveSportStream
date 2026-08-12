@@ -66,6 +66,22 @@
         {
             "association": "",
             "league": "Amistoso",
+            "sportingEvent": "Newcastle United vs Everton",
+            "time": "16:15",
+            "isTime24H": true,
+            "urls": [
+                "https://rojadirectaenvivo.co/eventos.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL2RlcG9ydGVzcGx1cy5waHA",
+                "https://playvi.org/deportesplus.php"
+            ],
+            "state": {
+                "color": "green",
+                "message": "Failed to find either an iframe, a video element, or a div with id 'player' on our server from:",
+                "url": "https://capo8play.com/capo.php?player=desktop&live=deportesplus"
+            }
+        },
+        {
+            "association": "",
+            "league": "Amistoso",
             "sportingEvent": "Arsenal vs Como",
             "time": "18:30",
             "isTime24H": true,
@@ -136,12 +152,12 @@
             "urls": [
                 "https://elitegoltv.co/eventos.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL3ByZW1pZXIzLnBocA",
                 "https://playvi.org/premier3.php",
-                "https://streamtp-golden1.click/global2.php?stream=disney4"
+                "https://streamtp-golden1.click/global2.php?stream=clarosports"
             ],
             "state": {
                 "color": "green",
                 "message": "Successfully found streaming on our server from:",
-                "url": "https://streamtp-golden1.click/global2.php?stream=disney4"
+                "url": "https://streamtp-golden1.click/global2.php?stream=clarosports"
             }
         },
         {
@@ -185,14 +201,14 @@
             "time": "16:15",
             "isTime24H": true,
             "urls": [
-                "https://pirlotv.la/eventos.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL3ByZW1pZXI0LnBocA",
+                "https://elitegoltv.co/eventos.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL3ByZW1pZXI0LnBocA",
                 "https://playvi.org/premier4.php",
-                "https://streamx-hd.com/live2.php?stream=espn"
+                "https://streamx-hd.com/live2.php?stream=fox_deportes_usa"
             ],
             "state": {
                 "color": "green",
                 "message": "Successfully found streaming on our server from:",
-                "url": "https://streamx-hd.com/live2.php?stream=espn"
+                "url": "https://streamx-hd.com/live2.php?stream=fox_deportes_usa"
             }
         },
         {
@@ -238,12 +254,12 @@
             "urls": [
                 "https://tarjetarojatv.ad/eventos.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL3ByZW1pZXIyLnBocA",
                 "https://playvi.org/premier2.php",
-                "https://streamx488.sbs/global3.php?channel=espn"
+                "https://streamx488.sbs/global3.php?channel=foxdeportes"
             ],
             "state": {
                 "color": "green",
                 "message": "Successfully found streaming on our server from:",
-                "url": "https://streamx488.sbs/global3.php?channel=espn"
+                "url": "https://streamx488.sbs/global3.php?channel=foxdeportes"
             }
         },
         {
