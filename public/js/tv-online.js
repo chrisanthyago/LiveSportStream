@@ -18,11 +18,11 @@ const webpages = [];
 
         data.webpages
             .filter(item => item.urls.length > 0)
-            .forEach(({ league, sportingEvent, urls, ...rest }) => webpages.push({
+            .forEach(({ league, sportingEvent, time, ...rest }) => webpages.push({
                 league: getSectionItemId(league),
                 sportingEvent: getSectionItemId(sportingEvent),
-                hostname: new URL(urls[urls.length - 1]).hostname,
-                urls,
+                time: rest.isTime24H ? convertTimeTo24HLocal(time) : time,
+                hostname: new URL(rest.urls[rest.urls.length - 1]).hostname,
                 ...rest
             }));
         // console.log(webpages);
@@ -457,6 +457,27 @@ function changeChannel(index) {
     }
 }
 
+const times24H = {};
+/**
+ * Converts a given time string in 12-hour format (e.g., "2:30 PM") to 24-hour format based on the user's local timezone. The function checks if the time has already been converted and cached in the `times24H` object, and if so, it returns the cached value. If not, it splits the time string into hours and minutes, creates a new Date object, and uses the `Intl.DateTimeFormat` API to format the time in 24-hour format according to the user's local timezone. The resulting 24-hour formatted time is then cached in the `times24H` object for future reference and returned as the output of the function.
+ * @param {string} time - A string representing a time in 12-hour format (e.g., "2:30 PM") that needs to be converted to 24-hour format based on the user's local timezone. The function checks if the time has already been converted and cached in the `times24H` object, and if so, it returns the cached value. If not, it splits the time string into hours and minutes, creates a new Date object, and uses the `Intl.DateTimeFormat` API to format the time in 24-hour format according to the user's local timezone. The resulting 24-hour formatted time is then cached in the `times24H` object for future reference and returned as the output of the function.
+ * @returns The function returns a string representing the input time converted to 24-hour format based on the user's local timezone. If the time has already been converted and cached, it returns the cached value; otherwise, it performs the conversion and caches the result before returning it.
+ */
+function convertTimeTo24HLocal(time) {
+    if (times24H[time]) {
+        return times24H[time];
+    }
+
+    const [hours, minutes] = time.split(":").map(Number);
+    const date = new Date();
+    const formater = new Intl.DateTimeFormat(undefined, { hour: "2-digit", minute: "2-digit", hour12: false });
+
+    date.setUTCHours(hours, minutes, 0, 0);
+    times24H[time] = formater.format(date);
+
+    return times24H[time];
+}
+
 /**
  * Appends spans to a given `<h3>` element based on the specified section and section item. The function creates and appends different spans to the `<h3>` element to provide additional information and functionality related to the section item, such as displaying the number of available channels or the time of a sporting event. The content and styling of the appended spans are customized based on the type of section item being represented, allowing users to quickly understand the context and details of the section item at a glance.
  * @param {HTMLHeadingElement} h3 - The `<h3>` element to which the spans will be appended. This element serves as the container for the spans that provide additional information and functionality related to the section item, such as displaying the number of available channels or the time of a sporting event.
@@ -532,19 +553,22 @@ async function sendMessage(event) {
             body: JSON.stringify(Object.fromEntries(formData.entries()))
             // body: new URLSearchParams(formData)
         });
-        if (!response || !response.ok) {
+        if (!response?.headers?.get('content-type')?.includes('application/json')) {
+            throw new Error('Failed to process response from endpoint.');
+        }
+        if (!response.ok) {
             const data = await response.json();
+            const error = data.error ? `\n${data.error}` : '';
             // console.log(data);
-            alert(`${data.result}: ${data.error}`);
-
-            throw new Error(`Failed to get response from send/message with: ${response ? `${response.status} ${response.statusText}` : "No response"}`);
+            throw new Error(`Failed to get a successful response from endpoint with: ${response.status} ${response.statusText}. ${error}`);
         }
 
         form.parentElement.parentElement.previousElementSibling.click();
         form.reset();
     } catch (error) {
-        console.error("Failed to process the send/message endpoint:");
+        error.message = `Error processing the /send/message endpoint: \n${error.message} \nTry again later or report this issue to the admin.`;
         console.error(error);
+        alert(`${error.message}`);
     } finally {
         button.classList.remove("w3-disabled");
         button.innerHTML = button.innerHTML.replace("Sending message...", "Send Message");

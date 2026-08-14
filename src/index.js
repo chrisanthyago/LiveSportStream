@@ -9,6 +9,52 @@ export default {
             return Response.redirect(url.toString(), 301);
         }
 
+        if (url.pathname === '/send/message' && request.method === 'POST') {
+            try {
+                const appsScriptEndpoint = env.APPS_SCRIPT_ENDPOINT;
+                const contentType = request.headers.get('Content-Type') || '';
+                let formData;
+
+                if (contentType.includes('application/json')) {
+                    formData = await request.json();
+                } else if (contentType.includes('application/x-www-form-urlencoded') || contentType.includes('multipart/form-data')) {
+                    formData = Object.fromEntries(await request.formData());
+                } else {
+                    throw new Error('Failed to parse request body: Unsupported Content-Type.');
+                }
+
+                const appsScriptResponse = await fetch(appsScriptEndpoint, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify(formData)
+                });
+
+                if (!appsScriptResponse.ok) {
+                    throw new Error(`Failed to get a successful response from endpoint with: ${appsScriptResponse.status} ${appsScriptResponse.statusText}.`);
+                }
+
+                const appsScriptData = await appsScriptResponse.text();
+                // const appsScriptData = await appsScriptResponse.json();
+                console.log('Successfully sent message to Apps Script endpoint:');
+                console.log(appsScriptData);
+
+                return new Response(appsScriptData, {
+                    status: appsScriptResponse.status,
+                    headers: { 'Content-Type': 'application/json' }
+                });
+
+            } catch (error) {
+                error.message = `Error sending message to Apps Script endpoint: \n${error.message}`;
+                console.error(error);
+                return new Response(JSON.stringify({ error: error.message }), {
+                    status: 500,
+                    headers: { 'Content-Type': 'application/json' }
+                });
+            }
+        }
+
         let response = await env.ASSETS.fetch(request);
 
         // If the response is HTML, set the Content-Security-Policy header based on the origins stored in the KV store
@@ -16,7 +62,6 @@ export default {
         if (contentType.includes('text/html')) {
             try {
                 const kvKeyCSP = env.CLOUDFLARE_KV_KEY_CSP;
-
                 let origins = await env.KEY_VALUE.get(kvKeyCSP);
 
                 if (!origins) {
@@ -73,7 +118,6 @@ export default {
             (async () => {
                 try {
                     const kvKeyCron = env.CLOUDFLARE_KV_KEY_CRON;
-
                     let times = await env.KEY_VALUE.get(kvKeyCron);
 
                     if (!times) {
