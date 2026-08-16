@@ -563,7 +563,7 @@ async function sendMessage(event) {
         form.parentElement.parentElement.previousElementSibling.click();
         form.reset();
     } catch (error) {
-        error.message = `Error processing the '/send/message' endpoint: \n${error.message} \nTry again later or report this issue to the admin.`;
+        error.message = `Error processing the '/send/message' endpoint: ${error.message} \nTry again later or report this issue to the admin.`;
         console.error(error);
         alert(`${error.message}`);
     } finally {
