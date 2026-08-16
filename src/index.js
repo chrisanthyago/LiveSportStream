@@ -17,7 +17,7 @@ export default {
 
                 if (contentType.includes('application/json')) {
                     formData = await request.json();
-                } else if (contentType.includes('application/x-www-form-urlencoded') || contentType.includes('multipart/form-data')) {
+                } else if (contentType.includes('multipart/form-data') || contentType.includes('application/x-www-form-urlencoded')) {
                     formData = Object.fromEntries(await request.formData());
                 } else {
                     console.error(await request.text());
@@ -40,7 +40,7 @@ export default {
                 const result = appsScriptData?.result;
                 if (!result || result === 'error') {
                     console.error(appsScriptData);
-                    throw new Error(`Failed to get a successful result from endpoint. \n${JSON.stringify(appsScriptData.error)}`);
+                    throw new Error(`Failed to get a successful result from endpoint. \n${appsScriptData.error}`);
                 }
                 console.log('Successfully sent message to Apps Script endpoint');
 

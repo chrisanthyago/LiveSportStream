@@ -551,6 +551,7 @@ async function sendMessage(event) {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify(Object.fromEntries(formData.entries()))
+            // body: formData
             // body: new URLSearchParams(formData)
         });
         if (!response.ok) {
