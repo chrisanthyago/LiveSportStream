@@ -20,6 +20,7 @@ export default {
                 } else if (contentType.includes('application/x-www-form-urlencoded') || contentType.includes('multipart/form-data')) {
                     formData = Object.fromEntries(await request.formData());
                 } else {
+                    console.error(await request.text());
                     throw new Error('Failed to parse request body: Unsupported Content-Type.');
                 }
 
@@ -35,23 +36,20 @@ export default {
                     throw new Error(`Failed to get a successful response from endpoint with: ${appsScriptResponse.status} ${appsScriptResponse.statusText}.`);
                 }
 
-                const appsScriptData = await appsScriptResponse.text();
-                // const appsScriptData = await appsScriptResponse.json();
-                console.log('Successfully sent message to Apps Script endpoint:');
-                console.log(appsScriptData);
+                const appsScriptData = await appsScriptResponse.json();
+                const result = appsScriptData?.result;
+                if (!result || result === 'error') {
+                    console.error(appsScriptData);
+                    throw new Error(`Failed to get a successful result from endpoint. \n${JSON.stringify(appsScriptData.error)}`);
+                }
+                console.log('Successfully sent message to Apps Script endpoint');
 
-                return new Response(appsScriptData, {
-                    status: appsScriptResponse.status,
-                    headers: { 'Content-Type': 'application/json' }
-                });
+                return new Response(result, { status: appsScriptResponse.status });
 
             } catch (error) {
-                error.message = `Error sending message to Apps Script endpoint: \n${error.message}`;
+                error.message = `Error sending message to Apps Script endpoint: ${error.message}`;
                 console.error(error);
-                return new Response(JSON.stringify({ error: error.message }), {
-                    status: 500,
-                    headers: { 'Content-Type': 'application/json' }
-                });
+                return new Response(error.message, { status: 500 });
             }
         }
 

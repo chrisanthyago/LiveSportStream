@@ -553,12 +553,9 @@ async function sendMessage(event) {
             body: JSON.stringify(Object.fromEntries(formData.entries()))
             // body: new URLSearchParams(formData)
         });
-        if (!response?.headers?.get('content-type')?.includes('application/json')) {
-            throw new Error('Failed to process response from endpoint.');
-        }
         if (!response.ok) {
-            const data = await response.json();
-            const error = data.error ? `\n${data.error}` : '';
+            const data = await response.text();
+            const error = data ? `\n${data}` : '';
             // console.log(data);
             throw new Error(`Failed to get a successful response from endpoint with: ${response.status} ${response.statusText}. ${error}`);
         }
@@ -566,7 +563,7 @@ async function sendMessage(event) {
         form.parentElement.parentElement.previousElementSibling.click();
         form.reset();
     } catch (error) {
-        error.message = `Error processing the /send/message endpoint: \n${error.message} \nTry again later or report this issue to the admin.`;
+        error.message = `Error processing the '/send/message' endpoint: \n${error.message} \nTry again later or report this issue to the admin.`;
         console.error(error);
         alert(`${error.message}`);
     } finally {
