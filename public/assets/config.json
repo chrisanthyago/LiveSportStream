@@ -56,19 +56,6 @@
             }
         },
         {
-            "association": "IT",
-            "league": "Serie A TIM",
-            "sportingEvent": "AC Milan vs Venezia",
-            "time": "18:45",
-            "isTime24H": true,
-            "urls": [],
-            "state": {
-                "color": "green",
-                "message": "Failed to find either an iframe, a video element, or a div with id 'player' on our server from:",
-                "url": "https://www.rojadirectastream.me/"
-            }
-        },
-        {
             "association": "MX",
             "league": "Liga MX",
             "sportingEvent": "Atlante vs Club León",
@@ -189,23 +176,6 @@
             }
         },
         {
-            "association": "",
-            "league": "Liga de Uruguay",
-            "sportingEvent": "Montevideo Wanderers vs Central Español",
-            "time": "22:00",
-            "isTime24H": true,
-            "urls": [
-                "https://elitegoltv.co/eventos.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL3VydWd1YXkyLnBocA",
-                "https://playvi.org/uruguay2.php",
-                "https://embedme.click/player/capo2/109"
-            ],
-            "state": {
-                "color": "green",
-                "message": "Failed to find either an iframe, a video element, or a div with id 'player' on our server from:",
-                "url": "https://hoca8.com/sorry"
-            }
-        },
-        {
             "association": "MX",
             "league": "Liga MX",
             "sportingEvent": "Atlante vs León",
@@ -241,58 +211,9 @@
         },
         {
             "association": "",
-            "league": "Liga de Chile",
-            "sportingEvent": "Cobresal vs Palestino",
-            "time": "22:30",
-            "isTime24H": true,
-            "urls": [
-                "https://elitegoltv.co/eventos.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL2NoaWxlMy5waHA",
-                "https://playvi.org/chile3.php",
-                "https://la18hd.su/vivo/canales.php?stream=tntsportschile"
-            ],
-            "state": {
-                "color": "green",
-                "message": "Successfully found streaming on our server from:",
-                "url": "https://la18hd.su/vivo/canales.php?stream=tntsportschile"
-            }
-        },
-        {
-            "association": "",
-            "league": "Liga de Argentina",
-            "sportingEvent": "Boca Juniors vs Lanús",
-            "time": "00:30",
-            "isTime24H": true,
-            "urls": [
-                "https://elitegoltv.co/eventos.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL2FyZ2VudGluYTEucGhw",
-                "https://playvi.org/argentina1.php"
-            ],
-            "state": {
-                "color": "red",
-                "message": "Failed to load webpage on our server with status: 403 from:",
-                "url": "https://xplayer.st/capo.php?player=desktop&live=capotntar"
-            }
-        },
-        {
-            "association": "",
-            "league": "Liga de Chile",
-            "sportingEvent": "Cobresal vs Palestino",
-            "time": "22:30",
-            "isTime24H": true,
-            "urls": [
-                "https://elitegoltv.co/eventos.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL2NoaWxlMS5waHA",
-                "https://playvi.org/chile1.php"
-            ],
-            "state": {
-                "color": "green",
-                "message": "Failed to find either an iframe, a video element, or a div with id 'player' on our server from:",
-                "url": "https://capo8play.com/sorry"
-            }
-        },
-        {
-            "association": "",
             "league": "Liga MX",
-            "sportingEvent": "Atlante vs León",
-            "time": "01:00",
+            "sportingEvent": "Tijuana Xolos vs Pumas UNAM",
+            "time": "03:10",
             "isTime24H": true,
             "urls": [
                 "https://rojadirectamas.com/eventos.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL2RlcG9ydGVzcGx1cy5waHA",
@@ -311,173 +232,13 @@
             "time": "03:10",
             "isTime24H": true,
             "urls": [
-                "https://rojadirectamas.com/eventos.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL2RlcG9ydGVzcGx1cy5waHA",
-                "https://playvi.org/deportesplus.php"
+                "https://elitegoltv.co/eventos.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL2xpZ2FteDEwLnBocA",
+                "https://playvi.org/ligamx10.php"
             ],
             "state": {
-                "color": "green",
-                "message": "Failed to find either an iframe, a video element, or a div with id 'player' on our server from:",
-                "url": "https://capo8play.com/sorry"
-            }
-        },
-        {
-            "association": "",
-            "league": "Liga MX",
-            "sportingEvent": "Necaxa vs Cruz Azul",
-            "time": "01:00",
-            "isTime24H": true,
-            "urls": [
-                "https://rojadirectamas.com/eventos.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL2RlcG9ydGVzcGx1czIucGhw",
-                "https://playvi.org/deportesplus2.php"
-            ],
-            "state": {
-                "color": "green",
-                "message": "Failed to find either an iframe, a video element, or a div with id 'player' on our server from:",
-                "url": "https://capo8play.com/sorry"
-            }
-        },
-        {
-            "association": "",
-            "league": "Liga de Ecuador",
-            "sportingEvent": "Mushuc Runa vs Delfín",
-            "time": "20:30",
-            "isTime24H": true,
-            "urls": [
-                "https://elitegoltv.co/eventos.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL2VjdWFkb3IxLnBocA",
-                "https://playvi.org/ecuador1.php"
-            ],
-            "state": {
-                "color": "green",
-                "message": "Failed to find either an iframe, a video element, or a div with id 'player' on our server from:",
-                "url": "https://capo8play.com/sorry"
-            }
-        },
-        {
-            "association": "",
-            "league": "Liga de Paraguay",
-            "sportingEvent": "Sportivo San Lorenzo vs Nacional Asunción",
-            "time": "21:30",
-            "isTime24H": true,
-            "urls": [
-                "https://elitegoltv.co/eventos.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL2VjdWFkb3IxLnBocA",
-                "https://playvi.org/ecuador1.php"
-            ],
-            "state": {
-                "color": "green",
-                "message": "Failed to find either an iframe, a video element, or a div with id 'player' on our server from:",
-                "url": "https://capo8play.com/sorry"
-            }
-        },
-        {
-            "association": "",
-            "league": "Liga de Ecuador",
-            "sportingEvent": "Técnico Universitario vs Deportivo Cuenca",
-            "time": "00:00",
-            "isTime24H": true,
-            "urls": [
-                "https://elitegoltv.co/eventos.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL2VjdWFkb3IxLnBocA",
-                "https://playvi.org/ecuador1.php"
-            ],
-            "state": {
-                "color": "green",
-                "message": "Failed to find either an iframe, a video element, or a div with id 'player' on our server from:",
-                "url": "https://capo8play.com/sorry"
-            }
-        },
-        {
-            "association": "",
-            "league": "Liga de Ecuador",
-            "sportingEvent": "Mushuc Runa vs Delfín",
-            "time": "20:30",
-            "isTime24H": true,
-            "urls": [
-                "https://elitegoltv.co/eventos.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL2VjdWFkb3IzLnBocA",
-                "https://playvi.org/ecuador3.php"
-            ],
-            "state": {
-                "color": "red",
-                "message": "Failed to load webpage on our server with status: 403 from:",
-                "url": "https://xplayer.st/capo.php?player=desktop&live=capozapping"
-            }
-        },
-        {
-            "association": "",
-            "league": "Liga de Ecuador",
-            "sportingEvent": "Técnico Universitario vs Deportivo Cuenca",
-            "time": "00:00",
-            "isTime24H": true,
-            "urls": [
-                "https://elitegoltv.co/eventos.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL2VjdWFkb3IzLnBocA",
-                "https://playvi.org/ecuador3.php"
-            ],
-            "state": {
-                "color": "red",
-                "message": "Failed to load webpage on our server with status: 403 from:",
-                "url": "https://xplayer.st/capo.php?player=desktop&live=capozapping"
-            }
-        },
-        {
-            "association": "",
-            "league": "Liga de Argentina",
-            "sportingEvent": "Unión vs Sarmiento",
-            "time": "22:00",
-            "isTime24H": true,
-            "urls": [
-                "https://elitegoltv.co/eventos.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL2VzcG5wcmVtaXVtLnBocA",
-                "https://playvi.org/espnpremium.php"
-            ],
-            "state": {
-                "color": "green",
-                "message": "Failed to find either an iframe, a video element, or a div with id 'player' on our server from:",
-                "url": "https://capo8play.com/sorry"
-            }
-        },
-        {
-            "association": "",
-            "league": "Liga de Peru",
-            "sportingEvent": "Comerciantes Unidos vs FC Cajamarca",
-            "time": "20:00",
-            "isTime24H": true,
-            "urls": [
-                "https://elitegoltv.co/eventos.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL2xpZ2ExbWF4LnBocA",
-                "https://playvi.org/liga1max.php"
-            ],
-            "state": {
-                "color": "green",
-                "message": "Failed to find either an iframe, a video element, or a div with id 'player' on our server from:",
-                "url": "https://capo8play.com/sorry"
-            }
-        },
-        {
-            "association": "",
-            "league": "Liga MX",
-            "sportingEvent": "Atlante vs León",
-            "time": "01:00",
-            "isTime24H": true,
-            "urls": [
-                "https://elitegoltv.co/eventos.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL2xpZ2FteDEucGhw",
-                "https://playvi.org/ligamx1.php"
-            ],
-            "state": {
-                "color": "red",
-                "message": "Failed to load webpage on our server with status: 403 from:",
-                "url": "https://xplayer.st/capo.php?player=desktop&live=deportesplus4"
-            }
-        },
-        {
-            "association": "",
-            "league": "Liga MX",
-            "sportingEvent": "Necaxa vs Cruz Azul",
-            "time": "01:00",
-            "isTime24H": true,
-            "urls": [
-                "https://elitegoltv.co/eventos.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL2xpZ2FteDUucGhw",
-                "https://playvi.org/ligamx5.php"
-            ],
-            "state": {
-                "color": "red",
-                "message": "Failed to load webpage on our server with status: 403 from:",
-                "url": "https://xplayer.st/capo.php?player=desktop&live=capofoxdeportes"
+                "color": "orange",
+                "message": "Failed to find either an iframe or a video element, but found a div with id 'player' on our server from:",
+                "url": "https://playvi.org/ligamx10.php"
             }
         },
         {
@@ -491,125 +252,9 @@
                 "https://playvi.org/ligamx9.php"
             ],
             "state": {
-                "color": "red",
-                "message": "Failed to load webpage on our server with status: 403 from:",
-                "url": "https://xplayer.st/capo.php?player=desktop&live=deportesplus8"
-            }
-        },
-        {
-            "association": "",
-            "league": "Liga de Peru",
-            "sportingEvent": "Comerciantes Unidos vs FC Cajamarca",
-            "time": "20:00",
-            "isTime24H": true,
-            "urls": [
-                "https://elitegoltv.co/eventos.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL3BlcnUxLnBocA",
-                "https://playvi.org/peru1.php"
-            ],
-            "state": {
-                "color": "red",
-                "message": "Failed to load webpage on our server with status: 403 from:",
-                "url": "https://xplayer.st/capo.php?player=desktop&live=capoliga1max"
-            }
-        },
-        {
-            "association": "",
-            "league": "Liga de Argentina",
-            "sportingEvent": "Boca Juniors vs Lanús",
-            "time": "00:30",
-            "isTime24H": true,
-            "urls": [
-                "https://rojadirectamas.com/eventos.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL3RudGFyZ2VudGluYS5waHA",
-                "https://playvi.org/tntargentina.php"
-            ],
-            "state": {
                 "color": "green",
                 "message": "Failed to find either an iframe, a video element, or a div with id 'player' on our server from:",
-                "url": "https://capo8play.com/sorry"
-            }
-        },
-        {
-            "association": "",
-            "league": "Liga de Chile",
-            "sportingEvent": "Cobresal vs Palestino",
-            "time": "22:30",
-            "isTime24H": true,
-            "urls": [
-                "https://elitegoltv.co/eventos.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL3RudGNoaWxlLnBocA",
-                "https://playvi.org/tntchile.php"
-            ],
-            "state": {
-                "color": "green",
-                "message": "Failed to find either an iframe, a video element, or a div with id 'player' on our server from:",
-                "url": "https://capo8play.com/sorry"
-            }
-        },
-        {
-            "association": "MOTOGP",
-            "league": "MotoGP",
-            "sportingEvent": "Aragon Entrenamientos 1",
-            "time": "08:45",
-            "isTime24H": true,
-            "urls": [
-                "https://tarjetarojatv.sale/play/movistar-moto-gp.php",
-                "https://radamel.us/reproductor/motogp.php?width=700&height=438"
-            ],
-            "state": {
-                "color": "red",
-                "message": "Failed to load webpage on our server from:",
-                "url": "https://tvcstreams.shop/player1/sTL2/56",
-                "error": "net::ERR_NAME_NOT_RESOLVED at https://tvcstreams.shop/player1/sTL2/56"
-            }
-        },
-        {
-            "association": "MOTOGP",
-            "league": "MotoGP",
-            "sportingEvent": "Aragon Entrenamientos 2",
-            "time": "13:00",
-            "isTime24H": true,
-            "urls": [
-                "https://tarjetarojatv.sale/play/movistar-moto-gp.php",
-                "https://radamel.us/reproductor/motogp.php?width=700&height=438"
-            ],
-            "state": {
-                "color": "red",
-                "message": "Failed to load webpage on our server from:",
-                "url": "https://tvcstreams.shop/player1/sTL2/56",
-                "error": "net::ERR_NAME_NOT_RESOLVED at https://tvcstreams.shop/player1/sTL2/56"
-            }
-        },
-        {
-            "association": "MOTOGP",
-            "league": "MotoGP",
-            "sportingEvent": "Aragon Entrenamientos 1",
-            "time": "08:45",
-            "isTime24H": true,
-            "urls": [
-                "https://tarjetarojatv.sale/play/movistar-motogp.php",
-                "https://radamel.us/reproductor/motogp.php?width=700&height=438"
-            ],
-            "state": {
-                "color": "red",
-                "message": "Failed to load webpage on our server from:",
-                "url": "https://tvcstreams.shop/player1/sTL2/56",
-                "error": "net::ERR_NAME_NOT_RESOLVED at https://tvcstreams.shop/player1/sTL2/56"
-            }
-        },
-        {
-            "association": "MOTOGP",
-            "league": "MotoGP",
-            "sportingEvent": "Aragon Entrenamientos 2",
-            "time": "13:00",
-            "isTime24H": true,
-            "urls": [
-                "https://tarjetarojatv.sale/play/movistar-motogp.php",
-                "https://radamel.us/reproductor/motogp.php?width=700&height=438"
-            ],
-            "state": {
-                "color": "red",
-                "message": "Failed to load webpage on our server from:",
-                "url": "https://tvcstreams.shop/player1/sTL2/56",
-                "error": "net::ERR_NAME_NOT_RESOLVED at https://tvcstreams.shop/player1/sTL2/56"
+                "url": "https://xplayer.st/sorry"
             }
         },
         {
@@ -645,19 +290,19 @@
             }
         },
         {
-            "association": "MLB",
-            "league": "MLB USA",
-            "sportingEvent": "San Francisco Giants vs Arizona Diamondbacks",
-            "time": "02:15",
+            "association": "MX",
+            "league": "Liga MX",
+            "sportingEvent": "Tijuana vs Pumas UNAM",
+            "time": "03:10",
             "isTime24H": true,
             "urls": [
-                "https://elitegoltv.site/canal-106.php",
-                "https://rodrixtv.site/tv/canal106.html"
+                "https://elitegoltv.site/canal-107.php",
+                "https://rodrixtv.site/tv/canal107.html"
             ],
             "state": {
                 "color": "green",
                 "message": "Failed to find either an iframe, a video element, or a div with id 'player' on our server from:",
-                "url": "https://zonalivetv.xyz/nplayer/sTL2/199"
+                "url": "https://rojadirectv.uk/canalfox.php"
             }
         },
         {
@@ -690,38 +335,6 @@
                 "color": "red",
                 "message": "Failed to load webpage on our server with status: 403 from:",
                 "url": "https://w2.sportsonlinee.click/channels/hd/hd5.php"
-            }
-        },
-        {
-            "association": "EC",
-            "league": "Liga de Ecuador",
-            "sportingEvent": "Técnico U vs Dep Cuenca",
-            "time": "00:00",
-            "isTime24H": true,
-            "urls": [
-                "https://elitegoltv.site/canal-28.php",
-                "https://rodrixtv.site/tv/canal28.html"
-            ],
-            "state": {
-                "color": "green",
-                "message": "Failed to find either an iframe, a video element, or a div with id 'player' on our server from:",
-                "url": "https://zonalivetv.xyz/nplayer/sTL2/86"
-            }
-        },
-        {
-            "association": "CO",
-            "league": "Liga B Colombia",
-            "sportingEvent": "U Magdalena vs Quindío",
-            "time": "01:00",
-            "isTime24H": true,
-            "urls": [
-                "https://elitegoltv.site/canal-34.php",
-                "https://rodrixtv.site/tv/canal34.html"
-            ],
-            "state": {
-                "color": "green",
-                "message": "Failed to find either an iframe, a video element, or a div with id 'player' on our server from:",
-                "url": "https://zonalivetv.xyz/nplayer/sTL2/81"
             }
         },
         {
@@ -807,22 +420,6 @@
             }
         },
         {
-            "association": "MLB",
-            "league": "MLB USA",
-            "sportingEvent": "Washington Nationals vs Miami Marlins",
-            "time": "22:45",
-            "isTime24H": true,
-            "urls": [
-                "https://elitegoltv.site/canal-66.php",
-                "https://rodrixtv.site/tv/canal66.html"
-            ],
-            "state": {
-                "color": "green",
-                "message": "Failed to find either an iframe, a video element, or a div with id 'player' on our server from:",
-                "url": "https://zonalivetv.xyz/nplayer/sTL2/187"
-            }
-        },
-        {
             "association": "NFL",
             "league": "NFL USA",
             "sportingEvent": "Carolina Panthers vs Houston Texans",
@@ -889,6 +486,22 @@
         {
             "association": "MLB",
             "league": "MLB USA",
+            "sportingEvent": "Tampa Bay Rays vs San Diego Padres",
+            "time": "23:10",
+            "isTime24H": true,
+            "urls": [
+                "https://elitegoltv.site/canal-73.php",
+                "https://rodrixtv.site/tv/canal73.html"
+            ],
+            "state": {
+                "color": "green",
+                "message": "Failed to find either an iframe, a video element, or a div with id 'player' on our server from:",
+                "url": "https://zonalivetv.xyz/nplayer/sTL2/190"
+            }
+        },
+        {
+            "association": "MLB",
+            "league": "MLB USA",
             "sportingEvent": "Atlanta Braves vs Colorado Rockies",
             "time": "23:15",
             "isTime24H": true,
@@ -900,6 +513,54 @@
                 "color": "green",
                 "message": "Failed to find either an iframe, a video element, or a div with id 'player' on our server from:",
                 "url": "https://zonalivetv.xyz/nplayer/sTL2/191"
+            }
+        },
+        {
+            "association": "MLB",
+            "league": "MLB USA",
+            "sportingEvent": "Toronto Blue Jays vs Seattle Mariners",
+            "time": "23:15",
+            "isTime24H": true,
+            "urls": [
+                "https://elitegoltv.site/canal-76.php",
+                "https://rodrixtv.site/tv/canal76.html"
+            ],
+            "state": {
+                "color": "green",
+                "message": "Failed to find either an iframe, a video element, or a div with id 'player' on our server from:",
+                "url": "https://zonalivetv.xyz/nplayer/sTL2/193"
+            }
+        },
+        {
+            "association": "NFL",
+            "league": "NFL USA",
+            "sportingEvent": "Jacksonville Jaguars vs Tampa Bay Buccaneers",
+            "time": "23:30",
+            "isTime24H": true,
+            "urls": [
+                "https://elitegoltv.site/canal-77.php",
+                "https://rodrixtv.site/tv/canal77.html"
+            ],
+            "state": {
+                "color": "green",
+                "message": "Failed to find either an iframe, a video element, or a div with id 'player' on our server from:",
+                "url": "https://zonalivetv.xyz/nplayer/sTL2/173"
+            }
+        },
+        {
+            "association": "NFL",
+            "league": "NFL USA",
+            "sportingEvent": "Jacksonville Jaguars vs Tampa Bay Buccaneers",
+            "time": "23:30",
+            "isTime24H": true,
+            "urls": [
+                "https://elitegoltv.site/canal-78.php",
+                "https://rodrixtv.site/tv/canal78.html"
+            ],
+            "state": {
+                "color": "green",
+                "message": "Failed to find either an iframe, a video element, or a div with id 'player' on our server from:",
+                "url": "https://zonalivetv.xyz/nplayer/sTL2/173"
             }
         },
         {
@@ -935,22 +596,6 @@
             }
         },
         {
-            "association": "MLB",
-            "league": "MLB USA",
-            "sportingEvent": "Milwaukee Brewers vs Texas Rangers",
-            "time": "23:40",
-            "isTime24H": true,
-            "urls": [
-                "https://elitegoltv.site/canal-81.php",
-                "https://rodrixtv.site/tv/canal81.html"
-            ],
-            "state": {
-                "color": "green",
-                "message": "Failed to find either an iframe, a video element, or a div with id 'player' on our server from:",
-                "url": "https://zonalivetv.xyz/nplayer/sTL2/194"
-            }
-        },
-        {
             "association": "NFL",
             "league": "NFL USA",
             "sportingEvent": "Dallas Cowboys vs New Orleans Saints",
@@ -980,6 +625,70 @@
                 "color": "green",
                 "message": "Failed to find either an iframe, a video element, or a div with id 'player' on our server from:",
                 "url": "https://zonalivetv.xyz/nplayer/sTL2/1"
+            }
+        },
+        {
+            "association": "NFL",
+            "league": "NFL USA",
+            "sportingEvent": "Green Bay Packers vs Arizona Cardinals",
+            "time": "00:00",
+            "isTime24H": true,
+            "urls": [
+                "https://elitegoltv.site/canal-84.php",
+                "https://rodrixtv.site/tv/canal84.html"
+            ],
+            "state": {
+                "color": "green",
+                "message": "Failed to find either an iframe, a video element, or a div with id 'player' on our server from:",
+                "url": "https://zonalivetv.xyz/nplayer/sTL2/176"
+            }
+        },
+        {
+            "association": "NFL",
+            "league": "NFL USA",
+            "sportingEvent": "Green Bay Packers vs Arizona Cardinals",
+            "time": "00:00",
+            "isTime24H": true,
+            "urls": [
+                "https://elitegoltv.site/canal-85.php",
+                "https://rodrixtv.site/tv/canal85.html"
+            ],
+            "state": {
+                "color": "green",
+                "message": "Failed to find either an iframe, a video element, or a div with id 'player' on our server from:",
+                "url": "https://zonalivetv.xyz/nplayer/sTL2/176"
+            }
+        },
+        {
+            "association": "NFL",
+            "league": "NFL USA",
+            "sportingEvent": "Kansas City Chiefs vs Seattle Seahawks",
+            "time": "00:00",
+            "isTime24H": true,
+            "urls": [
+                "https://elitegoltv.site/canal-86.php",
+                "https://rodrixtv.site/tv/canal86.html"
+            ],
+            "state": {
+                "color": "green",
+                "message": "Failed to find either an iframe, a video element, or a div with id 'player' on our server from:",
+                "url": "https://zonalivetv.xyz/nplayer/sTL2/177"
+            }
+        },
+        {
+            "association": "NFL",
+            "league": "NFL USA",
+            "sportingEvent": "Kansas City Chiefs vs Seattle Seahawks",
+            "time": "00:00",
+            "isTime24H": true,
+            "urls": [
+                "https://elitegoltv.site/canal-87.php",
+                "https://rodrixtv.site/tv/canal87.html"
+            ],
+            "state": {
+                "color": "green",
+                "message": "Failed to find either an iframe, a video element, or a div with id 'player' on our server from:",
+                "url": "https://zonalivetv.xyz/nplayer/sTL2/177"
             }
         },
         {
@@ -1031,22 +740,6 @@
             }
         },
         {
-            "association": "MLB",
-            "league": "MLB USA",
-            "sportingEvent": "St Louis Cardinals vs Pittsburgh Pirates",
-            "time": "00:15",
-            "isTime24H": true,
-            "urls": [
-                "https://elitegoltv.site/canal-91.php",
-                "https://rodrixtv.site/tv/canal91.html"
-            ],
-            "state": {
-                "color": "green",
-                "message": "Failed to find either an iframe, a video element, or a div with id 'player' on our server from:",
-                "url": "https://zonalivetv.xyz/nplayer/sTL2/196"
-            }
-        },
-        {
             "association": "NFL",
             "league": "NFL USA",
             "sportingEvent": "Denver Broncos vs Minnesota Vikings",
@@ -1063,141 +756,6 @@
             }
         },
         {
-            "association": "CL",
-            "league": "Liga 1 Chile",
-            "sportingEvent": "Cobresal vs Palestino",
-            "time": "22:30",
-            "isTime24H": true,
-            "urls": [
-                "https://futbollibretv.click/cdf.php",
-                "https://rodrixtv.site/tv/cdf.html"
-            ],
-            "state": {
-                "color": "green",
-                "message": "Failed to find either an iframe, a video element, or a div with id 'player' on our server from:",
-                "url": "https://zonalivetv.xyz/nplayer/sTL2/83"
-            }
-        },
-        {
-            "association": "MX",
-            "league": "Liga MX",
-            "sportingEvent": "Tijuana vs Pumas UNAM",
-            "time": "03:10",
-            "isTime24H": true,
-            "urls": [
-                "https://futbollibretv.click/unimas.php",
-                "https://rodrixtv.site/tv/unimas.html"
-            ],
-            "state": {
-                "color": "red",
-                "message": "Failed to load webpage on our server from:",
-                "url": "https://tvcstreams.shop/player1/sTL2/108",
-                "error": "net::ERR_NAME_NOT_RESOLVED at https://tvcstreams.shop/player1/sTL2/108"
-            }
-        },
-        {
-            "association": "",
-            "league": "Liga de Argentina",
-            "sportingEvent": "Boca Juniors vs Lanús",
-            "time": "00:30",
-            "isTime24H": true,
-            "urls": [
-                "https://elitegoltv.co/eventos.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL2FyZ2VudGluYTMucGhw",
-                "https://playvi.org/argentina3.php",
-                "https://streamtp-golden1.click/global2.php?stream=espn1col"
-            ],
-            "state": {
-                "color": "green",
-                "message": "Successfully found streaming on our server from:",
-                "url": "https://streamtp-golden1.click/global2.php?stream=espn1col"
-            }
-        },
-        {
-            "association": "",
-            "league": "Liga MX",
-            "sportingEvent": "Atlante vs León",
-            "time": "01:00",
-            "isTime24H": true,
-            "urls": [
-                "https://elitegoltv.co/eventos.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL2xpZ2FteDMucGhw",
-                "https://playvi.org/ligamx3.php",
-                "https://streamtp-golden1.click/global2.php?stream=espnmx"
-            ],
-            "state": {
-                "color": "green",
-                "message": "Successfully found streaming on our server from:",
-                "url": "https://streamtp-golden1.click/global2.php?stream=espnmx"
-            }
-        },
-        {
-            "association": "",
-            "league": "Liga de Argentina",
-            "sportingEvent": "Unión vs Sarmiento",
-            "time": "22:00",
-            "isTime24H": true,
-            "urls": [
-                "https://elitegoltv.co/eventos.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL2FyZ2VudGluYTQucGhw",
-                "https://playvi.org/argentina4.php",
-                "https://streamtp-golden1.click/global2.php?stream=fanatiz3"
-            ],
-            "state": {
-                "color": "green",
-                "message": "Successfully found streaming on our server from:",
-                "url": "https://streamtp-golden1.click/global2.php?stream=fanatiz3"
-            }
-        },
-        {
-            "association": "",
-            "league": "Liga de Peru",
-            "sportingEvent": "Comerciantes Unidos vs FC Cajamarca",
-            "time": "20:00",
-            "isTime24H": true,
-            "urls": [
-                "https://elitegoltv.co/eventos.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL3BlcnUzLnBocA",
-                "https://playvi.org/peru3.php",
-                "https://streamtp-golden1.click/global2.php?stream=fanatiz3"
-            ],
-            "state": {
-                "color": "green",
-                "message": "Successfully found streaming on our server from:",
-                "url": "https://streamtp-golden1.click/global2.php?stream=fanatiz3"
-            }
-        },
-        {
-            "association": "",
-            "league": "Liga de Argentina",
-            "sportingEvent": "Unión vs Sarmiento",
-            "time": "22:00",
-            "isTime24H": true,
-            "urls": [
-                "https://elitegoltv.co/eventos.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL2FyZ2VudGluYTYucGhw",
-                "https://playvi.org/argentina6.php",
-                "https://streamtp-golden1.click/global2.php?stream=fanatiz5"
-            ],
-            "state": {
-                "color": "green",
-                "message": "Successfully found streaming on our server from:",
-                "url": "https://streamtp-golden1.click/global2.php?stream=fanatiz5"
-            }
-        },
-        {
-            "association": "",
-            "league": "Liga MX",
-            "sportingEvent": "Necaxa vs Cruz Azul",
-            "time": "01:00",
-            "isTime24H": true,
-            "urls": [
-                "https://elitegoltv.co/eventos.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL2xpZ2FteDcucGhw",
-                "https://playvi.org/ligamx7.php",
-                "https://streamtp-golden1.click/global2.php?stream=fox_deportes_usa"
-            ],
-            "state": {
-                "color": "green",
-                "message": "Successfully found streaming on our server from:",
-                "url": "https://streamtp-golden1.click/global2.php?stream=fox_deportes_usa"
-            }
-        },
-        {
             "association": "MX",
             "league": "Liga MX",
             "sportingEvent": "Tijuana vs Pumas UNAM",
@@ -1206,114 +764,13 @@
             "urls": [
                 "https://elitegoltv.site/canal-108.php",
                 "https://rodrixtv.site/tv/canal108.html",
-                "https://streamtp-golden1.click/global2.php?stream=premiere1"
+                "https://elcanaldeportivo.org/tudnmx.php",
+                "https://splayer.lat/mpd/4"
             ],
             "state": {
                 "color": "green",
                 "message": "Successfully found streaming on our server from:",
-                "url": "https://streamtp-golden1.click/global2.php?stream=premiere1"
-            }
-        },
-        {
-            "association": "",
-            "league": "Liga de Uruguay",
-            "sportingEvent": "Montevideo Wanderers vs Central Español",
-            "time": "22:00",
-            "isTime24H": true,
-            "urls": [
-                "https://elitegoltv.co/eventos.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL3VydWd1YXkxLnBocA",
-                "https://playvi.org/uruguay1.php",
-                "https://streamx061.sbs/global3.php?channel=disney7"
-            ],
-            "state": {
-                "color": "yellow",
-                "message": "Failed to find streaming in webpage performance entries on our server from:",
-                "url": "https://streamx061.sbs/global3.php?channel=disney7"
-            }
-        },
-        {
-            "association": "",
-            "league": "Liga de Argentina",
-            "sportingEvent": "Unión vs Sarmiento",
-            "time": "22:00",
-            "isTime24H": true,
-            "urls": [
-                "https://elitegoltv.co/eventos.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL2FyZ2VudGluYTUucGhw",
-                "https://playvi.org/argentina5.php",
-                "https://streamx061.sbs/global3.php?channel=espnpremium"
-            ],
-            "state": {
-                "color": "green",
-                "message": "Successfully found streaming on our server from:",
-                "url": "https://streamx061.sbs/global3.php?channel=espnpremium"
-            }
-        },
-        {
-            "association": "",
-            "league": "Liga MX",
-            "sportingEvent": "Necaxa vs Cruz Azul",
-            "time": "01:00",
-            "isTime24H": true,
-            "urls": [
-                "https://elitegoltv.co/eventos.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL2xpZ2FteDYucGhw",
-                "https://playvi.org/ligamx6.php",
-                "https://streamx061.sbs/global3.php?channel=foxone4"
-            ],
-            "state": {
-                "color": "green",
-                "message": "Successfully found streaming on our server from:",
-                "url": "https://streamx061.sbs/global3.php?channel=foxone4"
-            }
-        },
-        {
-            "association": "",
-            "league": "Liga de Peru",
-            "sportingEvent": "Comerciantes Unidos vs FC Cajamarca",
-            "time": "20:00",
-            "isTime24H": true,
-            "urls": [
-                "https://elitegoltv.co/eventos.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL3BlcnUyLnBocA",
-                "https://playvi.org/peru2.php",
-                "https://streamx061.sbs/global3.php?channel=liga1max"
-            ],
-            "state": {
-                "color": "green",
-                "message": "Successfully found streaming on our server from:",
-                "url": "https://streamx061.sbs/global3.php?channel=liga1max"
-            }
-        },
-        {
-            "association": "",
-            "league": "Liga de Argentina",
-            "sportingEvent": "Boca Juniors vs Lanús",
-            "time": "00:30",
-            "isTime24H": true,
-            "urls": [
-                "https://elitegoltv.co/eventos.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL2FyZ2VudGluYTIucGhw",
-                "https://playvi.org/argentina2.php",
-                "https://streamx061.sbs/global3.php?channel=tntar"
-            ],
-            "state": {
-                "color": "green",
-                "message": "Successfully found streaming on our server from:",
-                "url": "https://streamx061.sbs/global3.php?channel=tntar"
-            }
-        },
-        {
-            "association": "",
-            "league": "Liga de Chile",
-            "sportingEvent": "Cobresal vs Palestino",
-            "time": "22:30",
-            "isTime24H": true,
-            "urls": [
-                "https://elitegoltv.co/eventos.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL2NoaWxlMi5waHA",
-                "https://playvi.org/chile2.php",
-                "https://streamx061.sbs/global3.php?channel=tntsportscl"
-            ],
-            "state": {
-                "color": "green",
-                "message": "Successfully found streaming on our server from:",
-                "url": "https://streamx061.sbs/global3.php?channel=tntsportscl"
+                "url": "https://splayer.lat/mpd/4"
             }
         },
         {
@@ -1325,23 +782,23 @@
             "urls": [
                 "https://elitegoltv.co/eventos.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL2xpZ2FteDExLnBocA",
                 "https://playvi.org/ligamx11.php",
-                "https://streamx061.sbs/global3.php?channel=tudnus"
+                "https://streamx061.sbs/global3.php?channel=foxone5"
             ],
             "state": {
                 "color": "green",
                 "message": "Successfully found streaming on our server from:",
-                "url": "https://streamx061.sbs/global3.php?channel=tudnus"
+                "url": "https://streamx061.sbs/global3.php?channel=foxone5"
             }
         },
         {
             "association": "",
             "league": "Liga MX",
-            "sportingEvent": "Atlante vs León",
-            "time": "01:00",
+            "sportingEvent": "Tijuana Xolos vs Pumas UNAM",
+            "time": "03:10",
             "isTime24H": true,
             "urls": [
-                "https://elitegoltv.co/eventos.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL2xpZ2FteDIucGhw",
-                "https://playvi.org/ligamx2.php",
+                "https://elitegoltv.co/eventos.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL2xpZ2FteDEyLnBocA",
+                "https://playvi.org/ligamx12.php",
                 "https://streamx061.sbs/global3.php?channel=tudnus"
             ],
             "state": {
@@ -1385,23 +842,6 @@
             }
         },
         {
-            "association": "PE",
-            "league": "Liga 1 Clausura",
-            "sportingEvent": "Comerciantes Unidos vs FC Cajamarca",
-            "time": "20:00",
-            "isTime24H": true,
-            "urls": [
-                "https://tarjetarojatv.sale/play/canal-84.php",
-                "https://radamel.us/reproductor/canal84.php?width=700&height=438",
-                "https://streamxhd.com/live2.php?stream=bicolor"
-            ],
-            "state": {
-                "color": "green",
-                "message": "Successfully found streaming on our server from:",
-                "url": "https://streamxhd.com/live2.php?stream=bicolor"
-            }
-        },
-        {
             "association": "HN",
             "league": "Honduras Liga Nacional",
             "sportingEvent": "Juticalpa vs Lobos UPNFM",
@@ -1419,30 +859,13 @@
             }
         },
         {
-            "association": "",
-            "league": "Liga de Uruguay",
-            "sportingEvent": "Montevideo Wanderers vs Central Español",
-            "time": "22:00",
-            "isTime24H": true,
-            "urls": [
-                "https://elitegoltv.co/eventos.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL3VydWd1YXkzLnBocA",
-                "https://playvi.org/uruguay3.php",
-                "https://streamxhd.com/live2.php?stream=disney10"
-            ],
-            "state": {
-                "color": "green",
-                "message": "Successfully found streaming on our server from:",
-                "url": "https://streamxhd.com/live2.php?stream=disney10"
-            }
-        },
-        {
             "association": "ARG",
             "league": "Liga Profesional",
             "sportingEvent": "Boca Juniors vs Lanús",
             "time": "00:30",
             "isTime24H": true,
             "urls": [
-                "https://tarjetarojatv.sale/play/disney-11.php",
+                "https://www.rojadirectastream.me/play/disney-11.php",
                 "https://radamel.us/reproductor/disney11.php?width=700&height=438",
                 "https://streamxhd.com/live2.php?stream=disney11"
             ],
@@ -1521,23 +944,6 @@
             }
         },
         {
-            "association": "",
-            "league": "Liga MX",
-            "sportingEvent": "Atlante vs León",
-            "time": "01:00",
-            "isTime24H": true,
-            "urls": [
-                "https://elitegoltv.co/eventos.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL2xpZ2FteDQucGhw",
-                "https://playvi.org/ligamx4.php",
-                "https://streamxhd.com/live2.php?stream=disney14"
-            ],
-            "state": {
-                "color": "green",
-                "message": "Successfully found streaming on our server from:",
-                "url": "https://streamxhd.com/live2.php?stream=disney14"
-            }
-        },
-        {
             "association": "MX",
             "league": "Liga MX",
             "sportingEvent": "Atlante vs Club León",
@@ -1572,23 +978,6 @@
             }
         },
         {
-            "association": "IT",
-            "league": "Serie A TIM",
-            "sportingEvent": "AC Milan vs Venezia",
-            "time": "18:45",
-            "isTime24H": true,
-            "urls": [
-                "https://tarjetarojatv.sale/play/disney-5.php",
-                "https://radamel.us/reproductor/disney5.php?width=700&height=438",
-                "https://streamxhd.com/live2.php?stream=disney5"
-            ],
-            "state": {
-                "color": "green",
-                "message": "Successfully found streaming on our server from:",
-                "url": "https://streamxhd.com/live2.php?stream=disney5"
-            }
-        },
-        {
             "association": "DE",
             "league": "Bundesliga",
             "sportingEvent": "Union Berlin vs Eintracht Fráncfort",
@@ -1606,30 +995,13 @@
             }
         },
         {
-            "association": "IT",
-            "league": "Serie A TIM",
-            "sportingEvent": "AC Milan vs Venezia",
-            "time": "18:45",
-            "isTime24H": true,
-            "urls": [
-                "https://tarjetarojatv.sale/play/espn.php",
-                "https://radamel.us/reproductor/espn.php?width=700&height=438",
-                "https://streamxhd.com/live2.php?stream=espn"
-            ],
-            "state": {
-                "color": "green",
-                "message": "Successfully found streaming on our server from:",
-                "url": "https://streamxhd.com/live2.php?stream=espn"
-            }
-        },
-        {
             "association": "ARG",
             "league": "Liga Profesional",
             "sportingEvent": "Boca Juniors vs Lanús",
             "time": "00:30",
             "isTime24H": true,
             "urls": [
-                "https://tarjetarojatv.sale/play/espn.php",
+                "https://www.rojadirectastream.me/play/espn.php",
                 "https://radamel.us/reproductor/espn.php?width=700&height=438",
                 "https://streamxhd.com/live2.php?stream=espn"
             ],
@@ -1765,7 +1137,7 @@
             "time": "22:00",
             "isTime24H": true,
             "urls": [
-                "https://tarjetarojatv.sale/play/canal-76.php",
+                "https://www.rojadirectastream.me/play/canal-76.php",
                 "https://radamel.us/reproductor/canal76.php?width=700&height=438",
                 "https://streamxhd.com/live2.php?stream=espnpremium"
             ],
@@ -1782,7 +1154,7 @@
             "time": "22:00",
             "isTime24H": true,
             "urls": [
-                "https://tarjetarojatv.sale/play/espn-premium.php",
+                "https://www.rojadirectastream.me/play/espn-premium.php",
                 "https://radamel.us/reproductor/espnpremium.php?width=700&height=438",
                 "https://streamxhd.com/live2.php?stream=espnpremium"
             ],
@@ -1799,7 +1171,7 @@
             "time": "00:00",
             "isTime24H": true,
             "urls": [
-                "https://tarjetarojatv.sale/play/cnt-sports.php",
+                "https://www.rojadirectastream.me/play/cnt-sports.php",
                 "https://radamel.us/reproductor/cnt.php?width=700&height=438",
                 "https://streamxhd.com/live2.php?stream=evento6"
             ],
@@ -1858,23 +1230,6 @@
                 "color": "green",
                 "message": "Successfully found streaming on our server from:",
                 "url": "https://streamxhd.com/live2.php?stream=fox_deportes_usa"
-            }
-        },
-        {
-            "association": "",
-            "league": "Liga MX",
-            "sportingEvent": "Necaxa vs Cruz Azul",
-            "time": "01:00",
-            "isTime24H": true,
-            "urls": [
-                "https://elitegoltv.co/eventos.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL2xpZ2FteDgucGhw",
-                "https://playvi.org/ligamx8.php",
-                "https://streamxhd.com/live2.php?stream=foxone"
-            ],
-            "state": {
-                "color": "green",
-                "message": "Successfully found streaming on our server from:",
-                "url": "https://streamxhd.com/live2.php?stream=foxone"
             }
         },
         {
@@ -1963,6 +1318,23 @@
             }
         },
         {
+            "association": "MX",
+            "league": "Liga MX",
+            "sportingEvent": "Tijuana vs Pumas UNAM",
+            "time": "03:10",
+            "isTime24H": true,
+            "urls": [
+                "https://futbollibretv.click/unimas.php",
+                "https://rodrixtv.site/tv/unimas.html",
+                "https://streamxhd.com/live2.php?stream=foxone"
+            ],
+            "state": {
+                "color": "green",
+                "message": "Successfully found streaming on our server from:",
+                "url": "https://streamxhd.com/live2.php?stream=foxone"
+            }
+        },
+        {
             "association": "CR",
             "league": "Primera División",
             "sportingEvent": "Sporting FC vs Inter San Carlos",
@@ -1980,47 +1352,13 @@
             }
         },
         {
-            "association": "PE",
-            "league": "Liga 1 Clausura",
-            "sportingEvent": "Comerciantes Unidos vs FC Cajamarca",
-            "time": "20:00",
-            "isTime24H": true,
-            "urls": [
-                "https://tarjetarojatv.sale/play/liga1-max.php",
-                "https://radamel.us/reproductor/liga1max.php?width=700&height=438",
-                "https://streamxhd.com/live2.php?stream=l1max"
-            ],
-            "state": {
-                "color": "green",
-                "message": "Successfully found streaming on our server from:",
-                "url": "https://streamxhd.com/live2.php?stream=l1max"
-            }
-        },
-        {
-            "association": "MX",
-            "league": "Liga MX",
-            "sportingEvent": "Tijuana vs Pumas UNAM",
-            "time": "03:10",
-            "isTime24H": true,
-            "urls": [
-                "https://elitegoltv.site/canal-107.php",
-                "https://rodrixtv.site/tv/canal107.html",
-                "https://streamxhd.com/live2.php?stream=premiere1"
-            ],
-            "state": {
-                "color": "green",
-                "message": "Successfully found streaming on our server from:",
-                "url": "https://streamxhd.com/live2.php?stream=premiere1"
-            }
-        },
-        {
             "association": "ARG",
             "league": "Liga Profesional",
             "sportingEvent": "Boca Juniors vs Lanús",
             "time": "00:30",
             "isTime24H": true,
             "urls": [
-                "https://tarjetarojatv.sale/play/tnt-sports.php",
+                "https://www.rojadirectastream.me/play/tnt-sports.php",
                 "https://radamel.us/reproductor/tnt.php?width=700&height=438",
                 "https://streamxhd.com/live2.php?stream=tntsports"
             ],
@@ -2150,23 +1488,6 @@
             }
         },
         {
-            "association": "IT",
-            "league": "Serie A TIM",
-            "sportingEvent": "AC Milan vs Venezia",
-            "time": "18:45",
-            "isTime24H": true,
-            "urls": [
-                "https://tarjetarojatv.sale/play/universo-us.php",
-                "https://radamel.us/reproductor/universous.php?width=700&height=438",
-                "https://streamxhd.com/live2.php?stream=universo"
-            ],
-            "state": {
-                "color": "green",
-                "message": "Successfully found streaming on our server from:",
-                "url": "https://streamxhd.com/live2.php?stream=universo"
-            }
-        },
-        {
             "association": "MX",
             "league": "Liga MX Femenil",
             "sportingEvent": "Toluca vs Club León",
@@ -2181,23 +1502,6 @@
                 "color": "green",
                 "message": "Successfully found streaming on our server from:",
                 "url": "https://streamxhd.com/live2.php?stream=vix1"
-            }
-        },
-        {
-            "association": "",
-            "league": "Liga MX",
-            "sportingEvent": "Tijuana Xolos vs Pumas UNAM",
-            "time": "03:10",
-            "isTime24H": true,
-            "urls": [
-                "https://elitegoltv.co/eventos.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL2xpZ2FteDEyLnBocA",
-                "https://playvi.org/ligamx12.php",
-                "https://streamxhd.com/live2.php?stream=vix2"
-            ],
-            "state": {
-                "color": "green",
-                "message": "Successfully found streaming on our server from:",
-                "url": "https://streamxhd.com/live2.php?stream=vix2"
             }
         },
         {
@@ -2235,64 +1539,13 @@
             }
         },
         {
-            "association": "",
-            "league": "Liga de Ecuador",
-            "sportingEvent": "Mushuc Runa vs Delfín",
-            "time": "20:30",
-            "isTime24H": true,
-            "urls": [
-                "https://elitegoltv.co/eventos.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL2VjdWFkb3IyLnBocA",
-                "https://playvi.org/ecuador2.php",
-                "https://streamxhd.com/live2.php?stream=zapping_ec"
-            ],
-            "state": {
-                "color": "green",
-                "message": "Successfully found streaming on our server from:",
-                "url": "https://streamxhd.com/live2.php?stream=zapping_ec"
-            }
-        },
-        {
-            "association": "",
-            "league": "Liga de Paraguay",
-            "sportingEvent": "Sportivo San Lorenzo vs Nacional Asunción",
-            "time": "21:30",
-            "isTime24H": true,
-            "urls": [
-                "https://elitegoltv.co/eventos.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL2VjdWFkb3IyLnBocA",
-                "https://playvi.org/ecuador2.php",
-                "https://streamxhd.com/live2.php?stream=zapping_ec"
-            ],
-            "state": {
-                "color": "green",
-                "message": "Successfully found streaming on our server from:",
-                "url": "https://streamxhd.com/live2.php?stream=zapping_ec"
-            }
-        },
-        {
-            "association": "",
-            "league": "Liga de Ecuador",
-            "sportingEvent": "Técnico Universitario vs Deportivo Cuenca",
-            "time": "00:00",
-            "isTime24H": true,
-            "urls": [
-                "https://elitegoltv.co/eventos.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL2VjdWFkb3IyLnBocA",
-                "https://playvi.org/ecuador2.php",
-                "https://streamxhd.com/live2.php?stream=zapping_ec"
-            ],
-            "state": {
-                "color": "green",
-                "message": "Successfully found streaming on our server from:",
-                "url": "https://streamxhd.com/live2.php?stream=zapping_ec"
-            }
-        },
-        {
             "association": "EC",
             "league": "Liga Pro",
             "sportingEvent": "Técnico Universitario vs Deportivo Cuenca",
             "time": "00:00",
             "isTime24H": true,
             "urls": [
-                "https://tarjetarojatv.sale/play/canal-86.php",
+                "https://www.rojadirectastream.me/play/canal-86.php",
                 "https://radamel.us/reproductor/canal86.php?width=700&height=438",
                 "https://streamxhd.com/live2.php?stream=zapping_ec"
             ],
@@ -2334,23 +1587,6 @@
                 "color": "green",
                 "message": "Successfully found streaming on our server from:",
                 "url": "https://streamxhd.com/live2.php?stream=zapping_ec"
-            }
-        },
-        {
-            "association": "",
-            "league": "Liga MX",
-            "sportingEvent": "Tijuana Xolos vs Pumas UNAM",
-            "time": "03:10",
-            "isTime24H": true,
-            "urls": [
-                "https://elitegoltv.co/eventos.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL2xpZ2FteDEwLnBocA",
-                "https://playvi.org/ligamx10.php",
-                "https://sudamericaplay.sbs/canal_8112/tudnmx12.html"
-            ],
-            "state": {
-                "color": "green",
-                "message": "Successfully found streaming on our server from:",
-                "url": "https://sudamericaplay.sbs/canal_8112/tudnmx12.html"
             }
         },
         {
@@ -2405,122 +1641,20 @@
             }
         },
         {
-            "association": "NFL",
-            "league": "NFL USA",
-            "sportingEvent": "Jacksonville Jaguars vs Tampa Bay Buccaneers",
-            "time": "23:30",
-            "isTime24H": true,
-            "urls": [
-                "https://elitegoltv.site/canal-77.php",
-                "https://rodrixtv.site/tv/canal77.html",
-                "https://zonalivetv.xyz/nplayer/sTL2/173"
-            ],
-            "state": {
-                "color": "orange",
-                "message": "Failed to find either an iframe or a video element, but found a div with id 'player' on our server from:",
-                "url": "https://zonalivetv.xyz/nplayer/sTL2/173"
-            }
-        },
-        {
-            "association": "NFL",
-            "league": "NFL USA",
-            "sportingEvent": "Jacksonville Jaguars vs Tampa Bay Buccaneers",
-            "time": "23:30",
-            "isTime24H": true,
-            "urls": [
-                "https://elitegoltv.site/canal-78.php",
-                "https://rodrixtv.site/tv/canal78.html",
-                "https://zonalivetv.xyz/nplayer/sTL2/173"
-            ],
-            "state": {
-                "color": "orange",
-                "message": "Failed to find either an iframe or a video element, but found a div with id 'player' on our server from:",
-                "url": "https://zonalivetv.xyz/nplayer/sTL2/173"
-            }
-        },
-        {
-            "association": "NFL",
-            "league": "NFL USA",
-            "sportingEvent": "Green Bay Packers vs Arizona Cardinals",
-            "time": "00:00",
-            "isTime24H": true,
-            "urls": [
-                "https://elitegoltv.site/canal-84.php",
-                "https://rodrixtv.site/tv/canal84.html",
-                "https://zonalivetv.xyz/nplayer/sTL2/176"
-            ],
-            "state": {
-                "color": "orange",
-                "message": "Failed to find either an iframe or a video element, but found a div with id 'player' on our server from:",
-                "url": "https://zonalivetv.xyz/nplayer/sTL2/176"
-            }
-        },
-        {
-            "association": "NFL",
-            "league": "NFL USA",
-            "sportingEvent": "Green Bay Packers vs Arizona Cardinals",
-            "time": "00:00",
-            "isTime24H": true,
-            "urls": [
-                "https://elitegoltv.site/canal-85.php",
-                "https://rodrixtv.site/tv/canal85.html",
-                "https://zonalivetv.xyz/nplayer/sTL2/176"
-            ],
-            "state": {
-                "color": "orange",
-                "message": "Failed to find either an iframe or a video element, but found a div with id 'player' on our server from:",
-                "url": "https://zonalivetv.xyz/nplayer/sTL2/176"
-            }
-        },
-        {
-            "association": "NFL",
-            "league": "NFL USA",
-            "sportingEvent": "Kansas City Chiefs vs Seattle Seahawks",
-            "time": "00:00",
-            "isTime24H": true,
-            "urls": [
-                "https://elitegoltv.site/canal-86.php",
-                "https://rodrixtv.site/tv/canal86.html",
-                "https://zonalivetv.xyz/nplayer/sTL2/177"
-            ],
-            "state": {
-                "color": "orange",
-                "message": "Failed to find either an iframe or a video element, but found a div with id 'player' on our server from:",
-                "url": "https://zonalivetv.xyz/nplayer/sTL2/177"
-            }
-        },
-        {
-            "association": "NFL",
-            "league": "NFL USA",
-            "sportingEvent": "Kansas City Chiefs vs Seattle Seahawks",
-            "time": "00:00",
-            "isTime24H": true,
-            "urls": [
-                "https://elitegoltv.site/canal-87.php",
-                "https://rodrixtv.site/tv/canal87.html",
-                "https://zonalivetv.xyz/nplayer/sTL2/177"
-            ],
-            "state": {
-                "color": "orange",
-                "message": "Failed to find either an iframe or a video element, but found a div with id 'player' on our server from:",
-                "url": "https://zonalivetv.xyz/nplayer/sTL2/177"
-            }
-        },
-        {
             "association": "MLB",
             "league": "MLB USA",
-            "sportingEvent": "Tampa Bay Rays vs San Diego Padres",
-            "time": "23:10",
+            "sportingEvent": "Washington Nationals vs Miami Marlins",
+            "time": "22:45",
             "isTime24H": true,
             "urls": [
-                "https://elitegoltv.site/canal-73.php",
-                "https://rodrixtv.site/tv/canal73.html",
-                "https://zonalivetv.xyz/nplayer/sTL2/190"
+                "https://elitegoltv.site/canal-66.php",
+                "https://rodrixtv.site/tv/canal66.html",
+                "https://zonalivetv.xyz/nplayer/sTL2/187"
             ],
             "state": {
                 "color": "orange",
                 "message": "Failed to find either an iframe or a video element, but found a div with id 'player' on our server from:",
-                "url": "https://zonalivetv.xyz/nplayer/sTL2/190"
+                "url": "https://zonalivetv.xyz/nplayer/sTL2/187"
             }
         },
         {
@@ -2543,18 +1677,103 @@
         {
             "association": "MLB",
             "league": "MLB USA",
-            "sportingEvent": "Toronto Blue Jays vs Seattle Mariners",
-            "time": "23:15",
+            "sportingEvent": "Milwaukee Brewers vs Texas Rangers",
+            "time": "23:40",
             "isTime24H": true,
             "urls": [
-                "https://elitegoltv.site/canal-76.php",
-                "https://rodrixtv.site/tv/canal76.html",
-                "https://zonalivetv.xyz/nplayer/sTL2/193"
+                "https://elitegoltv.site/canal-81.php",
+                "https://rodrixtv.site/tv/canal81.html",
+                "https://zonalivetv.xyz/nplayer/sTL2/194"
             ],
             "state": {
                 "color": "orange",
                 "message": "Failed to find either an iframe or a video element, but found a div with id 'player' on our server from:",
-                "url": "https://zonalivetv.xyz/nplayer/sTL2/193"
+                "url": "https://zonalivetv.xyz/nplayer/sTL2/194"
+            }
+        },
+        {
+            "association": "MLB",
+            "league": "MLB USA",
+            "sportingEvent": "St Louis Cardinals vs Pittsburgh Pirates",
+            "time": "00:15",
+            "isTime24H": true,
+            "urls": [
+                "https://elitegoltv.site/canal-91.php",
+                "https://rodrixtv.site/tv/canal91.html",
+                "https://zonalivetv.xyz/nplayer/sTL2/196"
+            ],
+            "state": {
+                "color": "orange",
+                "message": "Failed to find either an iframe or a video element, but found a div with id 'player' on our server from:",
+                "url": "https://zonalivetv.xyz/nplayer/sTL2/196"
+            }
+        },
+        {
+            "association": "MLB",
+            "league": "MLB USA",
+            "sportingEvent": "San Francisco Giants vs Arizona Diamondbacks",
+            "time": "02:15",
+            "isTime24H": true,
+            "urls": [
+                "https://elitegoltv.site/canal-106.php",
+                "https://rodrixtv.site/tv/canal106.html",
+                "https://zonalivetv.xyz/nplayer/sTL2/199"
+            ],
+            "state": {
+                "color": "orange",
+                "message": "Failed to find either an iframe or a video element, but found a div with id 'player' on our server from:",
+                "url": "https://zonalivetv.xyz/nplayer/sTL2/199"
+            }
+        },
+        {
+            "association": "CO",
+            "league": "Liga B Colombia",
+            "sportingEvent": "U Magdalena vs Quindío",
+            "time": "01:00",
+            "isTime24H": true,
+            "urls": [
+                "https://elitegoltv.site/canal-34.php",
+                "https://rodrixtv.site/tv/canal34.html",
+                "https://zonalivetv.xyz/nplayer/sTL2/81"
+            ],
+            "state": {
+                "color": "orange",
+                "message": "Failed to find either an iframe or a video element, but found a div with id 'player' on our server from:",
+                "url": "https://zonalivetv.xyz/nplayer/sTL2/81"
+            }
+        },
+        {
+            "association": "CL",
+            "league": "Liga 1 Chile",
+            "sportingEvent": "Cobresal vs Palestino",
+            "time": "22:30",
+            "isTime24H": true,
+            "urls": [
+                "https://futbollibretv.click/cdf.php",
+                "https://rodrixtv.site/tv/cdf.html",
+                "https://zonalivetv.xyz/nplayer/sTL2/83"
+            ],
+            "state": {
+                "color": "orange",
+                "message": "Failed to find either an iframe or a video element, but found a div with id 'player' on our server from:",
+                "url": "https://zonalivetv.xyz/nplayer/sTL2/83"
+            }
+        },
+        {
+            "association": "EC",
+            "league": "Liga de Ecuador",
+            "sportingEvent": "Técnico U vs Dep Cuenca",
+            "time": "00:00",
+            "isTime24H": true,
+            "urls": [
+                "https://elitegoltv.site/canal-28.php",
+                "https://rodrixtv.site/tv/canal28.html",
+                "https://zonalivetv.xyz/nplayer/sTL2/86"
+            ],
+            "state": {
+                "color": "orange",
+                "message": "Failed to find either an iframe or a video element, but found a div with id 'player' on our server from:",
+                "url": "https://zonalivetv.xyz/nplayer/sTL2/86"
             }
         }
     ]
