@@ -30,10 +30,12 @@ const webpages = [];
         try {
             loadHTMLBySections();
             loadHostsInModalAbout(data.hosts);
+
         } catch (error) {
             console.error("Failed to load HTML content:");
             console.error(error);
         }
+
     } catch (error) {
         console.error("Failed to process the config.json file:");
         console.error(error);
@@ -75,7 +77,7 @@ function loadHTMLBySections() {
  * @param {string[]} sectionItems - An array of unique items corresponding to the specified section (e.g., unique sporting events, leagues, or streams) to generate the HTML content for each item in the section.
  */
 function loadHTMLBySectionItems(section, sectionItems) {
-    const divNavSection = document.querySelector(`div#menu>a.w3-bar-item[href='#${section}']`).nextElementSibling;
+    const divNavSection = document.querySelector(`div#menu>a.btn-menu-section[href='#${section}']`).nextElementSibling;
     const divMainSection = document.getElementById(section).nextElementSibling;
     section = section.slice(0, -1);
 
@@ -263,7 +265,7 @@ function displayChannelsBySectionItem(h3, section, sectionItem) {
     const divChannelsBySectionItemShow = divChannelsBySectionItem.classList.contains("w3-show");
     const divButtonsBySectionItem = divChannelsBySectionItem.firstElementChild.querySelector("div.w3-rest, div.w3-twothird");
 
-    document.querySelectorAll("div.w3-channels-by-section-item").forEach(div => {
+    document.querySelectorAll("div#main>div:not([class])>div.w3-channels-by-section-item.w3-show").forEach(div => {
         const h3 = div.previousElementSibling.firstElementChild;
         const icon = h3.firstElementChild;
         const divButtonsBySectionItem = div.firstElementChild.querySelector("div.w3-rest, div.w3-twothird");
@@ -273,21 +275,27 @@ function displayChannelsBySectionItem(h3, section, sectionItem) {
         icon.title = icon.title.replace("Close", "Open");
         div.classList.remove("w3-show");
         div.classList.add("w3-hide");
-        if (divButtonsBySectionItem) {
-            divButtonsBySectionItem.querySelectorAll("a[title^='Options ']").forEach(item => item.classList.remove("w3-lime"));
-        }
+        divButtonsBySectionItem?.querySelector("a.w3-lime")?.classList.remove("w3-lime");
+
+        div.querySelectorAll("div.w3-row-padding>div.w3-third>div.w3-card>iframe").forEach(iframe => {
+            const divButtonsOptions = iframe.previousElementSibling.firstElementChild;
+            const divPs = iframe.nextElementSibling;
+            divButtonsOptions.querySelector("a.w3-lime")?.classList.remove("w3-lime");
+            iframe.src = "";
+            divPs.removeAttribute("title");
+        });
     });
-    document.querySelectorAll("div#menu>div.w3-animate-left>a.w3-bar-item").forEach(item => item.classList.remove("w3-lime"));
+    document.querySelectorAll("div#menu>div.w3-animate-left>a.w3-lime").forEach(item => item.classList.remove("w3-lime"));
 
     if (!divChannelsBySectionItemShow) {
-        const aNavSectionItem = document.querySelector(`div#menu>div.w3-animate-left>a.w3-bar-item[href='#${section}_${sectionItem}']`);
-        const divNavSection = aNavSectionItem.parentElement;
-        if (divNavSection.classList.contains("w3-hide")) {
-            w3_setDisplaySectionItems(divNavSection.previousElementSibling);
+        const aMenuSectionItem = document.querySelector(`div#menu>div.w3-animate-left>a.w3-bar-item[href='#${section}_${sectionItem}']`);
+        const divMenuSection = aMenuSectionItem.parentElement;
+        if (divMenuSection.classList.contains("w3-hide")) {
+            w3_setDisplaySectionItems(divMenuSection.previousElementSibling);
         }
         requestAnimationFrame(() => {
-            aNavSectionItem.scrollIntoView({ block: "center" });
-            aNavSectionItem.classList.add("w3-lime");
+            aMenuSectionItem.scrollIntoView({ block: "center" });
+            aMenuSectionItem.classList.add("w3-lime");
         });
 
         h3.classList.remove("w3-white");
@@ -304,34 +312,14 @@ function displayChannelsBySectionItem(h3, section, sectionItem) {
             buttons[buttons.length - 1].classList.add("w3-lime");
         }
 
-        loadIframesBySectionItem(section, sectionItem);
-    } else {
-        loadIframesBySectionItem(null, null);
-    }
-}
-
-/**
- * Loads the iframes for a specific section item based on the provided `section` and `sectionItem` parameters. The function first clears the `src` attribute of all iframes within the currently displayed channels to stop any ongoing streams. It also resets the styling of the option buttons and removes any titles from the associated div elements. Then, if a valid `section` and `sectionItem` are provided, it selects the relevant iframes for the specified section item and updates their `src` attributes with the corresponding URLs from their `urls` attribute. It also updates the styling of the option buttons to indicate which options are currently active and sets the title of the associated div elements to reflect the currently loaded URL for each iframe. This function ensures that only the relevant iframes for the selected section item are loaded while stopping any previously loaded streams, providing a seamless user experience when navigating through different sections and items in the menu.
- * @param {string} section - The section type (e.g., "sportingEvent", "league", "stream") for which to load the iframes based on the specified section item. This parameter is used to identify the context of the section item and to determine which iframes should be loaded or unloaded based on the user's interaction with the menu.
- * @param {string} sectionItem - The specific item within the section (e.g., a sporting event name, league name, or stream hostname) for which to load the iframes. This parameter is used to identify the exact content that should be displayed or hidden based on the user's interaction with the menu, allowing the function to manipulate the DOM accordingly to show or hide the relevant iframes for the selected section item.
- */
-function loadIframesBySectionItem(section, sectionItem) {
-    document.querySelectorAll("div.w3-channels-by-section-item>div.w3-row-padding>div.w3-third>div.w3-card>iframe").forEach(iframe => {
-        const divButtons = iframe.previousElementSibling.firstElementChild;
-        const divPs = iframe.nextElementSibling;
-        divButtons.querySelectorAll("a[title^='Option ']").forEach(item => item.classList.remove("w3-lime"));
-        iframe.src = "";
-        divPs.removeAttribute("title");
-    });
-    if (section && sectionItem) {
-        document.getElementById(`${section}_${sectionItem}`).nextElementSibling.querySelectorAll("iframe").forEach(iframe => {
-            const divButtons = iframe.previousElementSibling.firstElementChild;
+        divChannelsBySectionItem.querySelectorAll("div.w3-row-padding>div.w3-third>div.w3-card>iframe").forEach(iframe => {
+            const divButtonsOptions = iframe.previousElementSibling.firstElementChild;
             const urls = JSON.parse(iframe.getAttribute("urls"));
             const divPs = iframe.nextElementSibling;
-            divButtons.querySelector(`a[title^='Option ${urls.length}']`).classList.add("w3-lime");
+            divButtonsOptions.querySelector(`a[title^='Option ${urls.length}']`).classList.add("w3-lime");
             // iframe.src = urls[urls.length - 1];
             divPs.title = iframe.src;
-        })
+        });
     }
 }
 
@@ -341,7 +329,8 @@ function loadIframesBySectionItem(section, sectionItem) {
  * @param {string} index - The index of the option to switch to, which can be a specific number (as a string) representing the option index, or special values like "prev", "next", "load", or "stop" to indicate navigating to the previous or next option, reloading the current option, or stopping the channel, respectively. This parameter is used to determine how to update the channel's iframe source and the styling of the option buttons based on the user's interaction with the option controls.
  */
 function changeOptionByChannel(a, index) {
-    const buttons = Array.from(a.parentElement.parentElement.querySelectorAll("a[title^='Option ']"));
+    const divButtons = a.parentElement.parentElement;
+    const buttons = Array.from(divButtons.querySelectorAll("a[title^='Option ']"));
     const indexCurrent = buttons.findIndex(item => item.classList.contains("w3-lime"));
     if (indexCurrent !== -1 || /^\d+$/.test(index)) {
         if (index === "prev") {
@@ -363,7 +352,7 @@ function changeOptionByChannel(a, index) {
         }
 
         if (indexCurrent !== -1) buttons[indexCurrent].classList.remove("w3-lime");
-        const iframe = a.parentElement.parentElement.nextElementSibling;
+        const iframe = divButtons.nextElementSibling;
         const divPs = iframe.nextElementSibling;
 
         if (index !== -1) {
@@ -383,7 +372,8 @@ function changeOptionByChannel(a, index) {
  * @param {string} index - The index of the option to switch to for all channels, which can be a specific number (as a string) representing the option index, or special values like "prev", "next", "load", or "stop" to indicate navigating to the previous or next option, reloading the current option, or stopping all channels, respectively. This parameter is used to determine how to update the iframes' sources and the styling of the option buttons for all channels based on the user's interaction with the option controls.
  */
 function changeOptionsBySectionItem(a, index) {
-    const buttons = Array.from(a.parentElement.parentElement.querySelectorAll("a[title^='Options ']"));
+    const divButtonsBySectionItem = a.parentElement.parentElement;
+    const buttons = Array.from(divButtonsBySectionItem.querySelectorAll("a[title^='Options ']"));
     const indexCurrent = buttons.findIndex(item => item.classList.contains("w3-lime"));
     if (indexCurrent !== -1 || /^\d+$/.test(index)) {
         if (index === "prev") {
@@ -405,20 +395,23 @@ function changeOptionsBySectionItem(a, index) {
         }
 
         if (indexCurrent !== -1) buttons[indexCurrent].classList.remove("w3-lime");
-        if (index !== -1) buttons[index].classList.add("w3-lime");
+        const divChannelsBySectionItem = divButtonsBySectionItem.parentElement.parentElement.parentElement.parentElement;
+        const iframes = divChannelsBySectionItem.querySelectorAll("div.w3-row-padding>div.w3-third>div.w3-card>iframe");
 
-        const divChannelsBySectionItem = a.parentElement.parentElement.parentElement.parentElement.parentElement.parentElement;
-        divChannelsBySectionItem.querySelectorAll("iframe").forEach(iframe => {
-            if (index !== -1) {
+        if (index !== -1) {
+            buttons[index].classList.add("w3-lime");
+            iframes.forEach(iframe => {
                 const urls = JSON.parse(iframe.getAttribute("urls"));
                 const indexAlternate = urls[index] ? index : urls.length - 1;
                 const a = iframe.previousElementSibling.firstElementChild.querySelector(`a[title^='Option ${indexAlternate + 1}']`);
                 changeOptionByChannel(a, indexAlternate);
-            } else {
-                const a = iframe.previousElementSibling.firstElementChild.querySelector("a[title^='Option '].w3-lime");
+            });
+        } else {
+            iframes.forEach(iframe => {
+                const a = iframe.previousElementSibling.firstElementChild.querySelector("a.w3-lime");
                 if (a) changeOptionByChannel(a, "stop");
-            }
-        });
+            });
+        }
     }
 }
 
@@ -490,14 +483,36 @@ function appendSpansToH3BySectionItem(h3, section, sectionItem, numWebpages) {
     const span1 = html_appendSpan(h3, "icon-triangle-down w3-right", "\u25BD", `Open ${channels}`); // ▽
     const span2 = html_appendSpan(h3, "w3-right", "\u00A0", null); // non-breaking space
 
+    const numWebpagesDisplay = numWebpages.length < 2 ? `\u00A0${numWebpages}\u00A0` : numWebpages; // non-breaking space
+    const spanTitleNumWebpages = `${numWebpages} available streaming ${channels}`;
+    const span3 = html_appendSpan(h3, "w3-badge w3-right w3-white w3-border w3-border-light-green", numWebpagesDisplay, spanTitleNumWebpages);
+    const span4 = html_appendSpan(h3, "w3-right", "\u00A0", null); // non-breaking space
+
     if (section === "sportingEvent") {
-        const { league, time } = webpages.find(item => item.sportingEvent === sectionItem);
-        const span3 = html_appendSpan(h3, "w3-badge w3-right w3-white w3-border w3-border-light-green w3-round-large", time, `The game is at ${time}`);
-        const span4 = html_appendSpan(h3, "w3-opacity w3-hide-small", `${getSectionItemDisplayBySectionItem("league", league)}: `, null);
-    } else if (section === "league" || section === "stream") {
-        const numWebpagesDisplay = numWebpages.length < 2 ? `\u00A0${numWebpages}\u00A0` : numWebpages; // non-breaking space
-        const spanTitleNumWebpages = `${numWebpages} available streaming ${channels}`;
-        const span3 = html_appendSpan(h3, "w3-badge w3-right w3-white w3-border w3-border-light-green", numWebpagesDisplay, spanTitleNumWebpages);
+        const { league, time } = webpages
+            .filter(item => item.sportingEvent === sectionItem)
+            .reduce((acc, webpage) => {
+                return {
+                    league: webpage.league.length > acc.league.length ? webpage.league : acc.league,
+                    time: webpage.time < acc.time ? webpage.time : acc.time
+                };
+            }, { league: '', time: '24:00' });
+        const span5 = html_appendSpan(h3, "w3-badge w3-white w3-border w3-border-light-green w3-round-large", time, `The game is at ${time}`);
+        const span6 = html_appendSpan(h3, null, "\u00A0", null); // non-breaking space
+        if (league) {
+            const span7 = html_appendSpan(h3, "w3-opacity w3-hide-small", `${getSectionItemDisplayBySectionItem("league", league)}: `, null);
+        }
+    } else if (section === "league") {
+        const { association } = webpages
+            .filter(item => item.league === sectionItem)
+            .reduce((acc, webpage) => {
+                return {
+                    association: webpage.association.length > acc.association.length ? webpage.association : acc.association
+                };
+            }, { association: '' });
+        if (association) {
+            const span5 = html_appendSpan(h3, "w3-opacity w3-hide-small", `${association}: `, null);
+        }
     }
 }
 
