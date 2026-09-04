@@ -438,6 +438,22 @@
             }
         },
         {
+            "association": "ES",
+            "league": "LaLiga EA Sports",
+            "sportingEvent": "Real Sociedad vs Celta de Vigo",
+            "time": "19:00",
+            "isTime24H": true,
+            "urls": [
+                "https://futbollibretv.click/canal-2.php",
+                "https://rodrixtv.site/tv/canal2.html"
+            ],
+            "state": {
+                "color": "green",
+                "message": "Failed to find either an iframe, a video element, or a div with id 'player' on our server from:",
+                "url": "https://zonalivetv.xyz/nplayer/sTL3/619"
+            }
+        },
+        {
             "association": "EC",
             "league": "Liga de Ecuador",
             "sportingEvent": "U Católica vs Aucas",
@@ -486,6 +502,70 @@
             }
         },
         {
+            "association": "CO",
+            "league": "Liga de Colombia",
+            "sportingEvent": "América de Cali vs Alianza",
+            "time": "21:00",
+            "isTime24H": true,
+            "urls": [
+                "https://futbollibretv.click/canal-34.php",
+                "https://rodrixtv.site/tv/canal34.html"
+            ],
+            "state": {
+                "color": "green",
+                "message": "Failed to find either an iframe, a video element, or a div with id 'player' on our server from:",
+                "url": "https://zonalivetv.xyz/nplayer/sTL2/81"
+            }
+        },
+        {
+            "association": "CO",
+            "league": "Liga de Colombia",
+            "sportingEvent": "Pereira vs Ind Medellín",
+            "time": "01:00",
+            "isTime24H": true,
+            "urls": [
+                "https://futbollibretv.click/canal-34.php",
+                "https://rodrixtv.site/tv/canal34.html"
+            ],
+            "state": {
+                "color": "green",
+                "message": "Failed to find either an iframe, a video element, or a div with id 'player' on our server from:",
+                "url": "https://zonalivetv.xyz/nplayer/sTL2/81"
+            }
+        },
+        {
+            "association": "CO",
+            "league": "Liga de Colombia",
+            "sportingEvent": "América de Cali vs Alianza",
+            "time": "21:00",
+            "isTime24H": true,
+            "urls": [
+                "https://futbollibretv.click/canal-35.php",
+                "https://rodrixtv.site/tv/canal35.html"
+            ],
+            "state": {
+                "color": "green",
+                "message": "Failed to find either an iframe, a video element, or a div with id 'player' on our server from:",
+                "url": "https://zonalivetv.xyz/nplayer/sTL3/392"
+            }
+        },
+        {
+            "association": "CO",
+            "league": "Liga de Colombia",
+            "sportingEvent": "Pereira vs Ind Medellín",
+            "time": "01:00",
+            "isTime24H": true,
+            "urls": [
+                "https://futbollibretv.click/canal-35.php",
+                "https://rodrixtv.site/tv/canal35.html"
+            ],
+            "state": {
+                "color": "green",
+                "message": "Failed to find either an iframe, a video element, or a div with id 'player' on our server from:",
+                "url": "https://zonalivetv.xyz/nplayer/sTL3/392"
+            }
+        },
+        {
             "association": "SAUDITA",
             "league": "Saudi Professional League",
             "sportingEvent": "Neom SC vs Al Khaleej",
@@ -499,86 +579,6 @@
                 "color": "green",
                 "message": "Failed to find either an iframe, a video element, or a div with id 'player' on our server from:",
                 "url": "https://zonalivetv.xyz/nplayer/sTL2/187"
-            }
-        },
-        {
-            "association": "SAUDITA",
-            "league": "Saudi Professional League",
-            "sportingEvent": "Al Diriyah vs Al Qadsiah",
-            "time": "18:00",
-            "isTime24H": true,
-            "urls": [
-                "https://futbollibretv.click/canal-45.php",
-                "https://rodrixtv.site/tv/canal45.html"
-            ],
-            "state": {
-                "color": "green",
-                "message": "Failed to find either an iframe, a video element, or a div with id 'player' on our server from:",
-                "url": "https://zonalivetv.xyz/nplayer/sTL3/756"
-            }
-        },
-        {
-            "association": "DINAMARCA",
-            "league": "Superliga Dinamarca",
-            "sportingEvent": "Copenhague vs Nordsjaelland",
-            "time": "18:00",
-            "isTime24H": true,
-            "urls": [
-                "https://futbollibretv.click/canal-46.php",
-                "https://rodrixtv.site/tv/canal46.html"
-            ],
-            "state": {
-                "color": "green",
-                "message": "Failed to find either an iframe, a video element, or a div with id 'player' on our server from:",
-                "url": "https://zonalivetv.xyz/nplayer/sTL2/180"
-            }
-        },
-        {
-            "association": "GR",
-            "league": "Copa Grecia",
-            "sportingEvent": "Panathinaikos vs Niki Volos",
-            "time": "18:00",
-            "isTime24H": true,
-            "urls": [
-                "https://futbollibretv.click/canal-47.php",
-                "https://rodrixtv.site/tv/canal47.html"
-            ],
-            "state": {
-                "color": "green",
-                "message": "Failed to find either an iframe, a video element, or a div with id 'player' on our server from:",
-                "url": "https://zonalivetv.xyz/nplayer/sTL2/149"
-            }
-        },
-        {
-            "association": "BE",
-            "league": "Liga de Belgica",
-            "sportingEvent": "Anderlecht vs Kortrijk",
-            "time": "18:30",
-            "isTime24H": true,
-            "urls": [
-                "https://futbollibretv.click/canal-49.php",
-                "https://rodrixtv.site/tv/canal49.html"
-            ],
-            "state": {
-                "color": "green",
-                "message": "Failed to find either an iframe, a video element, or a div with id 'player' on our server from:",
-                "url": "https://zonalivetv.xyz/nplayer/sTL2/153"
-            }
-        },
-        {
-            "association": "BE",
-            "league": "Liga de Belgica",
-            "sportingEvent": "Gent vs Leuven",
-            "time": "18:30",
-            "isTime24H": true,
-            "urls": [
-                "https://futbollibretv.click/canal-50.php",
-                "https://rodrixtv.site/tv/canal50.html"
-            ],
-            "state": {
-                "color": "green",
-                "message": "Failed to find either an iframe, a video element, or a div with id 'player' on our server from:",
-                "url": "https://zonalivetv.xyz/nplayer/sTL2/154"
             }
         },
         {
@@ -694,22 +694,6 @@
             }
         },
         {
-            "association": "MLB",
-            "league": "MLB USA",
-            "sportingEvent": "Los Angeles Dodgers vs St Louis Cardinals",
-            "time": "02:10",
-            "isTime24H": true,
-            "urls": [
-                "https://futbollibretv.click/canal-86.php",
-                "https://rodrixtv.site/tv/canal86.html"
-            ],
-            "state": {
-                "color": "green",
-                "message": "Failed to find either an iframe, a video element, or a div with id 'player' on our server from:",
-                "url": "https://zonalivetv.xyz/nplayer/sTL2/194"
-            }
-        },
-        {
             "association": "ES",
             "league": "LaLiga EA Sports",
             "sportingEvent": "Real Sociedad vs Celta de Vigo",
@@ -754,8 +738,8 @@
                 "https://streamtp-golden1.click/global2.php?stream=dsports"
             ],
             "state": {
-                "color": "red",
-                "message": "Failed to find streaming in network events of master playlists or manifests on our server from:",
+                "color": "green",
+                "message": "Successfully found streaming on our server from:",
                 "url": "https://streamtp-golden1.click/global2.php?stream=dsports"
             }
         },
@@ -822,8 +806,8 @@
                 "https://streamx061.sbs/global3.php?channel=espnmx"
             ],
             "state": {
-                "color": "red",
-                "message": "Failed to find streaming in webpage performance entries on our server from:",
+                "color": "green",
+                "message": "Successfully found streaming on our server from:",
                 "url": "https://streamx061.sbs/global3.php?channel=espnmx"
             }
         },
@@ -2188,6 +2172,74 @@
             }
         },
         {
+            "association": "GR",
+            "league": "Copa Grecia",
+            "sportingEvent": "Panathinaikos vs Niki Volos",
+            "time": "18:00",
+            "isTime24H": true,
+            "urls": [
+                "https://futbollibretv.click/canal-47.php",
+                "https://rodrixtv.site/tv/canal47.html",
+                "https://zonalivetv.xyz/nplayer/sTL2/149"
+            ],
+            "state": {
+                "color": "yellow",
+                "message": "Failed to find either an iframe or a video element, but found a div with id 'player' on our server from:",
+                "url": "https://zonalivetv.xyz/nplayer/sTL2/149"
+            }
+        },
+        {
+            "association": "BE",
+            "league": "Liga de Belgica",
+            "sportingEvent": "Anderlecht vs Kortrijk",
+            "time": "18:30",
+            "isTime24H": true,
+            "urls": [
+                "https://futbollibretv.click/canal-49.php",
+                "https://rodrixtv.site/tv/canal49.html",
+                "https://zonalivetv.xyz/nplayer/sTL2/153"
+            ],
+            "state": {
+                "color": "yellow",
+                "message": "Failed to find either an iframe or a video element, but found a div with id 'player' on our server from:",
+                "url": "https://zonalivetv.xyz/nplayer/sTL2/153"
+            }
+        },
+        {
+            "association": "BE",
+            "league": "Liga de Belgica",
+            "sportingEvent": "Gent vs Leuven",
+            "time": "18:30",
+            "isTime24H": true,
+            "urls": [
+                "https://futbollibretv.click/canal-50.php",
+                "https://rodrixtv.site/tv/canal50.html",
+                "https://zonalivetv.xyz/nplayer/sTL2/154"
+            ],
+            "state": {
+                "color": "yellow",
+                "message": "Failed to find either an iframe or a video element, but found a div with id 'player' on our server from:",
+                "url": "https://zonalivetv.xyz/nplayer/sTL2/154"
+            }
+        },
+        {
+            "association": "DINAMARCA",
+            "league": "Superliga Dinamarca",
+            "sportingEvent": "Copenhague vs Nordsjaelland",
+            "time": "18:00",
+            "isTime24H": true,
+            "urls": [
+                "https://futbollibretv.click/canal-46.php",
+                "https://rodrixtv.site/tv/canal46.html",
+                "https://zonalivetv.xyz/nplayer/sTL2/180"
+            ],
+            "state": {
+                "color": "yellow",
+                "message": "Failed to find either an iframe or a video element, but found a div with id 'player' on our server from:",
+                "url": "https://zonalivetv.xyz/nplayer/sTL2/180"
+            }
+        },
+        {
             "association": "SAUDITA",
             "league": "Saudi Professional League",
             "sportingEvent": "Al Fayha vs Al Kholood",
@@ -2202,6 +2254,23 @@
                 "color": "yellow",
                 "message": "Failed to find either an iframe or a video element, but found a div with id 'player' on our server from:",
                 "url": "https://zonalivetv.xyz/nplayer/sTL2/186"
+            }
+        },
+        {
+            "association": "MLB",
+            "league": "MLB USA",
+            "sportingEvent": "Los Angeles Dodgers vs St Louis Cardinals",
+            "time": "02:10",
+            "isTime24H": true,
+            "urls": [
+                "https://futbollibretv.click/canal-86.php",
+                "https://rodrixtv.site/tv/canal86.html",
+                "https://zonalivetv.xyz/nplayer/sTL2/194"
+            ],
+            "state": {
+                "color": "yellow",
+                "message": "Failed to find either an iframe or a video element, but found a div with id 'player' on our server from:",
+                "url": "https://zonalivetv.xyz/nplayer/sTL2/194"
             }
         },
         {
@@ -2222,88 +2291,20 @@
             }
         },
         {
-            "association": "CO",
-            "league": "Liga de Colombia",
-            "sportingEvent": "América de Cali vs Alianza",
-            "time": "21:00",
+            "association": "SAUDITA",
+            "league": "Saudi Professional League",
+            "sportingEvent": "Al Diriyah vs Al Qadsiah",
+            "time": "18:00",
             "isTime24H": true,
             "urls": [
-                "https://futbollibretv.click/canal-34.php",
-                "https://rodrixtv.site/tv/canal34.html",
-                "https://zonalivetv.xyz/nplayer/sTL2/81"
+                "https://futbollibretv.click/canal-45.php",
+                "https://rodrixtv.site/tv/canal45.html",
+                "https://zonalivetv.xyz/nplayer/sTL3/756"
             ],
             "state": {
                 "color": "yellow",
                 "message": "Failed to find either an iframe or a video element, but found a div with id 'player' on our server from:",
-                "url": "https://zonalivetv.xyz/nplayer/sTL2/81"
-            }
-        },
-        {
-            "association": "CO",
-            "league": "Liga de Colombia",
-            "sportingEvent": "Pereira vs Ind Medellín",
-            "time": "01:00",
-            "isTime24H": true,
-            "urls": [
-                "https://futbollibretv.click/canal-34.php",
-                "https://rodrixtv.site/tv/canal34.html",
-                "https://zonalivetv.xyz/nplayer/sTL2/81"
-            ],
-            "state": {
-                "color": "yellow",
-                "message": "Failed to find either an iframe or a video element, but found a div with id 'player' on our server from:",
-                "url": "https://zonalivetv.xyz/nplayer/sTL2/81"
-            }
-        },
-        {
-            "association": "CO",
-            "league": "Liga de Colombia",
-            "sportingEvent": "América de Cali vs Alianza",
-            "time": "21:00",
-            "isTime24H": true,
-            "urls": [
-                "https://futbollibretv.click/canal-35.php",
-                "https://rodrixtv.site/tv/canal35.html",
-                "https://zonalivetv.xyz/nplayer/sTL3/392"
-            ],
-            "state": {
-                "color": "yellow",
-                "message": "Failed to find either an iframe or a video element, but found a div with id 'player' on our server from:",
-                "url": "https://zonalivetv.xyz/nplayer/sTL3/392"
-            }
-        },
-        {
-            "association": "CO",
-            "league": "Liga de Colombia",
-            "sportingEvent": "Pereira vs Ind Medellín",
-            "time": "01:00",
-            "isTime24H": true,
-            "urls": [
-                "https://futbollibretv.click/canal-35.php",
-                "https://rodrixtv.site/tv/canal35.html",
-                "https://zonalivetv.xyz/nplayer/sTL3/392"
-            ],
-            "state": {
-                "color": "yellow",
-                "message": "Failed to find either an iframe or a video element, but found a div with id 'player' on our server from:",
-                "url": "https://zonalivetv.xyz/nplayer/sTL3/392"
-            }
-        },
-        {
-            "association": "ES",
-            "league": "LaLiga EA Sports",
-            "sportingEvent": "Real Sociedad vs Celta de Vigo",
-            "time": "19:00",
-            "isTime24H": true,
-            "urls": [
-                "https://futbollibretv.click/canal-2.php",
-                "https://rodrixtv.site/tv/canal2.html",
-                "https://zonalivetv.xyz/nplayer/sTL3/619"
-            ],
-            "state": {
-                "color": "yellow",
-                "message": "Failed to find either an iframe or a video element, but found a div with id 'player' on our server from:",
-                "url": "https://zonalivetv.xyz/nplayer/sTL3/619"
+                "url": "https://zonalivetv.xyz/nplayer/sTL3/756"
             }
         },
         {
