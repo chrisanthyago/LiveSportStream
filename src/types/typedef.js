@@ -7,8 +7,14 @@
 /**
  * @typedef {Object} Webpage
  * @property {string} association - The association or organization related to the sporting event (e.g., "UEFA", "FIFA").
- * @property {string} league - The league or competition of the sporting event (e.g., "Champions League", "World Cup").
- * @property {string} sportingEvent - The name of the sporting event (e.g., "Real Madrid vs Barcelona").
+ * @property {string} [league] - The league or competition related to the sporting event (e.g., "La Liga", "Premier League").
+ * @property {string} [sportingEvent] - The specific sporting event (e.g., "Matchday 1", "Finals").
+ * @property {string} leagueId - The identifier of the league or competition (e.g., "La Liga", "Premier League").
+ * @property {string} leagueDisplay - The display name of the league or competition (e.g., "La Liga", "Premier League").
+ * @property {string} sportingEventId - The identifier of the specific sporting event (e.g., "Matchday 1", "Finals").
+ * @property {string} sportingEventDisplay - The display name of the specific sporting event (e.g., "Matchday 1", "Finals").
+ * @property {string} streamId - The identifier of the stream for the sporting event (e.g., "Stream 1", "Stream 2").
+ * @property {string} streamDisplay - The display name of the stream for the sporting event (e.g., "Stream 1", "Stream 2").
  * @property {string} time - The time of the sporting event in 24-hour format (HH:mm).
  * @property {boolean} isTime24H - A boolean indicating whether the time is in 24-hour format (true) or not (false).
  * @property {boolean} isRepeated - A boolean indicating whether the sporting event is repeated (i.e., has more than one URL).

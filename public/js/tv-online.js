@@ -18,17 +18,16 @@ const webpages = [];
 
         data.webpages
             .filter(item => item.urls.length > 0)
-            .forEach(({ league, sportingEvent, time, ...rest }) => webpages.push({
-                league: getSectionItemId(league),
-                sportingEvent: getSectionItemId(sportingEvent),
+            .forEach(({ time, ...rest }) => webpages.push({
                 time: rest.isTime24H ? convertTimeTo24HLocal(time) : time,
-                hostname: new URL(rest.urls[rest.urls.length - 1]).hostname,
                 ...rest
             }));
         // console.log(webpages);
 
         try {
-            loadHTMLBySections();
+            loadHTMLBySection("sportingEvent");
+            loadHTMLBySection("league");
+            loadHTMLBySection("stream");
             loadHostsInModalAbout(data.hosts);
 
         } catch (error) {
@@ -45,30 +44,65 @@ const webpages = [];
 /**
  * Loads the HTML content for the sporting events, leagues, and streams sections based on the data in the `webpages` array. It filters and sorts the data to create unique lists of sporting events, leagues, and streams, and then calls `loadHTMLBySectionItems` to generate the corresponding HTML elements for each section. The function also includes error handling to catch and log any issues that arise during the loading of HTML content.
  */
-function loadHTMLBySections() {
-    const sportingEvents = webpages
-        .filter((item, index, array) => array.findIndex(webpage => webpage.sportingEvent === item.sportingEvent) === index)
-        .sort((a, b) =>
-            a.time.localeCompare(b.time) ||
-            a.sportingEvent.localeCompare(b.sportingEvent))
-        .map(item => item.sportingEvent);
-    loadHTMLBySectionItems("sportingEvents", sportingEvents);
+function loadHTMLBySection(section) {
+    let initialValue, callbackfn, predicateFn, compareFn;
+    if (section === "sportingEvent") {
+        initialValue = { time: "24:00", league: "", sportingEvent: "" };
+        callbackfn = (acc, webpage) => {
+            return {
+                time: webpage.time < acc.time ? webpage.time : acc.time,
+                league: webpage.leagueDisplay.length > acc.league.length ? webpage.leagueDisplay : acc.league,
+                sportingEvent: webpage.sportingEventDisplay.length > acc.sportingEvent.length ? webpage.sportingEventDisplay : acc.sportingEvent
+            };
+        };
+        predicateFn = item => item;
+        compareFn = (a, b) =>
+            a.display.time.localeCompare(b.display.time) ||
+            a.display.sportingEvent.localeCompare(b.display.sportingEvent) ||
+            a.display.league.localeCompare(b.display.league);
+    } else if (section === "league") {
+        initialValue = { association: "", league: "" };
+        callbackfn = (acc, webpage) => {
+            return {
+                association: webpage.association.length > acc.association.length ? webpage.association : acc.association,
+                league: webpage.leagueDisplay.length > acc.league.length ? webpage.leagueDisplay : acc.league
+            };
+        };
+        predicateFn = item => item;
+        compareFn = (a, b) =>
+            a.display.association.localeCompare(b.display.association) ||
+            a.display.league.localeCompare(b.display.league);
+    } else if (section === "stream") {
+        initialValue = { stream: "" };
+        callbackfn = (acc, webpage) => {
+            return {
+                stream: webpage.streamDisplay.length > acc.stream.length ? webpage.streamDisplay : acc.stream
+            };
+        };
+        predicateFn = (item, index, array) =>
+            array.findIndex(webpage => webpage.urls[webpage.urls.length - 1] === item.urls[item.urls.length - 1]) === index;
+        compareFn = (a, b) =>
+            b.webpages.length - a.webpages.length ||
+            a.display.stream.localeCompare(b.display.stream);
+    }
 
-    const leagues = webpages
-        .filter((item, index, array) => array.findIndex(webpage => webpage.league === item.league) === index)
-        .sort((a, b) =>
-            (webpages.filter(item => item.league === b.league).length - webpages.filter(item => item.league === a.league).length) ||
-            a.league.localeCompare(b.league))
-        .map(item => item.league);
-    loadHTMLBySectionItems("leagues", leagues);
+    const sectionItemIds = webpages
+        .map(item => item[`${section}Id`])
+        .filter((item, index, array) => array.indexOf(item) === index);
 
-    const streams = webpages
-        .filter((item, index, array) => array.findIndex(webpage => webpage.hostname === item.hostname) === index)
-        .sort((a, b) =>
-            (webpages.filter(item => item.hostname === b.hostname).length - webpages.filter(item => item.hostname === a.hostname).length) ||
-            a.hostname.localeCompare(b.hostname))
-        .map(item => item.hostname);
-    loadHTMLBySectionItems("streams", streams);
+    const sectionItems =  sectionItemIds.map(sectionItemId => {
+        let sectionItemWebpages = webpages.filter(item => item[`${section}Id`] === sectionItemId);
+
+        const sectionItemDisplay = sectionItemWebpages.reduce(callbackfn, initialValue);
+
+        sectionItemWebpages = sectionItemWebpages.filter(predicateFn);
+
+        return { id: sectionItemId, display: sectionItemDisplay, webpages: sectionItemWebpages };
+    });
+
+    sectionItems.sort(compareFn);
+
+    loadHTMLBySectionItems(`${section}s`, sectionItems);
 }
 
 /**
@@ -82,34 +116,31 @@ function loadHTMLBySectionItems(section, sectionItems) {
     section = section.slice(0, -1);
 
     sectionItems.forEach(sectionItem => {
-        const sectionItemDisplay = getSectionItemDisplayBySectionItem(section, sectionItem);
         const a = html_appendA(
             divNavSection,
             "w3-bar-item w3-button w3-hover-khaki w3-border-bottom w3-border-light-green w3-ripple",
-            `#${section}_${sectionItem}`,
-            sectionItemDisplay,
+            `#${section}_${sectionItem.id}`,
+            sectionItem.display[section],
             null);
-        a.addEventListener("click", () => onclickMenuItemBySectionItem(section, sectionItem));
+        a.addEventListener("click", () => onclickMenuItemBySectionItem(section, sectionItem.id));
 
         const div1 = html_appendDiv(divMainSection, "w3-container");
-        div1.id = `${section}_${sectionItem}`;
-
-        const webpagesBySectionItem = getWebpagesBySectionItem(section, sectionItem);
+        div1.id = `${section}_${sectionItem.id}`;
 
         const h3 = document.createElement("h3");
         h3.className = "w3-button w3-left-align w3-white w3-hover-khaki w3-block w3-border w3-border-light-green w3-round-large w3-ripple";
-        appendSpansToH3BySectionItem(h3, section, sectionItem, webpagesBySectionItem.length.toString());
-        h3.insertAdjacentHTML("beforeend", sectionItemDisplay);
-        h3.addEventListener("click", () => displayChannelsBySectionItem(h3, section, sectionItem));
+        appendSpansToH3BySectionItem(h3, section, sectionItem.display, sectionItem.webpages.length.toString());
+        h3.insertAdjacentHTML("beforeend", sectionItem.display[section]);
+        h3.addEventListener("click", () => displayChannelsBySectionItem(h3, section, sectionItem.id));
         div1.appendChild(h3);
 
         const div2 = html_appendDiv(divMainSection, "w3-channels-by-section-item w3-hide");
 
         let div3 = html_appendDiv(div2, "w3-row-padding");
         const aClassName = "w3-button w3-hover-lime w3-padding-small w3-ripple";
-        if (webpagesBySectionItem.length > 1) {
+        if (sectionItem.webpages.length > 1) {
             const div4 = html_appendDiv(div3, "w3-margin-bottom");
-            if (webpagesBySectionItem.length > 2) {
+            if (sectionItem.webpages.length > 2) {
                 div4.classList.add("w3-rest");
             } else {
                 div4.classList.add("w3-twothird");
@@ -120,7 +151,7 @@ function loadHTMLBySectionItems(section, sectionItems) {
             const div7 = html_appendDiv(div6, null);
             const aPrev = html_appendA(div7, aClassName, null, "\u00AB", "Previous Options"); // «
             aPrev.addEventListener("click", () => changeOptionsBySectionItem(aPrev, "prev"));
-            for (let i = 0; i < Math.max(...webpagesBySectionItem.map(item => item.urls.length)); i++) {
+            for (let i = 0; i < Math.max(...sectionItem.webpages.map(item => item.urls.length)); i++) {
                 const indexDisplay = i + 1;
                 const aURL = html_appendA(div7, aClassName, null, indexDisplay, `Options ${indexDisplay}s`);
                 aURL.addEventListener("click", () => changeOptionsBySectionItem(aURL, i));
@@ -136,12 +167,12 @@ function loadHTMLBySectionItems(section, sectionItems) {
             aMax.addEventListener("click", () => w3_setDisplayModal("modalChannel", "block", aMax));
         }
 
-        webpagesBySectionItem
+        sectionItem.webpages
             .sort((a, b) =>
                 a.time.localeCompare(b.time) ||
                 a.association.localeCompare(b.association) ||
-                a.league.localeCompare(b.league) ||
-                a.sportingEvent.localeCompare(b.sportingEvent))
+                a.leagueDisplay.localeCompare(b.leagueDisplay) ||
+                a.sportingEventDisplay.localeCompare(b.sportingEventDisplay))
             .forEach((webpage, index) => {
                 if (index % 3 === 0) {
                     div3 = html_appendDiv(div2, "w3-row-padding");
@@ -179,9 +210,9 @@ function loadHTMLBySectionItems(section, sectionItems) {
                 div5.appendChild(iframe);
 
                 const div9 = html_appendDiv(div5, "w3-container");
-                const p1 = html_appendP(div9, `${webpage.time} - ${webpage.association} - ${getSectionItemDisplayBySectionItem("league", webpage.league)}`);
+                const p1 = html_appendP(div9, `${webpage.time} - ${webpage.association} - ${webpage.leagueDisplay}`);
                 const svg = html_appendSVG(p1, "w3-left", webpage.state.color, `${webpage.state.message} ${webpage.state.url}`);
-                const p2 = html_appendP(div9, getSectionItemDisplayBySectionItem("sportingEvent", webpage.sportingEvent));
+                const p2 = html_appendP(div9, webpage.sportingEventDisplay);
 
                 const div10 = html_appendDiv(div5, "w3-center w3-border w3-round");
                 const span = html_appendSpan(div10, null, "Go to:", null);
@@ -194,49 +225,25 @@ function loadHTMLBySectionItems(section, sectionItems) {
     });
 }
 
+const times24H = {};
 /**
- * Filters the global `webpages` array to return an array of webpage objects that match the specified section and section item. The function checks the section type (sporting event, league, or stream) and filters the webpages accordingly based on the relevant property (sportingEvent, league, or hostname). The resulting array contains only the webpage objects that correspond to the specified section item within the given section.
- * @param {string} section - The section for which to filter the webpages (e.g., "sportingEvent", "league", "stream").
- * @param {string} sectionItem - The specific item within the section to filter by (e.g., a specific sporting event, league, or stream hostname).
- * @returns {Webpage[]} An array of webpage objects that match the specified section and section item, filtered from the global `webpages` array.
+ * Converts a given time string in 12-hour format (e.g., "2:30 PM") to 24-hour format based on the user's local timezone. The function checks if the time has already been converted and cached in the `times24H` object, and if so, it returns the cached value. If not, it splits the time string into hours and minutes, creates a new Date object, and uses the `Intl.DateTimeFormat` API to format the time in 24-hour format according to the user's local timezone. The resulting 24-hour formatted time is then cached in the `times24H` object for future reference and returned as the output of the function.
+ * @param {string} time - A string representing a time in 12-hour format (e.g., "2:30 PM") that needs to be converted to 24-hour format based on the user's local timezone. The function checks if the time has already been converted and cached in the `times24H` object, and if so, it returns the cached value. If not, it splits the time string into hours and minutes, creates a new Date object, and uses the `Intl.DateTimeFormat` API to format the time in 24-hour format according to the user's local timezone. The resulting 24-hour formatted time is then cached in the `times24H` object for future reference and returned as the output of the function.
+ * @returns The function returns a string representing the input time converted to 24-hour format based on the user's local timezone. If the time has already been converted and cached, it returns the cached value; otherwise, it performs the conversion and caches the result before returning it.
  */
-function getWebpagesBySectionItem(section, sectionItem) {
-    let webpagesBySectionItem = webpages;
-    if (section === "sportingEvent") {
-        webpagesBySectionItem = webpages.filter(item => item.sportingEvent === sectionItem);
-    } else if (section === "league") {
-        webpagesBySectionItem = webpages.filter(item => item.league === sectionItem);
-    } else if (section === "stream") {
-        webpagesBySectionItem = webpages.filter(item => item.hostname === sectionItem);
+function convertTimeTo24HLocal(time) {
+    if (times24H[time]) {
+        return times24H[time];
     }
-    return webpagesBySectionItem;
-}
 
-/**
- * Transforms a given `sectionItem` string into a valid HTML element ID by replacing spaces with underscores and converting single and double quotes to their corresponding HTML entities. This function is used to ensure that the resulting string can be safely used as an ID in HTML without causing issues with special characters or whitespace, which could lead to invalid HTML or unexpected behavior when trying to reference the element by its ID.
- * @param {string} sectionItem - The specific item within a section (e.g., a sporting event name, league name, or stream hostname) that needs to be transformed into a valid HTML element ID. The function replaces spaces with underscores and converts single and double quotes to their corresponding HTML entities to ensure that the resulting string can be safely used as an ID in HTML without causing issues with special characters or whitespace.
- * @returns {string} A transformed version of the input `sectionItem` string that is suitable for use as an HTML element ID, with spaces replaced by underscores and quotes replaced by their respective HTML entities.
- */
-function getSectionItemId(sectionItem) {
-    return sectionItem.replace(/\s/g, "_").replace(/'/g, "&apos;").replace(/"/g, "&quot;"); // ' "
-}
+    const [hours, minutes] = time.split(":").map(Number);
+    const date = new Date();
+    const formater = new Intl.DateTimeFormat(undefined, { hour: "2-digit", minute: "2-digit", hour12: false });
 
-/**
- * Transforms a given `sectionItem` string for display purposes based on the specified `section` type. The function applies different transformations to the `sectionItem` string depending on whether it belongs to a sporting event, league, or stream section. For sporting events, it replaces occurrences of "_vs_" with a more visually appealing format that includes a "vs" separator, and replaces underscores with spaces while adding word-break opportunities for better display of long strings. For leagues, it simply replaces underscores with spaces and adds word-break opportunities. For streams, it replaces periods with periods followed by word-break opportunities to enhance readability and presentation in the HTML content.
- * @param {string} section - The section type (e.g., "sportingEvent", "league", "stream") that indicates how the `sectionItem` should be processed for display purposes. Depending on the section type, the function applies different transformations to the `sectionItem` string to enhance its readability and presentation in the HTML content. For example, it may replace underscores with spaces and add word-break opportunities for better display of long strings.
- * @param {string} sectionItem - The specific item within a section (e.g., a sporting event name, league name, or stream hostname) that needs to be transformed for display purposes. The function processes this string based on the provided `section` type to improve its readability and presentation in the HTML content, such as replacing underscores with spaces and adding word-break opportunities for better display of long strings.
- * @returns {string} A transformed version of the input `sectionItem` string that is formatted for better display in the HTML content, with transformations applied based on the specified `section` type to enhance readability and presentation.
- */
-function getSectionItemDisplayBySectionItem(section, sectionItem) {
-    let sectionItemDisplay = sectionItem;
-    if (section === "sportingEvent") {
-        sectionItemDisplay = sectionItem.replace(/_vs_/g, "_<span class='w3-opacity'>vs</span>_").replace(/_/g, " <wbr>"); // word-break-opportunity
-    } else if (section === "league") {
-        sectionItemDisplay = sectionItem.replace(/_/g, " <wbr>"); // word-break-opportunity
-    } else if (section === "stream") {
-        sectionItemDisplay = sectionItem.replace(/\./g, ".<wbr>"); // word-break-opportunity
-    }
-    return sectionItemDisplay;
+    date.setUTCHours(hours, minutes, 0, 0);
+    times24H[time] = formater.format(date);
+
+    return times24H[time];
 }
 
 /**
@@ -250,6 +257,36 @@ function onclickMenuItemBySectionItem(section, sectionItem) {
         w3_toggleDisplaySideBar();
     }
     document.getElementById(`${section}_${sectionItem}`).querySelector("h3.w3-button").click();
+}
+
+/**
+ * Appends spans to a given `<h3>` element based on the specified section and section item. The function creates and appends different spans to the `<h3>` element to provide additional information and functionality related to the section item, such as displaying the number of available channels or the time of a sporting event. The content and styling of the appended spans are customized based on the type of section item being represented, allowing users to quickly understand the context and details of the section item at a glance.
+ * @param {HTMLHeadingElement} h3 - The `<h3>` element to which the spans will be appended. This element serves as the container for the spans that provide additional information and functionality related to the section item, such as displaying the number of available channels or the time of a sporting event.
+ * @param {string} section - The section type (e.g., "sportingEvent", "league", "stream") that indicates the context of the section item and determines the specific information that will be displayed in the appended spans. This parameter is used to customize the content and styling of the spans based on the type of section item being represented.
+ * @param {string} sectionItemDisplay - The specific item within the section (e.g., a sporting event name, league name, or stream hostname) that corresponds to the `<h3>` element. This parameter is used to retrieve relevant information about the section item, such as the number of available channels or the time of a sporting event, which will be displayed in the appended spans to provide users with additional context and details about the section item.
+ * @param {string} numWebpages - The number of webpages (as a string) associated with the section item, which is used to determine the content of the spans that will be appended to the `<h3>` element. This parameter helps to provide users with information about how many channels or options are available for the specific section item, enhancing the user experience by giving them a quick overview of the available content related to that item.
+ */
+function appendSpansToH3BySectionItem(h3, section, sectionItemDisplay, numWebpages) {
+    const channels = numWebpages === "1" ? "channel" : "channels";
+    const span1 = html_appendSpan(h3, "icon-triangle-down w3-right", "\u25BD", `Open ${channels}`); // ▽
+    const span2 = html_appendSpan(h3, "w3-right", "\u00A0", null); // non-breaking space
+
+    const numWebpagesDisplay = numWebpages.length < 2 ? `\u00A0${numWebpages}\u00A0` : numWebpages; // non-breaking space
+    const spanTitleNumWebpages = `${numWebpages} available streaming ${channels}`;
+    const span3 = html_appendSpan(h3, "w3-badge w3-right w3-white w3-border w3-border-light-green", numWebpagesDisplay, spanTitleNumWebpages);
+    const span4 = html_appendSpan(h3, "w3-right", "\u00A0", null); // non-breaking space
+
+    if (section === "sportingEvent") {
+        const span5 = html_appendSpan(h3, "w3-badge w3-white w3-border w3-border-light-green w3-round-large", sectionItemDisplay.time, `The game is at ${sectionItemDisplay.time}`);
+        const span6 = html_appendSpan(h3, null, "\u00A0", null); // non-breaking space
+        if (sectionItemDisplay.league) {
+            const span7 = html_appendSpan(h3, "w3-opacity w3-hide-small", `${sectionItemDisplay.league}: `, null);
+        }
+    } else if (section === "league") {
+        if (sectionItemDisplay.association) {
+            const span5 = html_appendSpan(h3, "w3-opacity w3-hide-small", `${sectionItemDisplay.association}: `, null);
+        }
+    }
 }
 
 /**
@@ -450,72 +487,6 @@ function changeChannel(index) {
     }
 }
 
-const times24H = {};
-/**
- * Converts a given time string in 12-hour format (e.g., "2:30 PM") to 24-hour format based on the user's local timezone. The function checks if the time has already been converted and cached in the `times24H` object, and if so, it returns the cached value. If not, it splits the time string into hours and minutes, creates a new Date object, and uses the `Intl.DateTimeFormat` API to format the time in 24-hour format according to the user's local timezone. The resulting 24-hour formatted time is then cached in the `times24H` object for future reference and returned as the output of the function.
- * @param {string} time - A string representing a time in 12-hour format (e.g., "2:30 PM") that needs to be converted to 24-hour format based on the user's local timezone. The function checks if the time has already been converted and cached in the `times24H` object, and if so, it returns the cached value. If not, it splits the time string into hours and minutes, creates a new Date object, and uses the `Intl.DateTimeFormat` API to format the time in 24-hour format according to the user's local timezone. The resulting 24-hour formatted time is then cached in the `times24H` object for future reference and returned as the output of the function.
- * @returns The function returns a string representing the input time converted to 24-hour format based on the user's local timezone. If the time has already been converted and cached, it returns the cached value; otherwise, it performs the conversion and caches the result before returning it.
- */
-function convertTimeTo24HLocal(time) {
-    if (times24H[time]) {
-        return times24H[time];
-    }
-
-    const [hours, minutes] = time.split(":").map(Number);
-    const date = new Date();
-    const formater = new Intl.DateTimeFormat(undefined, { hour: "2-digit", minute: "2-digit", hour12: false });
-
-    date.setUTCHours(hours, minutes, 0, 0);
-    times24H[time] = formater.format(date);
-
-    return times24H[time];
-}
-
-/**
- * Appends spans to a given `<h3>` element based on the specified section and section item. The function creates and appends different spans to the `<h3>` element to provide additional information and functionality related to the section item, such as displaying the number of available channels or the time of a sporting event. The content and styling of the appended spans are customized based on the type of section item being represented, allowing users to quickly understand the context and details of the section item at a glance.
- * @param {HTMLHeadingElement} h3 - The `<h3>` element to which the spans will be appended. This element serves as the container for the spans that provide additional information and functionality related to the section item, such as displaying the number of available channels or the time of a sporting event.
- * @param {string} section - The section type (e.g., "sportingEvent", "league", "stream") that indicates the context of the section item and determines the specific information that will be displayed in the appended spans. This parameter is used to customize the content and styling of the spans based on the type of section item being represented.
- * @param {string} sectionItem - The specific item within the section (e.g., a sporting event name, league name, or stream hostname) that corresponds to the `<h3>` element. This parameter is used to retrieve relevant information about the section item, such as the number of available channels or the time of a sporting event, which will be displayed in the appended spans to provide users with additional context and details about the section item.
- * @param {string} numWebpages - The number of webpages (as a string) associated with the section item, which is used to determine the content of the spans that will be appended to the `<h3>` element. This parameter helps to provide users with information about how many channels or options are available for the specific section item, enhancing the user experience by giving them a quick overview of the available content related to that item.
- */
-function appendSpansToH3BySectionItem(h3, section, sectionItem, numWebpages) {
-    const channels = numWebpages === "1" ? "channel" : "channels";
-    const span1 = html_appendSpan(h3, "icon-triangle-down w3-right", "\u25BD", `Open ${channels}`); // ▽
-    const span2 = html_appendSpan(h3, "w3-right", "\u00A0", null); // non-breaking space
-
-    const numWebpagesDisplay = numWebpages.length < 2 ? `\u00A0${numWebpages}\u00A0` : numWebpages; // non-breaking space
-    const spanTitleNumWebpages = `${numWebpages} available streaming ${channels}`;
-    const span3 = html_appendSpan(h3, "w3-badge w3-right w3-white w3-border w3-border-light-green", numWebpagesDisplay, spanTitleNumWebpages);
-    const span4 = html_appendSpan(h3, "w3-right", "\u00A0", null); // non-breaking space
-
-    if (section === "sportingEvent") {
-        const { league, time } = webpages
-            .filter(item => item.sportingEvent === sectionItem)
-            .reduce((acc, webpage) => {
-                return {
-                    league: webpage.league.length > acc.league.length ? webpage.league : acc.league,
-                    time: webpage.time < acc.time ? webpage.time : acc.time
-                };
-            }, { league: '', time: '24:00' });
-        const span5 = html_appendSpan(h3, "w3-badge w3-white w3-border w3-border-light-green w3-round-large", time, `The game is at ${time}`);
-        const span6 = html_appendSpan(h3, null, "\u00A0", null); // non-breaking space
-        if (league) {
-            const span7 = html_appendSpan(h3, "w3-opacity w3-hide-small", `${getSectionItemDisplayBySectionItem("league", league)}: `, null);
-        }
-    } else if (section === "league") {
-        const { association } = webpages
-            .filter(item => item.league === sectionItem)
-            .reduce((acc, webpage) => {
-                return {
-                    association: webpage.association.length > acc.association.length ? webpage.association : acc.association
-                };
-            }, { association: '' });
-        if (association) {
-            const span5 = html_appendSpan(h3, "w3-opacity w3-hide-small", `${association}: `, null);
-        }
-    }
-}
-
 /**
  * Loads the host information into the "About" modal of the application by filtering the provided array of host objects to ensure that only unique hostnames are displayed. The function creates list items in the modal to present the host information in a user-friendly format, including the host's name and a link to their website. This allows users to see details about the streaming hosts that are being used to provide the streaming content, enhancing transparency and providing users with additional context about the sources of the streaming content available in the application.
  * @param {Host} hosts - An array of host objects that represent the streaming hosts available for the application. Each host object contains properties such as `name`, `origin`, and other relevant information about the streaming host. This function is responsible for loading the host information into the "About" modal of the application, allowing users to see details about the streaming hosts that are being used to provide the streaming content. The function filters the hosts to ensure that only unique hostnames are displayed, and it creates list items in the modal to present the host information in a user-friendly format.
@@ -525,7 +496,7 @@ function loadHostsInModalAbout(hosts) {
 
     hosts
         // Filter hosts to only include those that are not substrings of other hosts' hostname or are equal to other hosts' hostname
-        .filter((item, index, array) => array.every(host => {
+        .filter((item, _index, array) => array.every(host => {
             const hostHostname = new URL(host.origin).hostname;
             const itemHostname = new URL(item.origin).hostname;
             return hostHostname === itemHostname || !itemHostname.includes(hostHostname);
@@ -541,7 +512,7 @@ function loadHostsInModalAbout(hosts) {
                 span3,
                 null,
                 host.origin,
-                getSectionItemDisplayBySectionItem("stream", host.origin),
+                host.origin.replace(/\./g, ".<wbr>"), // word-break-opportunity
                 `Visit ${host.name} website`);
             a.target = "_blank";
         });
