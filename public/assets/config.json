@@ -94,7 +94,7 @@
             "time": "23:30",
             "isTime24H": true,
             "urls": [
-                "https://www.pirlotv.food/canal-33.php",
+                "https://pirlotv.food/canal-33.php",
                 "https://rodrixtv.site/tv/canal33.html",
                 "https://elcanaldeportivo.org/cdf.php"
             ],
@@ -136,7 +136,7 @@
             "time": "19:00",
             "isTime24H": true,
             "urls": [
-                "https://www.pirlotv.food/canal-100.php",
+                "https://pirlotv.food/canal-100.php",
                 "https://rodrixtv.site/tv/canal100.html",
                 "https://elcanaldeportivo.org/espn3hd.php"
             ],
@@ -603,43 +603,203 @@
             }
         },
         {
-            "association": "IT",
-            "leagueId": "serie_a_italia",
-            "leagueDisplay": "Serie <wbr>A <wbr>Italia",
-            "sportingEventId": "torino_vs_roma",
-            "sportingEventDisplay": "Torino <wbr><span class='w3-opacity'>vs</span> <wbr>Roma",
+            "association": "EN",
+            "leagueId": "premier_league",
+            "leagueDisplay": "Premier <wbr>League",
+            "sportingEventId": "leeds_united_vs_newcastle_united",
+            "sportingEventDisplay": "Leeds <wbr>Utd <wbr><span class='w3-opacity'>vs</span> <wbr>Newcastle",
             "streamId": "rodrixtv.site",
             "streamDisplay": "rodrixtv.<wbr>site",
-            "time": "16:30",
+            "time": "19:00",
             "isTime24H": true,
             "urls": [
-                "https://www.pirlotv.food/canal-20.php",
-                "https://rodrixtv.site/tv/canal20.html"
+                "https://pirlotv.food/canal-12.php",
+                "https://rodrixtv.site/tv/canal12.html"
             ],
             "state": {
                 "color": "green",
                 "message": "Failed to find either an iframe, a video element, or a div with id 'player' on our server from:",
-                "url": "https://zonalivetv.xyz/nplayer/sTL2/138"
+                "url": "https://zonalivetv.xyz/nplayer/sTL2/88"
             }
         },
         {
-            "association": "IT",
-            "leagueId": "serie_a_italia",
-            "leagueDisplay": "Serie <wbr>A <wbr>Italia",
-            "sportingEventId": "inter_milan_vs_udinese",
-            "sportingEventDisplay": "Inter <wbr><span class='w3-opacity'>vs</span> <wbr>Udinese",
+            "association": "UY",
+            "leagueId": "liga_de_uruguay",
+            "leagueDisplay": "Liga <wbr>de <wbr>Uruguay",
+            "sportingEventId": "montevideo_city_torque_vs_liverpool_montevideo",
+            "sportingEventDisplay": "Montevideo <wbr>City <wbr><span class='w3-opacity'>vs</span> <wbr>Liverpool <wbr>M.",
             "streamId": "rodrixtv.site",
             "streamDisplay": "rodrixtv.<wbr>site",
-            "time": "18:45",
+            "time": "22:00",
             "isTime24H": true,
             "urls": [
-                "https://www.pirlotv.food/canal-20.php",
-                "https://rodrixtv.site/tv/canal20.html"
+                "https://pirlotv.food/canal-132.php",
+                "https://rodrixtv.site/tv/canal132.html"
             ],
             "state": {
                 "color": "green",
                 "message": "Failed to find either an iframe, a video element, or a div with id 'player' on our server from:",
-                "url": "https://zonalivetv.xyz/nplayer/sTL2/138"
+                "url": "https://zonalivetv.xyz/nplayer/sTL2/109"
+            }
+        },
+        {
+            "association": "EC",
+            "leagueId": "liga_1_ecuador",
+            "leagueDisplay": "Liga <wbr>1 <wbr>Ecuador",
+            "sportingEventId": "universidad_catolica_quito_vs_orense",
+            "sportingEventDisplay": "U. <wbr>Católica <wbr><span class='w3-opacity'>vs</span> <wbr>Orense",
+            "streamId": "rodrixtv.site",
+            "streamDisplay": "rodrixtv.<wbr>site",
+            "time": "00:00",
+            "isTime24H": true,
+            "urls": [
+                "https://pirlotv.food/canal-28.php",
+                "https://rodrixtv.site/tv/canal28.html"
+            ],
+            "state": {
+                "color": "green",
+                "message": "Failed to find either an iframe, a video element, or a div with id 'player' on our server from:",
+                "url": "https://zonalivetv.xyz/nplayer/sTL2/86"
+            }
+        },
+        {
+            "association": "CO",
+            "leagueId": "liga_1_colombia",
+            "leagueDisplay": "Liga <wbr>1 <wbr>Colombia",
+            "sportingEventId": "america_de_cali_vs_deportivo_pasto",
+            "sportingEventDisplay": "América <wbr>de <wbr>Cali <wbr><span class='w3-opacity'>vs</span> <wbr>Dep. <wbr>Pasto",
+            "streamId": "rodrixtv.site",
+            "streamDisplay": "rodrixtv.<wbr>site",
+            "time": "01:00",
+            "isTime24H": true,
+            "urls": [
+                "https://pirlotv.food/canal-34.php",
+                "https://rodrixtv.site/tv/canal34.html"
+            ],
+            "state": {
+                "color": "green",
+                "message": "Failed to find either an iframe, a video element, or a div with id 'player' on our server from:",
+                "url": "https://zonalivetv.xyz/nplayer/sTL2/81"
+            }
+        },
+        {
+            "association": "TR",
+            "leagueId": "liga_de_turquia",
+            "leagueDisplay": "Liga <wbr>de <wbr>Turquia",
+            "sportingEventId": "gaziantep_fk_vs_fenerbahce",
+            "sportingEventDisplay": "Gaziantep <wbr><span class='w3-opacity'>vs</span> <wbr>Fenerbahçe",
+            "streamId": "rodrixtv.site",
+            "streamDisplay": "rodrixtv.<wbr>site",
+            "time": "17:00",
+            "isTime24H": true,
+            "urls": [
+                "https://pirlotv.food/canal-41.php",
+                "https://rodrixtv.site/tv/canal41.html"
+            ],
+            "state": {
+                "color": "green",
+                "message": "Failed to find either an iframe, a video element, or a div with id 'player' on our server from:",
+                "url": "https://zonalivetv.xyz/nplayer/sTL2/98"
+            }
+        },
+        {
+            "association": "PT",
+            "leagueId": "liga_de_portugal",
+            "leagueDisplay": "Liga <wbr>de <wbr>Portugal",
+            "sportingEventId": "sc_braga_vs_estoril",
+            "sportingEventDisplay": "SC <wbr>Braga <wbr><span class='w3-opacity'>vs</span> <wbr>Estoril",
+            "streamId": "rodrixtv.site",
+            "streamDisplay": "rodrixtv.<wbr>site",
+            "time": "19:45",
+            "isTime24H": true,
+            "urls": [
+                "https://pirlotv.food/canal-44.php",
+                "https://rodrixtv.site/tv/canal44.html"
+            ],
+            "state": {
+                "color": "green",
+                "message": "Failed to find either an iframe, a video element, or a div with id 'player' on our server from:",
+                "url": "https://zonalivetv.xyz/nplayer/sTL2/145"
+            }
+        },
+        {
+            "association": "EC",
+            "leagueId": "liga_1_ecuador",
+            "leagueDisplay": "Liga <wbr>1 <wbr>Ecuador",
+            "sportingEventId": "universidad_catolica_quito_vs_orense",
+            "sportingEventDisplay": "U. <wbr>Católica <wbr><span class='w3-opacity'>vs</span> <wbr>Orense",
+            "streamId": "rodrixtv.site",
+            "streamDisplay": "rodrixtv.<wbr>site",
+            "time": "00:00",
+            "isTime24H": true,
+            "urls": [
+                "https://pirlotv.food/canal-47.php",
+                "https://rodrixtv.site/tv/canal47.html"
+            ],
+            "state": {
+                "color": "green",
+                "message": "Failed to find either an iframe, a video element, or a div with id 'player' on our server from:",
+                "url": "https://zonalivetv.xyz/nplayer/sTL2/88"
+            }
+        },
+        {
+            "association": "MX",
+            "leagueId": "liga_mx",
+            "leagueDisplay": "Liga <wbr>MX",
+            "sportingEventId": "club_leon_vs_atletico_san_luis",
+            "sportingEventDisplay": "León <wbr><span class='w3-opacity'>vs</span> <wbr>Atlético <wbr>de <wbr>San <wbr>Luis",
+            "streamId": "rodrixtv.site",
+            "streamDisplay": "rodrixtv.<wbr>site",
+            "time": "01:00",
+            "isTime24H": true,
+            "urls": [
+                "https://pirlotv.food/canal-49.php",
+                "https://rodrixtv.site/tv/canal49.html"
+            ],
+            "state": {
+                "color": "green",
+                "message": "Failed to find either an iframe, a video element, or a div with id 'player' on our server from:",
+                "url": "https://zonalivetv.xyz/nplayer/sTL2/158"
+            }
+        },
+        {
+            "association": "ES",
+            "leagueId": "laliga_ea_sports",
+            "leagueDisplay": "LaLiga <wbr>EA <wbr>Sports",
+            "sportingEventId": "villarreal_vs_real_betis",
+            "sportingEventDisplay": "Villarreal <wbr><span class='w3-opacity'>vs</span> <wbr>Real <wbr>Betis",
+            "streamId": "rodrixtv.site",
+            "streamDisplay": "rodrixtv.<wbr>site",
+            "time": "19:00",
+            "isTime24H": true,
+            "urls": [
+                "https://pirlotv.food/canal-5.php",
+                "https://rodrixtv.site/tv/canal5.html"
+            ],
+            "state": {
+                "color": "green",
+                "message": "Failed to find either an iframe, a video element, or a div with id 'player' on our server from:",
+                "url": "https://zonalivetv.xyz/nplayer/sTL2/49"
+            }
+        },
+        {
+            "association": "CL",
+            "leagueId": "liga_1_chile",
+            "leagueDisplay": "Liga <wbr>1 <wbr>Chile",
+            "sportingEventId": "union_la_calera_vs_deportes_limache",
+            "sportingEventDisplay": "U. <wbr>La <wbr>Calera <wbr><span class='w3-opacity'>vs</span> <wbr>Limache",
+            "streamId": "rodrixtv.site",
+            "streamDisplay": "rodrixtv.<wbr>site",
+            "time": "23:30",
+            "isTime24H": true,
+            "urls": [
+                "https://tarjetarojatv.lat/cdf.php",
+                "https://rodrixtv.site/tv/cdf.html"
+            ],
+            "state": {
+                "color": "green",
+                "message": "Failed to find either an iframe, a video element, or a div with id 'player' on our server from:",
+                "url": "https://zonalivetv.xyz/nplayer/sTL2/83"
             }
         },
         {
@@ -862,7 +1022,7 @@
             "time": "19:00",
             "isTime24H": true,
             "urls": [
-                "https://www.pirlotv.food/canal-4.php",
+                "https://pirlotv.food/canal-4.php",
                 "https://rodrixtv.site/tv/canal4.html",
                 "https://streamxhd.com/live1.php?stream=disney7"
             ],
@@ -1135,7 +1295,7 @@
             "time": "17:45",
             "isTime24H": true,
             "urls": [
-                "https://www.pirlotv.food/canal-42.php",
+                "https://pirlotv.food/canal-42.php",
                 "https://rodrixtv.site/tv/canal42.html",
                 "https://streamxhd.com/live2.php?stream=disney12"
             ],
@@ -1156,7 +1316,7 @@
             "time": "23:00",
             "isTime24H": true,
             "urls": [
-                "https://www.pirlotv.food/canal-46.php",
+                "https://pirlotv.food/canal-46.php",
                 "https://rodrixtv.site/tv/canal46.html",
                 "https://streamxhd.com/live2.php?stream=disney18"
             ],
@@ -1303,7 +1463,7 @@
             "time": "23:00",
             "isTime24H": true,
             "urls": [
-                "https://www.pirlotv.food/canal-45.php",
+                "https://pirlotv.food/canal-45.php",
                 "https://rodrixtv.site/tv/canal45.html",
                 "https://streamxhd.com/live2.php?stream=dsports2"
             ],
@@ -1324,7 +1484,7 @@
             "time": "16:30",
             "isTime24H": true,
             "urls": [
-                "https://www.pirlotv.food/canal-18.php",
+                "https://pirlotv.food/canal-18.php",
                 "https://rodrixtv.site/tv/canal18.html",
                 "https://streamxhd.com/live2.php?stream=espn"
             ],
@@ -1345,7 +1505,7 @@
             "time": "18:45",
             "isTime24H": true,
             "urls": [
-                "https://www.pirlotv.food/canal-18.php",
+                "https://pirlotv.food/canal-18.php",
                 "https://rodrixtv.site/tv/canal18.html",
                 "https://streamxhd.com/live2.php?stream=espn"
             ],
@@ -1408,7 +1568,7 @@
             "time": "19:00",
             "isTime24H": true,
             "urls": [
-                "https://www.pirlotv.food/canal-11.php",
+                "https://pirlotv.food/canal-11.php",
                 "https://rodrixtv.site/tv/canal11.html",
                 "https://streamxhd.com/live2.php?stream=espn2"
             ],
@@ -1513,7 +1673,7 @@
             "time": "19:00",
             "isTime24H": true,
             "urls": [
-                "https://www.pirlotv.food/canal-2.php",
+                "https://pirlotv.food/canal-2.php",
                 "https://rodrixtv.site/tv/canal2.html",
                 "https://streamxhd.com/live2.php?stream=espn3"
             ],
@@ -1765,7 +1925,7 @@
             "time": "18:30",
             "isTime24H": true,
             "urls": [
-                "https://www.pirlotv.food/canal-39.php",
+                "https://pirlotv.food/canal-39.php",
                 "https://rodrixtv.site/tv/canal39.html",
                 "https://streamxhd.com/live2.php?stream=laligahypermotion"
             ],
@@ -1870,7 +2030,7 @@
             "time": "22:00",
             "isTime24H": true,
             "urls": [
-                "https://www.pirlotv.food/canal-103.php",
+                "https://pirlotv.food/canal-103.php",
                 "https://rodrixtv.site/tv/canal103.html",
                 "https://streamxhd.com/live2.php?stream=tntsports"
             ],
@@ -1891,7 +2051,7 @@
             "time": "00:15",
             "isTime24H": true,
             "urls": [
-                "https://www.pirlotv.food/canal-103.php",
+                "https://pirlotv.food/canal-103.php",
                 "https://rodrixtv.site/tv/canal103.html",
                 "https://streamxhd.com/live2.php?stream=tntsports"
             ],
@@ -1954,7 +2114,7 @@
             "time": "23:30",
             "isTime24H": true,
             "urls": [
-                "https://www.pirlotv.food/canal-32.php",
+                "https://pirlotv.food/canal-32.php",
                 "https://rodrixtv.site/tv/canal32.html",
                 "https://streamxhd.com/live2.php?stream=tntsportschile"
             ],
@@ -2038,7 +2198,7 @@
             "time": "01:00",
             "isTime24H": true,
             "urls": [
-                "https://www.pirlotv.food/canal-48.php",
+                "https://pirlotv.food/canal-48.php",
                 "https://rodrixtv.site/tv/canal48.html",
                 "https://streamxhd.com/live2.php?stream=vix1"
             ],
@@ -2080,7 +2240,7 @@
             "time": "01:00",
             "isTime24H": true,
             "urls": [
-                "https://www.pirlotv.food/canal-35.php",
+                "https://pirlotv.food/canal-35.php",
                 "https://rodrixtv.site/tv/canal35.html",
                 "https://streamxhd.com/live2.php?stream=winplus"
             ],
@@ -2206,7 +2366,7 @@
             "time": "00:00",
             "isTime24H": true,
             "urls": [
-                "https://www.pirlotv.food/canal-29.php",
+                "https://pirlotv.food/canal-29.php",
                 "https://rodrixtv.site/tv/canal29.html",
                 "https://streamxhd.com/live2.php?stream=zapping_ec"
             ],
@@ -2311,7 +2471,7 @@
             "time": "19:00",
             "isTime24H": true,
             "urls": [
-                "https://www.pirlotv.food/canal-3.php",
+                "https://pirlotv.food/canal-3.php",
                 "https://rodrixtv.site/tv/canal3.html",
                 "https://w2.sportsonlinee.click/channels/hd/hd6.php"
             ],
@@ -2332,7 +2492,7 @@
             "time": "19:15",
             "isTime24H": true,
             "urls": [
-                "https://www.pirlotv.food/canal-43.php",
+                "https://pirlotv.food/canal-43.php",
                 "https://rodrixtv.site/tv/canal43.html",
                 "https://w6.sportsonliine.click/channels/hd/hd4.php"
             ],
@@ -2353,7 +2513,7 @@
             "time": "16:30",
             "isTime24H": true,
             "urls": [
-                "https://www.pirlotv.food/canal-19.php",
+                "https://pirlotv.food/canal-19.php",
                 "https://rodrixtv.site/tv/canal19.html",
                 "https://w6.sportsonliine.click/channels/hd/hd7.php"
             ],
@@ -2374,7 +2534,7 @@
             "time": "18:45",
             "isTime24H": true,
             "urls": [
-                "https://www.pirlotv.food/canal-19.php",
+                "https://pirlotv.food/canal-19.php",
                 "https://rodrixtv.site/tv/canal19.html",
                 "https://w6.sportsonliine.click/channels/hd/hd7.php"
             ],
@@ -2395,7 +2555,7 @@
             "time": "16:30",
             "isTime24H": true,
             "urls": [
-                "https://www.pirlotv.food/canal-21.php",
+                "https://pirlotv.food/canal-21.php",
                 "https://rodrixtv.site/tv/canal21.html",
                 "https://w6.sportsonliine.click/channels/hd/hd7.php"
             ],
@@ -2403,27 +2563,6 @@
                 "color": "green",
                 "message": "Failed to find either an iframe, a video element, or a div with id 'player' on our server from:",
                 "url": "https://xstream.to/"
-            }
-        },
-        {
-            "association": "UY",
-            "leagueId": "liga_de_uruguay",
-            "leagueDisplay": "Liga <wbr>de <wbr>Uruguay",
-            "sportingEventId": "montevideo_city_torque_vs_liverpool_montevideo",
-            "sportingEventDisplay": "Montevideo <wbr>City <wbr><span class='w3-opacity'>vs</span> <wbr>Liverpool <wbr>M.",
-            "streamId": "zonalivetv.xyz",
-            "streamDisplay": "zonalivetv.<wbr>xyz",
-            "time": "22:00",
-            "isTime24H": true,
-            "urls": [
-                "https://www.pirlotv.food/canal-132.php",
-                "https://rodrixtv.site/tv/canal132.html",
-                "https://zonalivetv.xyz/nplayer/sTL2/109"
-            ],
-            "state": {
-                "color": "yellow",
-                "message": "Failed to find either an iframe or a video element, but found a div with id 'player' on our server from:",
-                "url": "https://zonalivetv.xyz/nplayer/sTL2/109"
             }
         },
         {
@@ -2448,66 +2587,45 @@
             }
         },
         {
-            "association": "PT",
-            "leagueId": "liga_de_portugal",
-            "leagueDisplay": "Liga <wbr>de <wbr>Portugal",
-            "sportingEventId": "sc_braga_vs_estoril",
-            "sportingEventDisplay": "SC <wbr>Braga <wbr><span class='w3-opacity'>vs</span> <wbr>Estoril",
+            "association": "IT",
+            "leagueId": "serie_a_italia",
+            "leagueDisplay": "Serie <wbr>A <wbr>Italia",
+            "sportingEventId": "torino_vs_roma",
+            "sportingEventDisplay": "Torino <wbr><span class='w3-opacity'>vs</span> <wbr>Roma",
             "streamId": "zonalivetv.xyz",
             "streamDisplay": "zonalivetv.<wbr>xyz",
-            "time": "19:45",
+            "time": "16:30",
             "isTime24H": true,
             "urls": [
-                "https://www.pirlotv.food/canal-44.php",
-                "https://rodrixtv.site/tv/canal44.html",
-                "https://zonalivetv.xyz/nplayer/sTL2/145"
+                "https://pirlotv.food/canal-20.php",
+                "https://rodrixtv.site/tv/canal20.html",
+                "https://zonalivetv.xyz/nplayer/sTL2/138"
             ],
             "state": {
                 "color": "yellow",
                 "message": "Failed to find either an iframe or a video element, but found a div with id 'player' on our server from:",
-                "url": "https://zonalivetv.xyz/nplayer/sTL2/145"
+                "url": "https://zonalivetv.xyz/nplayer/sTL2/138"
             }
         },
         {
-            "association": "MX",
-            "leagueId": "liga_mx",
-            "leagueDisplay": "Liga <wbr>MX",
-            "sportingEventId": "club_leon_vs_atletico_san_luis",
-            "sportingEventDisplay": "León <wbr><span class='w3-opacity'>vs</span> <wbr>Atlético <wbr>de <wbr>San <wbr>Luis",
+            "association": "IT",
+            "leagueId": "serie_a_italia",
+            "leagueDisplay": "Serie <wbr>A <wbr>Italia",
+            "sportingEventId": "inter_milan_vs_udinese",
+            "sportingEventDisplay": "Inter <wbr><span class='w3-opacity'>vs</span> <wbr>Udinese",
             "streamId": "zonalivetv.xyz",
             "streamDisplay": "zonalivetv.<wbr>xyz",
-            "time": "01:00",
+            "time": "18:45",
             "isTime24H": true,
             "urls": [
-                "https://www.pirlotv.food/canal-49.php",
-                "https://rodrixtv.site/tv/canal49.html",
-                "https://zonalivetv.xyz/nplayer/sTL2/158"
+                "https://pirlotv.food/canal-20.php",
+                "https://rodrixtv.site/tv/canal20.html",
+                "https://zonalivetv.xyz/nplayer/sTL2/138"
             ],
             "state": {
                 "color": "yellow",
                 "message": "Failed to find either an iframe or a video element, but found a div with id 'player' on our server from:",
-                "url": "https://zonalivetv.xyz/nplayer/sTL2/158"
-            }
-        },
-        {
-            "association": "ES",
-            "leagueId": "laliga_ea_sports",
-            "leagueDisplay": "LaLiga <wbr>EA <wbr>Sports",
-            "sportingEventId": "villarreal_vs_real_betis",
-            "sportingEventDisplay": "Villarreal <wbr><span class='w3-opacity'>vs</span> <wbr>Real <wbr>Betis",
-            "streamId": "zonalivetv.xyz",
-            "streamDisplay": "zonalivetv.<wbr>xyz",
-            "time": "19:00",
-            "isTime24H": true,
-            "urls": [
-                "https://www.pirlotv.food/canal-5.php",
-                "https://rodrixtv.site/tv/canal5.html",
-                "https://zonalivetv.xyz/nplayer/sTL2/49"
-            ],
-            "state": {
-                "color": "yellow",
-                "message": "Failed to find either an iframe or a video element, but found a div with id 'player' on our server from:",
-                "url": "https://zonalivetv.xyz/nplayer/sTL2/49"
+                "url": "https://zonalivetv.xyz/nplayer/sTL2/138"
             }
         },
         {
@@ -2521,7 +2639,7 @@
             "time": "19:00",
             "isTime24H": true,
             "urls": [
-                "https://www.pirlotv.food/canal-10.php",
+                "https://pirlotv.food/canal-10.php",
                 "https://rodrixtv.site/tv/canal10.html",
                 "https://zonalivetv.xyz/nplayer/sTL2/56"
             ],
@@ -2563,7 +2681,7 @@
             "time": "22:00",
             "isTime24H": true,
             "urls": [
-                "https://www.pirlotv.food/canal-104.php",
+                "https://pirlotv.food/canal-104.php",
                 "https://rodrixtv.site/tv/canal104.html",
                 "https://zonalivetv.xyz/nplayer/sTL2/76"
             ],
@@ -2571,69 +2689,6 @@
                 "color": "yellow",
                 "message": "Failed to find either an iframe or a video element, but found a div with id 'player' on our server from:",
                 "url": "https://zonalivetv.xyz/nplayer/sTL2/76"
-            }
-        },
-        {
-            "association": "CO",
-            "leagueId": "liga_1_colombia",
-            "leagueDisplay": "Liga <wbr>1 <wbr>Colombia",
-            "sportingEventId": "america_de_cali_vs_deportivo_pasto",
-            "sportingEventDisplay": "América <wbr>de <wbr>Cali <wbr><span class='w3-opacity'>vs</span> <wbr>Dep. <wbr>Pasto",
-            "streamId": "zonalivetv.xyz",
-            "streamDisplay": "zonalivetv.<wbr>xyz",
-            "time": "01:00",
-            "isTime24H": true,
-            "urls": [
-                "https://www.pirlotv.food/canal-34.php",
-                "https://rodrixtv.site/tv/canal34.html",
-                "https://zonalivetv.xyz/nplayer/sTL2/81"
-            ],
-            "state": {
-                "color": "yellow",
-                "message": "Failed to find either an iframe or a video element, but found a div with id 'player' on our server from:",
-                "url": "https://zonalivetv.xyz/nplayer/sTL2/81"
-            }
-        },
-        {
-            "association": "CL",
-            "leagueId": "liga_1_chile",
-            "leagueDisplay": "Liga <wbr>1 <wbr>Chile",
-            "sportingEventId": "union_la_calera_vs_deportes_limache",
-            "sportingEventDisplay": "U. <wbr>La <wbr>Calera <wbr><span class='w3-opacity'>vs</span> <wbr>Limache",
-            "streamId": "zonalivetv.xyz",
-            "streamDisplay": "zonalivetv.<wbr>xyz",
-            "time": "23:30",
-            "isTime24H": true,
-            "urls": [
-                "https://tarjetarojatv.lat/cdf.php",
-                "https://rodrixtv.site/tv/cdf.html",
-                "https://zonalivetv.xyz/nplayer/sTL2/83"
-            ],
-            "state": {
-                "color": "yellow",
-                "message": "Failed to find either an iframe or a video element, but found a div with id 'player' on our server from:",
-                "url": "https://zonalivetv.xyz/nplayer/sTL2/83"
-            }
-        },
-        {
-            "association": "EC",
-            "leagueId": "liga_1_ecuador",
-            "leagueDisplay": "Liga <wbr>1 <wbr>Ecuador",
-            "sportingEventId": "universidad_catolica_quito_vs_orense",
-            "sportingEventDisplay": "U. <wbr>Católica <wbr><span class='w3-opacity'>vs</span> <wbr>Orense",
-            "streamId": "zonalivetv.xyz",
-            "streamDisplay": "zonalivetv.<wbr>xyz",
-            "time": "00:00",
-            "isTime24H": true,
-            "urls": [
-                "https://www.pirlotv.food/canal-28.php",
-                "https://rodrixtv.site/tv/canal28.html",
-                "https://zonalivetv.xyz/nplayer/sTL2/86"
-            ],
-            "state": {
-                "color": "yellow",
-                "message": "Failed to find either an iframe or a video element, but found a div with id 'player' on our server from:",
-                "url": "https://zonalivetv.xyz/nplayer/sTL2/86"
             }
         },
         {
@@ -2679,48 +2734,6 @@
             }
         },
         {
-            "association": "EN",
-            "leagueId": "premier_league",
-            "leagueDisplay": "Premier <wbr>League",
-            "sportingEventId": "leeds_united_vs_newcastle_united",
-            "sportingEventDisplay": "Leeds <wbr>Utd <wbr><span class='w3-opacity'>vs</span> <wbr>Newcastle",
-            "streamId": "zonalivetv.xyz",
-            "streamDisplay": "zonalivetv.<wbr>xyz",
-            "time": "19:00",
-            "isTime24H": true,
-            "urls": [
-                "https://www.pirlotv.food/canal-12.php",
-                "https://rodrixtv.site/tv/canal12.html",
-                "https://zonalivetv.xyz/nplayer/sTL2/88"
-            ],
-            "state": {
-                "color": "yellow",
-                "message": "Failed to find either an iframe or a video element, but found a div with id 'player' on our server from:",
-                "url": "https://zonalivetv.xyz/nplayer/sTL2/88"
-            }
-        },
-        {
-            "association": "EC",
-            "leagueId": "liga_1_ecuador",
-            "leagueDisplay": "Liga <wbr>1 <wbr>Ecuador",
-            "sportingEventId": "universidad_catolica_quito_vs_orense",
-            "sportingEventDisplay": "U. <wbr>Católica <wbr><span class='w3-opacity'>vs</span> <wbr>Orense",
-            "streamId": "zonalivetv.xyz",
-            "streamDisplay": "zonalivetv.<wbr>xyz",
-            "time": "00:00",
-            "isTime24H": true,
-            "urls": [
-                "https://www.pirlotv.food/canal-47.php",
-                "https://rodrixtv.site/tv/canal47.html",
-                "https://zonalivetv.xyz/nplayer/sTL2/88"
-            ],
-            "state": {
-                "color": "yellow",
-                "message": "Failed to find either an iframe or a video element, but found a div with id 'player' on our server from:",
-                "url": "https://zonalivetv.xyz/nplayer/sTL2/88"
-            }
-        },
-        {
             "association": "ES",
             "leagueId": "laliga_ea_sports",
             "leagueDisplay": "LaLiga <wbr>EA <wbr>Sports",
@@ -2731,7 +2744,7 @@
             "time": "19:00",
             "isTime24H": true,
             "urls": [
-                "https://www.pirlotv.food/canal-1.php",
+                "https://pirlotv.food/canal-1.php",
                 "https://rodrixtv.site/tv/canal1.html",
                 "https://zonalivetv.xyz/nplayer/sTL2/89"
             ],
@@ -2739,27 +2752,6 @@
                 "color": "yellow",
                 "message": "Failed to find either an iframe or a video element, but found a div with id 'player' on our server from:",
                 "url": "https://zonalivetv.xyz/nplayer/sTL2/89"
-            }
-        },
-        {
-            "association": "TR",
-            "leagueId": "liga_de_turquia",
-            "leagueDisplay": "Liga <wbr>de <wbr>Turquia",
-            "sportingEventId": "gaziantep_fk_vs_fenerbahce",
-            "sportingEventDisplay": "Gaziantep <wbr><span class='w3-opacity'>vs</span> <wbr>Fenerbahçe",
-            "streamId": "zonalivetv.xyz",
-            "streamDisplay": "zonalivetv.<wbr>xyz",
-            "time": "17:00",
-            "isTime24H": true,
-            "urls": [
-                "https://www.pirlotv.food/canal-41.php",
-                "https://rodrixtv.site/tv/canal41.html",
-                "https://zonalivetv.xyz/nplayer/sTL2/98"
-            ],
-            "state": {
-                "color": "yellow",
-                "message": "Failed to find either an iframe or a video element, but found a div with id 'player' on our server from:",
-                "url": "https://zonalivetv.xyz/nplayer/sTL2/98"
             }
         }
     ]
