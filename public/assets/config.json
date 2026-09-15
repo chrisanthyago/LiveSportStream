@@ -189,69 +189,6 @@
             }
         },
         {
-            "association": "UY",
-            "leagueId": "liga_auf_uruguaya",
-            "leagueDisplay": "Liga <wbr>AUF <wbr>Uruguaya",
-            "sportingEventId": "montevideo_city_torque_vs_liverpool_montevideo",
-            "sportingEventDisplay": "Montevideo <wbr>City <wbr><span class='w3-opacity'>vs</span> <wbr>Liverpool <wbr>M.",
-            "streamId": "footunder.xyz",
-            "streamDisplay": "footunder.<wbr>xyz",
-            "time": "22:00",
-            "isTime24H": true,
-            "urls": [
-                "https://tarjetarojatv.biz/play/canal-109.php",
-                "https://tiroalblanco.sbs/reproductor/canal109.php?width=700&height=438",
-                "https://footunder.xyz/player1/sTL2/109"
-            ],
-            "state": {
-                "color": "yellow",
-                "message": "Failed to find either an iframe or a video element, but found a div with id 'player' on our server from:",
-                "url": "https://footunder.xyz/player1/sTL2/109"
-            }
-        },
-        {
-            "association": "UY",
-            "leagueId": "liga_auf_uruguaya",
-            "leagueDisplay": "Liga <wbr>AUF <wbr>Uruguaya",
-            "sportingEventId": "montevideo_city_torque_vs_liverpool_montevideo",
-            "sportingEventDisplay": "Montevideo <wbr>City <wbr><span class='w3-opacity'>vs</span> <wbr>Liverpool <wbr>M.",
-            "streamId": "footunder.xyz",
-            "streamDisplay": "footunder.<wbr>xyz",
-            "time": "22:00",
-            "isTime24H": true,
-            "urls": [
-                "https://tarjetarojatv.biz/play/vtv.php",
-                "https://tiroalblanco.sbs/reproductor/canalvtv.php?width=700&height=438",
-                "https://footunder.xyz/player1/sTL2/109"
-            ],
-            "state": {
-                "color": "yellow",
-                "message": "Failed to find either an iframe or a video element, but found a div with id 'player' on our server from:",
-                "url": "https://footunder.xyz/player1/sTL2/109"
-            }
-        },
-        {
-            "association": "ES",
-            "leagueId": "laliga_ea_sports",
-            "leagueDisplay": "LaLiga <wbr>EA <wbr>Sports",
-            "sportingEventId": "villarreal_vs_real_betis",
-            "sportingEventDisplay": "Villarreal <wbr><span class='w3-opacity'>vs</span> <wbr>Real <wbr>Betis",
-            "streamId": "footunder.xyz",
-            "streamDisplay": "footunder.<wbr>xyz",
-            "time": "19:00",
-            "isTime24H": true,
-            "urls": [
-                "https://tarjetarojatv.biz/play/canal-89.php",
-                "https://tiroalblanco.sbs/reproductor/canal89.php?width=700&height=438",
-                "https://footunder.xyz/player1/sTL2/89"
-            ],
-            "state": {
-                "color": "yellow",
-                "message": "Failed to find either an iframe or a video element, but found a div with id 'player' on our server from:",
-                "url": "https://footunder.xyz/player1/sTL2/89"
-            }
-        },
-        {
             "association": "",
             "leagueId": "liga_de_chile",
             "leagueDisplay": "Liga <wbr>de <wbr>Chile",
@@ -603,46 +540,6 @@
             }
         },
         {
-            "association": "EN",
-            "leagueId": "premier_league",
-            "leagueDisplay": "Premier <wbr>League",
-            "sportingEventId": "leeds_united_vs_newcastle_united",
-            "sportingEventDisplay": "Leeds <wbr>Utd <wbr><span class='w3-opacity'>vs</span> <wbr>Newcastle",
-            "streamId": "rodrixtv.site",
-            "streamDisplay": "rodrixtv.<wbr>site",
-            "time": "19:00",
-            "isTime24H": true,
-            "urls": [
-                "https://pirlotv.food/canal-12.php",
-                "https://rodrixtv.site/tv/canal12.html"
-            ],
-            "state": {
-                "color": "green",
-                "message": "Failed to find either an iframe, a video element, or a div with id 'player' on our server from:",
-                "url": "https://zonalivetv.xyz/nplayer/sTL2/88"
-            }
-        },
-        {
-            "association": "UY",
-            "leagueId": "liga_de_uruguay",
-            "leagueDisplay": "Liga <wbr>de <wbr>Uruguay",
-            "sportingEventId": "montevideo_city_torque_vs_liverpool_montevideo",
-            "sportingEventDisplay": "Montevideo <wbr>City <wbr><span class='w3-opacity'>vs</span> <wbr>Liverpool <wbr>M.",
-            "streamId": "rodrixtv.site",
-            "streamDisplay": "rodrixtv.<wbr>site",
-            "time": "22:00",
-            "isTime24H": true,
-            "urls": [
-                "https://pirlotv.food/canal-132.php",
-                "https://rodrixtv.site/tv/canal132.html"
-            ],
-            "state": {
-                "color": "green",
-                "message": "Failed to find either an iframe, a video element, or a div with id 'player' on our server from:",
-                "url": "https://zonalivetv.xyz/nplayer/sTL2/109"
-            }
-        },
-        {
             "association": "EC",
             "leagueId": "liga_1_ecuador",
             "leagueDisplay": "Liga <wbr>1 <wbr>Ecuador",
@@ -663,126 +560,6 @@
             }
         },
         {
-            "association": "CO",
-            "leagueId": "liga_1_colombia",
-            "leagueDisplay": "Liga <wbr>1 <wbr>Colombia",
-            "sportingEventId": "america_de_cali_vs_deportivo_pasto",
-            "sportingEventDisplay": "América <wbr>de <wbr>Cali <wbr><span class='w3-opacity'>vs</span> <wbr>Dep. <wbr>Pasto",
-            "streamId": "rodrixtv.site",
-            "streamDisplay": "rodrixtv.<wbr>site",
-            "time": "01:00",
-            "isTime24H": true,
-            "urls": [
-                "https://pirlotv.food/canal-34.php",
-                "https://rodrixtv.site/tv/canal34.html"
-            ],
-            "state": {
-                "color": "green",
-                "message": "Failed to find either an iframe, a video element, or a div with id 'player' on our server from:",
-                "url": "https://zonalivetv.xyz/nplayer/sTL2/81"
-            }
-        },
-        {
-            "association": "TR",
-            "leagueId": "liga_de_turquia",
-            "leagueDisplay": "Liga <wbr>de <wbr>Turquia",
-            "sportingEventId": "gaziantep_fk_vs_fenerbahce",
-            "sportingEventDisplay": "Gaziantep <wbr><span class='w3-opacity'>vs</span> <wbr>Fenerbahçe",
-            "streamId": "rodrixtv.site",
-            "streamDisplay": "rodrixtv.<wbr>site",
-            "time": "17:00",
-            "isTime24H": true,
-            "urls": [
-                "https://pirlotv.food/canal-41.php",
-                "https://rodrixtv.site/tv/canal41.html"
-            ],
-            "state": {
-                "color": "green",
-                "message": "Failed to find either an iframe, a video element, or a div with id 'player' on our server from:",
-                "url": "https://zonalivetv.xyz/nplayer/sTL2/98"
-            }
-        },
-        {
-            "association": "PT",
-            "leagueId": "liga_de_portugal",
-            "leagueDisplay": "Liga <wbr>de <wbr>Portugal",
-            "sportingEventId": "sc_braga_vs_estoril",
-            "sportingEventDisplay": "SC <wbr>Braga <wbr><span class='w3-opacity'>vs</span> <wbr>Estoril",
-            "streamId": "rodrixtv.site",
-            "streamDisplay": "rodrixtv.<wbr>site",
-            "time": "19:45",
-            "isTime24H": true,
-            "urls": [
-                "https://pirlotv.food/canal-44.php",
-                "https://rodrixtv.site/tv/canal44.html"
-            ],
-            "state": {
-                "color": "green",
-                "message": "Failed to find either an iframe, a video element, or a div with id 'player' on our server from:",
-                "url": "https://zonalivetv.xyz/nplayer/sTL2/145"
-            }
-        },
-        {
-            "association": "EC",
-            "leagueId": "liga_1_ecuador",
-            "leagueDisplay": "Liga <wbr>1 <wbr>Ecuador",
-            "sportingEventId": "universidad_catolica_quito_vs_orense",
-            "sportingEventDisplay": "U. <wbr>Católica <wbr><span class='w3-opacity'>vs</span> <wbr>Orense",
-            "streamId": "rodrixtv.site",
-            "streamDisplay": "rodrixtv.<wbr>site",
-            "time": "00:00",
-            "isTime24H": true,
-            "urls": [
-                "https://pirlotv.food/canal-47.php",
-                "https://rodrixtv.site/tv/canal47.html"
-            ],
-            "state": {
-                "color": "green",
-                "message": "Failed to find either an iframe, a video element, or a div with id 'player' on our server from:",
-                "url": "https://zonalivetv.xyz/nplayer/sTL2/88"
-            }
-        },
-        {
-            "association": "MX",
-            "leagueId": "liga_mx",
-            "leagueDisplay": "Liga <wbr>MX",
-            "sportingEventId": "club_leon_vs_atletico_san_luis",
-            "sportingEventDisplay": "León <wbr><span class='w3-opacity'>vs</span> <wbr>Atlético <wbr>de <wbr>San <wbr>Luis",
-            "streamId": "rodrixtv.site",
-            "streamDisplay": "rodrixtv.<wbr>site",
-            "time": "01:00",
-            "isTime24H": true,
-            "urls": [
-                "https://pirlotv.food/canal-49.php",
-                "https://rodrixtv.site/tv/canal49.html"
-            ],
-            "state": {
-                "color": "green",
-                "message": "Failed to find either an iframe, a video element, or a div with id 'player' on our server from:",
-                "url": "https://zonalivetv.xyz/nplayer/sTL2/158"
-            }
-        },
-        {
-            "association": "ES",
-            "leagueId": "laliga_ea_sports",
-            "leagueDisplay": "LaLiga <wbr>EA <wbr>Sports",
-            "sportingEventId": "villarreal_vs_real_betis",
-            "sportingEventDisplay": "Villarreal <wbr><span class='w3-opacity'>vs</span> <wbr>Real <wbr>Betis",
-            "streamId": "rodrixtv.site",
-            "streamDisplay": "rodrixtv.<wbr>site",
-            "time": "19:00",
-            "isTime24H": true,
-            "urls": [
-                "https://pirlotv.food/canal-5.php",
-                "https://rodrixtv.site/tv/canal5.html"
-            ],
-            "state": {
-                "color": "green",
-                "message": "Failed to find either an iframe, a video element, or a div with id 'player' on our server from:",
-                "url": "https://zonalivetv.xyz/nplayer/sTL2/49"
-            }
-        },
-        {
             "association": "CL",
             "leagueId": "liga_1_chile",
             "leagueDisplay": "Liga <wbr>1 <wbr>Chile",
@@ -800,26 +577,6 @@
                 "color": "green",
                 "message": "Failed to find either an iframe, a video element, or a div with id 'player' on our server from:",
                 "url": "https://zonalivetv.xyz/nplayer/sTL2/83"
-            }
-        },
-        {
-            "association": "ES",
-            "leagueId": "laliga_hypermotion",
-            "leagueDisplay": "LaLiga <wbr>Hypermotion",
-            "sportingEventId": "celta_de_vigo_b_vs_eibar",
-            "sportingEventDisplay": "Celta <wbr>de <wbr>Vigo <wbr>B <wbr><span class='w3-opacity'>vs</span> <wbr>Eibar",
-            "streamId": "rodrixtv.site",
-            "streamDisplay": "rodrixtv.<wbr>site",
-            "time": "18:30",
-            "isTime24H": true,
-            "urls": [
-                "https://pirlotv.food/liga2.php",
-                "https://rodrixtv.site/tv/liga2.html"
-            ],
-            "state": {
-                "color": "green",
-                "message": "Failed to find either an iframe, a video element, or a div with id 'player' on our server from:",
-                "url": "https://zonalivetv.xyz/nplayer/sTL2/53"
             }
         },
         {
@@ -1064,27 +821,6 @@
             "time": "19:00",
             "isTime24H": true,
             "urls": [
-                "https://tarjetarojatv.biz/play/bein-liga.php",
-                "https://tiroalblanco.sbs/reproductor/beinE.php?width=700&height=438",
-                "https://streamxhd.com/live1.php?stream=mlaliga"
-            ],
-            "state": {
-                "color": "green",
-                "message": "Successfully found streaming on our server from:",
-                "url": "https://streamxhd.com/live1.php?stream=mlaliga"
-            }
-        },
-        {
-            "association": "ES",
-            "leagueId": "laliga_ea_sports",
-            "leagueDisplay": "LaLiga <wbr>EA <wbr>Sports",
-            "sportingEventId": "villarreal_vs_real_betis",
-            "sportingEventDisplay": "Villarreal <wbr><span class='w3-opacity'>vs</span> <wbr>Real <wbr>Betis",
-            "streamId": "streamxhd.com",
-            "streamDisplay": "streamxhd.<wbr>com",
-            "time": "19:00",
-            "isTime24H": true,
-            "urls": [
                 "https://tarjetarojatv.biz/play/la-liga.php",
                 "https://tiroalblanco.sbs/reproductor/ligatv.php?width=700&height=438",
                 "https://streamxhd.com/live1.php?stream=mlaliga"
@@ -1222,48 +958,6 @@
             }
         },
         {
-            "association": "ARG",
-            "leagueId": "liga_profesional",
-            "leagueDisplay": "Liga <wbr>Profesional",
-            "sportingEventId": "banfield_vs_barracas_central",
-            "sportingEventDisplay": "Banfield <wbr><span class='w3-opacity'>vs</span> <wbr>Barracas <wbr>Central",
-            "streamId": "streamxhd.com",
-            "streamDisplay": "streamxhd.<wbr>com",
-            "time": "22:00",
-            "isTime24H": true,
-            "urls": [
-                "https://tarjetarojatv.biz/play/canal-75.php",
-                "https://tiroalblanco.sbs/reproductor/canal75.php?width=700&height=438",
-                "https://streamxhd.com/live2.php?stream=appletv15"
-            ],
-            "state": {
-                "color": "green",
-                "message": "Successfully found streaming on our server from:",
-                "url": "https://streamxhd.com/live2.php?stream=appletv15"
-            }
-        },
-        {
-            "association": "ARG",
-            "leagueId": "liga_profesional",
-            "leagueDisplay": "Liga <wbr>Profesional",
-            "sportingEventId": "instituto_cordoba_vs_estudiantes_de_rio_cuarto",
-            "sportingEventDisplay": "Instituto <wbr><span class='w3-opacity'>vs</span> <wbr>Estudiantes <wbr>Rio <wbr>Cuarto",
-            "streamId": "streamxhd.com",
-            "streamDisplay": "streamxhd.<wbr>com",
-            "time": "00:15",
-            "isTime24H": true,
-            "urls": [
-                "https://tarjetarojatv.biz/play/canal-75.php",
-                "https://tiroalblanco.sbs/reproductor/canal75.php?width=700&height=438",
-                "https://streamxhd.com/live2.php?stream=appletv15"
-            ],
-            "state": {
-                "color": "green",
-                "message": "Successfully found streaming on our server from:",
-                "url": "https://streamxhd.com/live2.php?stream=appletv15"
-            }
-        },
-        {
             "association": "SOCCER",
             "leagueId": "liga_de_campeones_afc",
             "leagueDisplay": "Liga <wbr>de <wbr>Campeones <wbr>AFC",
@@ -1324,27 +1018,6 @@
                 "color": "green",
                 "message": "Successfully found streaming on our server from:",
                 "url": "https://streamxhd.com/live2.php?stream=disney18"
-            }
-        },
-        {
-            "association": "IT",
-            "leagueId": "serie_a_tim",
-            "leagueDisplay": "Serie <wbr>A <wbr>TIM",
-            "sportingEventId": "como_vs_parma",
-            "sportingEventDisplay": "Como <wbr><span class='w3-opacity'>vs</span> <wbr>Parma",
-            "streamId": "streamxhd.com",
-            "streamDisplay": "streamxhd.<wbr>com",
-            "time": "16:30",
-            "isTime24H": true,
-            "urls": [
-                "https://tarjetarojatv.biz/play/disney-2.php",
-                "https://tiroalblanco.sbs/reproductor/disney2.php?width=700&height=438",
-                "https://streamxhd.com/live2.php?stream=disney2"
-            ],
-            "state": {
-                "color": "green",
-                "message": "Successfully found streaming on our server from:",
-                "url": "https://streamxhd.com/live2.php?stream=disney2"
             }
         },
         {
@@ -1429,27 +1102,6 @@
                 "color": "green",
                 "message": "Successfully found streaming on our server from:",
                 "url": "https://streamxhd.com/live2.php?stream=disney5"
-            }
-        },
-        {
-            "association": "IT",
-            "leagueId": "serie_a_tim",
-            "leagueDisplay": "Serie <wbr>A <wbr>TIM",
-            "sportingEventId": "inter_milan_vs_udinese",
-            "sportingEventDisplay": "Inter <wbr>Milan <wbr><span class='w3-opacity'>vs</span> <wbr>Udinese",
-            "streamId": "streamxhd.com",
-            "streamDisplay": "streamxhd.<wbr>com",
-            "time": "18:45",
-            "isTime24H": true,
-            "urls": [
-                "https://tarjetarojatv.biz/play/disney-6.php",
-                "https://tiroalblanco.sbs/reproductor/disney6.php?width=700&height=438",
-                "https://streamxhd.com/live2.php?stream=disney6"
-            ],
-            "state": {
-                "color": "green",
-                "message": "Successfully found streaming on our server from:",
-                "url": "https://streamxhd.com/live2.php?stream=disney6"
             }
         },
         {
@@ -1579,90 +1231,6 @@
             }
         },
         {
-            "association": "NFL",
-            "leagueId": "nfl",
-            "leagueDisplay": "NFL",
-            "sportingEventId": "kansas_city_chiefs_vs_denver_broncos",
-            "sportingEventDisplay": "Kansas <wbr>City <wbr>Chiefs <wbr><span class='w3-opacity'>vs</span> <wbr>Denver <wbr>Broncos",
-            "streamId": "streamxhd.com",
-            "streamDisplay": "streamxhd.<wbr>com",
-            "time": "00:15",
-            "isTime24H": true,
-            "urls": [
-                "https://tarjetarojatv.biz/play/canal-88.php",
-                "https://tiroalblanco.sbs/reproductor/canal88.php?width=700&height=438",
-                "https://streamxhd.com/live2.php?stream=espn2"
-            ],
-            "state": {
-                "color": "green",
-                "message": "Successfully found streaming on our server from:",
-                "url": "https://streamxhd.com/live2.php?stream=espn2"
-            }
-        },
-        {
-            "association": "IT",
-            "leagueId": "serie_a_tim",
-            "leagueDisplay": "Serie <wbr>A <wbr>TIM",
-            "sportingEventId": "torino_vs_roma",
-            "sportingEventDisplay": "Torino <wbr><span class='w3-opacity'>vs</span> <wbr>Roma",
-            "streamId": "streamxhd.com",
-            "streamDisplay": "streamxhd.<wbr>com",
-            "time": "16:30",
-            "isTime24H": true,
-            "urls": [
-                "https://tarjetarojatv.biz/play/espn-2.php",
-                "https://tiroalblanco.sbs/reproductor/espn2.php?width=700&height=438",
-                "https://streamxhd.com/live2.php?stream=espn2"
-            ],
-            "state": {
-                "color": "green",
-                "message": "Successfully found streaming on our server from:",
-                "url": "https://streamxhd.com/live2.php?stream=espn2"
-            }
-        },
-        {
-            "association": "SOCCER",
-            "leagueId": "futbol_libre",
-            "leagueDisplay": "Fútbol <wbr>Libre",
-            "sportingEventId": "leeds_united_vs_newcastle_united",
-            "sportingEventDisplay": "Leeds <wbr>United <wbr><span class='w3-opacity'>vs</span> <wbr>Newcastle <wbr>United",
-            "streamId": "streamxhd.com",
-            "streamDisplay": "streamxhd.<wbr>com",
-            "time": "19:00",
-            "isTime24H": true,
-            "urls": [
-                "https://tarjetarojatv.biz/play/espn-2.php",
-                "https://tiroalblanco.sbs/reproductor/espn2.php?width=700&height=438",
-                "https://streamxhd.com/live2.php?stream=espn2"
-            ],
-            "state": {
-                "color": "green",
-                "message": "Successfully found streaming on our server from:",
-                "url": "https://streamxhd.com/live2.php?stream=espn2"
-            }
-        },
-        {
-            "association": "NFL",
-            "leagueId": "nfl",
-            "leagueDisplay": "NFL",
-            "sportingEventId": "kansas_city_chiefs_vs_denver_broncos",
-            "sportingEventDisplay": "Kansas <wbr>City <wbr>Chiefs <wbr><span class='w3-opacity'>vs</span> <wbr>Denver <wbr>Broncos",
-            "streamId": "streamxhd.com",
-            "streamDisplay": "streamxhd.<wbr>com",
-            "time": "00:15",
-            "isTime24H": true,
-            "urls": [
-                "https://tarjetarojatv.biz/play/espn-2.php",
-                "https://tiroalblanco.sbs/reproductor/espn2.php?width=700&height=438",
-                "https://streamxhd.com/live2.php?stream=espn2"
-            ],
-            "state": {
-                "color": "green",
-                "message": "Successfully found streaming on our server from:",
-                "url": "https://streamxhd.com/live2.php?stream=espn2"
-            }
-        },
-        {
             "association": "ES",
             "leagueId": "laliga_ea_sports",
             "leagueDisplay": "LaLiga <wbr>EA <wbr>Sports",
@@ -1675,48 +1243,6 @@
             "urls": [
                 "https://pirlotv.food/canal-2.php",
                 "https://rodrixtv.site/tv/canal2.html",
-                "https://streamxhd.com/live2.php?stream=espn3"
-            ],
-            "state": {
-                "color": "green",
-                "message": "Successfully found streaming on our server from:",
-                "url": "https://streamxhd.com/live2.php?stream=espn3"
-            }
-        },
-        {
-            "association": "ES",
-            "leagueId": "laliga_ea_sports",
-            "leagueDisplay": "LaLiga <wbr>EA <wbr>Sports",
-            "sportingEventId": "villarreal_vs_real_betis",
-            "sportingEventDisplay": "Villarreal <wbr><span class='w3-opacity'>vs</span> <wbr>Real <wbr>Betis",
-            "streamId": "streamxhd.com",
-            "streamDisplay": "streamxhd.<wbr>com",
-            "time": "19:00",
-            "isTime24H": true,
-            "urls": [
-                "https://tarjetarojatv.biz/play/espn-3.php",
-                "https://tiroalblanco.sbs/reproductor/espn3.php?width=700&height=438",
-                "https://streamxhd.com/live2.php?stream=espn3"
-            ],
-            "state": {
-                "color": "green",
-                "message": "Successfully found streaming on our server from:",
-                "url": "https://streamxhd.com/live2.php?stream=espn3"
-            }
-        },
-        {
-            "association": "MLB",
-            "leagueId": "mlb",
-            "leagueDisplay": "MLB",
-            "sportingEventId": "chicago_cubs_vs_atlanta_braves",
-            "sportingEventDisplay": "Chicago <wbr>Cubs <wbr><span class='w3-opacity'>vs</span> <wbr>Atlanta <wbr>Braves",
-            "streamId": "streamxhd.com",
-            "streamDisplay": "streamxhd.<wbr>com",
-            "time": "23:30",
-            "isTime24H": true,
-            "urls": [
-                "https://tarjetarojatv.biz/play/espn-3.php",
-                "https://tiroalblanco.sbs/reproductor/espn3.php?width=700&height=438",
                 "https://streamxhd.com/live2.php?stream=espn3"
             ],
             "state": {
@@ -1789,90 +1315,6 @@
             }
         },
         {
-            "association": "ARG",
-            "leagueId": "liga_profesional",
-            "leagueDisplay": "Liga <wbr>Profesional",
-            "sportingEventId": "deportivo_riestra_vs_lanus",
-            "sportingEventDisplay": "Deportivo <wbr>Riestra <wbr><span class='w3-opacity'>vs</span> <wbr>Lanús",
-            "streamId": "streamxhd.com",
-            "streamDisplay": "streamxhd.<wbr>com",
-            "time": "22:00",
-            "isTime24H": true,
-            "urls": [
-                "https://tarjetarojatv.biz/play/espn-premium.php",
-                "https://tiroalblanco.sbs/reproductor/espnpremium.php?width=700&height=438",
-                "https://streamxhd.com/live2.php?stream=espnpremium"
-            ],
-            "state": {
-                "color": "green",
-                "message": "Successfully found streaming on our server from:",
-                "url": "https://streamxhd.com/live2.php?stream=espnpremium"
-            }
-        },
-        {
-            "association": "PT",
-            "leagueId": "liga_portugal",
-            "leagueDisplay": "Liga <wbr>Portugal",
-            "sportingEventId": "sporting_braga_vs_estoril",
-            "sportingEventDisplay": "Sporting <wbr>Braga <wbr><span class='w3-opacity'>vs</span> <wbr>Estoril",
-            "streamId": "streamxhd.com",
-            "streamDisplay": "streamxhd.<wbr>com",
-            "time": "19:15",
-            "isTime24H": true,
-            "urls": [
-                "https://tarjetarojatv.biz/play/canal-144.php",
-                "https://tiroalblanco.sbs/reproductor/canal144.php?width=700&height=438",
-                "https://streamxhd.com/live2.php?stream=evento4"
-            ],
-            "state": {
-                "color": "green",
-                "message": "Successfully found streaming on our server from:",
-                "url": "https://streamxhd.com/live2.php?stream=evento4"
-            }
-        },
-        {
-            "association": "PT",
-            "leagueId": "liga_portugal",
-            "leagueDisplay": "Liga <wbr>Portugal",
-            "sportingEventId": "moreirense_vs_maritimo",
-            "sportingEventDisplay": "Moreirense <wbr><span class='w3-opacity'>vs</span> <wbr>Marítimo",
-            "streamId": "streamxhd.com",
-            "streamDisplay": "streamxhd.<wbr>com",
-            "time": "19:15",
-            "isTime24H": true,
-            "urls": [
-                "https://tarjetarojatv.biz/play/canal-146.php",
-                "https://tiroalblanco.sbs/reproductor/canal146.php?width=700&height=438",
-                "https://streamxhd.com/live2.php?stream=evento6"
-            ],
-            "state": {
-                "color": "green",
-                "message": "Successfully found streaming on our server from:",
-                "url": "https://streamxhd.com/live2.php?stream=evento6"
-            }
-        },
-        {
-            "association": "SOCCER",
-            "leagueId": "futbol_libre",
-            "leagueDisplay": "Fútbol <wbr>Libre",
-            "sportingEventId": "leeds_united_vs_newcastle_united",
-            "sportingEventDisplay": "Leeds <wbr>United <wbr><span class='w3-opacity'>vs</span> <wbr>Newcastle <wbr>United",
-            "streamId": "streamxhd.com",
-            "streamDisplay": "streamxhd.<wbr>com",
-            "time": "19:00",
-            "isTime24H": true,
-            "urls": [
-                "https://tarjetarojatv.biz/play/canal-8.php",
-                "https://tiroalblanco.sbs/reproductor/canal8.php?width=700&height=438",
-                "https://streamxhd.com/live2.php?stream=fanatiz8"
-            ],
-            "state": {
-                "color": "green",
-                "message": "Successfully found streaming on our server from:",
-                "url": "https://streamxhd.com/live2.php?stream=fanatiz8"
-            }
-        },
-        {
             "association": "MX",
             "leagueId": "liga_mx",
             "leagueDisplay": "Liga <wbr>MX",
@@ -1885,27 +1327,6 @@
             "urls": [
                 "https://pirlotv.food/udn.php",
                 "https://rodrixtv.site/tv/udn.html",
-                "https://streamxhd.com/live2.php?stream=foxone"
-            ],
-            "state": {
-                "color": "green",
-                "message": "Successfully found streaming on our server from:",
-                "url": "https://streamxhd.com/live2.php?stream=foxone"
-            }
-        },
-        {
-            "association": "MX",
-            "leagueId": "liga_mx",
-            "leagueDisplay": "Liga <wbr>MX",
-            "sportingEventId": "club_leon_vs_atletico_san_luis",
-            "sportingEventDisplay": "Club <wbr>León <wbr><span class='w3-opacity'>vs</span> <wbr>Atlético <wbr>San <wbr>Luis",
-            "streamId": "streamxhd.com",
-            "streamDisplay": "streamxhd.<wbr>com",
-            "time": "01:00",
-            "isTime24H": true,
-            "urls": [
-                "https://tarjetarojatv.biz/play/fox-sports-mexico.php",
-                "https://tiroalblanco.sbs/reproductor/foxm.php?width=700&height=438",
                 "https://streamxhd.com/live2.php?stream=foxone"
             ],
             "state": {
@@ -1946,27 +1367,6 @@
             "time": "18:30",
             "isTime24H": true,
             "urls": [
-                "https://tarjetarojatv.biz/play/canal-53.php",
-                "https://tiroalblanco.sbs/reproductor/canal53.php?width=700&height=438",
-                "https://streamxhd.com/live2.php?stream=laligahypermotion"
-            ],
-            "state": {
-                "color": "green",
-                "message": "Successfully found streaming on our server from:",
-                "url": "https://streamxhd.com/live2.php?stream=laligahypermotion"
-            }
-        },
-        {
-            "association": "ES",
-            "leagueId": "laliga_hypermotion",
-            "leagueDisplay": "LaLiga <wbr>Hypermotion",
-            "sportingEventId": "celta_de_vigo_b_vs_eibar",
-            "sportingEventDisplay": "Celta <wbr>de <wbr>Vigo <wbr>B <wbr><span class='w3-opacity'>vs</span> <wbr>Eibar",
-            "streamId": "streamxhd.com",
-            "streamDisplay": "streamxhd.<wbr>com",
-            "time": "18:30",
-            "isTime24H": true,
-            "urls": [
                 "https://tarjetarojatv.biz/play/liga-123.php",
                 "https://tiroalblanco.sbs/reproductor/liga123.php?width=700&height=438",
                 "https://streamxhd.com/live2.php?stream=laligahypermotion"
@@ -1978,48 +1378,6 @@
             }
         },
         {
-            "association": "ES",
-            "leagueId": "laliga_ea_sports",
-            "leagueDisplay": "LaLiga <wbr>EA <wbr>Sports",
-            "sportingEventId": "villarreal_vs_real_betis",
-            "sportingEventDisplay": "Villarreal <wbr><span class='w3-opacity'>vs</span> <wbr>Real <wbr>Betis",
-            "streamId": "streamxhd.com",
-            "streamDisplay": "streamxhd.<wbr>com",
-            "time": "19:00",
-            "isTime24H": true,
-            "urls": [
-                "https://tarjetarojatv.biz/play/dazn-liga.php",
-                "https://tiroalblanco.sbs/reproductor/daznliga.php?width=700&height=438",
-                "https://streamxhd.com/live2.php?stream=mlaliga"
-            ],
-            "state": {
-                "color": "green",
-                "message": "Successfully found streaming on our server from:",
-                "url": "https://streamxhd.com/live2.php?stream=mlaliga"
-            }
-        },
-        {
-            "association": "BR",
-            "leagueId": "brasileirao_serie_a",
-            "leagueDisplay": "Brasileirao <wbr>Serie <wbr>A",
-            "sportingEventId": "bahia_vs_remo",
-            "sportingEventDisplay": "Bahia <wbr><span class='w3-opacity'>vs</span> <wbr>Remo",
-            "streamId": "streamxhd.com",
-            "streamDisplay": "streamxhd.<wbr>com",
-            "time": "23:00",
-            "isTime24H": true,
-            "urls": [
-                "https://tarjetarojatv.biz/play/premiere-br.php",
-                "https://tiroalblanco.sbs/reproductor/premiere.php?width=700&height=438",
-                "https://streamxhd.com/live2.php?stream=premiere1"
-            ],
-            "state": {
-                "color": "green",
-                "message": "Successfully found streaming on our server from:",
-                "url": "https://streamxhd.com/live2.php?stream=premiere1"
-            }
-        },
-        {
             "association": "AR",
             "leagueId": "liga_1_argentina",
             "leagueDisplay": "Liga <wbr>1 <wbr>Argentina",
@@ -2053,48 +1411,6 @@
             "urls": [
                 "https://pirlotv.food/canal-103.php",
                 "https://rodrixtv.site/tv/canal103.html",
-                "https://streamxhd.com/live2.php?stream=tntsports"
-            ],
-            "state": {
-                "color": "green",
-                "message": "Successfully found streaming on our server from:",
-                "url": "https://streamxhd.com/live2.php?stream=tntsports"
-            }
-        },
-        {
-            "association": "ARG",
-            "leagueId": "liga_profesional",
-            "leagueDisplay": "Liga <wbr>Profesional",
-            "sportingEventId": "banfield_vs_barracas_central",
-            "sportingEventDisplay": "Banfield <wbr><span class='w3-opacity'>vs</span> <wbr>Barracas <wbr>Central",
-            "streamId": "streamxhd.com",
-            "streamDisplay": "streamxhd.<wbr>com",
-            "time": "22:00",
-            "isTime24H": true,
-            "urls": [
-                "https://tarjetarojatv.biz/play/tnt-sports.php",
-                "https://tiroalblanco.sbs/reproductor/tnt.php?width=700&height=438",
-                "https://streamxhd.com/live2.php?stream=tntsports"
-            ],
-            "state": {
-                "color": "green",
-                "message": "Successfully found streaming on our server from:",
-                "url": "https://streamxhd.com/live2.php?stream=tntsports"
-            }
-        },
-        {
-            "association": "ARG",
-            "leagueId": "liga_profesional",
-            "leagueDisplay": "Liga <wbr>Profesional",
-            "sportingEventId": "instituto_cordoba_vs_estudiantes_de_rio_cuarto",
-            "sportingEventDisplay": "Instituto <wbr><span class='w3-opacity'>vs</span> <wbr>Estudiantes <wbr>Rio <wbr>Cuarto",
-            "streamId": "streamxhd.com",
-            "streamDisplay": "streamxhd.<wbr>com",
-            "time": "00:15",
-            "isTime24H": true,
-            "urls": [
-                "https://tarjetarojatv.biz/play/tnt-sports.php",
-                "https://tiroalblanco.sbs/reproductor/tnt.php?width=700&height=438",
                 "https://streamxhd.com/live2.php?stream=tntsports"
             ],
             "state": {
@@ -2146,48 +1462,6 @@
             }
         },
         {
-            "association": "CL",
-            "leagueId": "primera_division",
-            "leagueDisplay": "Primera <wbr>División",
-            "sportingEventId": "union_la_calera_vs_deportes_limache",
-            "sportingEventDisplay": "Unión <wbr>La <wbr>Calera <wbr><span class='w3-opacity'>vs</span> <wbr>Limache",
-            "streamId": "streamxhd.com",
-            "streamDisplay": "streamxhd.<wbr>com",
-            "time": "23:30",
-            "isTime24H": true,
-            "urls": [
-                "https://tarjetarojatv.biz/play/tnt-sports-premium.php",
-                "https://tiroalblanco.sbs/reproductor/tntpremium.php?width=700&height=438",
-                "https://streamxhd.com/live2.php?stream=tntsportschile"
-            ],
-            "state": {
-                "color": "green",
-                "message": "Successfully found streaming on our server from:",
-                "url": "https://streamxhd.com/live2.php?stream=tntsportschile"
-            }
-        },
-        {
-            "association": "IT",
-            "leagueId": "serie_a_tim",
-            "leagueDisplay": "Serie <wbr>A <wbr>TIM",
-            "sportingEventId": "inter_milan_vs_udinese",
-            "sportingEventDisplay": "Inter <wbr>Milan <wbr><span class='w3-opacity'>vs</span> <wbr>Udinese",
-            "streamId": "streamxhd.com",
-            "streamDisplay": "streamxhd.<wbr>com",
-            "time": "18:45",
-            "isTime24H": true,
-            "urls": [
-                "https://tarjetarojatv.biz/play/universo-us.php",
-                "https://tiroalblanco.sbs/reproductor/universous.php?width=700&height=438",
-                "https://streamxhd.com/live2.php?stream=universo"
-            ],
-            "state": {
-                "color": "green",
-                "message": "Successfully found streaming on our server from:",
-                "url": "https://streamxhd.com/live2.php?stream=universo"
-            }
-        },
-        {
             "association": "MX",
             "leagueId": "liga_mx",
             "leagueDisplay": "Liga <wbr>MX",
@@ -2200,27 +1474,6 @@
             "urls": [
                 "https://pirlotv.food/canal-48.php",
                 "https://rodrixtv.site/tv/canal48.html",
-                "https://streamxhd.com/live2.php?stream=vix1"
-            ],
-            "state": {
-                "color": "green",
-                "message": "Successfully found streaming on our server from:",
-                "url": "https://streamxhd.com/live2.php?stream=vix1"
-            }
-        },
-        {
-            "association": "MX",
-            "leagueId": "liga_mx",
-            "leagueDisplay": "Liga <wbr>MX",
-            "sportingEventId": "club_leon_vs_atletico_san_luis",
-            "sportingEventDisplay": "Club <wbr>León <wbr><span class='w3-opacity'>vs</span> <wbr>Atlético <wbr>San <wbr>Luis",
-            "streamId": "streamxhd.com",
-            "streamDisplay": "streamxhd.<wbr>com",
-            "time": "01:00",
-            "isTime24H": true,
-            "urls": [
-                "https://tarjetarojatv.biz/play/vix1.php",
-                "https://tiroalblanco.sbs/reproductor/vix1.php?width=700&height=438",
                 "https://streamxhd.com/live2.php?stream=vix1"
             ],
             "state": {
@@ -2272,90 +1525,6 @@
             }
         },
         {
-            "association": "CO",
-            "leagueId": "torneo_betplay_dimayor",
-            "leagueDisplay": "Torneo <wbr>BetPlay <wbr>DIMAYOR",
-            "sportingEventId": "tigres_vs_bogota",
-            "sportingEventDisplay": "Tigres <wbr><span class='w3-opacity'>vs</span> <wbr>Bogotá",
-            "streamId": "streamxhd.com",
-            "streamDisplay": "streamxhd.<wbr>com",
-            "time": "20:30",
-            "isTime24H": true,
-            "urls": [
-                "https://tarjetarojatv.biz/play/ganar-deportes.php",
-                "https://tiroalblanco.sbs/reproductor/canal12.php?width=700&height=438",
-                "https://streamxhd.com/live2.php?stream=winplus"
-            ],
-            "state": {
-                "color": "green",
-                "message": "Successfully found streaming on our server from:",
-                "url": "https://streamxhd.com/live2.php?stream=winplus"
-            }
-        },
-        {
-            "association": "CO",
-            "leagueId": "torneo_betplay_dimayor",
-            "leagueDisplay": "Torneo <wbr>BetPlay <wbr>DIMAYOR",
-            "sportingEventId": "orsomarso_vs_atletico_fc",
-            "sportingEventDisplay": "Orsomarso <wbr><span class='w3-opacity'>vs</span> <wbr>Atletico <wbr>FC",
-            "streamId": "streamxhd.com",
-            "streamDisplay": "streamxhd.<wbr>com",
-            "time": "22:45",
-            "isTime24H": true,
-            "urls": [
-                "https://tarjetarojatv.biz/play/ganar-deportes.php",
-                "https://tiroalblanco.sbs/reproductor/canal12.php?width=700&height=438",
-                "https://streamxhd.com/live2.php?stream=winplus"
-            ],
-            "state": {
-                "color": "green",
-                "message": "Successfully found streaming on our server from:",
-                "url": "https://streamxhd.com/live2.php?stream=winplus"
-            }
-        },
-        {
-            "association": "CO",
-            "leagueId": "liga_betplay_dimayor",
-            "leagueDisplay": "Liga <wbr>BetPlay <wbr>DIMAYOR",
-            "sportingEventId": "america_de_cali_vs_deportivo_pasto",
-            "sportingEventDisplay": "América <wbr>de <wbr>Cali <wbr><span class='w3-opacity'>vs</span> <wbr>Deportivo <wbr>Pasto",
-            "streamId": "streamxhd.com",
-            "streamDisplay": "streamxhd.<wbr>com",
-            "time": "01:00",
-            "isTime24H": true,
-            "urls": [
-                "https://tarjetarojatv.biz/play/ganar-deportes.php",
-                "https://tiroalblanco.sbs/reproductor/canal12.php?width=700&height=438",
-                "https://streamxhd.com/live2.php?stream=winplus"
-            ],
-            "state": {
-                "color": "green",
-                "message": "Successfully found streaming on our server from:",
-                "url": "https://streamxhd.com/live2.php?stream=winplus"
-            }
-        },
-        {
-            "association": "CO",
-            "leagueId": "liga_betplay_dimayor",
-            "leagueDisplay": "Liga <wbr>BetPlay <wbr>DIMAYOR",
-            "sportingEventId": "america_de_cali_vs_deportivo_pasto",
-            "sportingEventDisplay": "América <wbr>de <wbr>Cali <wbr><span class='w3-opacity'>vs</span> <wbr>Deportivo <wbr>Pasto",
-            "streamId": "streamxhd.com",
-            "streamDisplay": "streamxhd.<wbr>com",
-            "time": "01:00",
-            "isTime24H": true,
-            "urls": [
-                "https://tarjetarojatv.biz/play/canal-81.php",
-                "https://tiroalblanco.sbs/reproductor/canal81.php?width=700&height=438",
-                "https://streamxhd.com/live2.php?stream=winplus"
-            ],
-            "state": {
-                "color": "green",
-                "message": "Successfully found streaming on our server from:",
-                "url": "https://streamxhd.com/live2.php?stream=winplus"
-            }
-        },
-        {
             "association": "EC",
             "leagueId": "liga_1_ecuador",
             "leagueDisplay": "Liga <wbr>1 <wbr>Ecuador",
@@ -2387,8 +1556,8 @@
             "time": "00:00",
             "isTime24H": true,
             "urls": [
-                "https://tarjetarojatv.biz/play/canal-86.php",
-                "https://tiroalblanco.sbs/reproductor/canal86.php?width=700&height=438",
+                "https://tarjetarojatv.biz/play/cnt-sports.php",
+                "https://tiroalblanco.sbs/reproductor/cnt.php?width=700&height=438",
                 "https://streamxhd.com/live2.php?stream=zapping_ec"
             ],
             "state": {
@@ -2398,24 +1567,349 @@
             }
         },
         {
-            "association": "EC",
-            "leagueId": "liga_pro",
-            "leagueDisplay": "Liga <wbr>Pro",
-            "sportingEventId": "universidad_catolica_quito_vs_orense",
-            "sportingEventDisplay": "Universidad <wbr>Católica <wbr><span class='w3-opacity'>vs</span> <wbr>Orense",
-            "streamId": "streamxhd.com",
-            "streamDisplay": "streamxhd.<wbr>com",
-            "time": "00:00",
+            "association": "BG",
+            "leagueId": "efbet_league",
+            "leagueDisplay": "efbet <wbr>League",
+            "sportingEventId": "spartak_varna_vs_cska_sofia",
+            "sportingEventDisplay": "Spartak <wbr>Varna <wbr><span class='w3-opacity'>vs</span> <wbr>CSKA <wbr>Sofia",
+            "streamId": "tarjetarojatv.biz",
+            "streamDisplay": "tarjetarojatv.<wbr>biz",
+            "time": "17:30",
             "isTime24H": true,
             "urls": [
-                "https://tarjetarojatv.biz/play/cnt-sports.php",
-                "https://tiroalblanco.sbs/reproductor/cnt.php?width=700&height=438",
-                "https://streamxhd.com/live2.php?stream=zapping_ec"
+                "https://tarjetarojatv.biz/play/canal-48.php"
             ],
             "state": {
-                "color": "green",
-                "message": "Successfully found streaming on our server from:",
-                "url": "https://streamxhd.com/live2.php?stream=zapping_ec"
+                "color": "yellow",
+                "message": "Failed to load webpage due to a predefined timeout on our server from:",
+                "url": "https://tarjetarojatv.biz/play/canal-48.php",
+                "error": "Navigation timeout of 8000 ms exceeded"
+            }
+        },
+        {
+            "association": "ES",
+            "leagueId": "laliga_hypermotion",
+            "leagueDisplay": "LaLiga <wbr>Hypermotion",
+            "sportingEventId": "celta_de_vigo_b_vs_eibar",
+            "sportingEventDisplay": "Celta <wbr>de <wbr>Vigo <wbr>B <wbr><span class='w3-opacity'>vs</span> <wbr>Eibar",
+            "streamId": "tarjetarojatv.biz",
+            "streamDisplay": "tarjetarojatv.<wbr>biz",
+            "time": "18:30",
+            "isTime24H": true,
+            "urls": [
+                "https://tarjetarojatv.biz/play/canal-53.php"
+            ],
+            "state": {
+                "color": "yellow",
+                "message": "Failed to load webpage due to a predefined timeout on our server from:",
+                "url": "https://tarjetarojatv.biz/play/canal-53.php",
+                "error": "Navigation timeout of 8000 ms exceeded"
+            }
+        },
+        {
+            "association": "ARG",
+            "leagueId": "liga_profesional",
+            "leagueDisplay": "Liga <wbr>Profesional",
+            "sportingEventId": "banfield_vs_barracas_central",
+            "sportingEventDisplay": "Banfield <wbr><span class='w3-opacity'>vs</span> <wbr>Barracas <wbr>Central",
+            "streamId": "tarjetarojatv.biz",
+            "streamDisplay": "tarjetarojatv.<wbr>biz",
+            "time": "22:00",
+            "isTime24H": true,
+            "urls": [
+                "https://tarjetarojatv.biz/play/canal-75.php"
+            ],
+            "state": {
+                "color": "yellow",
+                "message": "Failed to load webpage due to a predefined timeout on our server from:",
+                "url": "https://tarjetarojatv.biz/play/canal-75.php",
+                "error": "Navigation timeout of 8000 ms exceeded"
+            }
+        },
+        {
+            "association": "ARG",
+            "leagueId": "liga_profesional",
+            "leagueDisplay": "Liga <wbr>Profesional",
+            "sportingEventId": "instituto_cordoba_vs_estudiantes_de_rio_cuarto",
+            "sportingEventDisplay": "Instituto <wbr><span class='w3-opacity'>vs</span> <wbr>Estudiantes <wbr>Rio <wbr>Cuarto",
+            "streamId": "tarjetarojatv.biz",
+            "streamDisplay": "tarjetarojatv.<wbr>biz",
+            "time": "00:15",
+            "isTime24H": true,
+            "urls": [
+                "https://tarjetarojatv.biz/play/canal-75.php"
+            ],
+            "state": {
+                "color": "yellow",
+                "message": "Failed to load webpage due to a predefined timeout on our server from:",
+                "url": "https://tarjetarojatv.biz/play/canal-75.php",
+                "error": "Navigation timeout of 8000 ms exceeded"
+            }
+        },
+        {
+            "association": "SOCCER",
+            "leagueId": "futbol_libre",
+            "leagueDisplay": "Fútbol <wbr>Libre",
+            "sportingEventId": "leeds_united_vs_newcastle_united",
+            "sportingEventDisplay": "Leeds <wbr>United <wbr><span class='w3-opacity'>vs</span> <wbr>Newcastle <wbr>United",
+            "streamId": "tarjetarojatv.biz",
+            "streamDisplay": "tarjetarojatv.<wbr>biz",
+            "time": "19:00",
+            "isTime24H": true,
+            "urls": [
+                "https://tarjetarojatv.biz/play/canal-8.php"
+            ],
+            "state": {
+                "color": "yellow",
+                "message": "Failed to load webpage due to a predefined timeout on our server from:",
+                "url": "https://tarjetarojatv.biz/play/canal-8.php",
+                "error": "Navigation timeout of 8000 ms exceeded"
+            }
+        },
+        {
+            "association": "CO",
+            "leagueId": "liga_betplay_dimayor",
+            "leagueDisplay": "Liga <wbr>BetPlay <wbr>DIMAYOR",
+            "sportingEventId": "america_de_cali_vs_deportivo_pasto",
+            "sportingEventDisplay": "América <wbr>de <wbr>Cali <wbr><span class='w3-opacity'>vs</span> <wbr>Deportivo <wbr>Pasto",
+            "streamId": "tarjetarojatv.biz",
+            "streamDisplay": "tarjetarojatv.<wbr>biz",
+            "time": "01:00",
+            "isTime24H": true,
+            "urls": [
+                "https://tarjetarojatv.biz/play/canal-81.php"
+            ],
+            "state": {
+                "color": "yellow",
+                "message": "Failed to load webpage due to a predefined timeout on our server from:",
+                "url": "https://tarjetarojatv.biz/play/canal-81.php",
+                "error": "Navigation timeout of 8000 ms exceeded"
+            }
+        },
+        {
+            "association": "ES",
+            "leagueId": "laliga_ea_sports",
+            "leagueDisplay": "LaLiga <wbr>EA <wbr>Sports",
+            "sportingEventId": "villarreal_vs_real_betis",
+            "sportingEventDisplay": "Villarreal <wbr><span class='w3-opacity'>vs</span> <wbr>Real <wbr>Betis",
+            "streamId": "tarjetarojatv.biz",
+            "streamDisplay": "tarjetarojatv.<wbr>biz",
+            "time": "19:00",
+            "isTime24H": true,
+            "urls": [
+                "https://tarjetarojatv.biz/play/canal-89.php"
+            ],
+            "state": {
+                "color": "yellow",
+                "message": "Failed to load webpage due to a predefined timeout on our server from:",
+                "url": "https://tarjetarojatv.biz/play/canal-89.php",
+                "error": "Navigation timeout of 8000 ms exceeded"
+            }
+        },
+        {
+            "association": "IT",
+            "leagueId": "serie_a_tim",
+            "leagueDisplay": "Serie <wbr>A <wbr>TIM",
+            "sportingEventId": "como_vs_parma",
+            "sportingEventDisplay": "Como <wbr><span class='w3-opacity'>vs</span> <wbr>Parma",
+            "streamId": "tarjetarojatv.biz",
+            "streamDisplay": "tarjetarojatv.<wbr>biz",
+            "time": "16:30",
+            "isTime24H": true,
+            "urls": [
+                "https://tarjetarojatv.biz/play/disney-2.php"
+            ],
+            "state": {
+                "color": "yellow",
+                "message": "Failed to load webpage due to a predefined timeout on our server from:",
+                "url": "https://tarjetarojatv.biz/play/disney-2.php",
+                "error": "Navigation timeout of 8000 ms exceeded"
+            }
+        },
+        {
+            "association": "IT",
+            "leagueId": "serie_a_tim",
+            "leagueDisplay": "Serie <wbr>A <wbr>TIM",
+            "sportingEventId": "inter_milan_vs_udinese",
+            "sportingEventDisplay": "Inter <wbr>Milan <wbr><span class='w3-opacity'>vs</span> <wbr>Udinese",
+            "streamId": "tarjetarojatv.biz",
+            "streamDisplay": "tarjetarojatv.<wbr>biz",
+            "time": "18:45",
+            "isTime24H": true,
+            "urls": [
+                "https://tarjetarojatv.biz/play/disney-6.php"
+            ],
+            "state": {
+                "color": "yellow",
+                "message": "Failed to load webpage due to a predefined timeout on our server from:",
+                "url": "https://tarjetarojatv.biz/play/disney-6.php",
+                "error": "Navigation timeout of 8000 ms exceeded"
+            }
+        },
+        {
+            "association": "MX",
+            "leagueId": "liga_mx",
+            "leagueDisplay": "Liga <wbr>MX",
+            "sportingEventId": "club_leon_vs_atletico_san_luis",
+            "sportingEventDisplay": "Club <wbr>León <wbr><span class='w3-opacity'>vs</span> <wbr>Atlético <wbr>San <wbr>Luis",
+            "streamId": "tarjetarojatv.biz",
+            "streamDisplay": "tarjetarojatv.<wbr>biz",
+            "time": "01:00",
+            "isTime24H": true,
+            "urls": [
+                "https://tarjetarojatv.biz/play/fox-sports-mexico.php"
+            ],
+            "state": {
+                "color": "yellow",
+                "message": "Failed to load webpage due to a predefined timeout on our server from:",
+                "url": "https://tarjetarojatv.biz/play/fox-sports-mexico.php",
+                "error": "Navigation timeout of 8000 ms exceeded"
+            }
+        },
+        {
+            "association": "IT",
+            "leagueId": "serie_a_tim",
+            "leagueDisplay": "Serie <wbr>A <wbr>TIM",
+            "sportingEventId": "inter_milan_vs_udinese",
+            "sportingEventDisplay": "Inter <wbr>Milan <wbr><span class='w3-opacity'>vs</span> <wbr>Udinese",
+            "streamId": "tarjetarojatv.biz",
+            "streamDisplay": "tarjetarojatv.<wbr>biz",
+            "time": "18:45",
+            "isTime24H": true,
+            "urls": [
+                "https://tarjetarojatv.biz/play/universo-us.php"
+            ],
+            "state": {
+                "color": "yellow",
+                "message": "Failed to load webpage due to a predefined timeout on our server from:",
+                "url": "https://tarjetarojatv.biz/play/universo-us.php",
+                "error": "Navigation timeout of 8000 ms exceeded"
+            }
+        },
+        {
+            "association": "ES",
+            "leagueId": "laliga_ea_sports",
+            "leagueDisplay": "LaLiga <wbr>EA <wbr>Sports",
+            "sportingEventId": "villarreal_vs_real_betis",
+            "sportingEventDisplay": "Villarreal <wbr><span class='w3-opacity'>vs</span> <wbr>Real <wbr>Betis",
+            "streamId": "tiroalblanco.sbs",
+            "streamDisplay": "tiroalblanco.<wbr>sbs",
+            "time": "19:00",
+            "isTime24H": true,
+            "urls": [
+                "https://tarjetarojatv.biz/play/bein-liga.php",
+                "https://tiroalblanco.sbs/reproductor/beinE.php?width=700&height=438"
+            ],
+            "state": {
+                "color": "yellow",
+                "message": "Failed to load webpage due to a predefined timeout on our server from:",
+                "url": "https://tiroalblanco.sbs/reproductor/beinE.php?width=700&height=438",
+                "error": "Navigation timeout of 8000 ms exceeded"
+            }
+        },
+        {
+            "association": "UY",
+            "leagueId": "liga_auf_uruguaya",
+            "leagueDisplay": "Liga <wbr>AUF <wbr>Uruguaya",
+            "sportingEventId": "montevideo_city_torque_vs_liverpool_montevideo",
+            "sportingEventDisplay": "Montevideo <wbr>City <wbr><span class='w3-opacity'>vs</span> <wbr>Liverpool <wbr>M.",
+            "streamId": "tiroalblanco.sbs",
+            "streamDisplay": "tiroalblanco.<wbr>sbs",
+            "time": "22:00",
+            "isTime24H": true,
+            "urls": [
+                "https://tarjetarojatv.biz/play/canal-109.php",
+                "https://tiroalblanco.sbs/reproductor/canal109.php?width=700&height=438"
+            ],
+            "state": {
+                "color": "yellow",
+                "message": "Failed to load webpage due to a predefined timeout on our server from:",
+                "url": "https://tiroalblanco.sbs/reproductor/canal109.php?width=700&height=438",
+                "error": "Navigation timeout of 8000 ms exceeded"
+            }
+        },
+        {
+            "association": "CO",
+            "leagueId": "torneo_betplay_dimayor",
+            "leagueDisplay": "Torneo <wbr>BetPlay <wbr>DIMAYOR",
+            "sportingEventId": "tigres_vs_bogota",
+            "sportingEventDisplay": "Tigres <wbr><span class='w3-opacity'>vs</span> <wbr>Bogotá",
+            "streamId": "tiroalblanco.sbs",
+            "streamDisplay": "tiroalblanco.<wbr>sbs",
+            "time": "20:30",
+            "isTime24H": true,
+            "urls": [
+                "https://tarjetarojatv.biz/play/ganar-deportes.php",
+                "https://tiroalblanco.sbs/reproductor/canal12.php?width=700&height=438"
+            ],
+            "state": {
+                "color": "yellow",
+                "message": "Failed to load webpage due to a predefined timeout on our server from:",
+                "url": "https://tiroalblanco.sbs/reproductor/canal12.php?width=700&height=438",
+                "error": "Navigation timeout of 8000 ms exceeded"
+            }
+        },
+        {
+            "association": "CO",
+            "leagueId": "torneo_betplay_dimayor",
+            "leagueDisplay": "Torneo <wbr>BetPlay <wbr>DIMAYOR",
+            "sportingEventId": "orsomarso_vs_atletico_fc",
+            "sportingEventDisplay": "Orsomarso <wbr><span class='w3-opacity'>vs</span> <wbr>Atletico <wbr>FC",
+            "streamId": "tiroalblanco.sbs",
+            "streamDisplay": "tiroalblanco.<wbr>sbs",
+            "time": "22:45",
+            "isTime24H": true,
+            "urls": [
+                "https://tarjetarojatv.biz/play/ganar-deportes.php",
+                "https://tiroalblanco.sbs/reproductor/canal12.php?width=700&height=438"
+            ],
+            "state": {
+                "color": "yellow",
+                "message": "Failed to load webpage due to a predefined timeout on our server from:",
+                "url": "https://tiroalblanco.sbs/reproductor/canal12.php?width=700&height=438",
+                "error": "Navigation timeout of 8000 ms exceeded"
+            }
+        },
+        {
+            "association": "CO",
+            "leagueId": "liga_betplay_dimayor",
+            "leagueDisplay": "Liga <wbr>BetPlay <wbr>DIMAYOR",
+            "sportingEventId": "america_de_cali_vs_deportivo_pasto",
+            "sportingEventDisplay": "América <wbr>de <wbr>Cali <wbr><span class='w3-opacity'>vs</span> <wbr>Deportivo <wbr>Pasto",
+            "streamId": "tiroalblanco.sbs",
+            "streamDisplay": "tiroalblanco.<wbr>sbs",
+            "time": "01:00",
+            "isTime24H": true,
+            "urls": [
+                "https://tarjetarojatv.biz/play/ganar-deportes.php",
+                "https://tiroalblanco.sbs/reproductor/canal12.php?width=700&height=438"
+            ],
+            "state": {
+                "color": "yellow",
+                "message": "Failed to load webpage due to a predefined timeout on our server from:",
+                "url": "https://tiroalblanco.sbs/reproductor/canal12.php?width=700&height=438",
+                "error": "Navigation timeout of 8000 ms exceeded"
+            }
+        },
+        {
+            "association": "PT",
+            "leagueId": "liga_portugal",
+            "leagueDisplay": "Liga <wbr>Portugal",
+            "sportingEventId": "sporting_braga_vs_estoril",
+            "sportingEventDisplay": "Sporting <wbr>Braga <wbr><span class='w3-opacity'>vs</span> <wbr>Estoril",
+            "streamId": "tiroalblanco.sbs",
+            "streamDisplay": "tiroalblanco.<wbr>sbs",
+            "time": "19:15",
+            "isTime24H": true,
+            "urls": [
+                "https://tarjetarojatv.biz/play/canal-144.php",
+                "https://tiroalblanco.sbs/reproductor/canal144.php?width=700&height=438"
+            ],
+            "state": {
+                "color": "yellow",
+                "message": "Failed to load webpage due to a predefined timeout on our server from:",
+                "url": "https://tiroalblanco.sbs/reproductor/canal144.php?width=700&height=438",
+                "error": "Navigation timeout of 8000 ms exceeded"
             }
         },
         {
@@ -2440,24 +1934,339 @@
             }
         },
         {
-            "association": "BG",
-            "leagueId": "efbet_league",
-            "leagueDisplay": "efbet <wbr>League",
-            "sportingEventId": "spartak_varna_vs_cska_sofia",
-            "sportingEventDisplay": "Spartak <wbr>Varna <wbr><span class='w3-opacity'>vs</span> <wbr>CSKA <wbr>Sofia",
+            "association": "PT",
+            "leagueId": "liga_portugal",
+            "leagueDisplay": "Liga <wbr>Portugal",
+            "sportingEventId": "moreirense_vs_maritimo",
+            "sportingEventDisplay": "Moreirense <wbr><span class='w3-opacity'>vs</span> <wbr>Marítimo",
             "streamId": "tiroalblanco.sbs",
             "streamDisplay": "tiroalblanco.<wbr>sbs",
-            "time": "17:30",
+            "time": "19:15",
             "isTime24H": true,
             "urls": [
-                "https://tarjetarojatv.biz/play/canal-48.php",
-                "https://tiroalblanco.sbs/reproductor/canal48.php?width=700&height=438"
+                "https://tarjetarojatv.biz/play/canal-146.php",
+                "https://tiroalblanco.sbs/reproductor/canal146.php?width=700&height=438"
             ],
             "state": {
-                "color": "red",
-                "message": "Failed to load webpage on our server from:",
-                "url": "https://tvcstreams.shop/player1/sTL2/48",
-                "error": "net::ERR_NAME_NOT_RESOLVED at https://tvcstreams.shop/player1/sTL2/48"
+                "color": "yellow",
+                "message": "Failed to load webpage due to a predefined timeout on our server from:",
+                "url": "https://tiroalblanco.sbs/reproductor/canal146.php?width=700&height=438",
+                "error": "Navigation timeout of 8000 ms exceeded"
+            }
+        },
+        {
+            "association": "EC",
+            "leagueId": "liga_pro",
+            "leagueDisplay": "Liga <wbr>Pro",
+            "sportingEventId": "universidad_catolica_quito_vs_orense",
+            "sportingEventDisplay": "Universidad <wbr>Católica <wbr><span class='w3-opacity'>vs</span> <wbr>Orense",
+            "streamId": "tiroalblanco.sbs",
+            "streamDisplay": "tiroalblanco.<wbr>sbs",
+            "time": "00:00",
+            "isTime24H": true,
+            "urls": [
+                "https://tarjetarojatv.biz/play/canal-86.php",
+                "https://tiroalblanco.sbs/reproductor/canal86.php?width=700&height=438"
+            ],
+            "state": {
+                "color": "yellow",
+                "message": "Failed to load webpage due to a predefined timeout on our server from:",
+                "url": "https://tiroalblanco.sbs/reproductor/canal86.php?width=700&height=438",
+                "error": "Navigation timeout of 8000 ms exceeded"
+            }
+        },
+        {
+            "association": "NFL",
+            "leagueId": "nfl",
+            "leagueDisplay": "NFL",
+            "sportingEventId": "kansas_city_chiefs_vs_denver_broncos",
+            "sportingEventDisplay": "Kansas <wbr>City <wbr>Chiefs <wbr><span class='w3-opacity'>vs</span> <wbr>Denver <wbr>Broncos",
+            "streamId": "tiroalblanco.sbs",
+            "streamDisplay": "tiroalblanco.<wbr>sbs",
+            "time": "00:15",
+            "isTime24H": true,
+            "urls": [
+                "https://tarjetarojatv.biz/play/canal-88.php",
+                "https://tiroalblanco.sbs/reproductor/canal88.php?width=700&height=438"
+            ],
+            "state": {
+                "color": "yellow",
+                "message": "Failed to load webpage due to a predefined timeout on our server from:",
+                "url": "https://tiroalblanco.sbs/reproductor/canal88.php?width=700&height=438",
+                "error": "Navigation timeout of 8000 ms exceeded"
+            }
+        },
+        {
+            "association": "UY",
+            "leagueId": "liga_auf_uruguaya",
+            "leagueDisplay": "Liga <wbr>AUF <wbr>Uruguaya",
+            "sportingEventId": "montevideo_city_torque_vs_liverpool_montevideo",
+            "sportingEventDisplay": "Montevideo <wbr>City <wbr><span class='w3-opacity'>vs</span> <wbr>Liverpool <wbr>M.",
+            "streamId": "tiroalblanco.sbs",
+            "streamDisplay": "tiroalblanco.<wbr>sbs",
+            "time": "22:00",
+            "isTime24H": true,
+            "urls": [
+                "https://tarjetarojatv.biz/play/vtv.php",
+                "https://tiroalblanco.sbs/reproductor/canalvtv.php?width=700&height=438"
+            ],
+            "state": {
+                "color": "yellow",
+                "message": "Failed to load webpage due to a predefined timeout on our server from:",
+                "url": "https://tiroalblanco.sbs/reproductor/canalvtv.php?width=700&height=438",
+                "error": "Navigation timeout of 8000 ms exceeded"
+            }
+        },
+        {
+            "association": "ES",
+            "leagueId": "laliga_ea_sports",
+            "leagueDisplay": "LaLiga <wbr>EA <wbr>Sports",
+            "sportingEventId": "villarreal_vs_real_betis",
+            "sportingEventDisplay": "Villarreal <wbr><span class='w3-opacity'>vs</span> <wbr>Real <wbr>Betis",
+            "streamId": "tiroalblanco.sbs",
+            "streamDisplay": "tiroalblanco.<wbr>sbs",
+            "time": "19:00",
+            "isTime24H": true,
+            "urls": [
+                "https://tarjetarojatv.biz/play/dazn-liga.php",
+                "https://tiroalblanco.sbs/reproductor/daznliga.php?width=700&height=438"
+            ],
+            "state": {
+                "color": "yellow",
+                "message": "Failed to load webpage due to a predefined timeout on our server from:",
+                "url": "https://tiroalblanco.sbs/reproductor/daznliga.php?width=700&height=438",
+                "error": "Navigation timeout of 8000 ms exceeded"
+            }
+        },
+        {
+            "association": "IT",
+            "leagueId": "serie_a_tim",
+            "leagueDisplay": "Serie <wbr>A <wbr>TIM",
+            "sportingEventId": "torino_vs_roma",
+            "sportingEventDisplay": "Torino <wbr><span class='w3-opacity'>vs</span> <wbr>Roma",
+            "streamId": "tiroalblanco.sbs",
+            "streamDisplay": "tiroalblanco.<wbr>sbs",
+            "time": "16:30",
+            "isTime24H": true,
+            "urls": [
+                "https://tarjetarojatv.biz/play/espn-2.php",
+                "https://tiroalblanco.sbs/reproductor/espn2.php?width=700&height=438"
+            ],
+            "state": {
+                "color": "yellow",
+                "message": "Failed to load webpage due to a predefined timeout on our server from:",
+                "url": "https://tiroalblanco.sbs/reproductor/espn2.php?width=700&height=438",
+                "error": "Navigation timeout of 8000 ms exceeded"
+            }
+        },
+        {
+            "association": "SOCCER",
+            "leagueId": "futbol_libre",
+            "leagueDisplay": "Fútbol <wbr>Libre",
+            "sportingEventId": "leeds_united_vs_newcastle_united",
+            "sportingEventDisplay": "Leeds <wbr>United <wbr><span class='w3-opacity'>vs</span> <wbr>Newcastle <wbr>United",
+            "streamId": "tiroalblanco.sbs",
+            "streamDisplay": "tiroalblanco.<wbr>sbs",
+            "time": "19:00",
+            "isTime24H": true,
+            "urls": [
+                "https://tarjetarojatv.biz/play/espn-2.php",
+                "https://tiroalblanco.sbs/reproductor/espn2.php?width=700&height=438"
+            ],
+            "state": {
+                "color": "yellow",
+                "message": "Failed to load webpage due to a predefined timeout on our server from:",
+                "url": "https://tiroalblanco.sbs/reproductor/espn2.php?width=700&height=438",
+                "error": "Navigation timeout of 8000 ms exceeded"
+            }
+        },
+        {
+            "association": "NFL",
+            "leagueId": "nfl",
+            "leagueDisplay": "NFL",
+            "sportingEventId": "kansas_city_chiefs_vs_denver_broncos",
+            "sportingEventDisplay": "Kansas <wbr>City <wbr>Chiefs <wbr><span class='w3-opacity'>vs</span> <wbr>Denver <wbr>Broncos",
+            "streamId": "tiroalblanco.sbs",
+            "streamDisplay": "tiroalblanco.<wbr>sbs",
+            "time": "00:15",
+            "isTime24H": true,
+            "urls": [
+                "https://tarjetarojatv.biz/play/espn-2.php",
+                "https://tiroalblanco.sbs/reproductor/espn2.php?width=700&height=438"
+            ],
+            "state": {
+                "color": "yellow",
+                "message": "Failed to load webpage due to a predefined timeout on our server from:",
+                "url": "https://tiroalblanco.sbs/reproductor/espn2.php?width=700&height=438",
+                "error": "Navigation timeout of 8000 ms exceeded"
+            }
+        },
+        {
+            "association": "ES",
+            "leagueId": "laliga_ea_sports",
+            "leagueDisplay": "LaLiga <wbr>EA <wbr>Sports",
+            "sportingEventId": "villarreal_vs_real_betis",
+            "sportingEventDisplay": "Villarreal <wbr><span class='w3-opacity'>vs</span> <wbr>Real <wbr>Betis",
+            "streamId": "tiroalblanco.sbs",
+            "streamDisplay": "tiroalblanco.<wbr>sbs",
+            "time": "19:00",
+            "isTime24H": true,
+            "urls": [
+                "https://tarjetarojatv.biz/play/espn-3.php",
+                "https://tiroalblanco.sbs/reproductor/espn3.php?width=700&height=438"
+            ],
+            "state": {
+                "color": "yellow",
+                "message": "Failed to load webpage due to a predefined timeout on our server from:",
+                "url": "https://tiroalblanco.sbs/reproductor/espn3.php?width=700&height=438",
+                "error": "Navigation timeout of 8000 ms exceeded"
+            }
+        },
+        {
+            "association": "MLB",
+            "leagueId": "mlb",
+            "leagueDisplay": "MLB",
+            "sportingEventId": "chicago_cubs_vs_atlanta_braves",
+            "sportingEventDisplay": "Chicago <wbr>Cubs <wbr><span class='w3-opacity'>vs</span> <wbr>Atlanta <wbr>Braves",
+            "streamId": "tiroalblanco.sbs",
+            "streamDisplay": "tiroalblanco.<wbr>sbs",
+            "time": "23:30",
+            "isTime24H": true,
+            "urls": [
+                "https://tarjetarojatv.biz/play/espn-3.php",
+                "https://tiroalblanco.sbs/reproductor/espn3.php?width=700&height=438"
+            ],
+            "state": {
+                "color": "yellow",
+                "message": "Failed to load webpage due to a predefined timeout on our server from:",
+                "url": "https://tiroalblanco.sbs/reproductor/espn3.php?width=700&height=438",
+                "error": "Navigation timeout of 8000 ms exceeded"
+            }
+        },
+        {
+            "association": "ARG",
+            "leagueId": "liga_profesional",
+            "leagueDisplay": "Liga <wbr>Profesional",
+            "sportingEventId": "deportivo_riestra_vs_lanus",
+            "sportingEventDisplay": "Deportivo <wbr>Riestra <wbr><span class='w3-opacity'>vs</span> <wbr>Lanús",
+            "streamId": "tiroalblanco.sbs",
+            "streamDisplay": "tiroalblanco.<wbr>sbs",
+            "time": "22:00",
+            "isTime24H": true,
+            "urls": [
+                "https://tarjetarojatv.biz/play/espn-premium.php",
+                "https://tiroalblanco.sbs/reproductor/espnpremium.php?width=700&height=438"
+            ],
+            "state": {
+                "color": "yellow",
+                "message": "Failed to load webpage due to a predefined timeout on our server from:",
+                "url": "https://tiroalblanco.sbs/reproductor/espnpremium.php?width=700&height=438",
+                "error": "Navigation timeout of 8000 ms exceeded"
+            }
+        },
+        {
+            "association": "BR",
+            "leagueId": "brasileirao_serie_a",
+            "leagueDisplay": "Brasileirao <wbr>Serie <wbr>A",
+            "sportingEventId": "bahia_vs_remo",
+            "sportingEventDisplay": "Bahia <wbr><span class='w3-opacity'>vs</span> <wbr>Remo",
+            "streamId": "tiroalblanco.sbs",
+            "streamDisplay": "tiroalblanco.<wbr>sbs",
+            "time": "23:00",
+            "isTime24H": true,
+            "urls": [
+                "https://tarjetarojatv.biz/play/premiere-br.php",
+                "https://tiroalblanco.sbs/reproductor/premiere.php?width=700&height=438"
+            ],
+            "state": {
+                "color": "yellow",
+                "message": "Failed to load webpage due to a predefined timeout on our server from:",
+                "url": "https://tiroalblanco.sbs/reproductor/premiere.php?width=700&height=438",
+                "error": "Navigation timeout of 8000 ms exceeded"
+            }
+        },
+        {
+            "association": "ARG",
+            "leagueId": "liga_profesional",
+            "leagueDisplay": "Liga <wbr>Profesional",
+            "sportingEventId": "banfield_vs_barracas_central",
+            "sportingEventDisplay": "Banfield <wbr><span class='w3-opacity'>vs</span> <wbr>Barracas <wbr>Central",
+            "streamId": "tiroalblanco.sbs",
+            "streamDisplay": "tiroalblanco.<wbr>sbs",
+            "time": "22:00",
+            "isTime24H": true,
+            "urls": [
+                "https://tarjetarojatv.biz/play/tnt-sports.php",
+                "https://tiroalblanco.sbs/reproductor/tnt.php?width=700&height=438"
+            ],
+            "state": {
+                "color": "yellow",
+                "message": "Failed to load webpage due to a predefined timeout on our server from:",
+                "url": "https://tiroalblanco.sbs/reproductor/tnt.php?width=700&height=438",
+                "error": "Navigation timeout of 8000 ms exceeded"
+            }
+        },
+        {
+            "association": "ARG",
+            "leagueId": "liga_profesional",
+            "leagueDisplay": "Liga <wbr>Profesional",
+            "sportingEventId": "instituto_cordoba_vs_estudiantes_de_rio_cuarto",
+            "sportingEventDisplay": "Instituto <wbr><span class='w3-opacity'>vs</span> <wbr>Estudiantes <wbr>Rio <wbr>Cuarto",
+            "streamId": "tiroalblanco.sbs",
+            "streamDisplay": "tiroalblanco.<wbr>sbs",
+            "time": "00:15",
+            "isTime24H": true,
+            "urls": [
+                "https://tarjetarojatv.biz/play/tnt-sports.php",
+                "https://tiroalblanco.sbs/reproductor/tnt.php?width=700&height=438"
+            ],
+            "state": {
+                "color": "yellow",
+                "message": "Failed to load webpage due to a predefined timeout on our server from:",
+                "url": "https://tiroalblanco.sbs/reproductor/tnt.php?width=700&height=438",
+                "error": "Navigation timeout of 8000 ms exceeded"
+            }
+        },
+        {
+            "association": "CL",
+            "leagueId": "primera_division",
+            "leagueDisplay": "Primera <wbr>División",
+            "sportingEventId": "union_la_calera_vs_deportes_limache",
+            "sportingEventDisplay": "Unión <wbr>La <wbr>Calera <wbr><span class='w3-opacity'>vs</span> <wbr>Limache",
+            "streamId": "tiroalblanco.sbs",
+            "streamDisplay": "tiroalblanco.<wbr>sbs",
+            "time": "23:30",
+            "isTime24H": true,
+            "urls": [
+                "https://tarjetarojatv.biz/play/tnt-sports-premium.php",
+                "https://tiroalblanco.sbs/reproductor/tntpremium.php?width=700&height=438"
+            ],
+            "state": {
+                "color": "yellow",
+                "message": "Failed to load webpage due to a predefined timeout on our server from:",
+                "url": "https://tiroalblanco.sbs/reproductor/tntpremium.php?width=700&height=438",
+                "error": "Navigation timeout of 8000 ms exceeded"
+            }
+        },
+        {
+            "association": "MX",
+            "leagueId": "liga_mx",
+            "leagueDisplay": "Liga <wbr>MX",
+            "sportingEventId": "club_leon_vs_atletico_san_luis",
+            "sportingEventDisplay": "Club <wbr>León <wbr><span class='w3-opacity'>vs</span> <wbr>Atlético <wbr>San <wbr>Luis",
+            "streamId": "tiroalblanco.sbs",
+            "streamDisplay": "tiroalblanco.<wbr>sbs",
+            "time": "01:00",
+            "isTime24H": true,
+            "urls": [
+                "https://tarjetarojatv.biz/play/vix1.php",
+                "https://tiroalblanco.sbs/reproductor/vix1.php?width=700&height=438"
+            ],
+            "state": {
+                "color": "yellow",
+                "message": "Failed to load webpage due to a predefined timeout on our server from:",
+                "url": "https://tiroalblanco.sbs/reproductor/vix1.php?width=700&height=438",
+                "error": "Navigation timeout of 8000 ms exceeded"
             }
         },
         {
@@ -2566,6 +2375,27 @@
             }
         },
         {
+            "association": "UY",
+            "leagueId": "liga_de_uruguay",
+            "leagueDisplay": "Liga <wbr>de <wbr>Uruguay",
+            "sportingEventId": "montevideo_city_torque_vs_liverpool_montevideo",
+            "sportingEventDisplay": "Montevideo <wbr>City <wbr><span class='w3-opacity'>vs</span> <wbr>Liverpool <wbr>M.",
+            "streamId": "zonalivetv.xyz",
+            "streamDisplay": "zonalivetv.<wbr>xyz",
+            "time": "22:00",
+            "isTime24H": true,
+            "urls": [
+                "https://pirlotv.food/canal-132.php",
+                "https://rodrixtv.site/tv/canal132.html",
+                "https://zonalivetv.xyz/nplayer/sTL2/109"
+            ],
+            "state": {
+                "color": "yellow",
+                "message": "Failed to find either an iframe or a video element, but found a div with id 'player' on our server from:",
+                "url": "https://zonalivetv.xyz/nplayer/sTL2/109"
+            }
+        },
+        {
             "association": "IT",
             "leagueId": "serie_a_italia",
             "leagueDisplay": "Serie <wbr>A <wbr>Italia",
@@ -2626,6 +2456,90 @@
                 "color": "yellow",
                 "message": "Failed to find either an iframe or a video element, but found a div with id 'player' on our server from:",
                 "url": "https://zonalivetv.xyz/nplayer/sTL2/138"
+            }
+        },
+        {
+            "association": "PT",
+            "leagueId": "liga_de_portugal",
+            "leagueDisplay": "Liga <wbr>de <wbr>Portugal",
+            "sportingEventId": "sc_braga_vs_estoril",
+            "sportingEventDisplay": "SC <wbr>Braga <wbr><span class='w3-opacity'>vs</span> <wbr>Estoril",
+            "streamId": "zonalivetv.xyz",
+            "streamDisplay": "zonalivetv.<wbr>xyz",
+            "time": "19:45",
+            "isTime24H": true,
+            "urls": [
+                "https://pirlotv.food/canal-44.php",
+                "https://rodrixtv.site/tv/canal44.html",
+                "https://zonalivetv.xyz/nplayer/sTL2/145"
+            ],
+            "state": {
+                "color": "yellow",
+                "message": "Failed to find either an iframe or a video element, but found a div with id 'player' on our server from:",
+                "url": "https://zonalivetv.xyz/nplayer/sTL2/145"
+            }
+        },
+        {
+            "association": "MX",
+            "leagueId": "liga_mx",
+            "leagueDisplay": "Liga <wbr>MX",
+            "sportingEventId": "club_leon_vs_atletico_san_luis",
+            "sportingEventDisplay": "León <wbr><span class='w3-opacity'>vs</span> <wbr>Atlético <wbr>de <wbr>San <wbr>Luis",
+            "streamId": "zonalivetv.xyz",
+            "streamDisplay": "zonalivetv.<wbr>xyz",
+            "time": "01:00",
+            "isTime24H": true,
+            "urls": [
+                "https://pirlotv.food/canal-49.php",
+                "https://rodrixtv.site/tv/canal49.html",
+                "https://zonalivetv.xyz/nplayer/sTL2/158"
+            ],
+            "state": {
+                "color": "yellow",
+                "message": "Failed to find either an iframe or a video element, but found a div with id 'player' on our server from:",
+                "url": "https://zonalivetv.xyz/nplayer/sTL2/158"
+            }
+        },
+        {
+            "association": "ES",
+            "leagueId": "laliga_ea_sports",
+            "leagueDisplay": "LaLiga <wbr>EA <wbr>Sports",
+            "sportingEventId": "villarreal_vs_real_betis",
+            "sportingEventDisplay": "Villarreal <wbr><span class='w3-opacity'>vs</span> <wbr>Real <wbr>Betis",
+            "streamId": "zonalivetv.xyz",
+            "streamDisplay": "zonalivetv.<wbr>xyz",
+            "time": "19:00",
+            "isTime24H": true,
+            "urls": [
+                "https://pirlotv.food/canal-5.php",
+                "https://rodrixtv.site/tv/canal5.html",
+                "https://zonalivetv.xyz/nplayer/sTL2/49"
+            ],
+            "state": {
+                "color": "yellow",
+                "message": "Failed to find either an iframe or a video element, but found a div with id 'player' on our server from:",
+                "url": "https://zonalivetv.xyz/nplayer/sTL2/49"
+            }
+        },
+        {
+            "association": "ES",
+            "leagueId": "laliga_hypermotion",
+            "leagueDisplay": "LaLiga <wbr>Hypermotion",
+            "sportingEventId": "celta_de_vigo_b_vs_eibar",
+            "sportingEventDisplay": "Celta <wbr>de <wbr>Vigo <wbr>B <wbr><span class='w3-opacity'>vs</span> <wbr>Eibar",
+            "streamId": "zonalivetv.xyz",
+            "streamDisplay": "zonalivetv.<wbr>xyz",
+            "time": "18:30",
+            "isTime24H": true,
+            "urls": [
+                "https://pirlotv.food/liga2.php",
+                "https://rodrixtv.site/tv/liga2.html",
+                "https://zonalivetv.xyz/nplayer/sTL2/53"
+            ],
+            "state": {
+                "color": "yellow",
+                "message": "Failed to find either an iframe or a video element, but found a div with id 'player' on our server from:",
+                "url": "https://zonalivetv.xyz/nplayer/sTL2/53"
             }
         },
         {
@@ -2692,6 +2606,27 @@
             }
         },
         {
+            "association": "CO",
+            "leagueId": "liga_1_colombia",
+            "leagueDisplay": "Liga <wbr>1 <wbr>Colombia",
+            "sportingEventId": "america_de_cali_vs_deportivo_pasto",
+            "sportingEventDisplay": "América <wbr>de <wbr>Cali <wbr><span class='w3-opacity'>vs</span> <wbr>Dep. <wbr>Pasto",
+            "streamId": "zonalivetv.xyz",
+            "streamDisplay": "zonalivetv.<wbr>xyz",
+            "time": "01:00",
+            "isTime24H": true,
+            "urls": [
+                "https://pirlotv.food/canal-34.php",
+                "https://rodrixtv.site/tv/canal34.html",
+                "https://zonalivetv.xyz/nplayer/sTL2/81"
+            ],
+            "state": {
+                "color": "yellow",
+                "message": "Failed to find either an iframe or a video element, but found a div with id 'player' on our server from:",
+                "url": "https://zonalivetv.xyz/nplayer/sTL2/81"
+            }
+        },
+        {
             "association": "IT",
             "leagueId": "serie_a_italia",
             "leagueDisplay": "Serie <wbr>A <wbr>Italia",
@@ -2734,6 +2669,48 @@
             }
         },
         {
+            "association": "EN",
+            "leagueId": "premier_league",
+            "leagueDisplay": "Premier <wbr>League",
+            "sportingEventId": "leeds_united_vs_newcastle_united",
+            "sportingEventDisplay": "Leeds <wbr>Utd <wbr><span class='w3-opacity'>vs</span> <wbr>Newcastle",
+            "streamId": "zonalivetv.xyz",
+            "streamDisplay": "zonalivetv.<wbr>xyz",
+            "time": "19:00",
+            "isTime24H": true,
+            "urls": [
+                "https://pirlotv.food/canal-12.php",
+                "https://rodrixtv.site/tv/canal12.html",
+                "https://zonalivetv.xyz/nplayer/sTL2/88"
+            ],
+            "state": {
+                "color": "yellow",
+                "message": "Failed to find either an iframe or a video element, but found a div with id 'player' on our server from:",
+                "url": "https://zonalivetv.xyz/nplayer/sTL2/88"
+            }
+        },
+        {
+            "association": "EC",
+            "leagueId": "liga_1_ecuador",
+            "leagueDisplay": "Liga <wbr>1 <wbr>Ecuador",
+            "sportingEventId": "universidad_catolica_quito_vs_orense",
+            "sportingEventDisplay": "U. <wbr>Católica <wbr><span class='w3-opacity'>vs</span> <wbr>Orense",
+            "streamId": "zonalivetv.xyz",
+            "streamDisplay": "zonalivetv.<wbr>xyz",
+            "time": "00:00",
+            "isTime24H": true,
+            "urls": [
+                "https://pirlotv.food/canal-47.php",
+                "https://rodrixtv.site/tv/canal47.html",
+                "https://zonalivetv.xyz/nplayer/sTL2/88"
+            ],
+            "state": {
+                "color": "yellow",
+                "message": "Failed to find either an iframe or a video element, but found a div with id 'player' on our server from:",
+                "url": "https://zonalivetv.xyz/nplayer/sTL2/88"
+            }
+        },
+        {
             "association": "ES",
             "leagueId": "laliga_ea_sports",
             "leagueDisplay": "LaLiga <wbr>EA <wbr>Sports",
@@ -2752,6 +2729,27 @@
                 "color": "yellow",
                 "message": "Failed to find either an iframe or a video element, but found a div with id 'player' on our server from:",
                 "url": "https://zonalivetv.xyz/nplayer/sTL2/89"
+            }
+        },
+        {
+            "association": "TR",
+            "leagueId": "liga_de_turquia",
+            "leagueDisplay": "Liga <wbr>de <wbr>Turquia",
+            "sportingEventId": "gaziantep_fk_vs_fenerbahce",
+            "sportingEventDisplay": "Gaziantep <wbr><span class='w3-opacity'>vs</span> <wbr>Fenerbahçe",
+            "streamId": "zonalivetv.xyz",
+            "streamDisplay": "zonalivetv.<wbr>xyz",
+            "time": "17:00",
+            "isTime24H": true,
+            "urls": [
+                "https://pirlotv.food/canal-41.php",
+                "https://rodrixtv.site/tv/canal41.html",
+                "https://zonalivetv.xyz/nplayer/sTL2/98"
+            ],
+            "state": {
+                "color": "yellow",
+                "message": "Failed to find either an iframe or a video element, but found a div with id 'player' on our server from:",
+                "url": "https://zonalivetv.xyz/nplayer/sTL2/98"
             }
         }
     ]
