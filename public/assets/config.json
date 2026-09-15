@@ -21,7 +21,7 @@
             "origin": "https://rojadirectauno.pl"
         },
         {
-            "name": "Tarjeta Roja TV",
+            "name": "Tarjeta Roja",
             "origin": "https://tarjetarojablog.pl"
         },
         {
@@ -33,12 +33,20 @@
             "origin": "https://tarjetarojatv.lat"
         },
         {
+            "name": "Pirlotv.uno",
+            "origin": "https://www.pirlotv.food"
+        },
+        {
             "name": "Roja Directa - Pirlo TV - Fútbol En Vivo",
             "origin": "https://www.rojadirectastream.me"
         },
         {
             "name": "TarjetarojaTV",
             "origin": "https://www.rojadirectatv.one"
+        },
+        {
+            "name": "TarjetarojaTV",
+            "origin": "https://www.tarjetarojatv.lat"
         }
     ],
     "webpages": [
@@ -79,7 +87,7 @@
             "association": "CL",
             "leagueId": "liga_1_chile",
             "leagueDisplay": "Liga <wbr>1 <wbr>Chile",
-            "sportingEventId": "union_la_calera_vs_limache",
+            "sportingEventId": "union_la_calera_vs_deportes_limache",
             "sportingEventDisplay": "U. <wbr>La <wbr>Calera <wbr><span class='w3-opacity'>vs</span> <wbr>Limache",
             "streamId": "elcanaldeportivo.org",
             "streamDisplay": "elcanaldeportivo.<wbr>org",
@@ -89,27 +97,6 @@
                 "https://www.pirlotv.food/canal-33.php",
                 "https://rodrixtv.site/tv/canal33.html",
                 "https://elcanaldeportivo.org/cdf.php"
-            ],
-            "state": {
-                "color": "green",
-                "message": "Failed to find either an iframe, a video element, or a div with id 'player' on our server from:",
-                "url": "https://arizonaplay.club/"
-            }
-        },
-        {
-            "association": "MX",
-            "leagueId": "liga_mx",
-            "leagueDisplay": "Liga <wbr>MX",
-            "sportingEventId": "club_leon_vs_atletico_san_luis",
-            "sportingEventDisplay": "León <wbr><span class='w3-opacity'>vs</span> <wbr>Atlético <wbr>de <wbr>San <wbr>Luis",
-            "streamId": "elcanaldeportivo.org",
-            "streamDisplay": "elcanaldeportivo.<wbr>org",
-            "time": "01:00",
-            "isTime24H": true,
-            "urls": [
-                "https://www.pirlotv.food/canal-49.php",
-                "https://rodrixtv.site/tv/canal49.html",
-                "https://elcanaldeportivo.org/espn2hd.php"
             ],
             "state": {
                 "color": "green",
@@ -184,7 +171,7 @@
             "association": "AR",
             "leagueId": "liga_1_argentina",
             "leagueDisplay": "Liga <wbr>1 <wbr>Argentina",
-            "sportingEventId": "instituto_vs_estudiantes_rio_cuarto",
+            "sportingEventId": "instituto_cordoba_vs_estudiantes_de_rio_cuarto",
             "sportingEventDisplay": "Instituto <wbr><span class='w3-opacity'>vs</span> <wbr>Estudiantes <wbr>Rio <wbr>Cuarto",
             "streamId": "elcanaldeportivo.org",
             "streamDisplay": "elcanaldeportivo.<wbr>org",
@@ -205,7 +192,7 @@
             "association": "UY",
             "leagueId": "liga_auf_uruguaya",
             "leagueDisplay": "Liga <wbr>AUF <wbr>Uruguaya",
-            "sportingEventId": "montevideo_city_vs_liverpool_m",
+            "sportingEventId": "montevideo_city_torque_vs_liverpool_montevideo",
             "sportingEventDisplay": "Montevideo <wbr>City <wbr><span class='w3-opacity'>vs</span> <wbr>Liverpool <wbr>M.",
             "streamId": "footunder.xyz",
             "streamDisplay": "footunder.<wbr>xyz",
@@ -226,7 +213,7 @@
             "association": "UY",
             "leagueId": "liga_auf_uruguaya",
             "leagueDisplay": "Liga <wbr>AUF <wbr>Uruguaya",
-            "sportingEventId": "montevideo_city_vs_liverpool_m",
+            "sportingEventId": "montevideo_city_torque_vs_liverpool_montevideo",
             "sportingEventDisplay": "Montevideo <wbr>City <wbr><span class='w3-opacity'>vs</span> <wbr>Liverpool <wbr>M.",
             "streamId": "footunder.xyz",
             "streamDisplay": "footunder.<wbr>xyz",
@@ -266,909 +253,602 @@
         },
         {
             "association": "",
-            "leagueId": "laliga_2",
-            "leagueDisplay": "LaLiga <wbr>2",
-            "sportingEventId": "rc_celta_fortuna_vs_eibar",
-            "sportingEventDisplay": "RC <wbr>Celta <wbr>Fortuna <wbr><span class='w3-opacity'>vs</span> <wbr>Eibar",
-            "streamId": "live4.lat",
-            "streamDisplay": "live4.<wbr>lat",
-            "time": "18:30",
-            "isTime24H": true,
-            "urls": [
-                "https://elitegoltv.co/eventos.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL2xhbGlnYTIxLnBocA==",
-                "https://playvi.org/laliga21.php",
-                "https://live4.lat/player/capo/53"
-            ],
-            "state": {
-                "color": "green",
-                "message": "Failed to find either an iframe, a video element, or a div with id 'player' on our server from:",
-                "url": "https://bstream.st/"
-            }
-        },
-        {
-            "association": "",
-            "leagueId": "afc_champions_league",
-            "leagueDisplay": "AFC <wbr>Champions <wbr>League",
-            "sportingEventId": "shamal_qat_vs_al_ittihad_fc_sau",
-            "sportingEventDisplay": "Al <wbr>Shamal <wbr><span class='w3-opacity'>vs</span> <wbr>Al <wbr>Ittihad",
-            "streamId": "live4.lat",
-            "streamDisplay": "live4.<wbr>lat",
-            "time": "16:00",
-            "isTime24H": true,
-            "urls": [
-                "https://elitegoltv.co/eventos.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL3NhdWRpMS5waHA=",
-                "https://playvi.org/saudi1.php",
-                "https://live4.lat/player/capo/97"
-            ],
-            "state": {
-                "color": "green",
-                "message": "Failed to find either an iframe, a video element, or a div with id 'player' on our server from:",
-                "url": "https://bstream.st/"
-            }
-        },
-        {
-            "association": "",
-            "leagueId": "laliga_2",
-            "leagueDisplay": "LaLiga <wbr>2",
-            "sportingEventId": "rc_celta_fortuna_vs_eibar",
-            "sportingEventDisplay": "RC <wbr>Celta <wbr>Fortuna <wbr><span class='w3-opacity'>vs</span> <wbr>Eibar",
-            "streamId": "live4.lat",
-            "streamDisplay": "live4.<wbr>lat",
-            "time": "18:30",
-            "isTime24H": true,
-            "urls": [
-                "https://elitegoltv.co/eventos.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL2h5cGVybW90aW9uMS5waHA=",
-                "https://playvi.org/hypermotion1.php",
-                "https://live4.lat/player/capo2/53"
-            ],
-            "state": {
-                "color": "green",
-                "message": "Failed to find either an iframe, a video element, or a div with id 'player' on our server from:",
-                "url": "https://arizonaplay.club/"
-            }
-        },
-        {
-            "association": "",
-            "leagueId": "premier_league",
-            "leagueDisplay": "Premier <wbr>League",
-            "sportingEventId": "leeds_united_vs_newcastle_united",
-            "sportingEventDisplay": "Leeds <wbr>United <wbr><span class='w3-opacity'>vs</span> <wbr>Newcastle <wbr>United",
-            "streamId": "live4.lat",
-            "streamDisplay": "live4.<wbr>lat",
-            "time": "19:00",
-            "isTime24H": true,
-            "urls": [
-                "https://elitegoltv.co/eventos.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL3ByZW1pZXIxLnBocA==",
-                "https://playvi.org/premier1.php",
-                "https://live4.lat/player/capo2/56"
-            ],
-            "state": {
-                "color": "green",
-                "message": "Failed to find either an iframe, a video element, or a div with id 'player' on our server from:",
-                "url": "https://arizonaplay.club/"
-            }
-        },
-        {
-            "association": "",
-            "leagueId": "laliga",
-            "leagueDisplay": "LaLiga",
-            "sportingEventId": "villarreal_vs_real_betis",
-            "sportingEventDisplay": "Villarreal <wbr><span class='w3-opacity'>vs</span> <wbr>Real <wbr>Betis",
-            "streamId": "live4.lat",
-            "streamDisplay": "live4.<wbr>lat",
-            "time": "19:00",
-            "isTime24H": true,
-            "urls": [
-                "https://elitegoltv.co/eventos.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL2xhbGlnYTEucGhw",
-                "https://playvi.org/laliga1.php",
-                "https://live4.lat/player/capo2/71"
-            ],
-            "state": {
-                "color": "green",
-                "message": "Failed to find either an iframe, a video element, or a div with id 'player' on our server from:",
-                "url": "https://arizonaplay.club/"
-            }
-        },
-        {
-            "association": "",
-            "leagueId": "serie_a",
-            "leagueDisplay": "Serie <wbr>A",
-            "sportingEventId": "torino_vs_as_roma",
-            "sportingEventDisplay": "Torino <wbr><span class='w3-opacity'>vs</span> <wbr>AS <wbr>Roma",
-            "streamId": "live4.lat",
-            "streamDisplay": "live4.<wbr>lat",
-            "time": "16:30",
-            "isTime24H": true,
-            "urls": [
-                "https://elitegoltv.co/eventos.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL3NlcmllYTEucGhw",
-                "https://playvi.org/seriea1.php",
-                "https://live4.lat/player/capo2/87"
-            ],
-            "state": {
-                "color": "green",
-                "message": "Failed to find either an iframe, a video element, or a div with id 'player' on our server from:",
-                "url": "https://arizonaplay.club/"
-            }
-        },
-        {
-            "association": "",
-            "leagueId": "serie_a",
-            "leagueDisplay": "Serie <wbr>A",
-            "sportingEventId": "inter_milan_vs_udinese",
-            "sportingEventDisplay": "Inter <wbr>Milan <wbr><span class='w3-opacity'>vs</span> <wbr>Udinese",
-            "streamId": "live4.lat",
-            "streamDisplay": "live4.<wbr>lat",
-            "time": "18:45",
-            "isTime24H": true,
-            "urls": [
-                "https://elitegoltv.co/eventos.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL3NlcmllYTEucGhw",
-                "https://playvi.org/seriea1.php",
-                "https://live4.lat/player/capo2/87"
-            ],
-            "state": {
-                "color": "green",
-                "message": "Failed to find either an iframe, a video element, or a div with id 'player' on our server from:",
-                "url": "https://arizonaplay.club/"
-            }
-        },
-        {
-            "association": "",
-            "leagueId": "super_lig_turquia",
-            "leagueDisplay": "Super <wbr>Lig <wbr>Turquia",
-            "sportingEventId": "gaziantep_fk_vs_fenerbahce",
-            "sportingEventDisplay": "Gaziantep <wbr>FK <wbr><span class='w3-opacity'>vs</span> <wbr>Fenerbahce",
-            "streamId": "live4.lat",
-            "streamDisplay": "live4.<wbr>lat",
-            "time": "17:00",
-            "isTime24H": true,
-            "urls": [
-                "https://elitegoltv.co/eventos.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL3N1cGVybGlnMS5waHA=",
-                "https://playvi.org/superlig1.php",
-                "https://live4.lat/player/capo2/98"
-            ],
-            "state": {
-                "color": "green",
-                "message": "Failed to find either an iframe, a video element, or a div with id 'player' on our server from:",
-                "url": "https://arizonaplay.club/"
-            }
-        },
-        {
-            "association": "",
-            "leagueId": "super_lig_turquia",
-            "leagueDisplay": "Super <wbr>Lig <wbr>Turquia",
-            "sportingEventId": "gaziantep_fk_vs_fenerbahce",
-            "sportingEventDisplay": "Gaziantep <wbr>FK <wbr><span class='w3-opacity'>vs</span> <wbr>Fenerbahce",
-            "streamId": "playvi.org",
-            "streamDisplay": "playvi.<wbr>org",
-            "time": "17:00",
-            "isTime24H": true,
-            "urls": [
-                "https://rojadirectauno.pl/eventos.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL2RlcG9ydGVzcGx1cy5waHA=",
-                "https://playvi.org/deportesplus.php"
-            ],
-            "state": {
-                "color": "green",
-                "message": "Failed to find either an iframe, a video element, or a div with id 'player' on our server from:",
-                "url": "https://xplayer.st/sorry"
-            }
-        },
-        {
-            "association": "",
-            "leagueId": "laliga",
-            "leagueDisplay": "LaLiga",
-            "sportingEventId": "villarreal_vs_real_betis",
-            "sportingEventDisplay": "Villarreal <wbr><span class='w3-opacity'>vs</span> <wbr>Real <wbr>Betis",
-            "streamId": "playvi.org",
-            "streamDisplay": "playvi.<wbr>org",
-            "time": "19:00",
-            "isTime24H": true,
-            "urls": [
-                "https://rojadirectauno.pl/eventos.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL2RlcG9ydGVzcGx1cy5waHA=",
-                "https://playvi.org/deportesplus.php"
-            ],
-            "state": {
-                "color": "green",
-                "message": "Failed to find either an iframe, a video element, or a div with id 'player' on our server from:",
-                "url": "https://xplayer.st/sorry"
-            }
-        },
-        {
-            "association": "",
-            "leagueId": "serie_a",
-            "leagueDisplay": "Serie <wbr>A",
-            "sportingEventId": "torino_vs_as_roma",
-            "sportingEventDisplay": "Torino <wbr><span class='w3-opacity'>vs</span> <wbr>AS <wbr>Roma",
-            "streamId": "playvi.org",
-            "streamDisplay": "playvi.<wbr>org",
-            "time": "16:30",
-            "isTime24H": true,
-            "urls": [
-                "https://rojadirectauno.pl/eventos.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL2RlcG9ydGVzcGx1czIucGhw",
-                "https://playvi.org/deportesplus2.php"
-            ],
-            "state": {
-                "color": "green",
-                "message": "Failed to find either an iframe, a video element, or a div with id 'player' on our server from:",
-                "url": "https://xplayer.st/sorry"
-            }
-        },
-        {
-            "association": "",
-            "leagueId": "serie_a",
-            "leagueDisplay": "Serie <wbr>A",
-            "sportingEventId": "inter_milan_vs_udinese",
-            "sportingEventDisplay": "Inter <wbr>Milan <wbr><span class='w3-opacity'>vs</span> <wbr>Udinese",
-            "streamId": "playvi.org",
-            "streamDisplay": "playvi.<wbr>org",
-            "time": "18:45",
-            "isTime24H": true,
-            "urls": [
-                "https://rojadirectauno.pl/eventos.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL2RlcG9ydGVzcGx1czIucGhw",
-                "https://playvi.org/deportesplus2.php"
-            ],
-            "state": {
-                "color": "green",
-                "message": "Failed to find either an iframe, a video element, or a div with id 'player' on our server from:",
-                "url": "https://xplayer.st/sorry"
-            }
-        },
-        {
-            "association": "",
-            "leagueId": "premier_league",
-            "leagueDisplay": "Premier <wbr>League",
-            "sportingEventId": "leeds_united_vs_newcastle_united",
-            "sportingEventDisplay": "Leeds <wbr>United <wbr><span class='w3-opacity'>vs</span> <wbr>Newcastle <wbr>United",
-            "streamId": "playvi.org",
-            "streamDisplay": "playvi.<wbr>org",
-            "time": "19:00",
-            "isTime24H": true,
-            "urls": [
-                "https://rojadirectauno.pl/eventos.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL2VzcG4yLnBocA==",
-                "https://playvi.org/espn2.php"
-            ],
-            "state": {
-                "color": "green",
-                "message": "Failed to find either an iframe, a video element, or a div with id 'player' on our server from:",
-                "url": "https://xplayer.st/sorry"
-            }
-        },
-        {
-            "association": "ES",
-            "leagueId": "laliga_ea_sports",
-            "leagueDisplay": "LaLiga <wbr>EA <wbr>Sports",
-            "sportingEventId": "villarreal_vs_real_betis",
-            "sportingEventDisplay": "Villarreal <wbr><span class='w3-opacity'>vs</span> <wbr>Real <wbr>Betis",
-            "streamId": "rodrixtv.site",
-            "streamDisplay": "rodrixtv.<wbr>site",
-            "time": "19:00",
-            "isTime24H": true,
-            "urls": [
-                "https://www.pirlotv.food/canal-1.php",
-                "https://rodrixtv.site/tv/canal1.html"
-            ],
-            "state": {
-                "color": "green",
-                "message": "Failed to find either an iframe, a video element, or a div with id 'player' on our server from:",
-                "url": "https://zonalivetv.xyz/nplayer/sTL2/89"
-            }
-        },
-        {
-            "association": "EN",
-            "leagueId": "premier_league",
-            "leagueDisplay": "Premier <wbr>League",
-            "sportingEventId": "leeds_united_vs_newcastle_united",
-            "sportingEventDisplay": "Leeds <wbr>Utd <wbr><span class='w3-opacity'>vs</span> <wbr>Newcastle",
-            "streamId": "rodrixtv.site",
-            "streamDisplay": "rodrixtv.<wbr>site",
-            "time": "19:00",
-            "isTime24H": true,
-            "urls": [
-                "https://www.pirlotv.food/canal-10.php",
-                "https://rodrixtv.site/tv/canal10.html"
-            ],
-            "state": {
-                "color": "green",
-                "message": "Failed to find either an iframe, a video element, or a div with id 'player' on our server from:",
-                "url": "https://zonalivetv.xyz/nplayer/sTL2/56"
-            }
-        },
-        {
-            "association": "EN",
-            "leagueId": "premier_league",
-            "leagueDisplay": "Premier <wbr>League",
-            "sportingEventId": "leeds_united_vs_newcastle_united",
-            "sportingEventDisplay": "Leeds <wbr>Utd <wbr><span class='w3-opacity'>vs</span> <wbr>Newcastle",
-            "streamId": "rodrixtv.site",
-            "streamDisplay": "rodrixtv.<wbr>site",
-            "time": "19:00",
-            "isTime24H": true,
-            "urls": [
-                "https://www.pirlotv.food/canal-12.php",
-                "https://rodrixtv.site/tv/canal12.html"
-            ],
-            "state": {
-                "color": "green",
-                "message": "Failed to find either an iframe, a video element, or a div with id 'player' on our server from:",
-                "url": "https://zonalivetv.xyz/nplayer/sTL2/88"
-            }
-        },
-        {
-            "association": "UY",
-            "leagueId": "liga_de_uruguay",
-            "leagueDisplay": "Liga <wbr>de <wbr>Uruguay",
-            "sportingEventId": "montevideo_city_vs_liverpool_m",
-            "sportingEventDisplay": "Montevideo <wbr>City <wbr><span class='w3-opacity'>vs</span> <wbr>Liverpool <wbr>M.",
-            "streamId": "rodrixtv.site",
-            "streamDisplay": "rodrixtv.<wbr>site",
-            "time": "22:00",
-            "isTime24H": true,
-            "urls": [
-                "https://www.pirlotv.food/canal-132.php",
-                "https://rodrixtv.site/tv/canal132.html"
-            ],
-            "state": {
-                "color": "green",
-                "message": "Failed to find either an iframe, a video element, or a div with id 'player' on our server from:",
-                "url": "https://zonalivetv.xyz/nplayer/sTL2/109"
-            }
-        },
-        {
-            "association": "CO",
-            "leagueId": "liga_1_colombia",
-            "leagueDisplay": "Liga <wbr>1 <wbr>Colombia",
-            "sportingEventId": "america_de_cali_vs_deportivo_pasto",
-            "sportingEventDisplay": "América <wbr>de <wbr>Cali <wbr><span class='w3-opacity'>vs</span> <wbr>Dep. <wbr>Pasto",
-            "streamId": "rodrixtv.site",
-            "streamDisplay": "rodrixtv.<wbr>site",
-            "time": "01:00",
-            "isTime24H": true,
-            "urls": [
-                "https://www.pirlotv.food/canal-34.php",
-                "https://rodrixtv.site/tv/canal34.html"
-            ],
-            "state": {
-                "color": "green",
-                "message": "Failed to find either an iframe, a video element, or a div with id 'player' on our server from:",
-                "url": "https://zonalivetv.xyz/nplayer/sTL2/81"
-            }
-        },
-        {
-            "association": "TR",
-            "leagueId": "liga_de_turquia",
-            "leagueDisplay": "Liga <wbr>de <wbr>Turquia",
-            "sportingEventId": "gaziantep_fk_vs_fenerbahce",
-            "sportingEventDisplay": "Gaziantep <wbr><span class='w3-opacity'>vs</span> <wbr>Fenerbahçe",
-            "streamId": "rodrixtv.site",
-            "streamDisplay": "rodrixtv.<wbr>site",
-            "time": "17:00",
-            "isTime24H": true,
-            "urls": [
-                "https://www.pirlotv.food/canal-41.php",
-                "https://rodrixtv.site/tv/canal41.html"
-            ],
-            "state": {
-                "color": "green",
-                "message": "Failed to find either an iframe, a video element, or a div with id 'player' on our server from:",
-                "url": "https://zonalivetv.xyz/nplayer/sTL2/98"
-            }
-        },
-        {
-            "association": "EC",
-            "leagueId": "liga_1_ecuador",
-            "leagueDisplay": "Liga <wbr>1 <wbr>Ecuador",
-            "sportingEventId": "universidad_catolica_vs_orense",
-            "sportingEventDisplay": "U. <wbr>Católica <wbr><span class='w3-opacity'>vs</span> <wbr>Orense",
-            "streamId": "rodrixtv.site",
-            "streamDisplay": "rodrixtv.<wbr>site",
-            "time": "00:00",
-            "isTime24H": true,
-            "urls": [
-                "https://www.pirlotv.food/canal-47.php",
-                "https://rodrixtv.site/tv/canal47.html"
-            ],
-            "state": {
-                "color": "green",
-                "message": "Failed to find either an iframe, a video element, or a div with id 'player' on our server from:",
-                "url": "https://zonalivetv.xyz/nplayer/sTL2/88"
-            }
-        },
-        {
-            "association": "ES",
-            "leagueId": "laliga_ea_sports",
-            "leagueDisplay": "LaLiga <wbr>EA <wbr>Sports",
-            "sportingEventId": "villarreal_vs_real_betis",
-            "sportingEventDisplay": "Villarreal <wbr><span class='w3-opacity'>vs</span> <wbr>Real <wbr>Betis",
-            "streamId": "rodrixtv.site",
-            "streamDisplay": "rodrixtv.<wbr>site",
-            "time": "19:00",
-            "isTime24H": true,
-            "urls": [
-                "https://www.pirlotv.food/canal-5.php",
-                "https://rodrixtv.site/tv/canal5.html"
-            ],
-            "state": {
-                "color": "green",
-                "message": "Failed to find either an iframe, a video element, or a div with id 'player' on our server from:",
-                "url": "https://zonalivetv.xyz/nplayer/sTL2/49"
-            }
-        },
-        {
-            "association": "CL",
-            "leagueId": "liga_1_chile",
-            "leagueDisplay": "Liga <wbr>1 <wbr>Chile",
-            "sportingEventId": "union_la_calera_vs_limache",
-            "sportingEventDisplay": "U. <wbr>La <wbr>Calera <wbr><span class='w3-opacity'>vs</span> <wbr>Limache",
-            "streamId": "rodrixtv.site",
-            "streamDisplay": "rodrixtv.<wbr>site",
+            "leagueId": "liga_de_chile",
+            "leagueDisplay": "Liga <wbr>de <wbr>Chile",
+            "sportingEventId": "union_la_calera_vs_deportes_limache",
+            "sportingEventDisplay": "Unión <wbr>La <wbr>Calera <wbr><span class='w3-opacity'>vs</span> <wbr>Deportes <wbr>Limache",
+            "streamId": "la18hd.su",
+            "streamDisplay": "la18hd.<wbr>su",
             "time": "23:30",
             "isTime24H": true,
             "urls": [
-                "https://tarjetarojatv.lat/cdf.php",
-                "https://rodrixtv.site/tv/cdf.html"
+                "https://elitegoltv.co/eventoshd.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL2NoaWxlMy5waHA=",
+                "https://playvi.org/chile3.php",
+                "https://la18hd.su/vivo/canales.php?stream=tntsportschile"
             ],
             "state": {
                 "color": "green",
-                "message": "Failed to find either an iframe, a video element, or a div with id 'player' on our server from:",
-                "url": "https://zonalivetv.xyz/nplayer/sTL2/83"
+                "message": "Successfully found streaming on our server from:",
+                "url": "https://la18hd.su/vivo/canales.php?stream=tntsportschile"
             }
         },
         {
-            "association": "ES",
-            "leagueId": "laliga_ea_sports",
-            "leagueDisplay": "LaLiga <wbr>EA <wbr>Sports",
-            "sportingEventId": "villarreal_vs_real_betis",
-            "sportingEventDisplay": "Villarreal <wbr><span class='w3-opacity'>vs</span> <wbr>Real <wbr>Betis",
-            "streamId": "rodrixtv.site",
-            "streamDisplay": "rodrixtv.<wbr>site",
-            "time": "19:00",
+            "association": "",
+            "leagueId": "liga_de_argentina",
+            "leagueDisplay": "Liga <wbr>de <wbr>Argentina",
+            "sportingEventId": "deportivo_riestra_vs_lanus",
+            "sportingEventDisplay": "Deportivo <wbr>Riestra <wbr><span class='w3-opacity'>vs</span> <wbr>Lanús",
+            "streamId": "live4.lat",
+            "streamDisplay": "live4.<wbr>lat",
+            "time": "22:00",
             "isTime24H": true,
             "urls": [
-                "https://tarjetarojatv.lat/espn.php",
-                "https://rodrixtv.site/tv/espn.html"
+                "https://elitegoltv.co/eventos.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL2FyZ2VudGluYTQucGhw",
+                "https://playvi.org/argentina4.php",
+                "https://live4.lat/player/capo/76"
             ],
             "state": {
                 "color": "green",
                 "message": "Failed to find either an iframe, a video element, or a div with id 'player' on our server from:",
-                "url": "https://zonalivetv.xyz/nplayer/sTL2/71"
+                "url": "https://bstream.st/"
+            }
+        },
+        {
+            "association": "",
+            "leagueId": "liga_de_colombia",
+            "leagueDisplay": "Liga <wbr>de <wbr>Colombia",
+            "sportingEventId": "america_de_cali_vs_deportivo_pasto",
+            "sportingEventDisplay": "América <wbr>de <wbr>Cali <wbr><span class='w3-opacity'>vs</span> <wbr>Deportivo <wbr>Pasto",
+            "streamId": "live4.lat",
+            "streamDisplay": "live4.<wbr>lat",
+            "time": "01:00",
+            "isTime24H": true,
+            "urls": [
+                "https://elitegoltv.co/eventos.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL2NvbG9tYmlhMS5waHA=",
+                "https://playvi.org/colombia1.php",
+                "https://live4.lat/player/capo/81"
+            ],
+            "state": {
+                "color": "green",
+                "message": "Failed to find either an iframe, a video element, or a div with id 'player' on our server from:",
+                "url": "https://bstream.st/"
+            }
+        },
+        {
+            "association": "",
+            "leagueId": "liga_de_ecuador",
+            "leagueDisplay": "Liga <wbr>de <wbr>Ecuador",
+            "sportingEventId": "universidad_catolica_quito_vs_orense",
+            "sportingEventDisplay": "Universidad <wbr>Católica <wbr>(Quito) <wbr><span class='w3-opacity'>vs</span> <wbr>Orense",
+            "streamId": "live4.lat",
+            "streamDisplay": "live4.<wbr>lat",
+            "time": "00:00",
+            "isTime24H": true,
+            "urls": [
+                "https://elitegoltv.co/eventos.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL2VjdWFkb3IyLnBocA==",
+                "https://playvi.org/ecuador2.php",
+                "https://live4.lat/player/capo/86"
+            ],
+            "state": {
+                "color": "green",
+                "message": "Failed to find either an iframe, a video element, or a div with id 'player' on our server from:",
+                "url": "https://bstream.st/"
+            }
+        },
+        {
+            "association": "",
+            "leagueId": "liga_de_uruguay",
+            "leagueDisplay": "Liga <wbr>de <wbr>Uruguay",
+            "sportingEventId": "montevideo_city_torque_vs_liverpool_montevideo",
+            "sportingEventDisplay": "Montevideo <wbr>City <wbr>Torque <wbr><span class='w3-opacity'>vs</span> <wbr>Liverpool <wbr>Montevideo",
+            "streamId": "live4.lat",
+            "streamDisplay": "live4.<wbr>lat",
+            "time": "22:00",
+            "isTime24H": true,
+            "urls": [
+                "https://elitegoltv.co/eventos.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL3VydWd1YXkxLnBocA==",
+                "https://playvi.org/uruguay1.php",
+                "https://live4.lat/player/capo2/109"
+            ],
+            "state": {
+                "color": "green",
+                "message": "Failed to find either an iframe, a video element, or a div with id 'player' on our server from:",
+                "url": "https://arizonaplay.club/"
+            }
+        },
+        {
+            "association": "",
+            "leagueId": "liga_mx",
+            "leagueDisplay": "Liga <wbr>MX",
+            "sportingEventId": "club_leon_vs_atletico_san_luis",
+            "sportingEventDisplay": "León <wbr><span class='w3-opacity'>vs</span> <wbr>Atlético <wbr>San <wbr>Luis",
+            "streamId": "live4.lat",
+            "streamDisplay": "live4.<wbr>lat",
+            "time": "01:00",
+            "isTime24H": true,
+            "urls": [
+                "https://elitegoltv.co/eventos.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL2xpZ2FteDEucGhw",
+                "https://playvi.org/ligamx1.php",
+                "https://live4.lat/player/capo2/158"
+            ],
+            "state": {
+                "color": "green",
+                "message": "Failed to find either an iframe, a video element, or a div with id 'player' on our server from:",
+                "url": "https://arizonaplay.club/"
+            }
+        },
+        {
+            "association": "",
+            "leagueId": "liga_de_argentina",
+            "leagueDisplay": "Liga <wbr>de <wbr>Argentina",
+            "sportingEventId": "banfield_vs_barracas_central",
+            "sportingEventDisplay": "Banfield <wbr><span class='w3-opacity'>vs</span> <wbr>Barracas <wbr>Central",
+            "streamId": "live4.lat",
+            "streamDisplay": "live4.<wbr>lat",
+            "time": "22:00",
+            "isTime24H": true,
+            "urls": [
+                "https://elitegoltv.co/eventos.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL2FyZ2VudGluYTEucGhw",
+                "https://playvi.org/argentina1.php",
+                "https://live4.lat/player/capo2/75"
+            ],
+            "state": {
+                "color": "green",
+                "message": "Failed to find either an iframe, a video element, or a div with id 'player' on our server from:",
+                "url": "https://arizonaplay.club/"
+            }
+        },
+        {
+            "association": "",
+            "leagueId": "liga_de_argentina",
+            "leagueDisplay": "Liga <wbr>de <wbr>Argentina",
+            "sportingEventId": "instituto_cordoba_vs_estudiantes_de_rio_cuarto",
+            "sportingEventDisplay": "Instituto <wbr>(Córdoba) <wbr><span class='w3-opacity'>vs</span> <wbr>Estudiantes <wbr>de <wbr>Río <wbr>Cuarto",
+            "streamId": "live4.lat",
+            "streamDisplay": "live4.<wbr>lat",
+            "time": "00:15",
+            "isTime24H": true,
+            "urls": [
+                "https://elitegoltv.co/eventos.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL2FyZ2VudGluYTEucGhw",
+                "https://playvi.org/argentina1.php",
+                "https://live4.lat/player/capo2/75"
+            ],
+            "state": {
+                "color": "green",
+                "message": "Failed to find either an iframe, a video element, or a div with id 'player' on our server from:",
+                "url": "https://arizonaplay.club/"
+            }
+        },
+        {
+            "association": "",
+            "leagueId": "liga_de_argentina",
+            "leagueDisplay": "Liga <wbr>de <wbr>Argentina",
+            "sportingEventId": "deportivo_riestra_vs_lanus",
+            "sportingEventDisplay": "Deportivo <wbr>Riestra <wbr><span class='w3-opacity'>vs</span> <wbr>Lanús",
+            "streamId": "live4.lat",
+            "streamDisplay": "live4.<wbr>lat",
+            "time": "22:00",
+            "isTime24H": true,
+            "urls": [
+                "https://rojadirectauno.pl/eventos.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL2VzcG5wcmVtaXVtLnBocA==",
+                "https://playvi.org/espnpremium.php",
+                "https://live4.lat/player/capo2/76"
+            ],
+            "state": {
+                "color": "green",
+                "message": "Failed to find either an iframe, a video element, or a div with id 'player' on our server from:",
+                "url": "https://arizonaplay.club/"
+            }
+        },
+        {
+            "association": "",
+            "leagueId": "liga_de_chile",
+            "leagueDisplay": "Liga <wbr>de <wbr>Chile",
+            "sportingEventId": "union_la_calera_vs_deportes_limache",
+            "sportingEventDisplay": "Unión <wbr>La <wbr>Calera <wbr><span class='w3-opacity'>vs</span> <wbr>Deportes <wbr>Limache",
+            "streamId": "live4.lat",
+            "streamDisplay": "live4.<wbr>lat",
+            "time": "23:30",
+            "isTime24H": true,
+            "urls": [
+                "https://elitegoltv.co/eventos.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL2NoaWxlMS5waHA=",
+                "https://playvi.org/chile1.php",
+                "https://live4.lat/player/capo2/83"
+            ],
+            "state": {
+                "color": "green",
+                "message": "Failed to find either an iframe, a video element, or a div with id 'player' on our server from:",
+                "url": "https://arizonaplay.club/"
+            }
+        },
+        {
+            "association": "",
+            "leagueId": "liga_de_ecuador",
+            "leagueDisplay": "Liga <wbr>de <wbr>Ecuador",
+            "sportingEventId": "universidad_catolica_quito_vs_orense",
+            "sportingEventDisplay": "Universidad <wbr>Católica <wbr>(Quito) <wbr><span class='w3-opacity'>vs</span> <wbr>Orense",
+            "streamId": "live4.lat",
+            "streamDisplay": "live4.<wbr>lat",
+            "time": "00:00",
+            "isTime24H": true,
+            "urls": [
+                "https://elitegoltv.co/eventos.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL2VjdWFkb3IxLnBocA==",
+                "https://playvi.org/ecuador1.php",
+                "https://live4.lat/player/capo2/86"
+            ],
+            "state": {
+                "color": "green",
+                "message": "Failed to find either an iframe, a video element, or a div with id 'player' on our server from:",
+                "url": "https://arizonaplay.club/"
+            }
+        },
+        {
+            "association": "",
+            "leagueId": "liga_mx",
+            "leagueDisplay": "Liga <wbr>MX",
+            "sportingEventId": "club_leon_vs_atletico_san_luis",
+            "sportingEventDisplay": "León <wbr><span class='w3-opacity'>vs</span> <wbr>Atlético <wbr>San <wbr>Luis",
+            "streamId": "playvi.org",
+            "streamDisplay": "playvi.<wbr>org",
+            "time": "01:00",
+            "isTime24H": true,
+            "urls": [
+                "https://rojadirectauno.pl/eventos.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL2RlcG9ydGVzcGx1cy5waHA=",
+                "https://playvi.org/deportesplus.php"
+            ],
+            "state": {
+                "color": "green",
+                "message": "Failed to find either an iframe, a video element, or a div with id 'player' on our server from:",
+                "url": "https://xplayer.st/sorry"
+            }
+        },
+        {
+            "association": "",
+            "leagueId": "liga_mx",
+            "leagueDisplay": "Liga <wbr>MX",
+            "sportingEventId": "club_leon_vs_atletico_san_luis",
+            "sportingEventDisplay": "León <wbr><span class='w3-opacity'>vs</span> <wbr>Atlético <wbr>San <wbr>Luis",
+            "streamId": "playvi.org",
+            "streamDisplay": "playvi.<wbr>org",
+            "time": "01:00",
+            "isTime24H": true,
+            "urls": [
+                "https://tarjetarojablog.pl/eventoshd.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL2xpZ2FteDIucGhw",
+                "https://playvi.org/ligamx2.php"
+            ],
+            "state": {
+                "color": "yellow",
+                "message": "Failed to find either an iframe or a video element, but found a div with id 'player' on our server from:",
+                "url": "https://playvi.org/ligamx2.php"
+            }
+        },
+        {
+            "association": "",
+            "leagueId": "liga_de_argentina",
+            "leagueDisplay": "Liga <wbr>de <wbr>Argentina",
+            "sportingEventId": "instituto_cordoba_vs_estudiantes_de_rio_cuarto",
+            "sportingEventDisplay": "Instituto <wbr>(Córdoba) <wbr><span class='w3-opacity'>vs</span> <wbr>Estudiantes <wbr>de <wbr>Río <wbr>Cuarto",
+            "streamId": "playvi.org",
+            "streamDisplay": "playvi.<wbr>org",
+            "time": "00:15",
+            "isTime24H": true,
+            "urls": [
+                "https://elitegoltv.co/eventos.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL3RudGFyZ2VudGluYS5waHA=",
+                "https://playvi.org/tntargentina.php"
+            ],
+            "state": {
+                "color": "green",
+                "message": "Failed to find either an iframe, a video element, or a div with id 'player' on our server from:",
+                "url": "https://xplayer.st/sorry"
+            }
+        },
+        {
+            "association": "",
+            "leagueId": "liga_de_argentina",
+            "leagueDisplay": "Liga <wbr>de <wbr>Argentina",
+            "sportingEventId": "banfield_vs_barracas_central",
+            "sportingEventDisplay": "Banfield <wbr><span class='w3-opacity'>vs</span> <wbr>Barracas <wbr>Central",
+            "streamId": "playvi.org",
+            "streamDisplay": "playvi.<wbr>org",
+            "time": "22:00",
+            "isTime24H": true,
+            "urls": [
+                "https://rojadirectauno.pl/eventos.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL3RudGFyZ2VudGluYS5waHA=",
+                "https://playvi.org/tntargentina.php"
+            ],
+            "state": {
+                "color": "green",
+                "message": "Failed to find either an iframe, a video element, or a div with id 'player' on our server from:",
+                "url": "https://xplayer.st/sorry"
+            }
+        },
+        {
+            "association": "",
+            "leagueId": "liga_de_chile",
+            "leagueDisplay": "Liga <wbr>de <wbr>Chile",
+            "sportingEventId": "union_la_calera_vs_deportes_limache",
+            "sportingEventDisplay": "Unión <wbr>La <wbr>Calera <wbr><span class='w3-opacity'>vs</span> <wbr>Deportes <wbr>Limache",
+            "streamId": "playvi.org",
+            "streamDisplay": "playvi.<wbr>org",
+            "time": "23:30",
+            "isTime24H": true,
+            "urls": [
+                "https://elitegoltv.co/eventos.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL3RudGNoaWxlLnBocA==",
+                "https://playvi.org/tntchile.php"
+            ],
+            "state": {
+                "color": "green",
+                "message": "Failed to find either an iframe, a video element, or a div with id 'player' on our server from:",
+                "url": "https://xplayer.st/sorry"
+            }
+        },
+        {
+            "association": "",
+            "leagueId": "liga_de_colombia",
+            "leagueDisplay": "Liga <wbr>de <wbr>Colombia",
+            "sportingEventId": "america_de_cali_vs_deportivo_pasto",
+            "sportingEventDisplay": "América <wbr>de <wbr>Cali <wbr><span class='w3-opacity'>vs</span> <wbr>Deportivo <wbr>Pasto",
+            "streamId": "playvi.org",
+            "streamDisplay": "playvi.<wbr>org",
+            "time": "01:00",
+            "isTime24H": true,
+            "urls": [
+                "https://rojadirectauno.pl/eventos.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL3dpbnNwb3J0c3BsdXMucGhw",
+                "https://playvi.org/winsportsplus.php"
+            ],
+            "state": {
+                "color": "green",
+                "message": "Failed to find either an iframe, a video element, or a div with id 'player' on our server from:",
+                "url": "https://xplayer.st/sorry"
             }
         },
         {
             "association": "IT",
             "leagueId": "serie_a_italia",
             "leagueDisplay": "Serie <wbr>A <wbr>Italia",
-            "sportingEventId": "torino_vs_as_roma",
+            "sportingEventId": "torino_vs_roma",
             "sportingEventDisplay": "Torino <wbr><span class='w3-opacity'>vs</span> <wbr>Roma",
             "streamId": "rodrixtv.site",
             "streamDisplay": "rodrixtv.<wbr>site",
             "time": "16:30",
             "isTime24H": true,
             "urls": [
-                "https://tarjetarojatv.lat/fox.php",
-                "https://rodrixtv.site/tv/fox.html"
+                "https://www.pirlotv.food/canal-20.php",
+                "https://rodrixtv.site/tv/canal20.html"
             ],
             "state": {
                 "color": "green",
                 "message": "Failed to find either an iframe, a video element, or a div with id 'player' on our server from:",
-                "url": "https://zonalivetv.xyz/nplayer/sTL2/137"
+                "url": "https://zonalivetv.xyz/nplayer/sTL2/138"
             }
         },
         {
-            "association": "",
-            "leagueId": "premier_league",
-            "leagueDisplay": "Premier <wbr>League",
-            "sportingEventId": "leeds_united_vs_newcastle_united",
-            "sportingEventDisplay": "Leeds <wbr>United <wbr><span class='w3-opacity'>vs</span> <wbr>Newcastle <wbr>United",
-            "streamId": "streamtp-golden1.click",
-            "streamDisplay": "streamtp-golden1.<wbr>click",
-            "time": "19:00",
-            "isTime24H": true,
-            "urls": [
-                "https://rojadirectauno.pl/eventoshd.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL3ByZW1pZXIzLnBocA==",
-                "https://playvi.org/premier3.php",
-                "https://streamtp-golden1.click/global1.php?stream=disney7"
-            ],
-            "state": {
-                "color": "green",
-                "message": "Successfully found streaming on our server from:",
-                "url": "https://streamtp-golden1.click/global1.php?stream=disney7"
-            }
-        },
-        {
-            "association": "",
-            "leagueId": "super_lig_turquia",
-            "leagueDisplay": "Super <wbr>Lig <wbr>Turquia",
-            "sportingEventId": "gaziantep_fk_vs_fenerbahce",
-            "sportingEventDisplay": "Gaziantep <wbr>FK <wbr><span class='w3-opacity'>vs</span> <wbr>Fenerbahce",
-            "streamId": "streamtp-golden1.click",
-            "streamDisplay": "streamtp-golden1.<wbr>click",
-            "time": "17:00",
-            "isTime24H": true,
-            "urls": [
-                "https://rojadirectauno.pl/eventoshd.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL3N1cGVybGlnMy5waHA=",
-                "https://playvi.org/superlig3.php",
-                "https://streamtp-golden1.click/global1.php?stream=espn5"
-            ],
-            "state": {
-                "color": "green",
-                "message": "Successfully found streaming on our server from:",
-                "url": "https://streamtp-golden1.click/global1.php?stream=espn5"
-            }
-        },
-        {
-            "association": "",
-            "leagueId": "laliga",
-            "leagueDisplay": "LaLiga",
-            "sportingEventId": "villarreal_vs_real_betis",
-            "sportingEventDisplay": "Villarreal <wbr><span class='w3-opacity'>vs</span> <wbr>Real <wbr>Betis",
-            "streamId": "streamtp-golden1.click",
-            "streamDisplay": "streamtp-golden1.<wbr>click",
-            "time": "19:00",
-            "isTime24H": true,
-            "urls": [
-                "https://rojadirectauno.pl/eventoshd.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL2xhbGlnYTMucGhw",
-                "https://playvi.org/laliga3.php",
-                "https://streamtp-golden1.click/global1.php?stream=espnplus1"
-            ],
-            "state": {
-                "color": "red",
-                "message": "Failed to find streaming in network events of master playlists or manifests on our server from:",
-                "url": "https://streamtp-golden1.click/global1.php?stream=espnplus1"
-            }
-        },
-        {
-            "association": "",
-            "leagueId": "serie_a",
-            "leagueDisplay": "Serie <wbr>A",
-            "sportingEventId": "torino_vs_as_roma",
-            "sportingEventDisplay": "Torino <wbr><span class='w3-opacity'>vs</span> <wbr>AS <wbr>Roma",
-            "streamId": "streamtp-golden1.click",
-            "streamDisplay": "streamtp-golden1.<wbr>click",
-            "time": "16:30",
-            "isTime24H": true,
-            "urls": [
-                "https://rojadirectauno.pl/eventoshd.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL3NlcmllYTMucGhw",
-                "https://playvi.org/seriea3.php",
-                "https://streamtp-golden1.click/global1.php?stream=universo_usa"
-            ],
-            "state": {
-                "color": "green",
-                "message": "Successfully found streaming on our server from:",
-                "url": "https://streamtp-golden1.click/global1.php?stream=universo_usa"
-            }
-        },
-        {
-            "association": "",
-            "leagueId": "serie_a",
-            "leagueDisplay": "Serie <wbr>A",
+            "association": "IT",
+            "leagueId": "serie_a_italia",
+            "leagueDisplay": "Serie <wbr>A <wbr>Italia",
             "sportingEventId": "inter_milan_vs_udinese",
-            "sportingEventDisplay": "Inter <wbr>Milan <wbr><span class='w3-opacity'>vs</span> <wbr>Udinese",
-            "streamId": "streamtp-golden1.click",
-            "streamDisplay": "streamtp-golden1.<wbr>click",
+            "sportingEventDisplay": "Inter <wbr><span class='w3-opacity'>vs</span> <wbr>Udinese",
+            "streamId": "rodrixtv.site",
+            "streamDisplay": "rodrixtv.<wbr>site",
             "time": "18:45",
             "isTime24H": true,
             "urls": [
-                "https://rojadirectauno.pl/eventoshd.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL3NlcmllYTMucGhw",
-                "https://playvi.org/seriea3.php",
-                "https://streamtp-golden1.click/global1.php?stream=universo_usa"
+                "https://www.pirlotv.food/canal-20.php",
+                "https://rodrixtv.site/tv/canal20.html"
             ],
             "state": {
                 "color": "green",
-                "message": "Successfully found streaming on our server from:",
-                "url": "https://streamtp-golden1.click/global1.php?stream=universo_usa"
+                "message": "Failed to find either an iframe, a video element, or a div with id 'player' on our server from:",
+                "url": "https://zonalivetv.xyz/nplayer/sTL2/138"
             }
         },
         {
-            "association": "",
-            "leagueId": "serie_a",
-            "leagueDisplay": "Serie <wbr>A",
-            "sportingEventId": "como_vs_parma",
-            "sportingEventDisplay": "Como <wbr><span class='w3-opacity'>vs</span> <wbr>Parma",
-            "streamId": "streamx305.sbs",
-            "streamDisplay": "streamx305.<wbr>sbs",
-            "time": "16:30",
-            "isTime24H": true,
-            "urls": [
-                "https://elitegoltv.co/eventoshd.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL3NlcmllYTkucGhw",
-                "https://playvi.org/seriea9.php",
-                "https://streamx305.sbs/global3.php?channel=disney1"
-            ],
-            "state": {
-                "color": "red",
-                "message": "Failed to find streaming in webpage performance entries on our server from:",
-                "url": "https://streamx305.sbs/global3.php?channel=disney1"
-            }
-        },
-        {
-            "association": "",
-            "leagueId": "super_lig_turquia",
-            "leagueDisplay": "Super <wbr>Lig <wbr>Turquia",
-            "sportingEventId": "gaziantep_fk_vs_fenerbahce",
-            "sportingEventDisplay": "Gaziantep <wbr>FK <wbr><span class='w3-opacity'>vs</span> <wbr>Fenerbahce",
-            "streamId": "streamx305.sbs",
-            "streamDisplay": "streamx305.<wbr>sbs",
-            "time": "17:00",
-            "isTime24H": true,
-            "urls": [
-                "https://tarjetarojablog.pl/eventoshd.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL3N1cGVybGlnMi5waHA=",
-                "https://playvi.org/superlig2.php",
-                "https://streamx305.sbs/global3.php?channel=disney3"
-            ],
-            "state": {
-                "color": "red",
-                "message": "Failed to find streaming in webpage performance entries on our server from:",
-                "url": "https://streamx305.sbs/global3.php?channel=disney3"
-            }
-        },
-        {
-            "association": "",
-            "leagueId": "serie_a",
-            "leagueDisplay": "Serie <wbr>A",
-            "sportingEventId": "torino_vs_as_roma",
-            "sportingEventDisplay": "Torino <wbr><span class='w3-opacity'>vs</span> <wbr>AS <wbr>Roma",
-            "streamId": "streamx305.sbs",
-            "streamDisplay": "streamx305.<wbr>sbs",
-            "time": "16:30",
-            "isTime24H": true,
-            "urls": [
-                "https://tarjetarojablog.pl/eventoshd.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL3NlcmllYTIucGhw",
-                "https://playvi.org/seriea2.php",
-                "https://streamx305.sbs/global3.php?channel=espn"
-            ],
-            "state": {
-                "color": "green",
-                "message": "Successfully found streaming on our server from:",
-                "url": "https://streamx305.sbs/global3.php?channel=espn"
-            }
-        },
-        {
-            "association": "",
-            "leagueId": "serie_a",
-            "leagueDisplay": "Serie <wbr>A",
-            "sportingEventId": "inter_milan_vs_udinese",
-            "sportingEventDisplay": "Inter <wbr>Milan <wbr><span class='w3-opacity'>vs</span> <wbr>Udinese",
-            "streamId": "streamx305.sbs",
-            "streamDisplay": "streamx305.<wbr>sbs",
-            "time": "18:45",
-            "isTime24H": true,
-            "urls": [
-                "https://tarjetarojablog.pl/eventoshd.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL3NlcmllYTIucGhw",
-                "https://playvi.org/seriea2.php",
-                "https://streamx305.sbs/global3.php?channel=espn"
-            ],
-            "state": {
-                "color": "green",
-                "message": "Successfully found streaming on our server from:",
-                "url": "https://streamx305.sbs/global3.php?channel=espn"
-            }
-        },
-        {
-            "association": "",
-            "leagueId": "afc_champions_league",
-            "leagueDisplay": "AFC <wbr>Champions <wbr>League",
-            "sportingEventId": "shamal_qat_vs_al_ittihad_fc_sau",
-            "sportingEventDisplay": "Al <wbr>Shamal <wbr><span class='w3-opacity'>vs</span> <wbr>Al <wbr>Ittihad",
-            "streamId": "streamx305.sbs",
-            "streamDisplay": "streamx305.<wbr>sbs",
-            "time": "16:00",
-            "isTime24H": true,
-            "urls": [
-                "https://rojadirectauno.pl/eventos.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL2RlcG9ydGVzcGx1czQucGhw=",
-                "https://streamx305.sbs/global3.php?channel=espn"
-            ],
-            "state": {
-                "color": "green",
-                "message": "Successfully found streaming on our server from:",
-                "url": "https://streamx305.sbs/global3.php?channel=espn"
-            }
-        },
-        {
-            "association": "",
-            "leagueId": "premier_league",
-            "leagueDisplay": "Premier <wbr>League",
-            "sportingEventId": "leeds_united_vs_newcastle_united",
-            "sportingEventDisplay": "Leeds <wbr>United <wbr><span class='w3-opacity'>vs</span> <wbr>Newcastle <wbr>United",
-            "streamId": "streamx305.sbs",
-            "streamDisplay": "streamx305.<wbr>sbs",
-            "time": "19:00",
-            "isTime24H": true,
-            "urls": [
-                "https://rojadirectauno.pl/eventoshd.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL3ByZW1pZXIyLnBocA==",
-                "https://playvi.org/premier2.php",
-                "https://streamx305.sbs/global3.php?channel=espn2"
-            ],
-            "state": {
-                "color": "green",
-                "message": "Successfully found streaming on our server from:",
-                "url": "https://streamx305.sbs/global3.php?channel=espn2"
-            }
-        },
-        {
-            "association": "",
-            "leagueId": "laliga",
-            "leagueDisplay": "LaLiga",
-            "sportingEventId": "villarreal_vs_real_betis",
-            "sportingEventDisplay": "Villarreal <wbr><span class='w3-opacity'>vs</span> <wbr>Real <wbr>Betis",
-            "streamId": "streamx305.sbs",
-            "streamDisplay": "streamx305.<wbr>sbs",
-            "time": "19:00",
-            "isTime24H": true,
-            "urls": [
-                "https://tarjetarojablog.pl/eventoshd.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL2xhbGlnYTIucGhw",
-                "https://playvi.org/laliga2.php",
-                "https://streamx305.sbs/global3.php?channel=espn3"
-            ],
-            "state": {
-                "color": "green",
-                "message": "Successfully found streaming on our server from:",
-                "url": "https://streamx305.sbs/global3.php?channel=espn3"
-            }
-        },
-        {
-            "association": "",
-            "leagueId": "afc_champions_league",
-            "leagueDisplay": "AFC <wbr>Champions <wbr>League",
-            "sportingEventId": "shamal_qat_vs_al_ittihad_fc_sau",
-            "sportingEventDisplay": "Al <wbr>Shamal <wbr><span class='w3-opacity'>vs</span> <wbr>Al <wbr>Ittihad",
-            "streamId": "streamx305.sbs",
-            "streamDisplay": "streamx305.<wbr>sbs",
-            "time": "16:00",
-            "isTime24H": true,
-            "urls": [
-                "https://tarjetarojablog.pl/eventoshd.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL3NhdWRpMi5waHA=",
-                "https://playvi.org/saudi2.php",
-                "https://streamx305.sbs/global3.php?channel=espnmx"
-            ],
-            "state": {
-                "color": "green",
-                "message": "Successfully found streaming on our server from:",
-                "url": "https://streamx305.sbs/global3.php?channel=espnmx"
-            }
-        },
-        {
-            "association": "",
-            "leagueId": "laliga_2",
-            "leagueDisplay": "LaLiga <wbr>2",
-            "sportingEventId": "rc_celta_fortuna_vs_eibar",
-            "sportingEventDisplay": "RC <wbr>Celta <wbr>Fortuna <wbr><span class='w3-opacity'>vs</span> <wbr>Eibar",
-            "streamId": "streamx305.sbs",
-            "streamDisplay": "streamx305.<wbr>sbs",
+            "association": "ES",
+            "leagueId": "laliga_hypermotion",
+            "leagueDisplay": "LaLiga <wbr>Hypermotion",
+            "sportingEventId": "celta_de_vigo_b_vs_eibar",
+            "sportingEventDisplay": "Celta <wbr>de <wbr>Vigo <wbr>B <wbr><span class='w3-opacity'>vs</span> <wbr>Eibar",
+            "streamId": "rodrixtv.site",
+            "streamDisplay": "rodrixtv.<wbr>site",
             "time": "18:30",
             "isTime24H": true,
             "urls": [
-                "https://elitegoltv.co/eventoshd.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL2xhbGlnYTIyLnBocA==",
-                "https://playvi.org/laliga22.php",
-                "https://streamx305.sbs/global3.php?channel=hyper1"
+                "https://pirlotv.food/liga2.php",
+                "https://rodrixtv.site/tv/liga2.html"
             ],
             "state": {
                 "color": "green",
-                "message": "Successfully found streaming on our server from:",
-                "url": "https://streamx305.sbs/global3.php?channel=hyper1"
+                "message": "Failed to find either an iframe, a video element, or a div with id 'player' on our server from:",
+                "url": "https://zonalivetv.xyz/nplayer/sTL2/53"
             }
         },
         {
             "association": "",
-            "leagueId": "afc_champions_league",
-            "leagueDisplay": "AFC <wbr>Champions <wbr>League",
-            "sportingEventId": "shamal_qat_vs_al_ittihad_fc_sau",
-            "sportingEventDisplay": "Al <wbr>Shamal <wbr><span class='w3-opacity'>vs</span> <wbr>Al <wbr>Ittihad",
-            "streamId": "streamxhd.com",
-            "streamDisplay": "streamxhd.<wbr>com",
-            "time": "16:00",
+            "leagueId": "liga_de_uruguay",
+            "leagueDisplay": "Liga <wbr>de <wbr>Uruguay",
+            "sportingEventId": "montevideo_city_torque_vs_liverpool_montevideo",
+            "sportingEventDisplay": "Montevideo <wbr>City <wbr>Torque <wbr><span class='w3-opacity'>vs</span> <wbr>Liverpool <wbr>Montevideo",
+            "streamId": "streamx305.sbs",
+            "streamDisplay": "streamx305.<wbr>sbs",
+            "time": "22:00",
             "isTime24H": true,
             "urls": [
-                "https://rojadirectauno.pl/eventoshd.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL3NhdWRpMy5waHA=",
-                "https://playvi.org/saudi3.php",
-                "https://streamxhd.com/live1.php?stream=disney1"
+                "https://elitegoltv.co/eventoshd.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL3VydWd1YXkyLnBocA==",
+                "https://playvi.org/uruguay2.php",
+                "https://streamx305.sbs/global3.php?channel=disney8"
             ],
             "state": {
-                "color": "green",
-                "message": "Successfully found streaming on our server from:",
-                "url": "https://streamxhd.com/live1.php?stream=disney1"
+                "color": "red",
+                "message": "Failed to find streaming in webpage performance entries on our server from:",
+                "url": "https://streamx305.sbs/global3.php?channel=disney8"
             }
         },
         {
             "association": "",
-            "leagueId": "serie_a",
-            "leagueDisplay": "Serie <wbr>A",
-            "sportingEventId": "como_vs_parma",
-            "sportingEventDisplay": "Como <wbr><span class='w3-opacity'>vs</span> <wbr>Parma",
-            "streamId": "streamxhd.com",
-            "streamDisplay": "streamxhd.<wbr>com",
-            "time": "16:30",
+            "leagueId": "liga_de_argentina",
+            "leagueDisplay": "Liga <wbr>de <wbr>Argentina",
+            "sportingEventId": "deportivo_riestra_vs_lanus",
+            "sportingEventDisplay": "Deportivo <wbr>Riestra <wbr><span class='w3-opacity'>vs</span> <wbr>Lanús",
+            "streamId": "streamx305.sbs",
+            "streamDisplay": "streamx305.<wbr>sbs",
+            "time": "22:00",
             "isTime24H": true,
             "urls": [
-                "https://elitegoltv.co/eventoshd.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL3NlcmllYTEwLnBocA==",
-                "https://playvi.org/seriea10.php",
-                "https://streamxhd.com/live1.php?stream=disney2"
+                "https://tarjetarojablog.pl/eventoshd.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL2FyZ2VudGluYTUucGhw",
+                "https://playvi.org/argentina5.php",
+                "https://streamx305.sbs/global3.php?channel=espnpremium"
             ],
             "state": {
                 "color": "green",
                 "message": "Successfully found streaming on our server from:",
-                "url": "https://streamxhd.com/live1.php?stream=disney2"
+                "url": "https://streamx305.sbs/global3.php?channel=espnpremium"
             }
         },
         {
             "association": "",
-            "leagueId": "super_lig_turquia",
-            "leagueDisplay": "Super <wbr>Lig <wbr>Turquia",
-            "sportingEventId": "gaziantep_fk_vs_fenerbahce",
-            "sportingEventDisplay": "Gaziantep <wbr>FK <wbr><span class='w3-opacity'>vs</span> <wbr>Fenerbahce",
-            "streamId": "streamxhd.com",
-            "streamDisplay": "streamxhd.<wbr>com",
-            "time": "17:00",
+            "leagueId": "liga_mx",
+            "leagueDisplay": "Liga <wbr>MX",
+            "sportingEventId": "club_leon_vs_atletico_san_luis",
+            "sportingEventDisplay": "León <wbr><span class='w3-opacity'>vs</span> <wbr>Atlético <wbr>San <wbr>Luis",
+            "streamId": "streamx305.sbs",
+            "streamDisplay": "streamx305.<wbr>sbs",
+            "time": "01:00",
             "isTime24H": true,
             "urls": [
-                "https://elitegoltv.co/eventoshd.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL3N1cGVybGlnNC5waHA=",
-                "https://playvi.org/superlig4.php",
-                "https://streamxhd.com/live1.php?stream=disney4"
+                "https://rojadirectauno.pl/eventoshd.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL2xpZ2FteDMucGhw",
+                "https://playvi.org/ligamx3.php",
+                "https://streamx305.sbs/global3.php?channel=foxone1"
             ],
             "state": {
                 "color": "green",
                 "message": "Successfully found streaming on our server from:",
-                "url": "https://streamxhd.com/live1.php?stream=disney4"
+                "url": "https://streamx305.sbs/global3.php?channel=foxone1"
             }
         },
         {
             "association": "",
-            "leagueId": "serie_a",
-            "leagueDisplay": "Serie <wbr>A",
-            "sportingEventId": "torino_vs_as_roma",
-            "sportingEventDisplay": "Torino <wbr><span class='w3-opacity'>vs</span> <wbr>AS <wbr>Roma",
-            "streamId": "streamxhd.com",
-            "streamDisplay": "streamxhd.<wbr>com",
-            "time": "16:30",
+            "leagueId": "brasileirao",
+            "leagueDisplay": "Brasileirao",
+            "sportingEventId": "bahia_vs_remo",
+            "sportingEventDisplay": "Bahía <wbr><span class='w3-opacity'>vs</span> <wbr>Remo",
+            "streamId": "streamx305.sbs",
+            "streamDisplay": "streamx305.<wbr>sbs",
+            "time": "23:00",
             "isTime24H": true,
             "urls": [
-                "https://elitegoltv.co/eventoshd.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL3NlcmllYTQucGhw",
-                "https://playvi.org/seriea4.php",
-                "https://streamxhd.com/live1.php?stream=disney6"
+                "https://elitegoltv.co/eventoshd.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL2JyYXNpbDEucGhw",
+                "https://playvi.org/brasil1.php",
+                "https://streamx305.sbs/global3.php?channel=premiere1"
             ],
             "state": {
                 "color": "green",
                 "message": "Successfully found streaming on our server from:",
-                "url": "https://streamxhd.com/live1.php?stream=disney6"
+                "url": "https://streamx305.sbs/global3.php?channel=premiere1"
             }
         },
         {
             "association": "",
-            "leagueId": "serie_a",
-            "leagueDisplay": "Serie <wbr>A",
-            "sportingEventId": "inter_milan_vs_udinese",
-            "sportingEventDisplay": "Inter <wbr>Milan <wbr><span class='w3-opacity'>vs</span> <wbr>Udinese",
-            "streamId": "streamxhd.com",
-            "streamDisplay": "streamxhd.<wbr>com",
-            "time": "18:45",
+            "leagueId": "liga_de_argentina",
+            "leagueDisplay": "Liga <wbr>de <wbr>Argentina",
+            "sportingEventId": "instituto_cordoba_vs_estudiantes_de_rio_cuarto",
+            "sportingEventDisplay": "Instituto <wbr>(Córdoba) <wbr><span class='w3-opacity'>vs</span> <wbr>Estudiantes <wbr>de <wbr>Río <wbr>Cuarto",
+            "streamId": "streamx305.sbs",
+            "streamDisplay": "streamx305.<wbr>sbs",
+            "time": "00:15",
             "isTime24H": true,
             "urls": [
-                "https://elitegoltv.co/eventoshd.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL3NlcmllYTQucGhw",
-                "https://playvi.org/seriea4.php",
-                "https://streamxhd.com/live1.php?stream=disney6"
+                "https://elitegoltv.co/eventoshd.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL2FyZ2VudGluYTIucGhw",
+                "https://playvi.org/argentina2.php",
+                "https://streamx305.sbs/global3.php?channel=tntar"
             ],
             "state": {
                 "color": "green",
                 "message": "Successfully found streaming on our server from:",
-                "url": "https://streamxhd.com/live1.php?stream=disney6"
+                "url": "https://streamx305.sbs/global3.php?channel=tntar"
             }
         },
         {
             "association": "",
-            "leagueId": "laliga",
-            "leagueDisplay": "LaLiga",
-            "sportingEventId": "villarreal_vs_real_betis",
-            "sportingEventDisplay": "Villarreal <wbr><span class='w3-opacity'>vs</span> <wbr>Real <wbr>Betis",
-            "streamId": "streamxhd.com",
-            "streamDisplay": "streamxhd.<wbr>com",
-            "time": "19:00",
+            "leagueId": "liga_de_argentina",
+            "leagueDisplay": "Liga <wbr>de <wbr>Argentina",
+            "sportingEventId": "banfield_vs_barracas_central",
+            "sportingEventDisplay": "Banfield <wbr><span class='w3-opacity'>vs</span> <wbr>Barracas <wbr>Central",
+            "streamId": "streamx305.sbs",
+            "streamDisplay": "streamx305.<wbr>sbs",
+            "time": "22:00",
             "isTime24H": true,
             "urls": [
-                "https://elitegoltv.co/eventoshd.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL2xhbGlnYTQucGhw",
-                "https://playvi.org/laliga4.php",
-                "https://streamxhd.com/live1.php?stream=disney7"
+                "https://tarjetarojablog.pl/eventoshd.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL2FyZ2VudGluYTIucGhw",
+                "https://playvi.org/argentina2.php",
+                "https://streamx305.sbs/global3.php?channel=tntar"
             ],
             "state": {
                 "color": "green",
                 "message": "Successfully found streaming on our server from:",
-                "url": "https://streamxhd.com/live1.php?stream=disney7"
+                "url": "https://streamx305.sbs/global3.php?channel=tntar"
+            }
+        },
+        {
+            "association": "",
+            "leagueId": "liga_de_chile",
+            "leagueDisplay": "Liga <wbr>de <wbr>Chile",
+            "sportingEventId": "union_la_calera_vs_deportes_limache",
+            "sportingEventDisplay": "Unión <wbr>La <wbr>Calera <wbr><span class='w3-opacity'>vs</span> <wbr>Deportes <wbr>Limache",
+            "streamId": "streamx305.sbs",
+            "streamDisplay": "streamx305.<wbr>sbs",
+            "time": "23:30",
+            "isTime24H": true,
+            "urls": [
+                "https://elitegoltv.co/eventoshd.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL2NoaWxlMi5waHA=",
+                "https://playvi.org/chile2.php",
+                "https://streamx305.sbs/global3.php?channel=tntsportscl"
+            ],
+            "state": {
+                "color": "green",
+                "message": "Successfully found streaming on our server from:",
+                "url": "https://streamx305.sbs/global3.php?channel=tntsportscl"
+            }
+        },
+        {
+            "association": "",
+            "leagueId": "liga_de_colombia",
+            "leagueDisplay": "Liga <wbr>de <wbr>Colombia",
+            "sportingEventId": "america_de_cali_vs_deportivo_pasto",
+            "sportingEventDisplay": "América <wbr>de <wbr>Cali <wbr><span class='w3-opacity'>vs</span> <wbr>Deportivo <wbr>Pasto",
+            "streamId": "streamx305.sbs",
+            "streamDisplay": "streamx305.<wbr>sbs",
+            "time": "01:00",
+            "isTime24H": true,
+            "urls": [
+                "https://tarjetarojablog.pl/eventoshd.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL2NvbG9tYmlhMi5waHA=",
+                "https://playvi.org/colombia2.php",
+                "https://streamx305.sbs/global3.php?channel=winplus"
+            ],
+            "state": {
+                "color": "green",
+                "message": "Successfully found streaming on our server from:",
+                "url": "https://streamx305.sbs/global3.php?channel=winplus"
+            }
+        },
+        {
+            "association": "",
+            "leagueId": "liga_de_uruguay",
+            "leagueDisplay": "Liga <wbr>de <wbr>Uruguay",
+            "sportingEventId": "montevideo_city_torque_vs_liverpool_montevideo",
+            "sportingEventDisplay": "Montevideo <wbr>City <wbr>Torque <wbr><span class='w3-opacity'>vs</span> <wbr>Liverpool <wbr>Montevideo",
+            "streamId": "streamxhd.com",
+            "streamDisplay": "streamxhd.<wbr>com",
+            "time": "22:00",
+            "isTime24H": true,
+            "urls": [
+                "https://elitegoltv.co/eventoshd.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL3VydWd1YXkzLnBocA==",
+                "https://playvi.org/uruguay3.php",
+                "https://streamxhd.com/live1.php?stream=disney10"
+            ],
+            "state": {
+                "color": "green",
+                "message": "Successfully found streaming on our server from:",
+                "url": "https://streamxhd.com/live1.php?stream=disney10"
             }
         },
         {
@@ -1194,44 +874,23 @@
         },
         {
             "association": "",
-            "leagueId": "premier_league",
-            "leagueDisplay": "Premier <wbr>League",
-            "sportingEventId": "leeds_united_vs_newcastle_united",
-            "sportingEventDisplay": "Leeds <wbr>United <wbr><span class='w3-opacity'>vs</span> <wbr>Newcastle <wbr>United",
+            "leagueId": "liga_de_argentina",
+            "leagueDisplay": "Liga <wbr>de <wbr>Argentina",
+            "sportingEventId": "deportivo_riestra_vs_lanus",
+            "sportingEventDisplay": "Deportivo <wbr>Riestra <wbr><span class='w3-opacity'>vs</span> <wbr>Lanús",
             "streamId": "streamxhd.com",
             "streamDisplay": "streamxhd.<wbr>com",
-            "time": "19:00",
+            "time": "22:00",
             "isTime24H": true,
             "urls": [
-                "https://elitegoltv.co/eventoshd.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL3ByZW1pZXI0LnBocA==",
-                "https://playvi.org/premier4.php",
-                "https://streamxhd.com/live1.php?stream=foxone"
+                "https://rojadirectauno.pl/eventoshd.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL2FyZ2VudGluYTYucGhw",
+                "https://playvi.org/argentina6.php",
+                "https://streamxhd.com/live1.php?stream=disney9"
             ],
             "state": {
                 "color": "green",
                 "message": "Successfully found streaming on our server from:",
-                "url": "https://streamxhd.com/live1.php?stream=foxone"
-            }
-        },
-        {
-            "association": "",
-            "leagueId": "laliga_2",
-            "leagueDisplay": "LaLiga <wbr>2",
-            "sportingEventId": "rc_celta_fortuna_vs_eibar",
-            "sportingEventDisplay": "RC <wbr>Celta <wbr>Fortuna <wbr><span class='w3-opacity'>vs</span> <wbr>Eibar",
-            "streamId": "streamxhd.com",
-            "streamDisplay": "streamxhd.<wbr>com",
-            "time": "18:30",
-            "isTime24H": true,
-            "urls": [
-                "https://elitegoltv.co/eventoshd.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL2xhbGlnYTIzLnBocA==",
-                "https://playvi.org/laliga23.php",
-                "https://streamxhd.com/live1.php?stream=laligahypermotion"
-            ],
-            "state": {
-                "color": "green",
-                "message": "Successfully found streaming on our server from:",
-                "url": "https://streamxhd.com/live1.php?stream=laligahypermotion"
+                "url": "https://streamxhd.com/live1.php?stream=disney9"
             }
         },
         {
@@ -1277,6 +936,132 @@
             }
         },
         {
+            "association": "",
+            "leagueId": "brasileirao",
+            "leagueDisplay": "Brasileirao",
+            "sportingEventId": "bahia_vs_remo",
+            "sportingEventDisplay": "Bahía <wbr><span class='w3-opacity'>vs</span> <wbr>Remo",
+            "streamId": "streamxhd.com",
+            "streamDisplay": "streamxhd.<wbr>com",
+            "time": "23:00",
+            "isTime24H": true,
+            "urls": [
+                "https://elitegoltv.co/eventoshd.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL2JyYXNpbDIucGhw",
+                "https://playvi.org/brasil2.php",
+                "https://streamxhd.com/live1.php?stream=premiere1"
+            ],
+            "state": {
+                "color": "green",
+                "message": "Successfully found streaming on our server from:",
+                "url": "https://streamxhd.com/live1.php?stream=premiere1"
+            }
+        },
+        {
+            "association": "",
+            "leagueId": "liga_de_argentina",
+            "leagueDisplay": "Liga <wbr>de <wbr>Argentina",
+            "sportingEventId": "instituto_cordoba_vs_estudiantes_de_rio_cuarto",
+            "sportingEventDisplay": "Instituto <wbr>(Córdoba) <wbr><span class='w3-opacity'>vs</span> <wbr>Estudiantes <wbr>de <wbr>Río <wbr>Cuarto",
+            "streamId": "streamxhd.com",
+            "streamDisplay": "streamxhd.<wbr>com",
+            "time": "00:15",
+            "isTime24H": true,
+            "urls": [
+                "https://elitegoltv.co/eventoshd.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL2FyZ2VudGluYTMucGhw",
+                "https://playvi.org/argentina3.php",
+                "https://streamxhd.com/live1.php?stream=tntsports"
+            ],
+            "state": {
+                "color": "green",
+                "message": "Successfully found streaming on our server from:",
+                "url": "https://streamxhd.com/live1.php?stream=tntsports"
+            }
+        },
+        {
+            "association": "",
+            "leagueId": "liga_de_argentina",
+            "leagueDisplay": "Liga <wbr>de <wbr>Argentina",
+            "sportingEventId": "banfield_vs_barracas_central",
+            "sportingEventDisplay": "Banfield <wbr><span class='w3-opacity'>vs</span> <wbr>Barracas <wbr>Central",
+            "streamId": "streamxhd.com",
+            "streamDisplay": "streamxhd.<wbr>com",
+            "time": "22:00",
+            "isTime24H": true,
+            "urls": [
+                "https://rojadirectauno.pl/eventoshd.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL2FyZ2VudGluYTMucGhw",
+                "https://playvi.org/argentina3.php",
+                "https://streamxhd.com/live1.php?stream=tntsports"
+            ],
+            "state": {
+                "color": "green",
+                "message": "Successfully found streaming on our server from:",
+                "url": "https://streamxhd.com/live1.php?stream=tntsports"
+            }
+        },
+        {
+            "association": "",
+            "leagueId": "liga_mx",
+            "leagueDisplay": "Liga <wbr>MX",
+            "sportingEventId": "club_leon_vs_atletico_san_luis",
+            "sportingEventDisplay": "León <wbr><span class='w3-opacity'>vs</span> <wbr>Atlético <wbr>San <wbr>Luis",
+            "streamId": "streamxhd.com",
+            "streamDisplay": "streamxhd.<wbr>com",
+            "time": "01:00",
+            "isTime24H": true,
+            "urls": [
+                "https://elitegoltv.co/eventoshd.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL2xpZ2FteDQucGhw",
+                "https://playvi.org/ligamx4.php",
+                "https://streamxhd.com/live1.php?stream=vix1"
+            ],
+            "state": {
+                "color": "green",
+                "message": "Successfully found streaming on our server from:",
+                "url": "https://streamxhd.com/live1.php?stream=vix1"
+            }
+        },
+        {
+            "association": "",
+            "leagueId": "liga_de_colombia",
+            "leagueDisplay": "Liga <wbr>de <wbr>Colombia",
+            "sportingEventId": "america_de_cali_vs_deportivo_pasto",
+            "sportingEventDisplay": "América <wbr>de <wbr>Cali <wbr><span class='w3-opacity'>vs</span> <wbr>Deportivo <wbr>Pasto",
+            "streamId": "streamxhd.com",
+            "streamDisplay": "streamxhd.<wbr>com",
+            "time": "01:00",
+            "isTime24H": true,
+            "urls": [
+                "https://rojadirectauno.pl/eventoshd.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL2NvbG9tYmlhMy5waHA=",
+                "https://playvi.org/colombia3.php",
+                "https://streamxhd.com/live1.php?stream=winplus"
+            ],
+            "state": {
+                "color": "green",
+                "message": "Successfully found streaming on our server from:",
+                "url": "https://streamxhd.com/live1.php?stream=winplus"
+            }
+        },
+        {
+            "association": "",
+            "leagueId": "liga_de_ecuador",
+            "leagueDisplay": "Liga <wbr>de <wbr>Ecuador",
+            "sportingEventId": "universidad_catolica_quito_vs_orense",
+            "sportingEventDisplay": "Universidad <wbr>Católica <wbr>(Quito) <wbr><span class='w3-opacity'>vs</span> <wbr>Orense",
+            "streamId": "streamxhd.com",
+            "streamDisplay": "streamxhd.<wbr>com",
+            "time": "00:00",
+            "isTime24H": true,
+            "urls": [
+                "https://elitegoltv.co/eventoshd.php?r=aHR0cHM6Ly9wbGF5dmkub3JnL2VjdWFkb3IzLnBocA==",
+                "https://playvi.org/ecuador3.php",
+                "https://streamxhd.com/live1.php?stream=zapping_ec"
+            ],
+            "state": {
+                "color": "green",
+                "message": "Successfully found streaming on our server from:",
+                "url": "https://streamxhd.com/live1.php?stream=zapping_ec"
+            }
+        },
+        {
             "association": "ARG",
             "leagueId": "liga_profesional",
             "leagueDisplay": "Liga <wbr>Profesional",
@@ -1301,7 +1086,7 @@
             "association": "ARG",
             "leagueId": "liga_profesional",
             "leagueDisplay": "Liga <wbr>Profesional",
-            "sportingEventId": "instituto_vs_estudiantes_rio_cuarto",
+            "sportingEventId": "instituto_cordoba_vs_estudiantes_de_rio_cuarto",
             "sportingEventDisplay": "Instituto <wbr><span class='w3-opacity'>vs</span> <wbr>Estudiantes <wbr>Rio <wbr>Cuarto",
             "streamId": "streamxhd.com",
             "streamDisplay": "streamxhd.<wbr>com",
@@ -1403,31 +1188,10 @@
             }
         },
         {
-            "association": "MX",
-            "leagueId": "liga_mx",
-            "leagueDisplay": "Liga <wbr>MX",
-            "sportingEventId": "club_leon_vs_atletico_san_luis",
-            "sportingEventDisplay": "León <wbr><span class='w3-opacity'>vs</span> <wbr>Atlético <wbr>de <wbr>San <wbr>Luis",
-            "streamId": "streamxhd.com",
-            "streamDisplay": "streamxhd.<wbr>com",
-            "time": "01:00",
-            "isTime24H": true,
-            "urls": [
-                "https://www.pirlotv.food/canal-48.php",
-                "https://rodrixtv.site/tv/canal48.html",
-                "https://streamxhd.com/live2.php?stream=disney20"
-            ],
-            "state": {
-                "color": "green",
-                "message": "Successfully found streaming on our server from:",
-                "url": "https://streamxhd.com/live2.php?stream=disney20"
-            }
-        },
-        {
             "association": "UY",
             "leagueId": "liga_de_uruguay",
             "leagueDisplay": "Liga <wbr>de <wbr>Uruguay",
-            "sportingEventId": "montevideo_city_vs_liverpool_m",
+            "sportingEventId": "montevideo_city_torque_vs_liverpool_montevideo",
             "sportingEventDisplay": "Montevideo <wbr>City <wbr><span class='w3-opacity'>vs</span> <wbr>Liverpool <wbr>M.",
             "streamId": "streamxhd.com",
             "streamDisplay": "streamxhd.<wbr>com",
@@ -1445,31 +1209,10 @@
             }
         },
         {
-            "association": "MX",
-            "leagueId": "liga_mx",
-            "leagueDisplay": "Liga <wbr>MX",
-            "sportingEventId": "club_leon_vs_atletico_san_luis",
-            "sportingEventDisplay": "León <wbr><span class='w3-opacity'>vs</span> <wbr>Atlético <wbr>de <wbr>San <wbr>Luis",
-            "streamId": "streamxhd.com",
-            "streamDisplay": "streamxhd.<wbr>com",
-            "time": "01:00",
-            "isTime24H": true,
-            "urls": [
-                "https://pirlotv.food/udn.php",
-                "https://rodrixtv.site/tv/udn.html",
-                "https://streamxhd.com/live2.php?stream=disney25"
-            ],
-            "state": {
-                "color": "green",
-                "message": "Successfully found streaming on our server from:",
-                "url": "https://streamxhd.com/live2.php?stream=disney25"
-            }
-        },
-        {
             "association": "IT",
             "leagueId": "serie_a_tim",
             "leagueDisplay": "Serie <wbr>A <wbr>TIM",
-            "sportingEventId": "torino_vs_as_roma",
+            "sportingEventId": "torino_vs_roma",
             "sportingEventDisplay": "Torino <wbr><span class='w3-opacity'>vs</span> <wbr>Roma",
             "streamId": "streamxhd.com",
             "streamDisplay": "streamxhd.<wbr>com",
@@ -1700,7 +1443,7 @@
             "association": "IT",
             "leagueId": "serie_a_tim",
             "leagueDisplay": "Serie <wbr>A <wbr>TIM",
-            "sportingEventId": "torino_vs_as_roma",
+            "sportingEventId": "torino_vs_roma",
             "sportingEventDisplay": "Torino <wbr><span class='w3-opacity'>vs</span> <wbr>Roma",
             "streamId": "streamxhd.com",
             "streamDisplay": "streamxhd.<wbr>com",
@@ -1974,6 +1717,27 @@
             "leagueId": "liga_mx",
             "leagueDisplay": "Liga <wbr>MX",
             "sportingEventId": "club_leon_vs_atletico_san_luis",
+            "sportingEventDisplay": "León <wbr><span class='w3-opacity'>vs</span> <wbr>Atlético <wbr>de <wbr>San <wbr>Luis",
+            "streamId": "streamxhd.com",
+            "streamDisplay": "streamxhd.<wbr>com",
+            "time": "01:00",
+            "isTime24H": true,
+            "urls": [
+                "https://pirlotv.food/udn.php",
+                "https://rodrixtv.site/tv/udn.html",
+                "https://streamxhd.com/live2.php?stream=foxone"
+            ],
+            "state": {
+                "color": "green",
+                "message": "Successfully found streaming on our server from:",
+                "url": "https://streamxhd.com/live2.php?stream=foxone"
+            }
+        },
+        {
+            "association": "MX",
+            "leagueId": "liga_mx",
+            "leagueDisplay": "Liga <wbr>MX",
+            "sportingEventId": "club_leon_vs_atletico_san_luis",
             "sportingEventDisplay": "Club <wbr>León <wbr><span class='w3-opacity'>vs</span> <wbr>Atlético <wbr>San <wbr>Luis",
             "streamId": "streamxhd.com",
             "streamDisplay": "streamxhd.<wbr>com",
@@ -1994,7 +1758,7 @@
             "association": "ES",
             "leagueId": "laliga_hypermotion",
             "leagueDisplay": "LaLiga <wbr>Hypermotion",
-            "sportingEventId": "rc_celta_fortuna_vs_eibar",
+            "sportingEventId": "celta_de_vigo_b_vs_eibar",
             "sportingEventDisplay": "Celta <wbr>de <wbr>Vigo <wbr>B <wbr><span class='w3-opacity'>vs</span> <wbr>Eibar",
             "streamId": "streamxhd.com",
             "streamDisplay": "streamxhd.<wbr>com",
@@ -2015,7 +1779,7 @@
             "association": "ES",
             "leagueId": "laliga_hypermotion",
             "leagueDisplay": "LaLiga <wbr>Hypermotion",
-            "sportingEventId": "rc_celta_fortuna_vs_eibar",
+            "sportingEventId": "celta_de_vigo_b_vs_eibar",
             "sportingEventDisplay": "Celta <wbr>de <wbr>Vigo <wbr>B <wbr><span class='w3-opacity'>vs</span> <wbr>Eibar",
             "streamId": "streamxhd.com",
             "streamDisplay": "streamxhd.<wbr>com",
@@ -2036,7 +1800,7 @@
             "association": "ES",
             "leagueId": "laliga_hypermotion",
             "leagueDisplay": "LaLiga <wbr>Hypermotion",
-            "sportingEventId": "rc_celta_fortuna_vs_eibar",
+            "sportingEventId": "celta_de_vigo_b_vs_eibar",
             "sportingEventDisplay": "Celta <wbr>de <wbr>Vigo <wbr>B <wbr><span class='w3-opacity'>vs</span> <wbr>Eibar",
             "streamId": "streamxhd.com",
             "streamDisplay": "streamxhd.<wbr>com",
@@ -2120,7 +1884,7 @@
             "association": "AR",
             "leagueId": "liga_1_argentina",
             "leagueDisplay": "Liga <wbr>1 <wbr>Argentina",
-            "sportingEventId": "instituto_vs_estudiantes_rio_cuarto",
+            "sportingEventId": "instituto_cordoba_vs_estudiantes_de_rio_cuarto",
             "sportingEventDisplay": "Instituto <wbr><span class='w3-opacity'>vs</span> <wbr>Estudiantes <wbr>Rio <wbr>Cuarto",
             "streamId": "streamxhd.com",
             "streamDisplay": "streamxhd.<wbr>com",
@@ -2162,7 +1926,7 @@
             "association": "ARG",
             "leagueId": "liga_profesional",
             "leagueDisplay": "Liga <wbr>Profesional",
-            "sportingEventId": "instituto_vs_estudiantes_rio_cuarto",
+            "sportingEventId": "instituto_cordoba_vs_estudiantes_de_rio_cuarto",
             "sportingEventDisplay": "Instituto <wbr><span class='w3-opacity'>vs</span> <wbr>Estudiantes <wbr>Rio <wbr>Cuarto",
             "streamId": "streamxhd.com",
             "streamDisplay": "streamxhd.<wbr>com",
@@ -2183,7 +1947,7 @@
             "association": "CL",
             "leagueId": "liga_1_chile",
             "leagueDisplay": "Liga <wbr>1 <wbr>Chile",
-            "sportingEventId": "union_la_calera_vs_limache",
+            "sportingEventId": "union_la_calera_vs_deportes_limache",
             "sportingEventDisplay": "U. <wbr>La <wbr>Calera <wbr><span class='w3-opacity'>vs</span> <wbr>Limache",
             "streamId": "streamxhd.com",
             "streamDisplay": "streamxhd.<wbr>com",
@@ -2204,7 +1968,7 @@
             "association": "CL",
             "leagueId": "primera_division",
             "leagueDisplay": "Primera <wbr>División",
-            "sportingEventId": "union_la_calera_vs_limache",
+            "sportingEventId": "union_la_calera_vs_deportes_limache",
             "sportingEventDisplay": "Unión <wbr>La <wbr>Calera <wbr><span class='w3-opacity'>vs</span> <wbr>Limache",
             "streamId": "streamxhd.com",
             "streamDisplay": "streamxhd.<wbr>com",
@@ -2225,7 +1989,7 @@
             "association": "CL",
             "leagueId": "primera_division",
             "leagueDisplay": "Primera <wbr>División",
-            "sportingEventId": "union_la_calera_vs_limache",
+            "sportingEventId": "union_la_calera_vs_deportes_limache",
             "sportingEventDisplay": "Unión <wbr>La <wbr>Calera <wbr><span class='w3-opacity'>vs</span> <wbr>Limache",
             "streamId": "streamxhd.com",
             "streamDisplay": "streamxhd.<wbr>com",
@@ -2261,6 +2025,27 @@
                 "color": "green",
                 "message": "Successfully found streaming on our server from:",
                 "url": "https://streamxhd.com/live2.php?stream=universo"
+            }
+        },
+        {
+            "association": "MX",
+            "leagueId": "liga_mx",
+            "leagueDisplay": "Liga <wbr>MX",
+            "sportingEventId": "club_leon_vs_atletico_san_luis",
+            "sportingEventDisplay": "León <wbr><span class='w3-opacity'>vs</span> <wbr>Atlético <wbr>de <wbr>San <wbr>Luis",
+            "streamId": "streamxhd.com",
+            "streamDisplay": "streamxhd.<wbr>com",
+            "time": "01:00",
+            "isTime24H": true,
+            "urls": [
+                "https://www.pirlotv.food/canal-48.php",
+                "https://rodrixtv.site/tv/canal48.html",
+                "https://streamxhd.com/live2.php?stream=vix1"
+            ],
+            "state": {
+                "color": "green",
+                "message": "Successfully found streaming on our server from:",
+                "url": "https://streamxhd.com/live2.php?stream=vix1"
             }
         },
         {
@@ -2414,7 +2199,7 @@
             "association": "EC",
             "leagueId": "liga_1_ecuador",
             "leagueDisplay": "Liga <wbr>1 <wbr>Ecuador",
-            "sportingEventId": "universidad_catolica_vs_orense",
+            "sportingEventId": "universidad_catolica_quito_vs_orense",
             "sportingEventDisplay": "U. <wbr>Católica <wbr><span class='w3-opacity'>vs</span> <wbr>Orense",
             "streamId": "streamxhd.com",
             "streamDisplay": "streamxhd.<wbr>com",
@@ -2435,7 +2220,7 @@
             "association": "EC",
             "leagueId": "liga_pro",
             "leagueDisplay": "Liga <wbr>Pro",
-            "sportingEventId": "universidad_catolica_vs_orense",
+            "sportingEventId": "universidad_catolica_quito_vs_orense",
             "sportingEventDisplay": "Universidad <wbr>Católica <wbr><span class='w3-opacity'>vs</span> <wbr>Orense",
             "streamId": "streamxhd.com",
             "streamDisplay": "streamxhd.<wbr>com",
@@ -2456,7 +2241,7 @@
             "association": "EC",
             "leagueId": "liga_pro",
             "leagueDisplay": "Liga <wbr>Pro",
-            "sportingEventId": "universidad_catolica_vs_orense",
+            "sportingEventId": "universidad_catolica_quito_vs_orense",
             "sportingEventDisplay": "Universidad <wbr>Católica <wbr><span class='w3-opacity'>vs</span> <wbr>Orense",
             "streamId": "streamxhd.com",
             "streamDisplay": "streamxhd.<wbr>com",
@@ -2603,7 +2388,7 @@
             "association": "IT",
             "leagueId": "serie_a_italia",
             "leagueDisplay": "Serie <wbr>A <wbr>Italia",
-            "sportingEventId": "torino_vs_as_roma",
+            "sportingEventId": "torino_vs_roma",
             "sportingEventDisplay": "Torino <wbr><span class='w3-opacity'>vs</span> <wbr>Roma",
             "streamId": "w6.sportsonliine.click",
             "streamDisplay": "w6.<wbr>sportsonliine.<wbr>click",
@@ -2621,45 +2406,45 @@
             }
         },
         {
-            "association": "IT",
-            "leagueId": "serie_a_italia",
-            "leagueDisplay": "Serie <wbr>A <wbr>Italia",
-            "sportingEventId": "torino_vs_as_roma",
-            "sportingEventDisplay": "Torino <wbr><span class='w3-opacity'>vs</span> <wbr>Roma",
+            "association": "UY",
+            "leagueId": "liga_de_uruguay",
+            "leagueDisplay": "Liga <wbr>de <wbr>Uruguay",
+            "sportingEventId": "montevideo_city_torque_vs_liverpool_montevideo",
+            "sportingEventDisplay": "Montevideo <wbr>City <wbr><span class='w3-opacity'>vs</span> <wbr>Liverpool <wbr>M.",
             "streamId": "zonalivetv.xyz",
             "streamDisplay": "zonalivetv.<wbr>xyz",
-            "time": "16:30",
+            "time": "22:00",
             "isTime24H": true,
             "urls": [
-                "https://www.pirlotv.food/canal-20.php",
-                "https://rodrixtv.site/tv/canal20.html",
-                "https://zonalivetv.xyz/nplayer/sTL2/138"
+                "https://www.pirlotv.food/canal-132.php",
+                "https://rodrixtv.site/tv/canal132.html",
+                "https://zonalivetv.xyz/nplayer/sTL2/109"
             ],
             "state": {
                 "color": "yellow",
                 "message": "Failed to find either an iframe or a video element, but found a div with id 'player' on our server from:",
-                "url": "https://zonalivetv.xyz/nplayer/sTL2/138"
+                "url": "https://zonalivetv.xyz/nplayer/sTL2/109"
             }
         },
         {
             "association": "IT",
             "leagueId": "serie_a_italia",
             "leagueDisplay": "Serie <wbr>A <wbr>Italia",
-            "sportingEventId": "inter_milan_vs_udinese",
-            "sportingEventDisplay": "Inter <wbr><span class='w3-opacity'>vs</span> <wbr>Udinese",
+            "sportingEventId": "torino_vs_roma",
+            "sportingEventDisplay": "Torino <wbr><span class='w3-opacity'>vs</span> <wbr>Roma",
             "streamId": "zonalivetv.xyz",
             "streamDisplay": "zonalivetv.<wbr>xyz",
-            "time": "18:45",
+            "time": "16:30",
             "isTime24H": true,
             "urls": [
-                "https://www.pirlotv.food/canal-20.php",
-                "https://rodrixtv.site/tv/canal20.html",
-                "https://zonalivetv.xyz/nplayer/sTL2/138"
+                "https://tarjetarojatv.lat/fox.php",
+                "https://rodrixtv.site/tv/fox.html",
+                "https://zonalivetv.xyz/nplayer/sTL2/137"
             ],
             "state": {
                 "color": "yellow",
                 "message": "Failed to find either an iframe or a video element, but found a div with id 'player' on our server from:",
-                "url": "https://zonalivetv.xyz/nplayer/sTL2/138"
+                "url": "https://zonalivetv.xyz/nplayer/sTL2/137"
             }
         },
         {
@@ -2684,24 +2469,87 @@
             }
         },
         {
-            "association": "ES",
-            "leagueId": "laliga_hypermotion",
-            "leagueDisplay": "LaLiga <wbr>Hypermotion",
-            "sportingEventId": "rc_celta_fortuna_vs_eibar",
-            "sportingEventDisplay": "Celta <wbr>de <wbr>Vigo <wbr>B <wbr><span class='w3-opacity'>vs</span> <wbr>Eibar",
+            "association": "MX",
+            "leagueId": "liga_mx",
+            "leagueDisplay": "Liga <wbr>MX",
+            "sportingEventId": "club_leon_vs_atletico_san_luis",
+            "sportingEventDisplay": "León <wbr><span class='w3-opacity'>vs</span> <wbr>Atlético <wbr>de <wbr>San <wbr>Luis",
             "streamId": "zonalivetv.xyz",
             "streamDisplay": "zonalivetv.<wbr>xyz",
-            "time": "18:30",
+            "time": "01:00",
             "isTime24H": true,
             "urls": [
-                "https://pirlotv.food/liga2.php",
-                "https://rodrixtv.site/tv/liga2.html",
-                "https://zonalivetv.xyz/nplayer/sTL2/53"
+                "https://www.pirlotv.food/canal-49.php",
+                "https://rodrixtv.site/tv/canal49.html",
+                "https://zonalivetv.xyz/nplayer/sTL2/158"
             ],
             "state": {
                 "color": "yellow",
                 "message": "Failed to find either an iframe or a video element, but found a div with id 'player' on our server from:",
-                "url": "https://zonalivetv.xyz/nplayer/sTL2/53"
+                "url": "https://zonalivetv.xyz/nplayer/sTL2/158"
+            }
+        },
+        {
+            "association": "ES",
+            "leagueId": "laliga_ea_sports",
+            "leagueDisplay": "LaLiga <wbr>EA <wbr>Sports",
+            "sportingEventId": "villarreal_vs_real_betis",
+            "sportingEventDisplay": "Villarreal <wbr><span class='w3-opacity'>vs</span> <wbr>Real <wbr>Betis",
+            "streamId": "zonalivetv.xyz",
+            "streamDisplay": "zonalivetv.<wbr>xyz",
+            "time": "19:00",
+            "isTime24H": true,
+            "urls": [
+                "https://www.pirlotv.food/canal-5.php",
+                "https://rodrixtv.site/tv/canal5.html",
+                "https://zonalivetv.xyz/nplayer/sTL2/49"
+            ],
+            "state": {
+                "color": "yellow",
+                "message": "Failed to find either an iframe or a video element, but found a div with id 'player' on our server from:",
+                "url": "https://zonalivetv.xyz/nplayer/sTL2/49"
+            }
+        },
+        {
+            "association": "EN",
+            "leagueId": "premier_league",
+            "leagueDisplay": "Premier <wbr>League",
+            "sportingEventId": "leeds_united_vs_newcastle_united",
+            "sportingEventDisplay": "Leeds <wbr>Utd <wbr><span class='w3-opacity'>vs</span> <wbr>Newcastle",
+            "streamId": "zonalivetv.xyz",
+            "streamDisplay": "zonalivetv.<wbr>xyz",
+            "time": "19:00",
+            "isTime24H": true,
+            "urls": [
+                "https://www.pirlotv.food/canal-10.php",
+                "https://rodrixtv.site/tv/canal10.html",
+                "https://zonalivetv.xyz/nplayer/sTL2/56"
+            ],
+            "state": {
+                "color": "yellow",
+                "message": "Failed to find either an iframe or a video element, but found a div with id 'player' on our server from:",
+                "url": "https://zonalivetv.xyz/nplayer/sTL2/56"
+            }
+        },
+        {
+            "association": "ES",
+            "leagueId": "laliga_ea_sports",
+            "leagueDisplay": "LaLiga <wbr>EA <wbr>Sports",
+            "sportingEventId": "villarreal_vs_real_betis",
+            "sportingEventDisplay": "Villarreal <wbr><span class='w3-opacity'>vs</span> <wbr>Real <wbr>Betis",
+            "streamId": "zonalivetv.xyz",
+            "streamDisplay": "zonalivetv.<wbr>xyz",
+            "time": "19:00",
+            "isTime24H": true,
+            "urls": [
+                "https://tarjetarojatv.lat/espn.php",
+                "https://rodrixtv.site/tv/espn.html",
+                "https://zonalivetv.xyz/nplayer/sTL2/71"
+            ],
+            "state": {
+                "color": "yellow",
+                "message": "Failed to find either an iframe or a video element, but found a div with id 'player' on our server from:",
+                "url": "https://zonalivetv.xyz/nplayer/sTL2/71"
             }
         },
         {
@@ -2726,10 +2574,52 @@
             }
         },
         {
+            "association": "CO",
+            "leagueId": "liga_1_colombia",
+            "leagueDisplay": "Liga <wbr>1 <wbr>Colombia",
+            "sportingEventId": "america_de_cali_vs_deportivo_pasto",
+            "sportingEventDisplay": "América <wbr>de <wbr>Cali <wbr><span class='w3-opacity'>vs</span> <wbr>Dep. <wbr>Pasto",
+            "streamId": "zonalivetv.xyz",
+            "streamDisplay": "zonalivetv.<wbr>xyz",
+            "time": "01:00",
+            "isTime24H": true,
+            "urls": [
+                "https://www.pirlotv.food/canal-34.php",
+                "https://rodrixtv.site/tv/canal34.html",
+                "https://zonalivetv.xyz/nplayer/sTL2/81"
+            ],
+            "state": {
+                "color": "yellow",
+                "message": "Failed to find either an iframe or a video element, but found a div with id 'player' on our server from:",
+                "url": "https://zonalivetv.xyz/nplayer/sTL2/81"
+            }
+        },
+        {
+            "association": "CL",
+            "leagueId": "liga_1_chile",
+            "leagueDisplay": "Liga <wbr>1 <wbr>Chile",
+            "sportingEventId": "union_la_calera_vs_deportes_limache",
+            "sportingEventDisplay": "U. <wbr>La <wbr>Calera <wbr><span class='w3-opacity'>vs</span> <wbr>Limache",
+            "streamId": "zonalivetv.xyz",
+            "streamDisplay": "zonalivetv.<wbr>xyz",
+            "time": "23:30",
+            "isTime24H": true,
+            "urls": [
+                "https://tarjetarojatv.lat/cdf.php",
+                "https://rodrixtv.site/tv/cdf.html",
+                "https://zonalivetv.xyz/nplayer/sTL2/83"
+            ],
+            "state": {
+                "color": "yellow",
+                "message": "Failed to find either an iframe or a video element, but found a div with id 'player' on our server from:",
+                "url": "https://zonalivetv.xyz/nplayer/sTL2/83"
+            }
+        },
+        {
             "association": "EC",
             "leagueId": "liga_1_ecuador",
             "leagueDisplay": "Liga <wbr>1 <wbr>Ecuador",
-            "sportingEventId": "universidad_catolica_vs_orense",
+            "sportingEventId": "universidad_catolica_quito_vs_orense",
             "sportingEventDisplay": "U. <wbr>Católica <wbr><span class='w3-opacity'>vs</span> <wbr>Orense",
             "streamId": "zonalivetv.xyz",
             "streamDisplay": "zonalivetv.<wbr>xyz",
@@ -2786,6 +2676,90 @@
                 "color": "yellow",
                 "message": "Failed to find either an iframe or a video element, but found a div with id 'player' on our server from:",
                 "url": "https://zonalivetv.xyz/nplayer/sTL2/87"
+            }
+        },
+        {
+            "association": "EN",
+            "leagueId": "premier_league",
+            "leagueDisplay": "Premier <wbr>League",
+            "sportingEventId": "leeds_united_vs_newcastle_united",
+            "sportingEventDisplay": "Leeds <wbr>Utd <wbr><span class='w3-opacity'>vs</span> <wbr>Newcastle",
+            "streamId": "zonalivetv.xyz",
+            "streamDisplay": "zonalivetv.<wbr>xyz",
+            "time": "19:00",
+            "isTime24H": true,
+            "urls": [
+                "https://www.pirlotv.food/canal-12.php",
+                "https://rodrixtv.site/tv/canal12.html",
+                "https://zonalivetv.xyz/nplayer/sTL2/88"
+            ],
+            "state": {
+                "color": "yellow",
+                "message": "Failed to find either an iframe or a video element, but found a div with id 'player' on our server from:",
+                "url": "https://zonalivetv.xyz/nplayer/sTL2/88"
+            }
+        },
+        {
+            "association": "EC",
+            "leagueId": "liga_1_ecuador",
+            "leagueDisplay": "Liga <wbr>1 <wbr>Ecuador",
+            "sportingEventId": "universidad_catolica_quito_vs_orense",
+            "sportingEventDisplay": "U. <wbr>Católica <wbr><span class='w3-opacity'>vs</span> <wbr>Orense",
+            "streamId": "zonalivetv.xyz",
+            "streamDisplay": "zonalivetv.<wbr>xyz",
+            "time": "00:00",
+            "isTime24H": true,
+            "urls": [
+                "https://www.pirlotv.food/canal-47.php",
+                "https://rodrixtv.site/tv/canal47.html",
+                "https://zonalivetv.xyz/nplayer/sTL2/88"
+            ],
+            "state": {
+                "color": "yellow",
+                "message": "Failed to find either an iframe or a video element, but found a div with id 'player' on our server from:",
+                "url": "https://zonalivetv.xyz/nplayer/sTL2/88"
+            }
+        },
+        {
+            "association": "ES",
+            "leagueId": "laliga_ea_sports",
+            "leagueDisplay": "LaLiga <wbr>EA <wbr>Sports",
+            "sportingEventId": "villarreal_vs_real_betis",
+            "sportingEventDisplay": "Villarreal <wbr><span class='w3-opacity'>vs</span> <wbr>Real <wbr>Betis",
+            "streamId": "zonalivetv.xyz",
+            "streamDisplay": "zonalivetv.<wbr>xyz",
+            "time": "19:00",
+            "isTime24H": true,
+            "urls": [
+                "https://www.pirlotv.food/canal-1.php",
+                "https://rodrixtv.site/tv/canal1.html",
+                "https://zonalivetv.xyz/nplayer/sTL2/89"
+            ],
+            "state": {
+                "color": "yellow",
+                "message": "Failed to find either an iframe or a video element, but found a div with id 'player' on our server from:",
+                "url": "https://zonalivetv.xyz/nplayer/sTL2/89"
+            }
+        },
+        {
+            "association": "TR",
+            "leagueId": "liga_de_turquia",
+            "leagueDisplay": "Liga <wbr>de <wbr>Turquia",
+            "sportingEventId": "gaziantep_fk_vs_fenerbahce",
+            "sportingEventDisplay": "Gaziantep <wbr><span class='w3-opacity'>vs</span> <wbr>Fenerbahçe",
+            "streamId": "zonalivetv.xyz",
+            "streamDisplay": "zonalivetv.<wbr>xyz",
+            "time": "17:00",
+            "isTime24H": true,
+            "urls": [
+                "https://www.pirlotv.food/canal-41.php",
+                "https://rodrixtv.site/tv/canal41.html",
+                "https://zonalivetv.xyz/nplayer/sTL2/98"
+            ],
+            "state": {
+                "color": "yellow",
+                "message": "Failed to find either an iframe or a video element, but found a div with id 'player' on our server from:",
+                "url": "https://zonalivetv.xyz/nplayer/sTL2/98"
             }
         }
     ]
